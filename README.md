@@ -1,8 +1,10 @@
 # 监狱建筑师(Prison Architect)中文豪华版mod
 ***
-**特别感谢GrandSong([Steam主页](https://steamcommunity.com/id/grandsong/))最初开发了此模组**  
-**此模组源于[Steam社区-Prison Architect-{中文豪华版}](https://steamcommunity.com/sharedfiles/filedetails/?id=821415114&searchtext=)**  
-**再次感谢GrandSong对社区的贡献**
+### **特别感谢GrandSong([Steam主页](https://steamcommunity.com/id/grandsong/))最初开发了此模组**  
+### **此模组源于[Steam社区-Prison Architect-{中文豪华版}](https://steamcommunity.com/sharedfiles/filedetails/?id=821415114&searchtext=)**  
+### **再次感谢GrandSong对社区的贡献**
+***
+### 目前已经获得原作者GrandSong许可，自由进行二次开发
 ***
 原作者已经声明停止更新，并且最后更新于2021年2月22日下午7:28。  
 因为 ~~年久失修~~ 游戏版本的更新，中文豪华版mod已经与现行版本有较大的冲突，不仅是在建造基础设施时给玩家带来了极大的不便，更甚于在某些情况下会造成闪退等问题。   
