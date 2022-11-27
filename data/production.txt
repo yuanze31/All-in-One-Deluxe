@@ -1,0 +1,334 @@
+BEGIN Processor
+    Processor            CarpenterTable
+    Input                Wood
+    InputCount           4
+    Output               SuperiorBed
+    OperatingTime        60.0
+    Properties           ShowDuringOperation
+END
+
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             MoneyBag10
+    Room                 Exports
+    Distribution         NonCompeting
+END
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             MoneyBag100
+    Room                 Exports
+    Distribution         NonCompeting
+END
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             MoneyBag1000
+    Room                 Exports
+    Distribution         NonCompeting
+END
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             HitmanReward
+    Room                 Exports
+    Distribution         NonCompeting
+END
+
+# BEGIN ProductionRule
+#     Rule                 Storage
+#     Material             HitmanFine
+#     Room                 Exports
+#     Distribution         NonCompeting
+# END
+
+
+
+
+
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             Log
+    Container            WorkshopSaw
+    Distribution         NonCompeting
+    Properties           HighPriority
+END
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             Log
+    Container            WorkshopSaw
+    Distribution         OutOfStock
+    Properties           HighPriority
+END
+
+
+BEGIN Processor
+    Processor            WorkshopSaw
+    Input                Log
+    Output               Wood
+    OutputCount          4
+    OperatingTime        30.0
+    Properties       ShowDuringOperation
+    Worker           Prisoner
+END
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             Log
+    Container            Table
+    Room                 Workshop
+    Distribution         NonCompeting
+    MaxSlotId            3
+    Condition            NotLoaded
+    Properties           HighPriority
+END
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             Log
+    Room                 Workshop
+    Distribution         NonCompeting
+    Condition            NotLoaded
+    Properties           HighPriority
+END
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             LicensePlateBlank
+    Container            Table
+    Room                 Workshop
+    Distribution         NonCompeting
+END
+
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             LicensePlateBlank
+    Room                 Exports
+    Condition            NotLoaded
+END
+
+
+
+
+
+BEGIN ProductionRule
+    Rule                Storage
+    Material            AccountingBookUnfinished
+    Container           AccountingTable
+    Room                Accounting
+    Distribution        NonCompeting
+    Properties          HighPriority
+END
+
+
+BEGIN ProductionRule
+    Rule                Storage
+    Material            AccountingBookUnfinished
+    Container           AccountingTable
+    Room                Accounting
+    Distribution        OutOfStock
+END
+
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             AccountingBookUnfinished
+    Container            Table
+    Room                 Accounting
+    Distribution         Nearest
+    MaxSlotId            3
+    Condition            NotLoadedOnTable
+END
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             AccountingBookUnfinished
+    Room                 Accounting
+    Distribution         Nearest
+    Condition            NotLoaded
+END
+
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             AccountingBookFailed
+    Container            Accountant
+    Room                 Office
+    Distribution         Nearest
+END
+
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             AccountingBookFinished
+    Room                 Accounting
+    Container            Table
+    Distribution         Nearest
+    Condition            InRoom
+END
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             AccountingBookFinished
+    Room                 Office
+    Container            Chair
+    Distribution         Nearest
+    Condition            InRoom
+END
+
+
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             AccountingBookFinished
+    Room                 Exports
+    Distribution         Nearest
+END
+
+
+
+
+BEGIN Processor
+    Processor            AccountingTable
+    Input                AccountingBookUnfinished
+    Output               AccountingBookFinished
+    Object               AccountingTable
+    Worker               Prisoner
+    Worker               Accountant
+    OperatingTime        20
+    Qualification        FoundationEducation
+    AlternateOutput      AccountingBookFailed
+    AlternateOutputCount 1
+    AlternateOutputChance 0.1
+#    Properties           ShowDuringOperation
+END
+
+
+# BEGIN Processor
+#     Processor            AccountingTable
+#     Input                AccountingBookFailed
+#     Output               AccountingBookFinished
+#     Object               AccountingTable
+#     Worker               Accountant
+#     Worker               Workman
+#     OperatingTime        5
+# END
+
+
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             NewNeedle
+    Container            MedicalBed
+    Room                 MedicalWard
+    Distribution         OutOfStock
+    Properties           HighPriority
+END
+
+BEGIN ProductionRule
+    Rule                Storage
+    Material            Medicines
+    Room                MedicalWard
+    Container           MedicineCabinet
+    Distribution        OutOfStock
+    MaxSlotId           1
+    Properties          LoadObject
+END
+
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             NewNeedle
+    Container            MedicalBed
+    Room                 MedicalWard
+    Distribution         NonCompeting
+    Properties           HighPriority
+END
+
+
+
+BEGIN ProductionRule
+    Rule                 Entity
+    Container            MedicalBed
+    Room                 MedicalWard
+    Distribution         Nearest
+    Condition            InRoom
+    Condition            EntitySeriouslyInjured
+    Properties           HighPriority
+END
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             Garbage
+    Room                 MedicalWard
+    Container            Bin
+    Distribution         Nearest
+END
+
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             MedWaste1
+    Room                 Exports
+    Distribution         NonCompeting
+END
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             MedWaste2
+    Room                 Exports
+    Distribution         NonCompeting
+END
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             MedWaste3
+    Room                 Exports
+    Distribution         NonCompeting
+END
+
+
+# BEGIN Processor
+#     Processor            Bin
+#     Input                UsedNeedle
+#     Room                 MedicalWard
+#     Output               Garbage
+#     OperatingTime        5.0
+#     Worker               Doctor
+# END
+
+# BEGIN ProductionRule
+#     Rule                 Storage
+#     Material             DiciplineBonus
+#     Room                 Exports
+#     Distribution         NonCompeting
+# END
+
+
+
+# BEGIN ProductionRule
+#     Rule                 Storage
+#     Material             FoodTrayDirty
+#     Container            Sink
+#     Distribution         Linked
+#     Condition            NotInFoodSystem
+#     StackInRoom          Canteen
+#     StackInRoom          Staffroom
+# END
+
+BEGIN ProductionRule
+    Rule                 Storage
+    Material             FoodTrayDirty
+    Container            Sink
+    Distribution         Nearest
+    Condition            NotLoded
+    Condition            InRoom
+    StackInRoom          Nursery
+    StackInRoom          Canteen
+    StackInRoom          Staffroom
+    StackInRoom          Kitchen
+END

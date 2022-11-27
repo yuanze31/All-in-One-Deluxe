@@ -1,0 +1,33 @@
+BEGIN Window
+    NAME         ConfirmWindow
+    BACKGROUND   clipboard.png
+    WIDTH        370
+    HEIGHT       500
+END
+
+BEGIN Canvas
+    NAME        confirm_message
+    XPOS        Scaled          1351
+    YPOS        Scaled          1600
+    WIDTH       Scaled          7297
+    HEIGHT      Scaled          4300
+END
+
+BEGIN Button
+    NAME        ok_button
+    CAPTION     dialog_ok
+    XPOS        Scaled          1081
+    YPOS        Scaled          8700
+    WIDTH       Scaled          3649
+    HEIGHT      Scaled          500
+END
+
+BEGIN Button
+    NAME        cancel_button
+    CAPTION     dialog_cancel
+    XPOS        Scaled          5135
+    YPOS        Scaled          8700
+    WIDTH       Scaled          3649
+    HEIGHT      Scaled          500
+END
+

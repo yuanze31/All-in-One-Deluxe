@@ -1,0 +1,42 @@
+BEGIN Window
+    NAME         Letter
+    BACKGROUND   letterblank.png
+    WIDTH        550
+    HEIGHT       550
+    PANEL        1
+END
+
+BEGIN Button
+    NAME        CloseLetter
+    CAPTION     dialog_readlater
+    XPOS        Scaled          1270
+    YPOS        Scaled          8800
+    WIDTH       Scaled          1200
+    HEIGHT      Scaled          350
+END
+
+BEGIN Button
+    NAME        DeleteLetter
+    CAPTION     dialog_delete
+    XPOS        Scaled          5740
+    YPOS        Scaled          8800
+    WIDTH       Scaled          1200
+    HEIGHT      Scaled          350
+END
+
+BEGIN Canvas
+    NAME        Text
+    XPOS        Scaled          1270
+    YPOS        Scaled          1080
+    WIDTH       Scaled          5818
+    HEIGHT      Scaled          7600
+END
+
+BEGIN Canvas
+    NAME        Polaroid
+    XPOS        Scaled          6907
+    YPOS        Scaled          1181
+    WIDTH       Scaled          2727
+    HEIGHT      Scaled          3089
+END
+

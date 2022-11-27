@@ -1,0 +1,386 @@
+
+BEGIN Provider
+  Action          ListenToRadio_Modified
+  ProviderType    Object
+  Object          Radio
+  PrimaryNeed     Recreation
+  PrimaryRate     0.1
+  ActionType      Use
+  Flags           Passive
+  BroadcastRange  20
+END
+
+
+
+BEGIN Provider
+  Action          Sit
+  ProviderType  Object
+  Object          Chair
+  Slot          0
+  PrimaryNeed     Comfort
+  PrimaryRate     -0.5
+  ActionType      Use
+  Priority        1.5
+END
+
+
+BEGIN Provider
+  Action          Sit
+  ProviderType  Object
+  Object          SchoolDesk
+  Slot          0
+  PrimaryNeed     Comfort
+  PrimaryRate     -0.4
+  ActionType      Use
+  Priority        0.8
+END
+
+BEGIN Provider
+  Action          Diary
+  ProviderType  Object
+  Object          SchoolDesk
+  Slot          0
+  PrimaryNeed     Literacy
+  PrimaryRate     -0.3
+  SecondaryNeed   Freedom
+  SecondaryRate   -0.1
+  ActionType      Use
+  Priority        0.8
+END
+
+
+
+# BEGIN Provider
+#   Action          Dance
+#   ProviderType    Room
+#   Room            CommonRoom
+#   PrimaryNeed     Exercise
+#   PrimaryRate     -0.50000
+#   SecondaryNeed   Recreation
+#   SecondaryRate   -0.200000
+#   ActionType      Exercise
+#   Flags           Shareable
+#   Priority        8
+# END
+
+
+
+
+
+
+BEGIN Provider
+  Action          WashingHand
+  ProviderType    Object
+  Object          PersonalSink
+  Slot            0
+  PrimaryNeed     Hygiene
+  PrimaryRate     -0.5
+  SecondaryNeed   Environment
+  SecondaryRate   -0.2
+  ActionType      Use
+  Priority        0.9
+END
+
+
+
+BEGIN Provider
+  Action          Sleep
+  ProviderType  Object
+  Object          Bed
+  Slot          0
+  PrimaryNeed     Sleep
+  PrimaryRate     -0.15
+  SecondaryNeed Comfort
+  SecondaryRate -0.2
+  ActionType      Sleep
+  Flags         RequiresQuiet
+  Flags         UsesEntireObject
+  Flags         RequiresNight
+  Priority      9
+END
+
+BEGIN Provider
+  Action          Sleep
+  ProviderType  Object
+  Object          BunkBed
+  Slot          0
+  PrimaryNeed     Sleep
+  PrimaryRate     -0.12
+  SecondaryNeed Comfort
+  SecondaryRate -0.15
+  ActionType      Sleep
+  Flags         RequiresQuiet
+  Flags         RequiresNight
+  Priority      9
+END
+
+BEGIN Provider
+  Action          Sleep
+  ProviderType  Object
+  Object          BunkBed
+  Slot          1
+  PrimaryNeed     Sleep
+  PrimaryRate     -0.12
+  SecondaryNeed Comfort
+  SecondaryRate -0.15
+  ActionType      Sleep
+  Flags         RequiresQuiet
+  Flags         RequiresNight
+  Priority      8
+END
+
+
+
+
+
+
+
+
+
+BEGIN Provider
+  Action          ReadBook2
+  ProviderType    Object
+  Object          Bookshelf
+  Slot            0
+  PrimaryNeed     Literacy
+  PrimaryRate     -0.3
+  ActionType      Use
+  Priority        0.9
+END
+
+
+
+
+BEGIN Provider
+  Action          KeepTidy
+  ProviderType    Object
+  Object          Bin
+  PrimaryNeed     Environment
+  PrimaryRate     -0.05000
+  ActionType      Use
+  Flags           Passive
+  BroadcastRange  6
+END
+
+BEGIN Provider
+  Action          TouchNature
+  ProviderType    Object
+  Object          Tree
+  PrimaryNeed     Freedom
+  PrimaryRate     -0.3
+  ActionType      Use
+  Slot  0
+END
+
+BEGIN Provider
+  Action          TouchNature
+  ProviderType    Object
+  Object          Tree
+  PrimaryNeed     Freedom
+  PrimaryRate     -0.3
+  ActionType      Use
+  Slot  2
+END
+
+
+
+
+
+
+
+
+
+BEGIN Provider
+  Action          TimeWarp_Modified
+  ProviderType    Object
+  Object          TimeWarpNeedModifier
+  PrimaryNeed     Sleep
+  PrimaryRate     -0.7
+  ActionType      Use
+  Flags           Passive
+  Flags           RequiresQuiet
+  BroadcastRange  2
+END
+
+BEGIN Provider
+  Action          TimeWarp_Modified
+  ProviderType    Object
+  Object          TimeWarpNeedModifier
+  PrimaryNeed     Comfort
+  PrimaryRate     -1
+  ActionType      Use
+  Flags           Passive
+  Flags           RequiresQuiet
+  BroadcastRange  2
+END
+
+
+
+
+
+BEGIN Provider
+  Action          TimeWarp_Modified
+  ProviderType    Object
+  Object          TimeWarpNeedModifier
+  PrimaryNeed     Bladder
+  PrimaryRate     0.2
+  ActionType      Use
+  Flags           Passive
+  BroadcastRange  2
+END
+
+BEGIN Provider
+  Action          TimeWarp_Modified
+  ProviderType    Object
+  Object          TimeWarpNeedModifier
+  PrimaryNeed     Bowels
+  PrimaryRate     0.2
+  ActionType      Use
+  Flags           Passive
+  BroadcastRange  2
+END
+
+
+BEGIN Provider
+  Action          TimeWarp_Modified
+  ProviderType    Object
+  Object          TimeWarpNeedModifier
+  PrimaryNeed     Food
+  PrimaryRate     0.15
+  ActionType      Use
+  Flags           Passive
+  BroadcastRange  2
+END
+
+BEGIN Provider
+  Action          TimeWarp_Modified
+  ProviderType    Object
+  Object          TimeWarpNeedModifier
+  PrimaryNeed     Hygiene
+  PrimaryRate     0.15
+  ActionType      Use
+  Flags           Passive
+  BroadcastRange  2
+END
+
+
+
+BEGIN Provider
+  Action          TimeWarp_Modified
+  ProviderType    Object
+  Object          TimeWarpNeedModifier
+  PrimaryNeed     Exercise
+  PrimaryRate     0.1
+  ActionType      Use
+  Flags           Passive
+  BroadcastRange  2
+END
+
+
+BEGIN Provider
+  Action          TimeWarp_Modified
+  ProviderType    Object
+  Object          TimeWarpNeedModifier
+  PrimaryNeed     Family
+  PrimaryRate     0.05
+  ActionType      Use
+  Flags           Passive
+  BroadcastRange  2
+END
+
+BEGIN Provider
+  Action          TimeWarp_Modified
+  ProviderType    Object
+  Object          TimeWarpNeedModifier
+  PrimaryNeed     Environment
+  PrimaryRate     0.05
+  ActionType      Use
+  Flags           Passive
+  BroadcastRange  2
+END
+
+BEGIN Provider
+  Action          TimeWarp_Modified
+  ProviderType    Object
+  Object          TimeWarpNeedModifier
+  PrimaryNeed     Clothing
+  PrimaryRate     0.2
+  ActionType      Use
+  Flags           Passive
+  BroadcastRange  2
+END
+
+
+
+BEGIN Provider
+  Action          TimeWarp_Modified
+  ProviderType    Object
+  Object          TimeWarpNeedModifier
+  PrimaryNeed     Drugs
+  PrimaryRate     0.15
+  ActionType      Use
+  Flags           Passive
+  BroadcastRange  2
+END
+
+BEGIN Provider
+  Action          TimeWarp_Modified
+  ProviderType    Object
+  Object          TimeWarpNeedModifier
+  PrimaryNeed     Alcohol
+  PrimaryRate     0.15
+  ActionType      Use
+  Flags           Passive
+  BroadcastRange  2
+END
+
+
+BEGIN Provider
+  Action          TimeWarp_Modified
+  ProviderType    Object
+  Object          TimeWarpNeedModifier
+  PrimaryNeed     Spirituality
+  PrimaryRate     0.2
+  ActionType      Use
+  Flags           Passive
+  BroadcastRange  2
+END
+
+BEGIN Provider
+  Action          TimeWarp_Modified
+  ProviderType    Object
+  Object          TimeWarpNeedModifier
+  PrimaryNeed     Literacy
+  PrimaryRate     0.2
+  ActionType      Use
+  Flags           Passive
+  BroadcastRange  2
+END
+
+
+BEGIN Provider
+  Action          TimeWarp_Modified
+  ProviderType    Object
+  Object          TimeWarpNeedModifier
+  PrimaryNeed     Luxuries
+  PrimaryRate     0.2
+  ActionType      Use
+  Flags           Passive
+  BroadcastRange  2
+END
+
+
+
+
+
+
+BEGIN Provider
+  Action          PretendSleeping
+  ProviderType    Object
+  Object          Nothing
+  PrimaryNeed     Freedom
+  PrimaryRate     -0.01
+  ActionType      Use
+END
+
+

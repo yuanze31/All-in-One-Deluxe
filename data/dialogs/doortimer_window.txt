@@ -1,0 +1,61 @@
+BEGIN Window
+    NAME         DoorTimerControl
+    BACKGROUND   papersheet.bmp
+    WIDTH        450
+    HEIGHT       600
+    PANEL        1
+END
+
+BEGIN Custom
+    NAME        doortimer_title
+    CAPTION     doortimer_title
+    XPOS        Absolute        20
+    YPOS        Absolute        40
+    WIDTH       Absolute        410
+    HEIGHT      Absolute        45
+END
+
+
+BEGIN Custom
+    NAME        connected_servos
+    XPOS        Absolute        75
+    YPOS        Absolute        95
+    WIDTH       Absolute        305
+    HEIGHT      Absolute        30
+END
+
+
+BEGIN SelectionList
+    NAME        time_control_list
+    XPOS        Absolute        45
+    YPOS        Absolute        145
+    WIDTH       Absolute        175
+    HEIGHT      Absolute        440
+END
+
+
+BEGIN DropDownMenu
+    NAME        RegimeCategory
+    XPOS        Absolute        240
+    YPOS        Absolute        145
+    WIDTH       Absolute        180
+    HEIGHT      Absolute        25
+END
+
+BEGIN SelectionList
+    NAME        regime_control_list
+    XPOS        Absolute        240
+    YPOS        Absolute        180
+    WIDTH       Absolute        180
+    HEIGHT      Absolute        240
+END
+
+
+BEGIN SelectionList
+    NAME        Actions
+    XPOS        Absolute        240
+    YPOS        Absolute        380
+    WIDTH       Absolute        180
+    HEIGHT      Absolute        190
+END
+

@@ -1,0 +1,149 @@
+BEGIN Window
+    NAME         Rapsheet
+    BACKGROUND   clipboard.png
+    WIDTH        450
+    HEIGHT       600
+    PANEL        1
+END
+
+BEGIN Custom
+    NAME        Title
+    XPOS        Scaled          1013
+    YPOS        Scaled          662
+    WIDTH       Scaled          7888
+    HEIGHT      Scaled          583
+END
+
+BEGIN Button
+    NAME        Close
+    CAPTION     X
+    XPOS        Scaled          9030
+    YPOS        Scaled          420
+    WIDTH       Scaled          444
+    HEIGHT      Scaled          330
+END
+
+BEGIN Canvas
+    NAME        Mugshot
+    XPOS        Scaled          1013
+    YPOS        Scaled          1410
+    WIDTH       Scaled          2888
+    HEIGHT      Scaled          2125
+END
+
+
+BEGIN Custom
+    NAME        MisconductsTitle
+    XPOS        Scaled          4111
+    YPOS        Scaled          1445
+    WIDTH       Scaled          4800
+    HEIGHT      Scaled          300
+END
+
+BEGIN Custom
+    NAME        Misconducts
+    XPOS        Scaled          4111
+    YPOS        Scaled          1831
+    WIDTH       Scaled          4800
+    HEIGHT      Scaled          1600
+END
+
+
+
+BEGIN Custom
+    NAME        Recruit
+    XPOS        Scaled          4111
+    YPOS        Scaled          3200
+    WIDTH       Scaled          4800
+    HEIGHT      Scaled          332
+END
+
+
+
+
+
+BEGIN Custom
+    NAME        TotalTime
+    XPOS        Scaled          1013
+    YPOS        Scaled          3665
+    WIDTH       Scaled          7888
+    HEIGHT      Scaled          380
+END
+
+BEGIN Custom
+    NAME        Activity
+    XPOS        Scaled          1013
+    YPOS        Scaled          4200
+    WIDTH       Scaled          7888
+    HEIGHT      Scaled          333
+END
+BEGIN Custom
+    NAME        HappySad
+    XPOS        Scaled          1013
+    YPOS        Scaled          4600
+    WIDTH       Scaled          7888
+    HEIGHT      Scaled          333
+END
+BEGIN Custom
+    NAME        Condition
+    XPOS        Scaled          1013
+    YPOS        Scaled          5000
+    WIDTH       Scaled          7888
+    HEIGHT      Scaled          333
+END
+
+
+BEGIN Custom
+    NAME        Program
+    XPOS        Scaled          1013
+    YPOS        Scaled          5400
+    WIDTH       Scaled          7888
+    HEIGHT      Scaled          333
+END
+
+BEGIN Custom
+    NAME        ProgramUnderstanding
+    XPOS        Scaled          1013
+    YPOS        Scaled          5733
+    WIDTH       Scaled          7888
+    HEIGHT      Scaled          200
+END
+
+
+BEGIN Custom
+    NAME        ProgramHistoryTitle
+    XPOS        Scaled          1013
+    YPOS        Scaled          6160
+    WIDTH       Scaled          7888
+    HEIGHT      Scaled          380
+END
+BEGIN Custom
+    NAME        ProgramHistory
+    XPOS        Scaled          1013
+    YPOS        Scaled          6600
+    WIDTH       Scaled          7888
+    HEIGHT      Scaled          2000
+END
+
+
+BEGIN Custom
+    NAME        Served
+    XPOS        Scaled          1013
+    YPOS        Scaled          8622
+    WIDTH       Scaled          7888
+    HEIGHT      Scaled          450
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+

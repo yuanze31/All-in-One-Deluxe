@@ -1,0 +1,41 @@
+BEGIN Window
+    NAME         ExecutionWindow
+    BACKGROUND   papersheet.bmp
+    WIDTH        370
+    HEIGHT       500
+    PANEL        1
+END
+
+BEGIN Button
+    NAME        Cancel
+    CAPTION     dialog_cancel
+    XPOS        Scaled          3513
+    YPOS        Scaled          9200
+    WIDTH       Scaled          3648
+    HEIGHT      Scaled          500
+END
+
+BEGIN SelectionList
+    NAME        List
+    XPOS        Scaled          1220
+    YPOS        Scaled          2700
+    WIDTH       Scaled          7600
+    HEIGHT      Scaled          6200
+END
+
+BEGIN Custom
+    NAME        Portrait
+    XPOS        Scaled          1200
+    YPOS        Scaled          500
+    WIDTH       Scaled          2567
+    HEIGHT      Scaled          2000
+END
+
+BEGIN Custom
+    NAME        Error
+    XPOS        Scaled          3783
+    YPOS        Scaled          1200
+    WIDTH       Scaled          5135
+    HEIGHT      Scaled          1300
+END
+

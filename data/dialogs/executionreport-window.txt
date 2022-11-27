@@ -1,0 +1,33 @@
+BEGIN Window
+    NAME         ExecutionWindow
+    BACKGROUND   papersheet.bmp
+    WIDTH        415
+    HEIGHT       510
+    PANEL        1
+END
+
+BEGIN Button
+    NAME        Close
+    CAPTION     dialog_close
+    XPOS        Scaled          3200
+    YPOS        Scaled          8800
+    WIDTH       Scaled          3648
+    HEIGHT      Scaled          600
+END
+
+BEGIN Custom
+    NAME        Report
+    XPOS        Scaled          1200
+    YPOS        Scaled          2700
+    WIDTH       Scaled          8800
+    HEIGHT      Scaled          6200
+END
+
+BEGIN Custom
+    NAME        Portrait
+    XPOS        Scaled          1200
+    YPOS        Scaled          500
+    WIDTH       Scaled          2567
+    HEIGHT      Scaled          2000
+END
+

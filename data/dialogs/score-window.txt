@@ -1,0 +1,272 @@
+BEGIN Window
+    NAME         ScoreWindow
+    BACKGROUND   orgchart.png
+    WIDTH        800
+    HEIGHT       500
+    PANEL        1
+END
+
+BEGIN Custom
+    NAME        Title
+    XPOS        Scaled          687
+    YPOS        Scaled          800
+    WIDTH       Scaled          8625
+    HEIGHT      Scaled          1100
+END
+
+BEGIN Button
+    NAME        DialogWindowClose
+    CAPTION     X
+    XPOS        Scaled          9499
+    YPOS        Scaled          400
+    WIDTH       Scaled          250
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        GradeTitle
+    CAPTION     Punishment
+    XPOS        Scaled          687
+    YPOS        Scaled          2900
+    WIDTH       Scaled          2875
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        Grade
+    CAPTION     Punishment
+    XPOS        Scaled          687
+    YPOS        Scaled          3299
+    WIDTH       Scaled          2875
+    HEIGHT      Scaled          600
+END
+
+BEGIN Custom
+    NAME        GradeTitle
+    CAPTION     Reform
+    XPOS        Scaled          687
+    YPOS        Scaled          4399
+    WIDTH       Scaled          2875
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        Grade
+    CAPTION     Reform
+    XPOS        Scaled          687
+    YPOS        Scaled          4799
+    WIDTH       Scaled          2875
+    HEIGHT      Scaled          600
+END
+
+BEGIN Custom
+    NAME        GradeTitle
+    CAPTION     Health
+    XPOS        Scaled          687
+    YPOS        Scaled          7500
+    WIDTH       Scaled          2875
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        Grade
+    CAPTION     Health
+    XPOS        Scaled          687
+    YPOS        Scaled          7900
+    WIDTH       Scaled          2875
+    HEIGHT      Scaled          600
+END
+
+BEGIN Custom
+    NAME        GradeTitle
+    CAPTION     Security
+    XPOS        Scaled          687
+    YPOS        Scaled          5899
+    WIDTH       Scaled          2875
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        Grade
+    CAPTION     Security
+    XPOS        Scaled          687
+    YPOS        Scaled          6299
+    WIDTH       Scaled          2875
+    HEIGHT      Scaled          600
+END
+
+
+
+
+BEGIN Custom
+    NAME        ReoffendingTitle
+    XPOS        Scaled          4186
+    YPOS        Scaled          2900
+    WIDTH       Scaled          2561
+    HEIGHT      Scaled          600
+END
+
+BEGIN Custom
+    NAME        Reoffending
+    XPOS        Scaled          4480
+    YPOS        Scaled          4000
+    WIDTH       Scaled          2000
+    HEIGHT      Scaled          2600
+END
+
+BEGIN Custom
+    NAME        ReleasedCount
+    XPOS        Scaled          3873
+    YPOS        Scaled          7000
+    WIDTH       Scaled          3187
+    HEIGHT      Scaled          1400
+END
+
+
+
+
+
+
+
+
+
+
+BEGIN Custom
+    NAME        ConditionTitle
+    CAPTION     PrisonValue
+    XPOS        Scaled          7436
+    YPOS        Scaled          2298
+    WIDTH       Scaled          1875
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        Condition
+    CAPTION     PrisonValue
+    XPOS        Scaled          7436
+    YPOS        Scaled          2700
+    WIDTH       Scaled          1875
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        ConditionTitle
+    CAPTION     Income
+    XPOS        Scaled          7436
+    YPOS        Scaled          3200
+    WIDTH       Scaled          1875
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        Condition
+    CAPTION     Income
+    XPOS        Scaled          7436
+    YPOS        Scaled          3600
+    WIDTH       Scaled          1875
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        ConditionTitle
+    CAPTION     Prisoners
+    XPOS        Scaled          7436
+    YPOS        Scaled          4999
+    WIDTH       Scaled          1875
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        Condition
+    CAPTION     Prisoners
+    XPOS        Scaled          7436
+    YPOS        Scaled          5398
+    WIDTH       Scaled          1875
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        ConditionTitle
+    CAPTION     PrisonersDied
+    XPOS        Scaled          7436
+    YPOS        Scaled          5899
+    WIDTH       Scaled          1875
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        Condition
+    CAPTION     PrisonersDied
+    XPOS        Scaled          7436
+    YPOS        Scaled          6300
+    WIDTH       Scaled          1875
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        ConditionTitle
+    CAPTION     PrisonersEscaped
+    XPOS        Scaled          7436
+    YPOS        Scaled          6799
+    WIDTH       Scaled          1875
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        Condition
+    CAPTION     PrisonersEscaped
+    XPOS        Scaled          7436
+    YPOS        Scaled          7200
+    WIDTH       Scaled          1875
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        PrisonersParoledTitle
+    XPOS        Scaled          7436
+    YPOS        Scaled          7700
+    WIDTH       Scaled          1875
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        PrisonersParoled
+    XPOS        Scaled          7436
+    YPOS        Scaled          8100
+    WIDTH       Scaled          1875
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        PrisonersExecutedTitle
+    XPOS        Scaled          7436
+    YPOS        Scaled          8600
+    WIDTH       Scaled          1875
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        PrisonersExecuted
+    XPOS        Scaled          7436
+    YPOS        Scaled          9000
+    WIDTH       Scaled          1875
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        ConditionTitle
+    CAPTION     StaffDeaths
+    XPOS        Scaled          7437
+    YPOS        Scaled          4100
+    WIDTH       Scaled          1875
+    HEIGHT      Scaled          400
+END
+
+BEGIN Custom
+    NAME        Condition
+    CAPTION     StaffDeaths
+    XPOS        Scaled          7437
+    YPOS        Scaled          4500
+    WIDTH       Scaled          1875
+    HEIGHT      Scaled          400
+END

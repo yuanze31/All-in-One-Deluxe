@@ -1,0 +1,161 @@
+BEGIN Window
+    NAME         Codex
+    BACKGROUND   codex.png
+    WIDTH        1000
+    HEIGHT       650
+    PANEL        1
+END
+
+BEGIN Button
+    NAME        Close
+    CAPTION     X
+    XPOS        Scaled          9594
+    YPOS        Scaled          396
+    WIDTH       Scaled          222
+    HEIGHT      Scaled          333
+END
+
+
+BEGIN SelectionList
+    NAME        List
+    XPOS        Scaled          1000
+    YPOS        Scaled          2593
+    WIDTH       Scaled          3700
+    HEIGHT      Scaled          6285
+END
+
+
+BEGIN Custom
+    NAME        Title
+    XPOS        Scaled          1047
+    YPOS        Scaled          750
+    WIDTH       Scaled          3400
+    HEIGHT      Scaled          1082
+END
+
+
+
+BEGIN Custom
+    NAME        Version
+    XPOS        Scaled          1000
+    YPOS        Scaled          9076
+    WIDTH       Scaled          3500
+    HEIGHT      Scaled          307
+END
+
+
+
+
+
+
+
+
+
+
+
+BEGIN Canvas
+    NAME        motdTitle
+    XPOS        Scaled          5700
+    YPOS        Scaled          1350
+    WIDTH       Scaled          3300
+    HEIGHT      Scaled          500
+END
+
+BEGIN Canvas
+    NAME        motdSubtitle
+    XPOS        Scaled          5700
+    YPOS        Scaled          1900
+    WIDTH       Scaled          3300
+    HEIGHT      Scaled          300
+END
+
+BEGIN Canvas
+    NAME        motd
+    XPOS        Scaled          5800
+    YPOS        Scaled          2100
+    WIDTH       Scaled          3200
+    HEIGHT      Scaled          6200
+END
+
+
+BEGIN Custom
+    NAME        motdPrevious
+    XPOS        Scaled          865
+    XPOS        Scaled          6150
+    YPOS        Scaled          8500
+    WIDTH       Scaled          800
+    HEIGHT      Scaled          307
+END
+
+BEGIN Custom
+    NAME        motdNext
+    XPOS        Scaled          7250
+    YPOS        Scaled          8500
+    WIDTH       Scaled          800
+    HEIGHT      Scaled          307
+END
+
+
+BEGIN Custom
+    NAME        motdDivider
+    XPOS        Scaled          7100
+    YPOS        Scaled          8500
+    WIDTH       Scaled          40
+    HEIGHT      Scaled          307
+END
+
+
+
+BEGIN Custom
+    NAME        Website
+    XPOS        Scaled          5500
+    YPOS        Scaled          9076
+    WIDTH       Scaled          3650
+    HEIGHT      Scaled          307
+END
+
+
+
+
+
+
+
+; BEGIN Custom
+;     NAME        PreOrder
+;     XPOS        Scaled          5500
+;     YPOS        Scaled          8459
+;     WIDTH       Scaled          3550
+;     HEIGHT      Scaled          384
+; END
+
+
+
+
+
+; BEGIN Custom
+;     NAME        CheckForUpdates
+;     XPOS        Scaled          1000
+;     YPOS        Scaled          8076
+;     WIDTH       Scaled          3700
+;     HEIGHT      Scaled          384
+; END
+
+
+
+#BEGIN Custom
+#    NAME        Language
+#    XPOS        Scaled          8500
+#    YPOS        Scaled          8076
+#    WIDTH       Scaled          450
+#    HEIGHT      Scaled          642
+# END
+
+
+BEGIN Custom
+    NAME        DataUsage
+    XPOS        Scaled          950
+    YPOS        Scaled          8800
+    WIDTH       Scaled          3700
+    HEIGHT      Scaled          384
+END
+

@@ -1,0 +1,112 @@
+BEGIN Window
+    NAME         GameOverWindow
+    BACKGROUND   orgchart.png
+    WIDTH        800
+    HEIGHT       500
+    PANEL        1
+END
+
+BEGIN Custom
+    NAME        Background
+    XPOS        Scaled          649
+    YPOS        Scaled          6860
+    WIDTH       Scaled          8687
+    HEIGHT      Scaled          2400
+END
+
+BEGIN Custom
+    NAME        Background
+    XPOS        Scaled          649
+    YPOS        Scaled          4420
+    WIDTH       Scaled          8687
+    HEIGHT      Scaled          2320
+END
+
+BEGIN Custom
+    NAME        Background
+    XPOS        Scaled          649
+    YPOS        Scaled          2060
+    WIDTH       Scaled          8687
+    HEIGHT      Scaled          2240
+END
+
+BEGIN Custom
+    NAME        Title
+    XPOS        Scaled          661
+    YPOS        Scaled          719
+    WIDTH       Scaled          8675
+    HEIGHT      Scaled          1200
+END
+
+BEGIN Custom
+    NAME        Squad
+    XPOS        Scaled          711
+    YPOS        Scaled          2800
+    WIDTH       Scaled          8562
+    HEIGHT      Scaled          1400
+END
+
+BEGIN Custom
+    NAME        Casualties
+    XPOS        Scaled          711
+    YPOS        Scaled          5200
+    WIDTH       Scaled          8562
+    HEIGHT      Scaled          1439
+END
+
+BEGIN Custom
+    NAME        SquadTitle
+    XPOS        Scaled          711
+    YPOS        Scaled          2160
+    WIDTH       Scaled          8562
+    HEIGHT      Scaled          500
+END
+
+BEGIN Custom
+    NAME        CasualtiesTitle
+    XPOS        Scaled          711
+    YPOS        Scaled          4520
+    WIDTH       Scaled          8562
+    HEIGHT      Scaled          500
+END
+
+BEGIN Custom
+    NAME        TotalTimeTitle
+    XPOS        Scaled          711
+    YPOS        Scaled          8120
+    WIDTH       Scaled          4250
+    HEIGHT      Scaled          1000
+END
+
+BEGIN Custom
+    NAME        TotalTime
+    XPOS        Scaled          5262
+    YPOS        Scaled          8120
+    WIDTH       Scaled          3825
+    HEIGHT      Scaled          1000
+END
+
+BEGIN Custom
+    NAME        TotalScoreTitle
+    XPOS        Scaled          711
+    YPOS        Scaled          7000
+    WIDTH       Scaled          4250
+    HEIGHT      Scaled          1000
+END
+
+BEGIN Custom
+    NAME        TotalScore
+    XPOS        Scaled          5262
+    YPOS        Scaled          7000
+    WIDTH       Scaled          3825
+    HEIGHT      Scaled          1000
+END
+
+BEGIN Custom
+    NAME        Exit
+    XPOS        Scaled          2804
+    YPOS        Scaled          9300
+    WIDTH       Scaled          4500
+    HEIGHT      Scaled          300
+END
+

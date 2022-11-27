@@ -1,0 +1,6 @@
+
+BEGIN Job
+	Name                    DoctorCalled
+	JobTime                 0
+	Worker                  Doctor
+END

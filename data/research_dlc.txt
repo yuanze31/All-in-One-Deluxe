@@ -1,0 +1,15 @@
+BEGIN Research
+    Name                 Orderly
+    Type                 Entity
+    Requires             Health
+    Admin                Warden
+    Sprite               Orderly
+    Cost                 -1000
+    Time                 720
+
+    X                    580
+    Y                    400
+    NonWideX             500
+    NonWideY             170
+
+END

@@ -1,0 +1,114 @@
+BEGIN Window
+    NAME         Grading
+    BACKGROUND   clipboard.png
+    WIDTH        450
+    HEIGHT       600
+    PANEL        1
+END
+
+BEGIN Custom
+    NAME        Title
+    XPOS        Scaled          1013
+    YPOS        Scaled          662
+    WIDTH       Scaled          7888
+    HEIGHT      Scaled          583
+END
+
+BEGIN Button
+    NAME        Close
+    CAPTION     X
+    XPOS        Scaled          9030
+    YPOS        Scaled          420
+    WIDTH       Scaled          444
+    HEIGHT      Scaled          330
+END
+
+BEGIN Canvas
+    NAME        Mugshot
+    XPOS        Scaled          1013
+    YPOS        Scaled          1410
+    WIDTH       Scaled          2888
+    HEIGHT      Scaled          2125
+END
+
+
+BEGIN Custom
+    NAME        GradeTitle
+    CAPTION     Punishment
+    XPOS        Scaled          1776
+    YPOS        Scaled          4082
+    WIDTH       Scaled          6444
+    HEIGHT      Scaled          333
+END
+
+BEGIN Custom
+    NAME        Grade
+    CAPTION     Punishment
+    XPOS        Scaled          1776
+    YPOS        Scaled          4414
+    WIDTH       Scaled          6444
+    HEIGHT      Scaled          500
+END
+
+BEGIN Custom
+    NAME        Grade
+    CAPTION     Reform
+    XPOS        Scaled          1776
+    YPOS        Scaled          5498
+    WIDTH       Scaled          6444
+    HEIGHT      Scaled          500
+END
+
+BEGIN Custom
+    NAME        GradeTitle
+    CAPTION     Reform
+    XPOS        Scaled          1776
+    YPOS        Scaled          5164
+    WIDTH       Scaled          6444
+    HEIGHT      Scaled          333
+END
+
+BEGIN Custom
+    NAME        Grade
+    CAPTION     Health
+    XPOS        Scaled          1776
+    YPOS        Scaled          7664
+    WIDTH       Scaled          6444
+    HEIGHT      Scaled          500
+END
+
+BEGIN Custom
+    NAME        GradeTitle
+    CAPTION     Health
+    XPOS        Scaled          1776
+    YPOS        Scaled          7331
+    WIDTH       Scaled          6444
+    HEIGHT      Scaled          333
+END
+
+BEGIN Custom
+    NAME        Grade
+    CAPTION     Security
+    XPOS        Scaled          1776
+    YPOS        Scaled          6581
+    WIDTH       Scaled          6444
+    HEIGHT      Scaled          500
+END
+
+BEGIN Custom
+    NAME        GradeTitle
+    CAPTION     Security
+    XPOS        Scaled          1776
+    YPOS        Scaled          6247
+    WIDTH       Scaled          6444
+    HEIGHT      Scaled          333
+END
+
+BEGIN Custom
+    NAME        Reoffending
+    XPOS        Scaled          1020
+    YPOS        Scaled          8622
+    WIDTH       Scaled          7870
+    HEIGHT      Scaled          455
+END
+

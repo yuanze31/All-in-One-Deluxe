@@ -1,0 +1,102 @@
+
+BEGIN Program
+    Name            CloseContact
+    Research        PrisonerEvaluation
+    SessionCost     -100
+    Places          1
+    SessionLength   60
+    NumSessions     1
+    Difficulty      0
+    Room            Canteen
+    Teacher         Warden
+    Intake          Mandatory
+    ProgressEffect   calming
+    EffectChargeRate 1
+    Properties      Repeatable
+    Properties      OutsideOfWork
+    Properties      Passive
+    WaitTime        1
+END
+
+
+BEGIN Program
+    Name            VisitorService
+    Research        Legal
+    SessionCost     0
+    Places          1
+    SessionLength   120
+    NumSessions     1
+    Difficulty      0
+    Room            Visitation
+    Teacher         Lawyer
+    Intake          Mandatory
+    ProgressEffect   calming
+    EffectChargeRate 1
+    Properties      OutsideOfWork
+    Properties      Repeatable
+    Properties      Passive
+    WaitTime        1
+END
+
+
+BEGIN Program
+    Name            Bookkeeping
+    Research        Finance
+    Qualification   FoundationEducation
+    SessionCost     -100
+    SessionLength   120
+    NumSessions     4
+    Places          10
+    Difficulty      20
+    Room            Classroom
+    Teacher         Accountant
+    TeacherEquipment OfficeDesk
+    Properties      TeachersSit
+    Equipment       SchoolDesk
+    Properties      StudentsSit
+    Intake          Mandatory
+    Properties      Practical
+END
+
+
+BEGIN Program
+    Name            GroupFitness
+    Research        Health
+    SessionCost     0
+    Places          30
+    SessionLength   60
+    NumSessions     1
+    Difficulty      0
+    Room            Yard
+    Equipment       WeightsBench
+    Teacher         Janitor
+    Intake          NeedRequired
+    RequiredNeed    Exercise
+    DischargeNeed   Exercise
+    Properties      StudentsSit
+    Properties      Repeatable
+    Properties      Passive
+    Properties      OutsideOfWork
+END
+
+
+
+BEGIN Program
+    Name            DangerousMeeting
+    Research        PrisonerEvaluation
+    SessionCost     -300
+    Places          10
+    SessionLength   120
+    NumSessions     1
+    Difficulty      0
+    Equipment       Chair
+    Room            Office
+    Teacher         BoldHost
+    Intake          Mandatory
+    ProgressEffect   riledup
+    EffectChargeRate 3
+    Properties      StudentsSit
+    Properties      Passive
+    Properties      Repeatable
+    WaitTime        1
+END

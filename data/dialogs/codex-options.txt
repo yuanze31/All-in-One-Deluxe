@@ -1,0 +1,32 @@
+BEGIN Window
+    NAME         Codex
+    BACKGROUND   codex.png
+    WIDTH        1000
+    HEIGHT       650
+    PANEL        1
+END
+
+BEGIN Button
+    NAME        Close
+    CAPTION     X
+    XPOS        Scaled          9594
+    YPOS        Scaled          396
+    WIDTH       Scaled          222
+    HEIGHT      Scaled          333
+END
+
+BEGIN SelectionList
+    NAME        List
+    XPOS        Scaled          1002
+    YPOS        Scaled          2332
+    WIDTH       Scaled          3650
+    HEIGHT      Scaled          6461
+END
+
+BEGIN Custom
+    NAME        Title
+    XPOS        Scaled          1047
+    YPOS        Scaled          750
+    WIDTH       Scaled          3500
+    HEIGHT      Scaled          1166
+END

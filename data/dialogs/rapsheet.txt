@@ -1,0 +1,202 @@
+BEGIN Window
+    NAME         Rapsheet
+    BACKGROUND   clipboard.png
+    WIDTH        450
+    HEIGHT       600
+    PANEL        1
+END
+
+BEGIN Custom
+    NAME        Title
+    XPOS        Scaled          1013
+    YPOS        Scaled          662
+    WIDTH       Scaled          7888
+    HEIGHT      Scaled          583
+END
+
+BEGIN Button
+    NAME        Close
+    CAPTION     X
+    XPOS        Scaled          9030
+    YPOS        Scaled          420
+    WIDTH       Scaled          444
+    HEIGHT      Scaled          330
+END
+
+BEGIN Canvas
+    NAME        Mugshot
+    XPOS        Scaled          1013
+    YPOS        Scaled          1400
+    WIDTH       Scaled          2888
+    HEIGHT      Scaled          2125
+END
+
+
+
+BEGIN Custom
+    NAME        Age
+    XPOS        Scaled          4109
+    YPOS        Scaled          1410
+    WIDTH       Scaled          2333
+    HEIGHT      Scaled          250
+END
+
+BEGIN Custom
+    NAME        Insanity
+    XPOS        Scaled          4109
+    YPOS        Scaled          1830
+    WIDTH       Scaled          2333
+    HEIGHT      Scaled          250
+END
+
+BEGIN Custom
+    NAME        Insanity_Age
+    XPOS        Scaled          4109
+    YPOS        Scaled          2080
+    WIDTH       Scaled          2333
+    HEIGHT      Scaled          250
+END
+
+
+BEGIN DropDownMenu
+    NAME        CategoryDropDown
+    XPOS        Scaled          4109
+    YPOS        Scaled          2334
+    WIDTH       Scaled          2333
+    HEIGHT      Scaled          333
+END
+
+
+
+BEGIN DropDownMenu
+    NAME        Action
+    XPOS        Scaled          4109
+    YPOS        Scaled          3200
+    WIDTH       Scaled          2333
+    HEIGHT      Scaled          333
+END
+
+
+BEGIN Button
+    NAME        EndPunishment
+    CAPTION     punish_end
+    XPOS        Scaled          4109
+    YPOS        Scaled          2767
+    WIDTH       Scaled          2333
+    HEIGHT      Scaled          333
+END
+
+BEGIN Button
+    NAME        Search
+    CAPTION     job_searchentity
+    XPOS        Scaled          6568
+    YPOS        Scaled          2334
+    WIDTH       Scaled          2333
+    HEIGHT      Scaled          333
+END
+
+BEGIN Button
+    NAME        SearchCell
+    CAPTION     job_searchcell
+    XPOS        Scaled          6568
+    YPOS        Scaled          2767
+    WIDTH       Scaled          2333
+    HEIGHT      Scaled          333
+END
+
+BEGIN Button
+    NAME        SearchCellBlock
+    CAPTION     job_searchcellblock
+    XPOS        Scaled          6568
+    YPOS        Scaled          3200
+    WIDTH       Scaled          2333
+    HEIGHT      Scaled          333
+END
+
+
+
+BEGIN Custom
+    NAME        BioTitle
+    CAPTION     rapsheet_biography
+    XPOS        Scaled          1013
+    YPOS        Scaled          3748
+    WIDTH       Scaled          7888
+    HEIGHT      Scaled          333
+END
+
+BEGIN Canvas
+    NAME        BioNITGIcon
+    XPOS        Scaled          8400
+    YPOS        Scaled          3650
+    WIDTH       Scaled          500
+    HEIGHT      Scaled          500
+END
+
+BEGIN Canvas
+    NAME        NITGIcon_tooltip
+    XPOS        Scaled          8400
+    YPOS        Scaled          3500
+    WIDTH       Scaled          500
+    HEIGHT      Scaled          500
+END
+
+BEGIN Canvas
+    NAME        Bio
+    XPOS        Scaled          1013
+    YPOS        Scaled          4165
+    WIDTH       Scaled          7888
+    HEIGHT      Scaled          1800
+END
+
+
+
+
+
+BEGIN Custom
+    NAME        ConvictionTitle
+    CAPTION     rapsheet_convictions
+    XPOS        Scaled          1013
+    YPOS        Scaled          6099
+    WIDTH       Scaled          7888
+    HEIGHT      Scaled          333
+END
+BEGIN SelectionList
+    NAME        Convictions
+    XPOS        Scaled          1013
+    YPOS        Scaled          6535
+    WIDTH       Scaled          7888
+    HEIGHT      Scaled          1983
+END
+
+BEGIN Custom
+    NAME        Served
+    XPOS        Scaled          1013
+    YPOS        Scaled          8622
+    WIDTH       Scaled          7888
+    HEIGHT      Scaled          450
+END
+
+BEGIN Button
+    NAME        ScheduleExecution
+    CAPTION     rapsheet_scheduleexecution
+    XPOS        Scaled          1013
+    YPOS        Scaled          9166
+    WIDTH       Scaled          7888
+    HEIGHT      Scaled          380
+END
+
+
+
+
+
+
+
+
+
+BEGIN Custom
+    NAME        Traits
+    XPOS        Scaled          1108
+    YPOS        Scaled          5000
+    WIDTH       Scaled          8000
+    HEIGHT      Scaled          250
+END

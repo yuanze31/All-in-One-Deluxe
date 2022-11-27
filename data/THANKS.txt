@@ -1,0 +1,91 @@
+[h1]Sites of helpful information[/h1]
+
+[url=http://devwiki.introversion.co.uk/pa/]Official Wiki[/url]
+
+[url=http://prison-architect.wikia.com/wiki/Prison_Architect_Wiki]Wikia:  Prison Architect[/url]
+
+[url=https://github.com/aubergine10/Prison-Architect-API/wiki]Prison-Architect-API[/url]
+Many secrets for scripting.
+
+
+[h1]Mods that I borrowed[/h1]
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=596594446]Helvetica Neue Font[/url]
+A classic and neutral font.
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=484196510]Stylized icons[/url]
+Very good style. But I had to replace half of the icons. I also redesigned colors. And some subtle details were improved, too.
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=208679449]Clearer Needs Icons[/url]
+I replaced and added a few of the icons.
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=479040269]Better Clock Mod[/url]
+Due to limitations, the fastest speed is 10 times.
+Moreover, I used unicode characters to replace the ugly ones.
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=484008765]Improved Objects[/url]
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=768894651]Window Fix [UPDATED][/url]
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=661989476]CCTV arrows only on preview mode (Compatible)[/url]
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=579974103]Callout to soldiers![/url]
+
+[url=steamcommunity.com/sharedfiles/filedetails/?id=1120441390]Staffroom Fix (Canteen Error)[/url]
+
+[h1]Mods that inspired me[/h1]
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=378010905]Separator Room[/url]
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=612709803]Various Modification Pack[/url]
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=584972698]Workshop Requirements[/url]
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=624145202]PowerSwitch PipeValve and DoorTimer on Walls[/url]
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=461879768]Additional Doors[/url]
+I made my own three-meter jail door.
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=436622291]A lot of new names! Only Names.[/url]
+
+Because the regular prisoners (not form Names in the Game) have the same fornames and surnames over and over again.
+
+Now, more variety. Names comes from all countries while English names are still the majority.
+
+The author "Sci. Leugim678 TCNMS OFU78" kindly asked me to integrate this mod.
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=448807272]A lot of new skins! Only Normal skins.[/url]
+
+Improves and adds prisoner skin colors. Especially, pink, yellow and black are better than vanilla.
+
+Another mod by "Sci. Leugim678 TCNMS OFU78".
+
+
+[h1]Mods that I decided not to integrate[/h1]
+
+Don't misunderstand me. They are good.
+But I just don't think it is necessary to integrate them.
+You can try them independently.
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=516250875]Table Bench & Ironboard smaler than the original[/url]
+If you like a tiny prison, this can save spaces for you.
+Not very realistic. Not very necessary. Can break existing maps (prisons).
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=521488103]Disable Sheet Metal[/url]
+Still not perfect.
+I suggest you invest on Bookkeeping if you don't like Workshop product lines.
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=762749999]Read Mails[/url]
+Quite creative and very interesting. But only for a short time until you have read all the contents...
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=693956799]Real-time Basketball[/url]
+Very creative and fun.
+The author "murgh" has made many great mods. Don't forget to take a look and try.
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=687910616]Customizable Control Booths[/url]
+Very creative, but very complicated too.
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=434985481]Simple Garden Mod[/url]
+Lovely and quite realistic.
+
+After a lot of thoughts, however, I decided to make Bookkeeping to solve serveral real problems instead of integrating this mod.

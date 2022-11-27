@@ -1,0 +1,16 @@
+BEGIN Window
+    NAME         ContextMenu
+    BACKGROUND   papersheet.bmp
+    WIDTH        200
+    HEIGHT       300
+    PANEL        1
+END
+
+BEGIN SelectionList
+    NAME        Actions
+    XPOS        Scaled          1275
+    YPOS        Scaled          3066
+    WIDTH       Scaled          7799
+    HEIGHT      Scaled          6166
+END
+

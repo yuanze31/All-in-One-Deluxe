@@ -1,0 +1,112 @@
+BEGIN Window
+    NAME         Codex
+    BACKGROUND   codex.png
+    WIDTH        1000
+    HEIGHT       650
+    PANEL        1
+END
+
+BEGIN Button
+    NAME        Close
+    CAPTION     X
+    XPOS        Scaled          9594
+    YPOS        Scaled          395
+    WIDTH       Scaled          222
+    HEIGHT      Scaled          333
+END
+
+BEGIN Custom
+    NAME        Title
+    XPOS        Scaled          1000
+    YPOS        Scaled          750
+    WIDTH       Scaled          3500
+    HEIGHT      Scaled          1083
+END
+
+
+BEGIN Custom
+    NAME        SortByCaption
+    XPOS        Scaled          2700
+    YPOS        Scaled          1970
+    WIDTH       Scaled          1000
+    HEIGHT      Scaled          384
+END
+
+BEGIN DropDownMenu
+    NAME        SortBy
+    XPOS        Scaled          3500
+    YPOS        Scaled          2000
+    WIDTH       Scaled          1000
+    HEIGHT      Scaled          384
+END
+
+
+BEGIN SelectionList
+    NAME        List
+    XPOS        Scaled          1000
+    YPOS        Scaled          2485
+    WIDTH       Scaled          3500
+    HEIGHT      Scaled          6615
+END
+
+
+
+
+
+
+BEGIN Custom
+    NAME        Image
+    XPOS        Scaled          5450
+    YPOS        Scaled          1053
+    WIDTH       Scaled          3700
+    HEIGHT      Scaled          3600
+END
+
+BEGIN Custom
+    NAME        SelectedName
+    XPOS        Scaled          5450
+    YPOS        Scaled          4731
+    WIDTH       Scaled          3700
+    HEIGHT      Scaled          615
+END
+
+BEGIN Custom
+    NAME        Author
+    XPOS        Scaled          5450
+    YPOS        Scaled          5190
+    WIDTH       Scaled          3700
+    HEIGHT      Scaled          380
+END
+
+BEGIN Canvas
+    NAME        SelectedDesc
+    XPOS        Scaled          5450
+    YPOS        Scaled          5650
+    WIDTH       Scaled          3700
+    HEIGHT      Scaled          2600
+END
+
+BEGIN Button
+    NAME        ViewInWorkshop
+    XPOS        Scaled          5450
+    YPOS        Scaled          8400
+    WIDTH       Scaled          3700
+    HEIGHT      Scaled          383
+END
+
+BEGIN Button
+    NAME        PlayEscapeMode
+    XPOS        Scaled          5450
+    YPOS        Scaled          8921
+    WIDTH       Scaled          1750
+    HEIGHT      Scaled          383
+END
+
+
+BEGIN Button
+    NAME        Play
+    XPOS        Scaled          7400
+    YPOS        Scaled          8921
+    WIDTH       Scaled          1750
+    HEIGHT      Scaled          383
+END

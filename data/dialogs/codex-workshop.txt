@@ -1,0 +1,161 @@
+BEGIN Window
+    NAME         Codex
+    BACKGROUND   codex.png
+    WIDTH        1000
+    HEIGHT       650
+    PANEL        1
+END
+
+BEGIN Button
+    NAME        Close
+    CAPTION     X
+    XPOS        Scaled          9594
+    YPOS        Scaled          396
+    WIDTH       Scaled          222
+    HEIGHT      Scaled          333
+END
+
+BEGIN Custom
+    NAME        Title
+    XPOS        Scaled          1000
+    YPOS        Scaled          750
+    WIDTH       Scaled          3500
+    HEIGHT      Scaled          1083
+END
+
+
+
+BEGIN SelectionList
+    NAME        PrisonList
+    XPOS        Scaled          1000
+    YPOS        Scaled          1900
+    WIDTH       Scaled          3500
+    HEIGHT      Scaled          6000
+END
+
+BEGIN DropDownMenu
+    NAME        StarRatingDropDown
+    XPOS        Scaled          1000
+    YPOS        Scaled          8192
+    WIDTH       Scaled          1100
+    HEIGHT      Scaled          383
+END
+BEGIN Button
+    NAME        RandomPrison
+    CAPTION     codex_workshop_select_random_prison
+    XPOS        Scaled          2200
+    YPOS        Scaled          8192
+    WIDTH       Scaled          2300
+    HEIGHT      Scaled          383
+END
+
+BEGIN Button
+    NAME        PAWorkshop
+    CAPTION     codex_workshop_pa_workshop
+    XPOS        Scaled          1000
+    YPOS        Scaled          8768
+    WIDTH       Scaled          3500
+    HEIGHT      Scaled          384
+END
+
+
+
+
+BEGIN Custom
+    NAME        Image
+    XPOS        Scaled          5450
+    YPOS        Scaled          1053
+    WIDTH       Scaled          3700
+    HEIGHT      Scaled          3615
+END
+
+
+
+
+BEGIN Custom
+    NAME        SelectedTitle
+    XPOS        Scaled          5450
+    YPOS        Scaled          4831
+    WIDTH       Scaled          3700
+    HEIGHT      Scaled          615
+END
+
+BEGIN Custom
+    NAME        Author
+    XPOS        Scaled          5700
+    YPOS        Scaled          5538
+    WIDTH       Scaled          3250
+    HEIGHT      Scaled          250
+END
+
+
+
+
+BEGIN Canvas
+    NAME        Agreement
+    XPOS        Scaled          5470
+    YPOS        Scaled          8300
+    WIDTH       Scaled          3700
+    HEIGHT      Scaled          1614
+END
+
+
+BEGIN Canvas
+    NAME        SelectedDesc
+    XPOS        Scaled          5450
+    YPOS        Scaled          6118
+    WIDTH       Scaled          3700
+    HEIGHT      Scaled          2384
+END
+
+
+
+
+
+
+
+BEGIN Custom
+    NAME        TitleInputCaption
+    CAPTION     codex_workshop_title
+    XPOS        Scaled          5450
+    YPOS        Scaled          5800
+    WIDTH       Scaled          750
+    HEIGHT      Scaled          560
+END
+
+BEGIN InputField
+    NAME        TitleInput
+    XPOS        Scaled          6200
+    YPOS        Scaled          5800
+    WIDTH       Scaled          2950
+    HEIGHT      Scaled          560
+END
+
+
+
+
+
+
+BEGIN Button
+    NAME        ViewInWorkshop
+    CAPTION     codex_workshop_view_in_workshop
+    XPOS        Scaled          5450
+    YPOS        Scaled          8768
+    WIDTH       Scaled          1750
+    HEIGHT      Scaled          384
+END
+BEGIN Button
+    NAME        Update
+    XPOS        Scaled          5450
+    YPOS        Scaled          8768
+    WIDTH       Scaled          1750
+    HEIGHT      Scaled          384
+END
+
+BEGIN Button
+    NAME        Action
+    XPOS        Scaled          7400
+    YPOS        Scaled          8768
+    WIDTH       Scaled          1750
+    HEIGHT      Scaled          384
+END

@@ -1,0 +1,163 @@
+BEGIN Window
+    NAME         Codex
+    BACKGROUND   codex.png
+    WIDTH        1000
+    HEIGHT       650
+    PANEL        1
+END
+
+BEGIN Button
+    NAME        Close
+    CAPTION     X
+    XPOS        Scaled          9594
+    YPOS        Scaled          395
+    WIDTH       Scaled          222
+    HEIGHT      Scaled          333
+END
+
+BEGIN Custom
+    NAME        Title
+    XPOS        Scaled          1047
+    YPOS        Scaled          750
+    WIDTH       Scaled          3400
+    HEIGHT      Scaled          1082
+END
+
+
+BEGIN SelectionList
+    NAME        List
+    XPOS        Scaled          1002
+    YPOS        Scaled          1946
+    WIDTH       Scaled          3550
+    HEIGHT      Scaled          6436
+END
+
+
+BEGIN Button
+    NAME        Deactivate
+    XPOS        Scaled          1000
+    YPOS        Scaled          8457
+    WIDTH       Scaled          1750
+    HEIGHT      Scaled          307
+END
+
+
+BEGIN Button
+    NAME        MoreSteamMods
+    XPOS        Scaled          1000
+    YPOS        Scaled          8842
+    WIDTH       Scaled          1750
+    HEIGHT      Scaled          307
+END
+
+BEGIN Button
+    NAME        Apply
+    XPOS        Scaled          2800
+    YPOS        Scaled          8457
+    WIDTH       Scaled          1750
+    HEIGHT      Scaled          692
+END
+
+
+
+
+BEGIN Custom
+    NAME        Name
+    XPOS        Scaled          5500
+    YPOS        Scaled          1060
+    WIDTH       Scaled          3550
+    HEIGHT      Scaled          692
+END
+
+BEGIN Custom
+    NAME        Image
+    XPOS        Scaled          5500
+    YPOS        Scaled          1950
+    WIDTH       Scaled          1950
+    HEIGHT      Scaled          2900
+END
+
+
+
+
+BEGIN Custom
+    NAME        Type
+    XPOS        Scaled          7580
+    YPOS        Scaled          1916
+    WIDTH       Scaled          1570
+    HEIGHT      Scaled          538
+END
+
+BEGIN Custom
+    NAME        Version
+    XPOS        Scaled          7580
+    YPOS        Scaled          2456
+    WIDTH       Scaled          1570
+    HEIGHT      Scaled          538
+END
+
+
+BEGIN Custom
+    NAME        Date
+    XPOS        Scaled          7580
+    YPOS        Scaled          2996
+    WIDTH       Scaled          1570
+    HEIGHT      Scaled          538
+END
+
+
+BEGIN Custom
+    NAME        Author
+    XPOS        Scaled          7580
+    YPOS        Scaled          3534
+    WIDTH       Scaled          1570
+    HEIGHT      Scaled          538
+END
+
+
+
+
+
+
+
+BEGIN Button
+    NAME        PublishMod
+    XPOS        Scaled          7580
+    YPOS        Scaled          4159
+    WIDTH       Scaled          1570
+    HEIGHT      Scaled          307
+END
+
+BEGIN Custom
+    NAME        TranslationCaption
+    XPOS        Scaled          7580
+    YPOS        Scaled          4560
+    WIDTH       Scaled          1570
+    HEIGHT      Scaled          270
+END
+
+BEGIN CheckBox
+    NAME        Translation
+    XPOS        Scaled          8960
+    YPOS        Scaled          4560
+    WIDTH       Scaled          190
+    HEIGHT      Scaled          270
+END
+
+
+
+
+
+
+
+
+BEGIN Canvas
+    NAME        Description
+    XPOS        Scaled          5500
+    YPOS        Scaled          5221
+    WIDTH       Scaled          3650
+    HEIGHT      Scaled          3930
+END
+
+
+

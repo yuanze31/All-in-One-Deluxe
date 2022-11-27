@@ -1,0 +1,68 @@
+BEGIN Window
+    NAME         Clock
+    WIDTH        180
+    HEIGHT       250
+    PANEL        1
+END
+
+BEGIN Container
+    NAME        Status
+    XPOS        Scaled          276
+    YPOS        Scaled          226
+    WIDTH       Scaled          9444
+    HEIGHT      Scaled          2400
+END
+
+BEGIN Container
+    NAME        ClockFace
+    XPOS        Scaled          276
+    YPOS        Scaled          2800
+    WIDTH       Scaled          9444
+    HEIGHT      Scaled          5800
+END
+
+BEGIN Button
+    NAME        Speed_0
+    CAPTION     clock_speed_0
+    XPOS        Scaled          277
+    YPOS        Scaled          8800
+    WIDTH       Scaled          1944
+    HEIGHT      Scaled          1000
+END
+
+BEGIN Button
+    NAME        Speed_2
+    CAPTION     clock_speed_1
+    XPOS        Scaled          2777
+    YPOS        Scaled          8800
+    WIDTH       Scaled          1944
+    HEIGHT      Scaled          1000
+END
+
+BEGIN Button
+    NAME        Speed_5
+    CAPTION     clock_speed_2
+    XPOS        Scaled          5277
+    YPOS        Scaled          8800
+    WIDTH       Scaled          1944
+    HEIGHT      Scaled          1000
+END
+
+BEGIN Button
+    NAME        Speed_10
+    CAPTION     clock_speed_3
+    XPOS        Scaled          7775
+    YPOS        Scaled          8800
+    WIDTH       Scaled          1944
+    HEIGHT      Scaled          1000
+END
+
+BEGIN Button
+    NAME        AddHour
+    CAPTION     clock_add_hour
+    XPOS        Scaled          8333
+    YPOS        Scaled          342
+    WIDTH       Scaled          1388
+    HEIGHT      Scaled          1376
+END
+

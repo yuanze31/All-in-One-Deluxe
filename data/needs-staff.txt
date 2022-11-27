@@ -1,0 +1,11 @@
+BEGIN Provider
+  Action          KeepTidy
+  ProviderType    Object
+  Object          Bin
+  PrimaryNeed     StaffEnvironment
+  PrimaryRate     -0.05000
+  ActionType      Use
+  Flags           Passive
+  BroadcastRange  6
+END
+

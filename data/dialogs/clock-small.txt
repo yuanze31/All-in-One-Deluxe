@@ -1,0 +1,58 @@
+BEGIN Window
+    NAME         Clock
+    WIDTH        180
+    HEIGHT       165
+    PANEL        1
+END
+
+BEGIN Container
+    NAME        Status
+    XPOS        Scaled          276
+    YPOS        Scaled          341
+    WIDTH       Scaled          9444
+    HEIGHT      Scaled          4034
+END
+
+BEGIN Container
+    NAME        ClockFace
+    XPOS        Scaled          276
+    YPOS        Scaled          4672
+    WIDTH       Scaled          9444
+    HEIGHT      Scaled          3036
+END
+
+BEGIN Button
+    NAME        Speed_0
+    CAPTION     clock_speed_0
+    XPOS        Scaled          276
+    YPOS        Scaled          8100
+    WIDTH       Scaled          1944
+    HEIGHT      Scaled          1576
+END
+
+BEGIN Button
+    NAME        Speed_2
+    CAPTION     clock_speed_1
+    XPOS        Scaled          2775
+    YPOS        Scaled          8100
+    WIDTH       Scaled          1944
+    HEIGHT      Scaled          1576
+END
+
+BEGIN Button
+    NAME        Speed_5
+    CAPTION     clock_speed_2
+    XPOS        Scaled          5276
+    YPOS        Scaled          8100
+    WIDTH       Scaled          1944
+    HEIGHT      Scaled          1576
+END
+
+BEGIN Button
+    NAME        Speed_10
+    CAPTION     clock_speed_3
+    XPOS        Scaled          7776
+    YPOS        Scaled          8100
+    WIDTH       Scaled          1944
+    HEIGHT      Scaled          1576
+END
