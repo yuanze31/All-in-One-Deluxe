@@ -2,6 +2,156 @@
 # {All-in-One Deluxe Edition}-yuanze31
 # =============================================================================
 
+# 声音编辑器(F5)
+soundeditor_NewEvent 新建事件
+
+# 首席执行官的信
+dialog_readlater 稍后再读
+
+# [报告/作息]
+regime_more_sec ◀▶
+
+# [报告/补助]的“出狱 I”
+grant_category_PrisonersReleased 已释放囚犯数:
+
+object_jaildoorXL 监狱门(特大)
+buildtoolbar_popup_obj_jaildoorXL 3米长的监狱门。你应该会用到它的。\n\n这是我独家制作的图片。仔细对比2米的，你会发现细节不同。
+
+object_PersonalSink 洗手池
+buildtoolbar_popup_obj_PersonalSink 让囚犯可以简单地清洁自己。\n\n可以用来“洗手”。满足“卫生”和“环境”需求。\n速率: 每5分钟降低0.5和0.2点\n其优先级低于淋浴。\n\n对人的行走速度影响大(0.5倍)。\n\n为了真实性，我让多种房间要求它。\n但为了避免难度太大，我排除了牢房。\n\n由于技术限制，我无法要求供水……
+
+object_Reinstall 重新安装
+buildtoolbar_popup_staff_Reinstall 在转动或移动物品后，它会出现奇怪的问题。\n比如：炊具、冰柜会时而闪烁“缺少供电”图标。\n这时，你只需要重新安装物品即可。\n这个功能则可以简化你的操作。\n\n不过新版本的“移动”功能可以双击之后在原地放下\n所以这个功能有些...不那么必要
+
+# 我新增的动作。见 needs.txt
+action_ReadBook2 读书
+action_Diary 写日记
+action_WashingHand 洗手
+
+job_custom_DoctorCalled 医生被呼叫
+
+# 这些并不会显示出来，但我还是写了
+action_KeepTidy 保持清洁
+action_TouchNature 接触自然
+# action_GoodExample 好榜样
+# action_BeingWatched 被看着
+
+# 对话框编辑器(F4)
+newwindow_title 窗口标题
+none 无
+filedialog_title 选择文件
+
+# 新增应急呼叫
+interfacecallout_NationalGuard 国民警卫队
+
+object_MisconductMarker 不端行为标记
+
+ec__active 瞬移见证人: *B
+ec__tt_on \n这是你真正用来执行死刑的一部电椅。\n见证人会被瞬移过来。
+ec__tt_off \n这并不用来执行死刑。
+
+w__ttt 悬停提示关于: *T
+w__ttt/sick 疾病点数
+w__ttt/rc 再犯罪可能性
+w__ttt/bp 不满爆发点
+
+w__tt/sick \n囚犯平均疾病点数: *A\n一般或壮硕体型比例: *G%\n\n今天的医疗费用: *H 元
+
+w__tt/rc/outside \n今天评估 *X 人次\n产生奖金 *Y 元
+
+w__tt/rc/no \n今天评估 *X 人次\n产生奖金 *Y 元\n\n（待在办公室里时，无法评估囚犯）
+
+w__tt/bp \n囚犯平均不满爆发点: *A\n为100者的比例: *F%
+
+ptt/sick/init \n疾病点数: *P\n【疾病点数变化累计】\n · 锻炼: *X\n · 食物: *F\n · 受伤: *L
+ptt/sick/damaged \n疾病点数: *P\n【疾病点数变化累计】\n · 锻炼: *X\n · 食物: *F\n · 受伤: *L\n\n上次疾病伤害: *D%\n发生在 *A 天前
+
+ptt/rc/no \n【再犯罪可能性】\n（典狱长尚未评估）
+ptt/rc/first \n【再犯罪可能性】\n · 最初: *F%\n\n（这是第一次评估）
+ptt/rc/no_bonus \n【再犯罪可能性】\n · 最初: *F%\n · 最低: *L%\n   *D 天里，取得进步 *I%\n   （尚未产生进步奖金）
+ptt/rc/bonus \n【再犯罪可能性】\n · 最初: *F%\n · 最低: *L%\n   *D 天里，取得进步 *I%\n   == 产生进步奖金 *B 次 ==
+
+ptt/bp/always_full \n【不满爆发点】\n · 最低: *A\n   （始终是满的）
+ptt/bp/other \n【不满爆发点】\n · 最低: *A\n · 最新: *B
+
+w__change_sickness_difficulty 疾病难度系数: *N
+
+food_st_tt \n当前伙食政策评分: *R\n囚犯的疾病点数每天 *D
+
+reformprogram_GroupFitness [特殊]集体健身
+reformprogram_GroupFitness_text 让众多囚犯们大量流汗以充分健身。\n由于普通的举重时间很短，你最好提供这个额外的健身机会。\n\n由于程序缺陷，如果让医生担任“教师”，会产生一些后果。\n不得已，我选择了清洁工。请脑补为他负责保养举重床吧。\n\n顺便说明一下疾病点数及其机制：\n每个新囚犯会根据体型得到初始的疾病点数。\n比如：肥胖者最高，为300。\n之后的变化规则为：\n+/-伙食政策\n-举重\n+保持受伤（尚未得到治疗）
+
+BodyBonus_tt \n囚犯的体型发生了可喜的改变。\n从原本的 *O 变成了现在的 *N\n\n奖金: *M 元
+bodytype_fat 肥胖
+bodytype_thin 瘦小
+bodytype_average 一般
+bodytype_strong 壮硕
+
+object_bodybonus0 塑身奖励
+object_bodybonus2 塑身奖励
+object_bodybonus3 塑身奖励
+
+w__define_sleep_title 定义睡眠时间段：
+w__sleep_start_at 开始于 *N 点
+w__sleep_end_at 结束于 *N 点
+w__toggle_fast_sleep 启用睡眠加速: *B
+w__start 开始加速（测试用）
+w__stop 停止加速
+w__continue 继续加速
+w__timewarping 是否正在加速睡眠: *B
+w__need_ImmediateObjects 必须启用 ImmediateObjects
+
+object_TimeWarpNeedModifier 睡眠加速\n需求调整
+buildtoolbar_popup_obj_TimeWarpNeedModifier 用于在“睡眠加速”时，同比例地加速改变囚犯的“睡眠”等需求。\n\n睡眠加速的基本效果仅仅是让时钟走得更快，而不影响需求的增减。\n这会导致囚犯的“睡眠”和“舒适”得不到满足，且其它需求增长太少。\n所以，必须给每张床临时配有这个对象，以影响牢房内囚犯的需求。\n在你定义的“睡眠时间段”开始时，这些对象会被自动批量生成。\n\n为了绕过程序的一个bug，我不得不让这个对象可以被建造。\n如果你很好奇，那么可以试试它的巨大威力。\n显然，正常情况下你永远不该手动建造它。
+
+object_Medicine1 [1级]创可贴(新)
+object_Medicine2 [2级]口服药(新)
+object_Medicine3 [3级]注射器(新)
+object_MedWaste1 [1级]创可贴(废弃)
+object_MedWaste2 [2级]口服药(废弃)
+object_MedWaste3 [3级]注射器(废弃)
+
+object_MedicineCabinet 医药箱
+buildtoolbar_popup_obj_MedicineCabinet 可以自动对受伤者提供急救式的治疗。\n可以部分地分担医生的工作压力。\n但会相应地增加医疗支出。\n\n自动检测在同一房间的10米内的受伤者。\n闹事者除外；已经在被医生治疗的除外。\n每人每小时会得到这种额外治疗一次。\n\n根据受伤程度，平均分为3个级别。\n每一级治疗的受伤前提、恢复程度和价格为：\n 1: 0%以上 恢复20% 5元\n 2: 33%以上 恢复30% 10元\n 3: 67%以上 恢复40% 20元\n在菜单里，你可以限制治疗级别的上限，从而控制成本。\n\n也可以放在医务室之外，以替代不愿出门的医生和懒得看病的囚犯，\n及时处理小伤。这有助于囚犯评级中的“健康”栏目的得分。\n\n由于技术限制，我无法很真实地模拟供货、上架和拿取，\n所以你就睁一眼闭一眼吧。\n\n此外，如果患者仍然有伤，可以呼叫一名医生过来。\n\n如果有多个医务室，你可以开启“这是医务室”选项。\n这样，如果房间里连续1小时都没有医生，那么会呼叫一个。
+
+medcab__level 治疗上限: *L 级
+medcab__level_no 治疗上限: 不治疗
+medcab__call_doctor_for_injured 为伤者呼叫医生: *B
+medcab__this_is_medicalward 这是医务室: *B
+medcab__call_range 检查范围: *R 米
+medcab__test 测试呼叫
+medcab__calling [已呼叫]
+
+doctor__tt \n今日已治疗 *X 分钟\n花费 *Y 元
+
+medcab__tt \n今日已治疗 *X 人次\n花费 *Y 元
+medcab__tt__doc_called \n今日已治疗 *X 人次\n花费 *Y 元\n\n[已呼叫医生]
+medcab__tt__doc_away_time \n今日已治疗 *X 人次\n花费 *Y 元\n\n医生已离开 *M 分钟
+
+reformprogram_Bookkeeping [制造]记账
+reformprogram_Bookkeeping_text 在会计外包业务中最简单的一种。单调、累人。\n非常适合尚且看得懂数字的囚犯们，不是吗？\n\n由于有资格的囚犯少，感兴趣的更少，所以本项目是强制性的。\n只有通过的囚犯才能进行“记账外包”打工。\n\n这让“[学术Ⅰ]基础教育项目”有了更大的价值。\n也让你在混乱的“工坊”制造之外多了一种挣钱的选择。\n并且，会计不会在平时闲着没事干了。
+
+object_AccountingBookUnfinished 账本(未处理)
+object_AccountingBookFinished 账本(已处理)
+object_AccountingBookFailed 账本(有错误)
+object_AccountingBookFailed2 账本(有错误)
+object_AccountingBookCorrecting 账本(修正中)
+object_AccountingTable 会计桌
+buildtoolbar_popup_obj_AccountingTable 需要囚服先通过“[制造]记账”培训项目。\n\n每20分钟处理一本账本。\n不过，有20%的概率会失败，产生有错误的账本。\n\n未处理的账本的成本为10元。处理后可卖出50元。\n\n盈利能力为:\n(50×(1-20%)-10)÷20×60=90元每人时\n虽然不如从树苗到高级床的盈利，但这个工作简单而稳定得多。\n算是介于车牌和高级床之间的选择。\n\n错误的账本会被送到会计的办公室，等候修正。
+
+room_Accounting 会计工作间
+buildtoolbar_popup_room_accounting 接受中型企业的会计外包业务。\n让囚犯进行简单而无聊的记账工作。\n\n比起混乱的工坊，这里单纯得多。\n\n每个囚犯需要12平米才会工作。\n工作岗位上限为10人。\n\n大约每6到10个囚犯中，会有1人来工作。
+
+ab__failed_tt__progress \n修正进度: *P%
+ab__accountant_tt__count \n今天修正账本数: *C
+ab__accountant_tt__notworking \n今天修正账本数: *C\n\n*P
+ab__accountant_tt__outside 不在办公室里
+ab__accountant_tt__night 现在是下班时间。你的会计坚决不肯加班。
+ab__accountant_tt__dead 死人显然是无法工作的。
+ab__accountant_tt__unconscious 先赶紧救治她吧。
+
+object_CheatPrisonerMisbehavior [作弊]囚犯闹事
+buildtoolbar_popup_obj_CheatPrisonerMisbehavior 这个特殊物品可以让囚犯们立即闹事。\n\n“安装”它后，点击它，在菜单中操作。
 
 # =============================================================================
 # =============================================================================
@@ -284,7 +434,7 @@ interfacetopbar_tooltip_guardstationed	*X 名驻守中
 interfacetopbar_tooltip_guardpatrolling	*X 名巡逻中
 interfacetopbar_tooltip_guardavailable	*X 名待命中
 interfacetopbar_tooltip_guardresting	*X 名休息中
-interfacetopbar_tooltip_guardonbreak	*X正在休息
+interfacetopbar_tooltip_guardonbreak	*X 名 在轮休
 interfacetopbar_tooltip_guardwantsabreak	（*X需要休息）
 interfacetopbar_tooltip_guardactive	（*X 名正在处置事件）
 interfacetopbar_tooltip_guarddoingjob	*X 名正在执行任务
@@ -576,7 +726,9 @@ buildtoolbar_popup_uts_powerswitch	切换所有与其相连的电线的通电情
 buildtoolbar_popup_uts_waterpumpstation	为监狱提供水源。
 buildtoolbar_popup_uts_pipevalve	切换所有相连水管的供水情况。
 buildtoolbar_popup_uts_pipelarge	为你的监狱配送大量的高压水，或许足够让某些人在充满臭味的污物中爬行 500 码获取自由。\n\n注意，一般不连接水槽或淋浴花洒等等——因为压力太高。
-buildtoolbar_popup_uts_pipesmall	用来将马桶、淋浴花洒、水槽等连接到你的大型管网。压力要低很多，因此小管道的长度受限，以防压力过低。
+buildtoolbar_popup_uts_pipesmall	用来将马桶、淋浴花洒、水槽等连接到你的大型管道网络。\n压力要低很多，因此小型管道的长度受限；\n压力过低的话，就不该再延伸它们了。\n\n最大有效供水距离为25米。
+buildtoolbar_popup_uts_waterboiler 产生热水。\n\n由于它本身会产生很高的热量，所以要避免与囚犯接触。
+buildtoolbar_popup_uts_pipehotwater 用于把锅炉产生的热水输送给‘暖气片’。
 buildtoolbar_popup_uts_cctv	不用到处安排警卫也可以监视囚犯。\n\n你必须把闭路电视监视器与摄像头相连才能让它正常工作。
 buildtoolbar_popup_uts_cctvmonitor	需要安装在警卫室并由一名警卫操作。你可远程操控监狱各处的闭路电视监控摄像头。\n\n使用连接工具将监视器与闭路电视监控摄像头相连。\n\n注意：最多可以同时监视8个摄像头。如果连接了8个以上的摄像头，摄像头的画面会逐步切换显示，只能提供不完整的监控。
 buildtoolbar_popup_uts_DoorControlSystem	需要安装在警卫室并由一名警卫操作。你可远程打开监狱各处的门。\n\n使用连接工具将此系统与门禁伺服系统相连。门禁伺服器应安装在你希望远程操控的门上\n\n注意：你可向此系统连接无限多的伺服系统，但操作此系统的警卫每秒最多只能打开两扇门。
@@ -1616,8 +1768,8 @@ policy_totalmealcost	(总计: *X 美元/ 天)
 policy_cell_quality	使用牢房质量评分
 policy_cell_quality_tooltip_title	使用牢房质量
 policy_cell_quality_tooltip	启用后，根据囚犯的表现，他们只会被分配到相应质量的牢房中。即使没有其他空余牢房，表现不佳的囚犯也无法分配到高质牢房。\n如果停用，囚犯可能分配到各种质量的牢房中，不过质量低于平均值的牢房中的囚犯会更加愤怒。如果表现良好，囚犯仍可升级到更高质量的牢房中。
-policy_staffbreak_length	员工休息时长：*P分钟
-policy_staffbreak_num	员工休息人数：*P
+policy_staffbreak_length	员工轮流时长: *P 分钟
+policy_staffbreak_num	每日轮休次数: *P
 policy_staffbreakmax	最大员工休息人数：*P%
 policy_staffbreakmax_title	最大员工休息人数
 policy_staffbreakmax_info	每次允许休息的员工人数的最大百分比。设置为低值时，将迫使您的员工更努力、更长时间地工作，而没有休息时间。设置为高值时，可允许警卫在需要时休息。
@@ -1663,27 +1815,27 @@ finances_profit	净额
 finances_timewithoutincident	(*X天)
 finances_dailyincome	*X /天
 
-finances_category_federalgrant	联邦补助金
-finances_category_minsecprisoners	轻刑犯联邦补助金
-finances_category_medsecprisoners	标准囚犯联邦补助金
-finances_category_maxsecprisoners	重刑犯联邦补助金
-finances_category_prisoners	囚犯补助
-finances_category_workmen	工人工资
-finances_category_guards	警卫工资
-finances_category_admin	管理者工资
-finances_category_staff	员工工资
-finances_category_food	囚犯食物
-finances_category_stafffood	员工食物
-finances_category_electricity	电力
-finances_category_workshops	工坊
-finances_category_upkeep	保养费
-finances_category_loaninterest	贷款利息
-finances_category_reformprogs	改造方案
-finances_category_noincident	无事故天数
-finances_category_exports	导出（昨天）
-finances_category_corptax	公司税
-finances_category_prisonerwages	囚犯工资（昨天）
-finances_category_shoprevenue	商店收入（昨天）
+finances_category_federalgrant			联邦补助金
+finances_category_minsecprisoners		轻刑犯联邦补助金
+finances_category_medsecprisoners		标准囚犯联邦补助金
+finances_category_maxsecprisoners		重刑犯联邦补助金
+finances_category_prisoners				囚犯补助
+finances_category_workmen				工人工资
+finances_category_guards				警卫工资
+finances_category_admin					管理者工资
+finances_category_staff					员工工资
+finances_category_food					囚犯食物
+finances_category_stafffood				员工伙食
+finances_category_electricity			电力
+finances_category_workshops				工坊
+finances_category_upkeep				保养费
+finances_category_loaninterest			贷款利息
+finances_category_reformprogs			改造方案
+finances_category_noincident			无事故天数
+finances_category_exports				导出（昨天）
+finances_category_corptax				公司税
+finances_category_prisonerwages			囚犯工资（昨天）
+finances_category_shoprevenue			商店收入（昨天）
 
 reports_foodtitle	营养政策
 meal_quantity	饭菜份量
@@ -1821,7 +1973,7 @@ experiencefactor_gangmembership	帮派成员
 legend_key	钥匙：
 
 needs_graphscale_title	囚犯：
-needs_graphscale_title_staff	员工：
+needs_graphscale_title_staff	需求\人数
 needs_key_critical	挑剔
 needs_key_high	高
 needs_key_med	中
@@ -1995,7 +2147,7 @@ need_name_staffrecreation	娱乐
 need_name_staffcomfort	舒适
 need_name_staffenvironment	环境
 need_name_staffrest	休息
-need_name_staffwarmth	温暖
+need_name_staffwarmth	保暖
 need_name_luxuries	奢侈品
 needs_locked	（需要心理学家来揭示囚犯的需求）
 needs_title	=[需求]=
@@ -2006,11 +2158,11 @@ needs_total_desperate	*X 名囚犯迫切希望這個需求得到滿足
 needs_total_angry	*X 名囚犯大發雷霆，因為這個需求未得到滿足
 needs_total_active	*X 名囚犯正在應付這個需求
 
-needs_total_staff	*X名员工有这个需求
-needs_total_concerned_staff	*X名员工顾虑这个需求
-needs_total_desperate_staff	*X名员工迫切希望这个需求得到满足
-needs_total_angry_staff	*X名员工大发雷霆，因为这个需求未得到满足
-needs_total_active_staff	*X名员工正在应付这个需求
+needs_total_staff				▁ *X 名员工有这个需求\n
+needs_total_concerned_staff		▃ *X 名员工为这个需求所苦恼
+needs_total_desperate_staff		▆ *X 名员工迫切希望这个需求得到满足
+needs_total_angry_staff			█ *X 名员工大发雷霆，因为这个需求未得到满足
+needs_total_active_staff		♫ *X名 员工正在应付这个需求
 
 needs_help_bladder	人人皆需使用廁所，囚犯也是。別忘記，你的監獄的大部分體制非常嚴格 - 例如，如果他們當時應在淋浴間，他們就無法使用牢房內的廁所。
 needs_help_bowels	人人皆需使用廁所，囚犯也是。別忘記，你的監獄的大部分體制非常嚴格 - 例如，如果他們當時應在洗澡間，他們就無法使用牢房內的廁所。
@@ -2035,14 +2187,15 @@ needs_help_babyplay	嬰兒需要照料和娛樂。若你的囚犯有嬰兒，請
 needs_help_family	大部分的囚犯想要和家人保持聯繫。最簡單的方式是在你的監獄增加電話，但是增加會客設施成效更好。郵務室也有所幫助。
 needs_help_luxuries	很多囚犯时不时地要享用一点奢侈品。你可以通过建造商店来满足该需求，并且在这个过程中稍稍挣点小钱。\n该需求得以满足的囚犯会更少惹麻烦，但忽视该需求也没什么大不了的；毕竟，这里是监狱。
 
-needs_help_staffbladder	即使您的员工也偶尔需要使用厕所。当他们休息的时候，他们就会上厕所。
-needs_help_staffbowels	即使您的员工也偶尔需要使用厕所。当他们休息的时候，他们就会上厕所。
-needs_help_stafffood	员工需要吃饭，并且将在员工专用餐厅或员工休息室用餐。为您的员工提供食物，以便他们不必同囚犯一样吃同样的饭菜。
-needs_help_staffsafety	即使在监狱工作，您的员工也有要求安全的权利。高危险等级或经常的斗殴会使您的员工感到不安全，尽管这可以通过配备更好的装备来减轻他们的不安感。
-needs_help_staffrecreation	您的员工很长时间都在监狱度过，因此偶尔需要一些娱乐。员工休息室中的电视或收音机是提供娱乐的一种方式。
-needs_help_staffcomfort	您的大多数员工整天站立；有时他们会想放松一下。在他们休息时，为他们提供一个舒适的地方坐下，可有效缓解这种状况。
-needs_help_staffenvironment	员工不想在一个脏乱的监狱中工作，而囚犯却想住在那里。保持监狱清洁可防止该问题出现。
-needs_help_staffrest	员工需要在白天休息，并恢复体力。他们喜欢在配备舒适沙发的私密员工休息室里休息。
+needs_help_staffbladder			员工也需要上厕所啊。\n在“员工休息室”或“员工专区”房间里安装马桶。\n当轮休时，他们会来用。
+needs_help_staffbowels			员工也需要上厕所啊。\n在“员工休息室”或“员工专区”房间里安装马桶。\n当轮休时，他们会来用。
+needs_help_stafffood			员工需要在“员工专区”的“食堂”里用餐。\n你也可以在任何“员工专区”房间里摆些‘配餐桌’和座位。\n食物会从外部订购，所以不需要给员工‘厨房’。\n但餐盘仍然需要在‘厨房水槽’清洗。
+needs_help_staffsafety			即使在监狱工作，你的员工也需要安全感。\n高的危险等级或不断的打斗会让你的员工感到不安。\n更多的警卫彼此照应、配有更好的装备，可以缓解这个问题。
+needs_help_staffrecreation		监狱对谁来说都是超级无聊的地方。\n给你的员工们更丰富的娱乐吧。
+needs_help_staffcomfort			给员工一些坐着放松的地方。比如沙发。
+needs_help_staffenvironment		没人喜欢脏乱的环境。
+needs_help_staffrest			员工虽然不睡觉，但需要休息。\n在[报告/政策]里，给员工充足的轮休。\n另一方面，安保员工即使精力下降也不会疲劳。\n因为该机制被这一新的需求覆盖了。\n不在轮休时，警卫就不会去员工休息室。
+needs_help_staffwarmth			员工需要保持温暖，在您的监狱中放上暖气片来让他们舒适。
 
 reputation_title	声誉
 reputation_hidden	（未知声誉）
@@ -2370,188 +2523,188 @@ grant_property_atmost	不多于 *X
 # =============================================================================
 
 
-object_none	无
-object_box	箱子
-object_stack	堆
-object_bed	床
-object_bunkbed	双层床
-object_crib	婴儿床
-object_toilet	厕所
-object_table	桌子
-object_chair	椅子
-object_bench	板凳
-object_electricchair	电椅
-object_jaildoor	监狱门
-object_jaildoorlarge	大型监狱门
-object_door	门
-object_solitarydoor	禁闭门
-object_staffdoor	员工门
-object_remotedoor	遥控门
-object_roadgate	道路大门
-object_jailbars	牢房栏杆
-object_window	视窗
-object_windowlarge	大型窗户
-object_tree	树
-object_light	灯
-object_cooker	炊具
-object_fridge	冰箱
-object_bin	垃圾桶
-object_sink	水槽
-object_servingtable	配餐桌
-object_showerhead	花洒喷头
-object_brick	砖
-object_concrete	混凝土
-object_steel	钢
-object_ingredients	食材
-object_ingredientscooking	食材（烹制中）
-object_ingredientscooked	食材（已烹制）
-object_ingredientsspoiled	食材（已腐坏）
-object_meal	餐食
-object_foodtray	餐盘
-object_foodtraydirty	餐盘（脏）
-object_grassturf	草坪
-object_prisoneruniform	囚服
-object_dirtyprisoneruniform	囚服（脏）
+object_none						无
+object_box						箱子
+object_stack					堆
+object_bed						床
+object_bunkbed					双层床
+object_crib						婴儿床
+object_toilet					厕所
+object_table					桌子
+object_chair					椅子
+object_bench					板凳
+object_electricchair			电椅
+object_jaildoor					监狱门
+object_jaildoorlarge			大型监狱门
+object_door						门
+object_solitarydoor				禁闭门
+object_staffdoor				员工门
+object_remotedoor				遥控门
+object_roadgate					道路大门
+object_jailbars					牢房栏杆
+object_window					视窗
+object_windowlarge				大型窗户
+object_tree						树
+object_light					灯
+object_cooker					炊具
+object_fridge					冰箱
+object_bin						垃圾桶
+object_sink						水槽
+object_servingtable				配餐桌
+object_showerhead				花洒喷头
+object_brick					砖
+object_concrete					混凝土
+object_steel					钢
+object_ingredients				食材
+object_ingredientscooking		食材（烹制中）
+object_ingredientscooked		食材（已烹制）
+object_ingredientsspoiled		食材（已腐坏）
+object_meal						餐食
+object_foodtray					餐盘
+object_foodtraydirty			餐盘（脏）
+object_grassturf				草坪
+object_prisoneruniform			囚服
+object_dirtyprisoneruniform		囚服（脏）
 object_crumpledprisoneruniform	囚服（皱）
-object_bleach	漂白剂
-object_sheetmetal	金属板
-object_licenseplateblank	车牌（空白）
-object_licenseplate	车牌
-object_log	圆木
-object_wood	木材
-object_workman	工人
-object_truckdriver	卡车司机
-object_guard	警卫
-object_riotguard	防暴警卫
-object_armedguard	武装警卫
-object_prisoner	囚犯
-object_doctor	医师
-object_paramedic	医护人员
-object_cook	厨师
-object_gardener	园丁
-object_janitor	清洁工
-object_fireman	消防员
-object_avatar	头像
-object_actor	人物
-object_visitor	探视者
-object_executionwitness	死刑见证人
-object_doghandler	警犬训练员
-object_dog	警犬
-object_dogcrate	狗笼
-object_teacher	教师
-object_soldier	士兵
-object_sniper	狙击手
-object_warden	典狱长
-object_chief	主管
-object_foreman	工头
-object_psychologist	心理医生
-object_accountant	会计
-object_lawyer	律师
-object_supplytruck	供给卡车
-object_prisonerbus	囚车
-object_fireengine	消防车
-object_riotvan	防暴警车
-object_ambulance	救护车
-object_hearse	灵车
-object_trooptruck	运兵车
-object_fire	火
-object_garbage	垃圾
-object_rubble	瓦砾
-object_bookshelf	书架
-object_officedesk	办公写字桌
-object_filingcabinet	档案柜
-object_medicalbed	医疗床
-object_morgueslab	停尸台
-object_equipment	装备
-object_prop	道具
-object_dummy	假人
-object_powerstation	电站
-object_capacitor	电容器
-object_electricalcable	电缆
-object_powerswitch	电源开关
-object_logiccircuit	逻辑电路
-object_logicbridge	逻辑桥
-object_waterpumpstation	水泵站
-object_pipevalve	管道阀门
-object_pipelarge	大型管道
-object_pipesmall	小型管道
-object_drain	排水渠
-object_metaldetector	金属探测器
-object_weightsbench	举重床
-object_phonebooth	电话亭
-object_tv	电视
-object_largetv	大型电视
-object_pooltable	台球桌
-object_polaroid	宝丽来
-object_cctv	闭路电视监控系统
-object_cctvmonitor	闭路电视监视器
-object_laundrymachine	洗衣机
-object_laundrybasket	洗衣篮
-object_ironingboard	熨衣板
-object_visitortable	访客桌
-object_visitortablesecure	探监者电话间
-object_workshopsaw	电锯工作台
-object_workshoppress	冲压工作台
-object_carpentertable	木匠工作台
-object_boombox	立体扬声器
-object_guardlocker	警卫锁柜
-object_sofachairsingle	沙发
-object_sofachairdouble	宽沙发
-object_radio	收音机
-object_radiator	暖气片
-object_bookshelflarge	图书馆书架
-object_weaponrack	武器架
-object_treestump	树桩
-object_schooldesk	书桌
-object_superiorbed	优秀床铺
-object_doorcontrolsystem	门禁系统
-object_phonemonitor	电话窃听器
-object_servo	门伺服器
-object_doortimer	门禁定时器
-object_pressurepad	压力板
-object_statuslight	状态灯
-object_wire	连接
-object_dismantleobject	拆除对象
-object_dismantleutility	拆除设施
-object_sellobject	售卖物品
-object_canceljobs	取消工作
-object_showallwires	显示线缆
-object_tidywires	整理线缆
-object_cutscenepolaroid	宝丽来过场动画
-object_cutscenecamera	动画摄像头
-object_cutscenecue	动画提示
-object_cutscenecaption	剧情画面说明
-object_foodwaste	食物残渣
-object_altar	圣坛
-object_pews	长凳
-object_prayermat	跪垫
-object_paroleofficer	假释官
-object_parolelawyer	假释律师
-object_spiritualleader	神职人员
-object_librarybookshelf	图书馆书架
-object_librarybookunsorted	图书馆书籍（未分类）
-object_librarybooksorted	图书馆书籍（已分类）
-object_sortingtable	分拣台
-object_ruinedbook	毁坏的书
-object_foodbowl	食物
-object_appealslawyer	上诉律师
-object_appealsmagistrate	上诉法官
-object_mailsatchel	邮件包
-object_mailunsorted	未分类邮件
-object_mailsorted	已分类邮件
-object_prisonermail	邮件
-object_prisonermailopened	邮件（已打开）
-object_shopfront	店面
-object_shopgoods	商店货物
-object_shopshelf	商店货架
-object_playmat	游戏垫
-object_guardtower	警戒塔
-object_waterboiler	烧水器
-object_pipehotwater	热水管道
-object_stafffood	员工餐
-object_stafffoodboxed	员工餐
-object_newspaper	报纸
-object_strikefire	火桶
+object_bleach					漂白剂
+object_sheetmetal				金属板
+object_licenseplateblank		车牌（空白）
+object_licenseplate				车牌
+object_log						圆木
+object_wood						木材
+object_workman					工人
+object_truckdriver				卡车司机
+object_guard					警卫
+object_riotguard				防暴警卫
+object_armedguard				武装警卫
+object_prisoner					囚犯
+object_doctor					医师
+object_paramedic				医护人员
+object_cook						厨师
+object_gardener					园丁
+object_janitor					清洁工
+object_fireman					消防员
+object_avatar					头像
+object_actor					人物
+object_visitor					探视者
+object_executionwitness			死刑见证人
+object_doghandler				警犬训练员
+object_dog						警犬
+object_dogcrate					狗笼
+object_teacher					教师
+object_soldier					士兵
+object_sniper					狙击手
+object_warden					典狱长
+object_chief					主管
+object_foreman					工头
+object_psychologist				心理医生
+object_accountant				会计
+object_lawyer					律师
+object_supplytruck				供给卡车
+object_prisonerbus				囚车
+object_fireengine				消防车
+object_riotvan					防暴警车
+object_ambulance				救护车
+object_hearse					灵车
+object_trooptruck				运兵车
+object_fire						火
+object_garbage					垃圾
+object_rubble					瓦砾
+object_bookshelf				书架
+object_officedesk				办公写字桌
+object_filingcabinet			档案柜
+object_medicalbed				医疗床
+object_morgueslab				停尸台
+object_equipment				装备
+object_prop						道具
+object_dummy					假人
+object_powerstation				电站
+object_capacitor				电容器
+object_electricalcable			电缆
+object_powerswitch				电源开关
+object_logiccircuit				逻辑电路
+object_logicbridge				逻辑桥
+object_waterpumpstation			水泵站
+object_pipevalve				管道阀门
+object_pipelarge				大型管道
+object_pipesmall				小型管道
+object_drain					排水渠
+object_metaldetector			金属探测器
+object_weightsbench				举重床
+object_phonebooth				电话亭
+object_tv						电视
+object_largetv					大型电视
+object_pooltable				台球桌
+object_polaroid					宝丽来
+object_cctv						闭路电视监控系统
+object_cctvmonitor				闭路电视监视器
+object_laundrymachine			洗衣机
+object_laundrybasket			洗衣篮
+object_ironingboard				熨衣板
+object_visitortable				访客桌
+object_visitortablesecure		探监者电话间
+object_workshopsaw				电锯工作台
+object_workshoppress			冲压工作台
+object_carpentertable			木匠工作台
+object_boombox					立体扬声器
+object_guardlocker				警卫锁柜
+object_sofachairsingle			沙发
+object_sofachairdouble			宽沙发
+object_radio					收音机
+object_radiator					暖气片
+object_bookshelflarge			图书馆书架
+object_weaponrack				武器架
+object_treestump				树桩
+object_schooldesk				书桌
+object_superiorbed				优秀床铺
+object_doorcontrolsystem		门禁系统
+object_phonemonitor				电话窃听器
+object_servo					门伺服器
+object_doortimer				门禁定时器
+object_pressurepad				压力板
+object_statuslight				状态灯
+object_wire						连接
+object_dismantleobject			拆除对象
+object_dismantleutility			拆除设施
+object_sellobject				售卖物品
+object_canceljobs				取消工作
+object_showallwires				显示线缆
+object_tidywires				整理线缆
+object_cutscenepolaroid			宝丽来过场动画
+object_cutscenecamera			动画摄像头
+object_cutscenecue				动画提示
+object_cutscenecaption			剧情画面说明
+object_foodwaste				食物残渣
+object_altar					圣坛
+object_pews						长凳
+object_prayermat				跪垫
+object_paroleofficer			假释官
+object_parolelawyer				假释律师
+object_spiritualleader			神职人员
+object_librarybookshelf			图书馆书架
+object_librarybookunsorted		图书馆书籍（未分类）
+object_librarybooksorted		图书馆书籍（已分类）
+object_sortingtable				分拣台
+object_ruinedbook				毁坏的书
+object_foodbowl					食物
+object_appealslawyer			上诉律师
+object_appealsmagistrate		上诉法官
+object_mailsatchel				邮件包
+object_mailunsorted				未分类邮件
+object_mailsorted				已分类邮件
+object_prisonermail				邮件
+object_prisonermailopened		邮件（已打开）
+object_shopfront				店面
+object_shopgoods				商店货物
+object_shopshelf				商店货架
+object_playmat					游戏垫
+object_guardtower				警戒塔
+object_waterboiler				烧水器
+object_pipehotwater				热水管道
+object_stafffood				员工餐
+object_stafffoodboxed			员工餐
+object_newspaper				报纸
+object_strikefire				火桶
 
 
 material_none	无
@@ -2609,7 +2762,7 @@ room_deliveries	运载
 room_garbage	垃圾
 room_execution	行刑室
 room_workshop	工坊
-room_security	安保人员
+room_security	安保室
 room_office	办公室
 room_medicalward	医务室
 room_morgue	停尸房
@@ -3093,7 +3246,7 @@ prisoner_cellerror_nosolitary	這名囚犯需要被關到禁閉室，但沒有�
 group_all_staff	所有员工
 staff_onbreak	休息
 staff_onbreakremaining	休息 (*Xm)
-staff_breaktime	休息时间：
+staff_breaktime	每日轮休:
 
 
 # =============================================================================
@@ -3289,7 +3442,7 @@ finance_cost_shopcommission	商店销售提成
 # Clock
 # =============================================================================
 
-clock_speed_0	||
+clock_speed_0	| |
 clock_speed_1	>
 clock_speed_2	>>
 clock_speed_3	>>>
