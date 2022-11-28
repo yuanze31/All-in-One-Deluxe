@@ -3638,20 +3638,6 @@ BEGIN Object
     Properties           Uncloneable
 END
 
-
-
-
-
-
-
-
-BEGIN Room
-    Name                 Nothing
-    Properties           RequiresSector
-END
-
-
-
 BEGIN Room
     Name                 HoldingCell
     Capturable           true
@@ -4078,10 +4064,7 @@ END
 BEGIN Room
     Name                 Security
     Research             Security
-    BEGIN Requirement Type MinimumSize  x 3  y 3  END
-    BEGIN Requirement Type Object  Id OfficeDesk  END
-    BEGIN Requirement Type Object  Id Chair Alt OfficeChair END
-    BEGIN Requirement Type Object  Id FilingCabinet  END
+    BEGIN Requirement Type MinimumSize  x 2  y 2  END
     BEGIN LikelyObject  Id    CctvMonitor   END
     BEGIN LikelyObject  Id      DoorControlSystem  END
     BEGIN LikelyObject  Id      PhoneMonitor    END

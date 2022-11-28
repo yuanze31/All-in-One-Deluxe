@@ -101,16 +101,6 @@ mm_updatenotes_10	希望您喜欢这些新功能及改进！
 material_newmud	泥地
 material_mud	泥地
 material_yutaniwall	墙壁 (Yutani)
-
-
-
-
-
-
-
-
-
-
 material_solacofloor	Solaco 瓷砖
 material_gratefloor	格柵
 
@@ -1510,20 +1500,20 @@ interfacetopbar_tooltip_gardener	监狱中待命的园丁数量。
 # Prisoner Transfer Report
 # =============================================================================
 
-reports_prisoners_transfer	*X 囚犯 *W 移送至 *C：
-reports_prisoners_transfer_ready	准备就绪
+reports_prisoners_transfer	*X 名囚犯在转换为*C的评估结果：*W
+reports_prisoners_transfer_ready	合格
 reports_prisoners_transfer_wanting	不合格
-reports_prisoners_transfer_button	批准全部
-reports_prsioners_transfer_numCells	（*X 牢房可用）
+reports_prisoners_transfer_button	全部批准
+reports_prsioners_transfer_numCells	（牢房还可容纳 *X 名囚犯）
 
 reports_transfers_offMessage	可以通过“地图设置”菜单开启囚犯移送。
-report_Transfer	转移
+report_Transfer	转换
 
-transfer_icon_tooltip	使用下列选项确定 *X 囚犯转移至 *Y 需要符合的标准。\n你可以使用“政策标准”栏让囚犯更难获得移送资格，也可使用其他选项直接取消某些类型的囚犯的移送资格。\n并非所有囚犯都对移送感兴趣，特别是那些刑期较短的囚犯，他们正打算挖地道逃狱，或者干脆认为安全等级更低的区块的状况和舒适度也不比他们所在的区块好多少。
+transfer_icon_tooltip	使用下列选项确定 *X 囚犯转换至 *Y 需要符合的标准。\n你可以使用“政策标准”栏让囚犯更难获得移送资格，也可使用其他选项直接取消某些类型的囚犯的移送资格。\n并非所有囚犯都对移送感兴趣，特别是那些刑期较短的囚犯，他们正打算挖地道逃狱，或者干脆认为安全等级更低的区块的状况和舒适度也不比他们所在的区块好多少。
 transfer_tooltip_onOff	取消选择以打开/关闭选定的安全区块。
 
-transfer_description	为囚犯设置标准。囚犯若想转移至安全等级更低、更舒适的安全区块，则需要符合此标准。
-transfer_use	从 *X 转移至 *Y 需要符合的标准
+transfer_description	为囚犯设置标准。囚犯若想转换至安全等级更低、更舒适的安全区块，则需要符合此标准。
+transfer_use	从 *X 转换至 *Y 需要符合的标准
 transfer_behaviourtitle	品行良好
 transfer_reformtile	改造
 transfer_requiredtitle	需要
@@ -1572,7 +1562,7 @@ gang_transfer_Lieutenant	干部、头目
 gang_transfer_Leader	头目
 
 report_prisoner_approve	批准
-report_prisoner_approveAll	批准所有符合移送标准的囚犯转移到 *X。移送的囚犯数量也取决于可用的牢房数量。
+report_prisoner_approveAll	批准所有符合移送标准的囚犯转换到 *X。移送的囚犯数量也取决于可用的牢房数量。
 
 approveTransfer_title	批准移送
 approveTransfer_message	批准囚犯 *F *S 移送至 *C
@@ -1602,7 +1592,7 @@ codex_options_shadowcaption	开启或关闭阴影
 codex_options_punishmentscaption	每个区块的搜查和行动
 
 codex_option_prisonerTransfer	囚犯移送
-codex_tooltip_prisonerTransfer	囚犯移送让你能够设置标准，囚犯必须符合此标准才能转移并升级到监狱中更好的安全区块中，该区块可能会提供更高的舒适度、更多设施及其他特权。\n\n囚犯现在会评估目前所在区块和低一级区块的情况，并决定自己是否愿意转移。如果愿意，他们接下来会根据自己的需求和特点，决定是否要尝试改善自身行为，满足你设置的转让政策。\n\n每个区块都会根据你提供给该区块中囚犯的特权和设施进行分级，总体来说，囚犯所在区块与低一级区块之间的‘差别’越大，囚犯就会更愿意转移。\n\n囚犯满足你的移送标准后，你仍然可以决定是否移送他们以及何时移送。
+codex_tooltip_prisonerTransfer	囚犯移送让你能够设置标准，囚犯必须符合此标准才能转换并升级到监狱中更好的安全区块中，该区块可能会提供更高的舒适度、更多设施及其他特权。\n\n囚犯现在会评估目前所在区块和低一级区块的情况，并决定自己是否愿意转换。如果愿意，他们接下来会根据自己的需求和特点，决定是否要尝试改善自身行为，满足你设置的转让政策。\n\n每个区块都会根据你提供给该区块中囚犯的特权和设施进行分级，总体来说，囚犯所在区块与低一级区块之间的‘差别’越大，囚犯就会更愿意转换。\n\n囚犯满足你的移送标准后，你仍然可以决定是否移送他们以及何时移送。
 
 # =============================================================================
 # Miscelanious
@@ -1881,10 +1871,10 @@ action_usecomputer	使用电脑
 buildtoolbar_popup_help_roomquality_1	房间质量视图为您展示您的监狱中所有可升级房间的质量等级。数字越大表示质量越好。鼠标在房间各个位置悬停，即可查看决定房间质量的因素，并了解您可以添加什么来提高质量。\n\n
 buildtoolbar_popup_help_roomquality_2	如果囚犯移送已开启
 buildtoolbar_popup_help_roomquality_3	-房间质量也会提高安全区块的整体等级。
-buildtoolbar_popup_help_roomquality_4	-如果该安全区块比他们现在的安全区块质量更好（等级更高），囚犯会希望被转移到较低级的安全区块。\n\n
+buildtoolbar_popup_help_roomquality_4	-如果该安全区块比他们现在的安全区块质量更好（等级更高），囚犯会希望被转换到较低级的安全区块。\n\n
 buildtoolbar_popup_help_roomquality_5	牢房评级
 buildtoolbar_popup_help_roomquality_6	- 房间品质也将会影响整个区块的总体品质
-buildtoolbar_popup_help_roomquality_7	- 囚犯会想要被转移到安全等级较低的区块，尤其是如果那区块的品质比他现在所在的区块高
+buildtoolbar_popup_help_roomquality_7	- 囚犯会想要被转换到安全等级较低的区块，尤其是如果那区块的品质比他现在所在的区块高
 buildtoolbar_popup_help_roomquality_8	- 如果没有其他可用牢房，可以将囚犯放入比他们应得的质量更高的牢房，但这可能会让其他囚犯不高兴……
 
 interface_landbuyoverwater	在你的航道或开阔水域周围生成额外的岛屿，以完成扩张。
@@ -3116,7 +3106,7 @@ buildtoolbar_popup_mat_grasscornerfloor	带有泥土的草坪拐角，对于建�
 buildtoolbar_popup_mat_grasscornerfloor1	带有泥土的草坪拐角，对于建设成角度的道路很有用。
 buildtoolbar_popup_mat_grasscornerfloor2	带有泥土的草坪拐角，对于建设成角度的道路很有用。
 buildtoolbar_popup_mat_grasscornerfloor3	带有泥土的草坪拐角，对于建设成角度的道路很有用。
-buildtoolbar_Logistics_CropDistribution	决定农作物收获后将会转移到哪些房间，你也可以通过管理分配窗口调整分配比例。
+buildtoolbar_Logistics_CropDistribution	决定农作物收获后将会转换到哪些房间，你也可以通过管理分配窗口调整分配比例。
 d11_hover_alert_water	需要水源
 d11_hover_alert_electricity	需要电力
 interfacemode_objectPack_filter_caption	根据相关扩展包，过滤显示的物品数量。
