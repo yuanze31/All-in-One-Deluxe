@@ -2,6 +2,11 @@
 # {All-in-One Deluxe Edition}-yuanze31
 # =============================================================================
 
+# 劳工 Start
+object_Laborer							劳工
+buildtoolbar_popup_staff_Laborer		没有人使用工坊？不妨让这些劳工帮你创造更多的收入。
+# 劳工 End
+
 # 声音编辑器(F5)
 soundeditor_NewEvent 新建事件
 
@@ -675,7 +680,7 @@ interfacemode_construction	建材
 interfacemode_planning	规划
 interfacemode_objects	物品
 interfacemode_designation	房间
-interfacemode_utilities	公用设施
+interfacemode_utilities	基础设施
 interfacemode_staff	员工
 interfacemode_deployment	部署
 interfacemode_logistics	后勤
@@ -924,10 +929,10 @@ interface_contents_stack	内容：*X x *Y
 
 interface_skip	跳过
 
-interface_error_riotmove	无法进入：暴乱
+interface_error_riotmove	无法进入：暴动
 
-interface_foundationsinprogress	地基建造中
-riot_underway	发生暴动
+interface_foundationsinprogress	地基在建造中
+riot_underway	发生暴动！
 riot_status_prisoners	*X 名囚犯正在暴动
 shakedown_underway	正在进行彻底搜查
 shakedown_found	查获：
@@ -974,35 +979,35 @@ buildtoolbar_tooltip_shakedown	下令立即搜查所有牢房，搜查将会耗�
 buildtoolbar_tooltip_weaponsfree	授权警卫使用致命武力。在击倒目标之前，狙击手不会再鸣枪警告。
 buildtoolbar_tooltip_nostrike	在员工罢工期间不可用。
 
-buildtoolbar_cost	费用：*C 美元
-buildtoolbar_cost_sqrft	费用：*C 美元/每平方米
-buildtoolbar_wages	工资：每天  *W 美元
-buildtoolbar_upkeep	保养费：每天*W美元
-buildtoolbar_outdoor	仅限室外
+buildtoolbar_cost	费用: $*C
+buildtoolbar_cost_sqrft	费用: $*C /㎡
+buildtoolbar_wages	工资: 每天 $*W
+buildtoolbar_upkeep	保养费：每天 $*W
+buildtoolbar_outdoor	仅限户外
 buildtoolbar_indoor	仅限室内
 buildtoolbar_walk_speed	行走速度：*S
 buildtoolbar_walk_speed_slow	慢
 buildtoolbar_walk_speed_norm	一般
 buildtoolbar_walk_speed_fast	快
-buildtoolbar_locked	锁定
-buildtoolbar_locked_research	锁定（需要 *B ）
-buildtoolbar_locked_administrator	锁定（需要 *B）
+buildtoolbar_locked	未解锁
+buildtoolbar_locked_research	未解锁，需要研究“*B”
+buildtoolbar_locked_administrator	未解锁，需要雇用 *B
 buildtoolbar_room	房间
 
-buildtoolbar_electrical	- 电气
-buildtoolbar_highpower	- 高功率
-buildtoolbar_water	- 需要水管接头
-buildtoolbar_wired	- 联网（与其他联网装置相连）
-buildtoolbar_modcontent	- 模组内容
+buildtoolbar_electrical	需要通电
+buildtoolbar_highpower	大功率
+buildtoolbar_water	需要供水
+buildtoolbar_wired	需要或可以联网
+buildtoolbar_modcontent	[模组内容]
 
 buildtoolbar_popup_foundations	建造/拆除建筑以打造你的监狱
 buildtoolbar_popup_construction	不同类型的地面与墙壁。
 buildtoolbar_popup_planning	对监狱进行规划而不建造。
 buildtoolbar_popup_designation	在监狱里标出特定功能的区域。
-buildtoolbar_popup_objects	为监狱配备各种实用设施。
+buildtoolbar_popup_objects	在监狱各处放置有用的物品。
 buildtoolbar_popup_overlays	目测监狱布局上的安全弱点。
 buildtoolbar_popup_utilities	管道与电气系统。
-buildtoolbar_popup_staff	聘请必要的人员经营你的监狱。
+buildtoolbar_popup_staff	雇用必要的人员经营你的监狱。
 buildtoolbar_popup_deployment	分配员工到监狱特定区域。
 buildtoolbar_popup_logistics	分配囚犯在监狱内劳动，并可手动分派餐厅和衣物清洗工作。
 buildtoolbar_popup_research	为监狱解锁新功能。
@@ -1120,9 +1125,9 @@ buildtoolbar_popup_uts_dismantleutility	从您的监狱中移除一个实用物�
 buildtoolbar_popup_uts_pressurepad	当有物体压在其上时会向连接的设备发出讯号。
 buildtoolbar_popup_uts_statuslight	根据接收到的讯号亮红或绿灯。
 
-buildtoolbar_popup_autolights_name	自动灯具
-buildtoolbar_popup_autolights	自动灯具布置
-buildtoolbar_popup_autolights_desc	如选择此项，在新建建筑完工之后将自动为其布置灯具。
+buildtoolbar_popup_autolights_name	[自动灯具]
+buildtoolbar_popup_autolights	自动布置灯具
+buildtoolbar_popup_autolights_desc	如果启用此项，在新创建的建筑完工之后，\n将自动为其布置灯具。
 
 buildtoolbar_contraband_source	显示违禁品可能被偷取的所有位置。
 buildtoolbar_contraband_day	顯示過去 24 小時內沒收的所有違禁品。圖像顯示違禁品被沒收的地方。
@@ -1326,8 +1331,8 @@ job_refundamount	- 退款金额：*X
 
 failuremessage_blocked	被阻挡
 failuremessage_cantafford	资金不足
-failuremessage_cantaffordupkeep	超出日常预算
-failuremessage_maximumcountreached	已达最大可聘用人数
+failuremessage_cantaffordupkeep	超出每日预算
+failuremessage_maximumcountreached	雇用人数已达上限
 failuremessage_maxstaff	员工过多
 
 
@@ -1926,18 +1931,18 @@ roomrequirement_required	需要：
 roomrequirement_recommended	推荐：
 roomrequirement_minimumsize	最小尺寸 *W x *H
 roomrequirement_minimumsize_short	尺寸 *W x *H
-roomrequirement_indoor	室内
+roomrequirement_indoor	室内！
 roomrequirement_outdoor	室外
 roomrequirement_solidground	坚固的地面
-roomrequirement_secure	安全（至少有一扇门）
+roomrequirement_secure	安全（不与外界连通）
 roomrequirement_secure_short	安全
-roomrequirement_enclosed	封闭（四周是围墙和门）
+roomrequirement_enclosed	封闭（四周是墙）
 roomrequirement_enclosed_short	封闭
 requirement_entrance	需要入口
 roomrequirement_title	=[房间要求]=
-roomrequirement_passed	[通过]
-roomrequirement_failed	[未通过]
-roomrequirement_adjacentobject	鄰近房間：*X
+roomrequirement_passed	[合格]
+roomrequirement_failed	[不合格]
+roomrequirement_adjacentobject	有 *X 相邻于本房间
 
 # =============================================================================
 # Unlocks
@@ -3086,9 +3091,9 @@ object_strikefire				火桶
 material_none	无
 material_building	建筑（砖）
 material_buildingconcrete	建筑（混凝土）
-material_demolish	铲平
+material_demolish	【铲平建筑】
 material_clearindoorarea	清除室内区域
-material_demolishwalls	拆墙
+material_demolishwalls	【拆墙】
 material_removetunnels	填埋地道
 material_canceljobs	取消工作
 material_dirt	泥土
@@ -3389,8 +3394,8 @@ execution_error_NoRouteFromRoad	错误：无法进入\n外部死刑见证人无�
 execution_error_NoSpaceInRoom	错误：空间不足\n行刑室没有足够的空间容纳前来的人。
 execution_error_NoRoom	在行刑前你需要一间行刑室
 
-roomerror_deathrow_sharedcell	死刑犯需要单独的牢房，不能分配共享住宿
-roomerror_nonursery	这种牢房也不通往育儿室。家庭牢房需要有一间育儿室，让囚犯在里面吃东西。
+roomerror_deathrow_sharedcell	死刑犯需要单独的牢房；他们不能被指派到多人牢房中。
+roomerror_nonursery	从此牢房无法抵达任何托儿所。\n家庭牢房需要 托儿所 以供吃饭。
 roomerror_laundryoverloaded	无法卸下洗衣篮。洗衣房可能太小，无法满足需求。
 
 # =============================================================================
@@ -3410,9 +3415,9 @@ object_sale_price	售价：*X
 object_door_cyclepermissions	点击以循环切换进出许可
 object_door_cyclepermissions_1	(开放、仅员工、关闭)
 
-object_firemen_hosehelp_move	点击鼠标右键，命令您的消防员前往该处
-object_firemen_hosehelp_intro	消防队员会将消防软管瞄准任何附近的火灾
-object_firemen_hosehelp	按H手动调整消防软管
+object_firemen_hosehelp_move	点击鼠标右键，命令消防队员移动
+object_firemen_hosehelp_intro	消防队员会将消防软管瞄准附近的火
+object_firemen_hosehelp	你也可以按住H键，手动瞄准消防软管
 
 interface_clone_help_copy	按住鼠标右键拖动以选择克隆区域
 interface_clone_help_paste	点击鼠标左键复制选定区域
@@ -3484,7 +3489,7 @@ contraband_tradevalue_veryhigh	$$$$
 staff_exhausted	精疲力竭
 staff_tired	疲劳
 staff_pissedoff	愤怒
-staff_onstrike	罢工
+staff_onstrike	罢工了
 staff_needsrest	员工更喜欢在员工休息室休息
 
 dog_needskennel	狗需要警犬休息室休息
@@ -3536,7 +3541,7 @@ damage_amount	*X%已受损
 
 message_autosaving	正在自动存档...
 
-buildtoolbar_entersearchterm	输入查找术语……
+buildtoolbar_entersearchterm	输入搜索词...
 
 deploymentscheduler_title	部署调度器
 deploymentscheduler_patrolonly	[仅安排*X]
@@ -3583,10 +3588,10 @@ weathermap_temperature_text	*C° C / *F° F
 weathermap_temperature_c	*C° C
 weathermap_temperature_f	*F° F
 
-roomerror_nokitchen	没有厨房能够向餐厅提供食物
-roomerror_noprisoners	没有向此餐厅分配用餐囚犯
-roomerror_nocanteen_cells	从此牢房无法抵达任何餐厅。此牢房中的囚犯没有用餐地点
-roomerror_nocanteen_kitchen	从此厨房无法抵达任何餐厅。厨房在用餐时间不会烹制任何食物
+roomerror_nokitchen	没有指派 厨房 向此食堂提供食物。
+roomerror_noprisoners	没有指派 牢房区块 的囚犯到此食堂吃饭。
+roomerror_nocanteen_cells	从此牢房无法抵达任何食堂。\n此牢房中的囚犯没有吃饭的地方。
+roomerror_nocanteen_kitchen	从此厨房无法抵达任何食堂。\n厨房在吃饭时间不会烹制任何食物。
 
 ceos_letter	更新(2017-07-23)：\n[同步] 跟进12b版本升级，补上了翻译。\n[改进] 不端行为标记 变得更小且更加透明，这样就不太阻挡你的视线了。\n[改进] 睡眠加速（仅限启用了作弊模式）时，以前会“购买”特殊物品“睡眠加速需求调整”，花费惊人的金额。现在它的价格改成0，并且不再在物品菜单中显示。\n[修复]有六种房间里，即使并非“员工专区”，员工也应该能够休息。我以前不知道这一点，意外地导致员工无法休息。\n[修复]雇佣“工头”时的一个错误。\n[修复][报告/需求]窗口还是官方更新并添加“员工需求”之前的，导致无法查看员工需求。\n[修复]代号48无法在一开始就被移除，而需要先碰到一名囚犯才能出现\n"终止任务并退场"的选项。\n[修复]升级了分拣帮派成员的摄像头，在分拣囚犯时会导致弹出调试窗口。\n\n亲爱的先生/女士：\n\n恭喜你完成基本入门。你现在是完全合格的监狱建筑师了！很快你就会从\n空置地块和几堆砖块开始设计、建造并经营你自己的监狱。在开始之前，\n我想我或许可以给你分享一些重要的经验教训。\n\n1. 每个监狱都需要典狱长——他应当是你最先雇用的人员之一。给他建一间\n漂亮的办公室，他会通过[行政系统]，开启一系列高级功能。\n\n2. 单人牢房很贵，特别是在早期资金紧张时。为了存下钱来，先从一个\n大型的拘留室起步吧；它马上就可以给很多囚犯共同使用。\n\n3. 设立厨房和食堂，并在第一个囚犯抵达之前开始运营。别忘了雇用厨师\n——没有什么比空空的胃更能激怒囚犯！\n\n4. 建造监狱是一项昂贵的事业，你需要擅长通过补助与合同，筹集大笔资金。\n你可以从右下角的[报告]窗口，访问[补助]标签页。\n\n我要讲的就是这些——祝你好运！\n\n监狱建筑师公司\n首席执行官\n\n\n附赠小提示：\n · 按 - 和 + 键，可以缩放界面比例。\n · 按1、2、3、4可以设定时钟速度为1、2、5、10倍。\n  （界面上的三个按钮，则是更快的2、4、10倍。）\n · 经常存档是个好习惯。（我偶尔会遇到程序崩溃的情况。）\n\n{中文豪华版} 祝你游戏愉快！\nyuanze3131@gmail.com
 

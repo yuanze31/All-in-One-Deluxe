@@ -1,6 +1,15 @@
+BEGIN Job
+    Name			 JustALaborerDummyJob
+    JobTime			 0
+	Properties		 HighPriority
+    Tool			 Hammer
+    Worker			 Laborer
+    Qualification	 	 Workshop
+	WorkGroup		 Workshop
+END
 
 BEGIN Job
-	Name                    DoctorCalled
-	JobTime                 0
-	Worker                  Doctor
+    Name             DoctorCalled
+    JobTime          0
+    Worker           Doctor
 END

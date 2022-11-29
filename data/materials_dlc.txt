@@ -1,4 +1,104 @@
-               BEGIN Material
+BEGIN Object     
+	Name                	AutoHarvesterXL
+	BEGIN SpriteBank	
+		Name				objects_d11_2
+		Sprite           	d_AutoHarvester
+		ToolbarSprite    	d_AutoHarvesterIcon
+	END
+	ConstructionTime    	5.0
+	NumSlots 				5
+	Width					5
+	Height					1  
+	RenderDepth         	2
+	RenderPostOffset        3
+	Price               	-3500
+    Filter		            RequiresElectricity
+	Group               	StaticObject
+	BlockedBy           	StaticObject
+	BlockedBy           	Wall
+	BlockedBy           	UtilityStation
+	BlockedBy           	MustBeOutdoor 
+	IndoorOutdoor			1
+	MadeOf              	Composite
+	Properties          	StaticObject	
+    Properties              Electrical
+	OnlyPlacedInLikelyRoom	true
+	Research                Farming
+    VersionAdded            4000
+END
+
+BEGIN Room       
+    Name                 VegetableAllotment
+    BEGIN Requirement Type MinimumSize  x 5  y 5  END
+    BEGIN Requirement Type Outdoor END	
+    BEGIN Requirement Type Object  Id Shed  END
+	Qualification        FarmTraining
+	BEGIN LikelyObject 	Id		Shed		  END
+	BEGIN LikelyObject	Id		CropCarrotPlant	  END
+	BEGIN LikelyObject	Id		CropTomatoPlant	  END
+	BEGIN LikelyObject	Id		CropPotatoPlant	  END
+	BEGIN LikelyObject	Id		CropCabbagePlant  END
+	BEGIN LikelyObject	Id		CompostFertilizer END
+	BEGIN LikelyObject	Id		HighQualityFertilizer END
+	BEGIN LikelyObject	Id		CropSprinkler	  END
+	BEGIN LikelyObject	Id		CompostBin		  END
+	BEGIN LikelyObject	Id		DripPipe 		  END
+	BEGIN LikelyObject	Id		RecyclingBin	  END
+	BEGIN LikelyObject	Id		BasicAutoGatherer	  END
+	BEGIN LikelyObject	Id		AutoHarvester	  END
+	BEGIN LikelyObject	Id		AutoHarvesterXL	  END
+	BEGIN LikelyObject	Id		AdvancedAutoGatherer	  END
+	BEGIN LikelyObject	Id		AutoScythe	  END
+   	Properties          PrisonersCanWork
+	Properties	    RequiresSector
+   	BEGIN Contraband    Id      Sheers	END
+	BEGIN Contraband    Id      Spade	END
+	BEGIN Contraband    Id      Trowel	END
+	BEGIN Contraband    Id      HandFork	END
+    BEGIN Contraband    Id      Axe 	END
+    BEGIN Contraband    Id      Saw 	END
+    VersionAdded        4000
+	WorkExperience		WorkLabourer
+	WorkExperienceRate	0.025
+END
+
+BEGIN Room       
+    Name                 FarmingField
+    BEGIN Requirement Type MinimumSize  x 8  y 8  END
+    BEGIN Requirement Type Outdoor END
+    BEGIN Requirement Type Object  Id Shed  END
+	Qualification        FarmTraining
+	BEGIN LikelyObject 	Id		Shed		  END
+	BEGIN LikelyObject	Id		CropCornPlant	  END
+	BEGIN LikelyObject	Id		CropBarleyPlant	  END
+	BEGIN LikelyObject	Id		CropWheatPlant	  END
+	BEGIN LikelyObject	Id		CompostFertilizer END
+	BEGIN LikelyObject	Id		HighQualityFertilizer END
+	BEGIN LikelyObject	Id		CropSprinkler	  END
+	BEGIN LikelyObject	Id		CompostBin	 	  END
+	BEGIN LikelyObject	Id		DripPipe 		  END
+	BEGIN LikelyObject	Id		RecyclingBin	END
+	BEGIN LikelyObject	Id		BasicAutoGatherer	  END
+	BEGIN LikelyObject	Id		AdvancedAutoGatherer	  END
+	BEGIN LikelyObject	Id		AutoHarvester	      END
+	BEGIN LikelyObject	Id		AutoHarvesterXL	      END
+	BEGIN LikelyObject	Id		AutoScythe	  END
+    BEGIN LikelyObject  Id      HayBale    END
+    Properties          PrisonersCanWork
+	Properties	    RequiresSector
+	BEGIN Contraband    Id      Sheers	END
+	BEGIN Contraband    Id      Spade	END
+	BEGIN Contraband    Id      Trowel	END
+	BEGIN Contraband    Id      HandFork	END
+    BEGIN Contraband    Id      Axe 	END
+    BEGIN Contraband    Id      Saw 	END
+	BEGIN Contraband    Id 	    ProducedDrugs	END
+    VersionAdded        4000
+	WorkExperience		WorkLabourer
+	WorkExperienceRate	0.025
+END
+
+BEGIN Material
 	Name                 NewMud
     ConstructionTime     1.00000
     MoveCost             0.50000
@@ -4970,35 +5070,6 @@ BEGIN Object
 	NumSlots 				5
 	Width					2
 	Height					2
-	Price               	-2500
-    Filter		            RequiresElectricity
-	Group               	StaticObject
-	BlockedBy           	StaticObject
-	BlockedBy           	Wall
-	BlockedBy           	UtilityStation
-	BlockedBy           	MustBeOutdoor
-	IndoorOutdoor			1
-	MadeOf              	Composite
-	Properties          	StaticObject
-    Properties              Electrical
-	OnlyPlacedInLikelyRoom	true
-	Research             Farming
-    VersionAdded        4000
-END
-
-BEGIN Object
-	Name                	AutoHarvester
-	BEGIN SpriteBank
-		Name				objects_d11_2
-		Sprite           	d_AutoHarvester
-		ToolbarSprite    	d_AutoHarvesterIcon
-	END
-	ConstructionTime    	5.0
-	NumSlots 				5
-	Width					4
-	Height					1
-	RenderDepth         	2
-	RenderPostOffset        3
 	Price               	-2500
     Filter		            RequiresElectricity
 	Group               	StaticObject

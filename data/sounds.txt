@@ -1,0 +1,29 @@
+OBJECT AutoHarvesterXL
+	EVENT Start               
+		SOUNDNAME          autoharvester_start
+		SOURCETYPE         0
+		POSITIONTYPE       2
+		INSTANCETYPE       0
+		LOOPTYPE           0
+		MINDISTANCE        7.90
+		VOLUME             PARAMETER TypeFixedValue       10.00  UpdateOncePerLoop
+	END
+	EVENT Active              
+		SOUNDNAME          autoharvester_active
+		SOURCETYPE         0
+		POSITIONTYPE       2
+		INSTANCETYPE       0
+		LOOPTYPE           1
+		MINDISTANCE        7.90
+		VOLUME             PARAMETER TypeFixedValue        5.60  UpdateOncePerLoop
+	END
+	EVENT End                 
+		SOUNDNAME          autoharvester_end
+		SOURCETYPE         0
+		POSITIONTYPE       2
+		INSTANCETYPE       0
+		LOOPTYPE           0
+		MINDISTANCE        7.90
+		VOLUME             PARAMETER TypeFixedValue        5.60  UpdateOncePerLoop
+	END
+END

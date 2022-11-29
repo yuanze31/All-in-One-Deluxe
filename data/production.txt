@@ -1,3 +1,181 @@
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Log  
+    Container            WorkshopSaw  
+    Distribution         NonCompeting  
+    Worker		 Laborer
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Log  
+    Container            WorkshopSaw  
+    Distribution         OutOfStock  
+    Worker		 Laborer
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Log  
+    Container            Table  
+    Room                 Workshop  
+    Distribution         NonCompeting  
+    MaxSlotId            3  
+    Condition            NotLoaded  
+    Worker		 Laborer
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Log  
+    Room                 Workshop  
+    Distribution         NonCompeting  
+    Condition            NotLoaded 
+    Worker		 Laborer 
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Log  
+    Room                 Storage  
+    Distribution         NonCompeting  
+    Condition            NotLoaded  
+    Worker		 Laborer
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Wood  
+    Container            CarpenterTable  
+    Distribution         NonCompeting  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Wood  
+    Container            CarpenterTable  
+    Distribution         OutOfStock 
+    Worker		 Laborer 
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Wood  
+    Container            Table  
+    Room                 Workshop  
+    Distribution         NonCompeting  
+    MaxSlotId            3  
+    Worker		 Laborer
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Wood  
+    Room                 Workshop  
+    Distribution         NonCompeting  
+    Condition            NotLoaded  
+    Worker		 Laborer
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             SheetMetal  
+    Container            WorkshopSaw  
+    Distribution         NonCompeting  
+    Worker		 Laborer
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             SheetMetal  
+    Container            WorkshopSaw  
+    Distribution         OutOfStock  
+    Worker		 Laborer
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             SheetMetal  
+    Container            Table  
+    Room                 Workshop  
+    Distribution         NonCompeting  
+    MaxSlotId            3  
+    Condition            NotLoaded  
+    Worker		 Laborer
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             SheetMetal  
+    Room                 Workshop  
+    Distribution         NonCompeting  
+    Condition            NotLoaded  
+    Worker		 Laborer
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             LicensePlateBlank  
+    Container            WorkshopPress  
+    Distribution         NonCompeting 
+    Worker		 Laborer
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             LicensePlate  
+    Container            Table  
+    Room                 Workshop  
+    Distribution         NonCompeting  
+    MaxSlotId            3  
+    Worker		 Laborer
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             LicensePlate  
+    Room                 Workshop  
+    Distribution         NonCompeting  
+    Condition            NotLoadedOnTable  
+    Worker		 Laborer
+END
+
+BEGIN Processor
+    Processor            WorkshopPress
+    Input                LicensePlateBlank
+    Output               LicensePlate
+    Worker		 Laborer
+    OperatingTime        60.0
+END
+
+BEGIN Processor
+    Processor            WorkshopSaw
+    Input                SheetMetal
+    Output               LicensePlateBlank
+    OutputCount          2
+    OperatingTime        60.0
+    Worker		 Laborer               
+END
+
+BEGIN Processor
+    Processor            WorkshopSaw
+    Input                Log
+    Output               Wood
+    OutputCount          4
+    OperatingTime        150.0
+    Worker		 Laborer		 
+END
+
+BEGIN Processor
+    Processor            CarpenterTable
+    Input                Wood
+    InputCount           5
+    Output               SuperiorBed
+    OperatingTime        300.0
+    Worker		 Laborer		 
+    Properties           ShowDuringOperation
+END
+
 BEGIN Processor
     Processor            CarpenterTable
     Input                Wood
@@ -6,7 +184,6 @@ BEGIN Processor
     OperatingTime        60.0
     Properties           ShowDuringOperation
 END
-
 
 BEGIN ProductionRule
     Rule                 Storage

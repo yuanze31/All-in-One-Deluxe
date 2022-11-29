@@ -1,3 +1,109 @@
+BEGIN Object    
+    Name                Laborer
+    MoveSpeedFactor     0.500000
+    Toughness           5.0000
+    RenderDepth         3
+    ViewRange           6
+    Price               -500
+    Upkeep              -100s
+    BlockedBy           Wall
+    BlockedBy           StaticObject
+    BlockedBy           tilityStation
+    Equipment           Hammer
+    BEGIN    Sprite     x 32 y 12 w 2 h 2 RotateType 1 END
+    BEGIN    Sprite     x 32 y 14 w 2 h 2 RotateType 1 END
+    BEGIN    Sprite     x 32 y 16 w 2 h 2 RotateType 1 END
+    BEGIN    Sprite     x 32 y 18 w 2 h 2 RotateType 1 END
+    SpriteVariants      4
+    WorkGroup           Workshop
+    Properties          Entity
+    Properties          Staff
+    Properties          DefaultBehaviour
+    Properties          StaffNeeds
+    HangOutRoom         Staffroom
+END
+
+BEGIN Object
+    Name                WorkshopPress
+    Price               -1500
+    ConstructionTime    20
+    MoveSpeedFactor     0.500000
+    Toughness           15.0000
+    Width               3
+    NumSlots            3
+    Sprite              WorkshopPress
+    SpriteScale         1.1
+    ToolbarSprite       WorkshopPressToolbar
+    Properties          StaticObject
+    Properties          Electrical
+    Properties          RoomSpecific
+    Properties          Processor
+    MadeOf              Composite
+    Group               StaticObject
+    BlockedBy           Wall
+    BlockedBy           StaticObject
+    BlockedBy           UtilityStation
+    Research            PrisonLabour
+    BEGIN Workers
+        Worker          Laborer
+        Worker          Prisoner
+    END
+END
+
+BEGIN Object
+    Name                WorkshopSaw
+    Price               -1500
+    ConstructionTime    20
+    MoveSpeedFactor     0.500000
+    Toughness           15.0000
+    Width               3
+    NumSlots            3
+    Sprite              WorkshopSaw
+    SpriteScale         1.1
+    ToolbarSprite       WorkshopSawToolbar
+    Properties          StaticObject
+    Properties          Electrical
+    Properties          RoomSpecific
+    Properties          Processor
+    MadeOf              Composite
+    Group               StaticObject
+    BlockedBy           Wall
+    BlockedBy           StaticObject
+    BlockedBy           UtilityStation
+    Research            PrisonLabour
+    BEGIN Workers
+        Worker          Laborer
+        Worker          Prisoner
+    END
+END
+
+BEGIN Object
+    Name                CarpenterTable
+    Price               -1500
+    ConstructionTime    20
+    MoveSpeedFactor     0.500000
+    Toughness           15.0000
+    Width               3
+    Height              2
+    NumSlots            3
+    Sprite              CarpenterTable
+    SpriteScale         1.1
+    ToolbarSprite       CarpenterTableToolbar
+    Properties          StaticObject
+    Properties          RoomSpecific
+    Properties          Processor
+    MadeOf              Composite
+    Group               StaticObject
+    BlockedBy           Wall
+    BlockedBy           StaticObject
+    BlockedBy           UtilityStation
+    Research            PrisonLabour
+    BEGIN Workers
+        Worker          Laborer
+        Worker          Prisoner
+    END
+END
+
 BEGIN Object
     Name                 ComfyBed
     Height               2
@@ -35,7 +141,7 @@ BEGIN Object
     Properties           Utility
     Properties           Material
     Properties           CanPlaceOnRoad
-	Properties			 WaterUtility
+    Properties             WaterUtility
 END
 
 BEGIN Object
@@ -53,7 +159,7 @@ BEGIN Object
     Properties           Utility
     Properties           Material
     Properties           CanPlaceOnRoad
-	Properties			 WaterUtility
+    Properties             WaterUtility
 END
 
 BEGIN Object
@@ -70,7 +176,7 @@ BEGIN Object
     Properties           Utility
     Properties           Material
     Properties           CanPlaceOnRoad
-	Properties			 WaterUtility
+    Properties             WaterUtility
 END
 
 
@@ -621,83 +727,6 @@ BEGIN Object
     END
     ToolbarSprite        Window
 END
-
-
-BEGIN Object
-    Name                 WorkshopSaw
-    Price                -1500
-    ConstructionTime     3
-    RenderDepth          0
-    MoveSpeedFactor      0.5
-    Toughness            15
-    Width                3
-    NumSlots             3
-    Sprite               WorkshopSaw
-    SpriteScale          1
-    ToolbarSprite        WorkshopSawToolbar
-    Properties           StaticObject
-    Properties           Electrical
-    Properties           RoomSpecific
-    Properties           Processor
-    MadeOf               Composite
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Research             PrisonLabour
-    BEGIN Workers
-      Worker           Prisoner
-    END
-END
-
-BEGIN Object
-    Name                 WorkshopPress
-    Price                -1500
-    ConstructionTime     4
-    RenderDepth          0
-    MoveSpeedFactor      0.5
-    Toughness            15
-    Width                3
-    NumSlots             3
-    Sprite               WorkshopPress
-    SpriteScale          1
-    ToolbarSprite        WorkshopPressToolbar
-    Properties           StaticObject
-    Properties           Electrical
-    Properties           RoomSpecific
-    Properties           Processor
-    MadeOf               Composite
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Research             PrisonLabour
-END
-
-BEGIN Object
-    Name                 CarpenterTable
-    Price                -1500
-    ConstructionTime     4
-    RenderDepth          0
-    MoveSpeedFactor      0.5
-    Toughness            12
-    Width                3
-    Height               2
-    NumSlots             3
-    Sprite               CarpenterTable
-    SpriteScale          1
-    ToolbarSprite        CarpenterTableToolbar
-    Properties           StaticObject
-    Properties           RoomSpecific
-    Properties           Processor
-    MadeOf               Composite
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Research             PrisonLabour
-END
-
 
 BEGIN Object
     Name                 IroningBoard
@@ -1593,7 +1622,7 @@ BEGIN Object
     Sprite               PipeValve
     Properties           StaticObject
     Properties           Utility
-	Properties			 WaterUtility
+    Properties             WaterUtility
 END
 
 BEGIN Object

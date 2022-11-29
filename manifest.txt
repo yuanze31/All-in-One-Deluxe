@@ -5,3 +5,4 @@ IsTranslation        true
 SteamTags            "mod,translation,graphics and sound,content"  
 FileID               F2895128242  
 SteamAuthor          A76561198823921024  
+Author               原则31  
