@@ -889,11 +889,11 @@ interfacecontrol_research_tooltip	打开行政系统窗口，你可以在其中�
 interfacecontrol_grading	监狱评级
 interfacecontrol_grading_tooltip	打开监狱评级窗口，你可以在这里看到监狱运营情况的总体评级。
 
-interface_confirmlandbuy	你确定要花 *X 美元购买这个地块吗？
+interface_confirmlandbuy	你确定要花 $*X 购买这个地块吗？
 interface_loadconfirm	你确定要加载这张地图？\n\n你将失去所有未保存的进度。
 interface_saveconfirm	你确定要用这个文件名保存吗？\n\n已有数据将被覆盖。
 
-interface_landbuylabel	*X米 x *Y米。总面积 *A 平方米。 *C
+interface_landbuylabel	*Xm × *Ym = *A m² 价格 *C
 
 interface_action_dismantle	拆除
 interface_action_dump	丢弃
@@ -929,10 +929,10 @@ interface_error_riotmove	无法进入：暴乱
 interface_foundationsinprogress	地基建造中
 riot_underway	发生暴动
 riot_status_prisoners	*X 名囚犯正在暴动
-shakedown_underway	彻底搜查执行中
+shakedown_underway	正在进行彻底搜查
 shakedown_found	查获：
 
-gameover_caption	按 ESC 键继续
+gameover_caption	按 Esc 键继续
 
 sector_jobs_max	工作名额上限 *X
 sector_jobs_qualified	合格囚犯： *X
@@ -1073,7 +1073,7 @@ buildtoolbar_popup_obj_weightsbench	允许囚犯们锻炼，令他们保持愉�
 buildtoolbar_popup_obj_phonebooth	这些方便的电话亭可以让犯人与其家属通话。
 buildtoolbar_popup_obj_tv	用麻痹頭腦的平庸之道安撫囚犯。需有一個空間讓囚犯看電視。
 buildtoolbar_popup_obj_largetv	讓眾多囚犯分享其腦殘經歷。需有一個空間讓囚犯看電視。
-buildtoolbar_popup_obj_radio	在監獄中度日如年，讓囚犯聽他們最愛的男團音樂。可以使同一個房間內的囚犯略微快樂。
+buildtoolbar_popup_obj_radio	在监狱中度日如年，讓囚犯聽他们最愛的男團音樂。可以使同一個房間內的囚犯略微快樂。
 buildtoolbar_popup_obj_pooltable	玩局台球来打发千篇一律的监狱生活
 buildtoolbar_popup_obj_dismantleobject	从您的监狱中移除一个物体。
 buildtoolbar_popup_obj_altar	天主与祷告者相遇之地
@@ -1127,8 +1127,8 @@ buildtoolbar_popup_autolights_desc	如选择此项，在新建建筑完工之后
 buildtoolbar_contraband_source	显示违禁品可能被偷取的所有位置。
 buildtoolbar_contraband_day	顯示過去 24 小時內沒收的所有違禁品。圖像顯示違禁品被沒收的地方。
 buildtoolbar_contraband_week	顯示過去 7 天內沒收的所有違禁品。圖像顯示違禁品被沒收的地方。
-buildtoolbar_contraband_alltime	顯示監獄有史以來沒收的所有違禁品。圖像顯示違禁品被沒收的地方。
-buildtoolbar_contraband_stolenfrom	顯示過去 7 天內的所有違禁品。圖像顯示違禁品從何處被竊取，或從何處被走私到監獄內。
+buildtoolbar_contraband_alltime	顯示监狱有史以來沒收的所有違禁品。圖像顯示違禁品被沒收的地方。
+buildtoolbar_contraband_stolenfrom	顯示過去 7 天內的所有違禁品。圖像顯示違禁品從何處被竊取，或從何處被走私到监狱內。
 buildtoolbar_contraband_informants	显示秘密线人收集的情报。
 buildtoolbar_contraband_gangs	显示监狱中帮派的相关信息。
 
@@ -1191,103 +1191,103 @@ buildtoolbar_popup_help_informants_4	^小技巧
 buildtoolbar_popup_help_informants_5	- 激活线人并根据线人提供的信息进行搜索，会提高线人的可疑级别。如果可疑级别过高，线人可能会遇到一些麻烦……
 buildtoolbar_popup_help_informants_6	- 点击线人激活按钮旁边的“X”，可以解雇线人。
 
-buildtoolbar_popup_help_utilities_1	「管線畫面 」顯示監獄下方的各種管線連接。你可以建立電纜和水管，並利用電線連接各種項目。\n\n
+buildtoolbar_popup_help_utilities_1	「管線畫面 」顯示监狱下方的各種管線連接。你可以建立電纜和水管，並利用電線連接各種項目。\n\n
 buildtoolbar_popup_help_utilities_2	~建立電纜或管線時，按住滑鼠左鍵然後在你想要連接的兩個點之間拖曳滑鼠。按右鍵可以取消現有的電纜或管線工程任務。\n\n
 buildtoolbar_popup_help_utilities_3	~利用電線連接項目時（例如將監視錄影器連接到攝像機），在第一個物品上按左鍵，然後在你想要連接的物品上按左鍵。按住 Shift 鍵可以讓你一次連接多個物品。\n\n
 buildtoolbar_popup_help_utilities_4	^提示
-buildtoolbar_popup_help_utilities_5	- 小型電器，例如燈泡和電視，只要附近有電纜，它們就會自動連接到電。大型電器，如洗衣機或水泵，則需要直接連接到電纜。
+buildtoolbar_popup_help_utilities_5	- 小型電器，例如燈泡和電視，只要附近有電纜，它们就會自動連接到電。大型電器，如洗衣機或水泵，則需要直接連接到電纜。
 buildtoolbar_popup_help_utilities_6	- 大型水管可以長程運送水，但小型水管可以更短距離運送。由大型水管連接到建築物或一個區域，再用小水管連接獨立的物品，是一個省錢的好方法。
-buildtoolbar_popup_help_utilities_7	-「管線畫面」有繁多事項，尤其是大型監獄。點擊特定的物品可以更清楚顯示相關的連接，讓你看得更清楚。例如，點擊電纜線會讓監獄的所有電纜和物品顯示得更清楚。
-buildtoolbar_popup_help_utilities_8	- 若你的監獄有多個發電站，每一個發電站需要有獨立的電纜。如果連接兩個不同發電站的電纜相連接，兩個發電站皆會停止運作。
+buildtoolbar_popup_help_utilities_7	-「管線畫面」有繁多事項，尤其是大型监狱。點擊特定的物品可以更清楚顯示相關的連接，讓你看得更清楚。例如，點擊電纜線會讓监狱的所有電纜和物品顯示得更清楚。
+buildtoolbar_popup_help_utilities_8	- 若你的监狱有多個發電站，每一個發電站需要有獨立的電纜。如果連接兩個不同發電站的電纜相連接，兩個發電站皆會停止運作。
 
-buildtoolbar_popup_help_guard_1	守衛是監獄最主要的工作人員，負責處理所有事項，從押送新囚犯到他們的牢房、處理打架鬥毆、到搜查違禁品等。\n\n
-buildtoolbar_popup_help_guard_2	~選定守衛後，只要在某個地方右鍵，你就可以命令他們移動至監獄裡任何地方。\n\n
+buildtoolbar_popup_help_guard_1	守衛是监狱最主要的工作人員，負責處理所有事項，從押送新囚犯到他们的牢房、處理打架鬥毆、到搜查違禁品等。\n\n
+buildtoolbar_popup_help_guard_2	~選定守衛後，只要在某個地方右鍵，你就可以命令他们移動至监狱裡任何地方。\n\n
 buildtoolbar_popup_help_guard_3	^提示
-buildtoolbar_popup_help_guard_4	- 守衛可以透過搜查牢房的廁所找到逃獄地道。如果守衛仔細搜查廁所，他們肯定會找到逃獄地道。
-buildtoolbar_popup_help_guard_5	- 如果你有一個安全警長，你可以從螢幕上方的資訊欄看到你有多少個閒置的守衛。若你的可用守衛經常是 0，這可能代表你沒有足夠的守衛去負荷目前的工作量。
+buildtoolbar_popup_help_guard_4	- 守衛可以透過搜查牢房的廁所找到逃獄地道。如果守衛仔細搜查廁所，他们肯定會找到逃獄地道。
+buildtoolbar_popup_help_guard_5	- 如果你有一個安全警長，你可以從螢幕上方的資訊欄看到你有多少個閒置的守衛。若你的可用守衛經常是 0，這可能代表你沒有足够的守衛去負荷目前的工作量。
 
-buildtoolbar_popup_help_workman_1	工人是負責建造監獄、協助卸貨的人，在某些情況下，還會將卸載的貨物運送至監獄各區域。\n\n
+buildtoolbar_popup_help_workman_1	工人是負責建造监狱、協助卸貨的人，在某些情況下，还會將卸載的貨物運送至监狱各區域。\n\n
 buildtoolbar_popup_help_workman_2	^提示
-buildtoolbar_popup_help_workman_3	工人大部分是自行運作，但是如果你想要快速完成一個工程，你可以利用「Ctrl+右鍵」將該工程設為高優先。這會使最靠近的工人放下手邊的工作，然後完成你的任務。
+buildtoolbar_popup_help_workman_3	工人大部分是自行運作，但是如果你想要快速完成一個工程，你可以利用「Ctrl+右鍵」將該工程設为高優先。這會使最靠近的工人放下手邊的工作，然後完成你的任務。
 
-buildtoolbar_popup_help_cook_1	廚師為你的囚犯準備食物、清潔用餐區域並將食材運送至廚房。\n\n
+buildtoolbar_popup_help_cook_1	廚師为你的囚犯準備食物、清洁用餐區域並將食材運送至廚房。\n\n
 buildtoolbar_popup_help_cook_2	^提示
-buildtoolbar_popup_help_cook_3	- 確保你有足夠的廚師應付監獄的食物需求非常重要。若你沒有足夠的廚師，他們就無法準備足夠的食物，而你的囚犯就會餓肚子...
+buildtoolbar_popup_help_cook_3	- 確保你有足够的廚師应付监狱的食物需求非常重要。若你沒有足够的廚師，他们就無法準備足够的食物，而你的囚犯就會餓肚子...
 
-buildtoolbar_popup_help_warden_1	監獄長是連接監獄的官僚主義的一環。他們推開官僚之窗，讓你可以研究運用於監獄內的各種新功能。他們有辦公室之後，基本上就會自行管理。
+buildtoolbar_popup_help_warden_1	监狱長是連接监狱的官僚主義的一環。他们推開官僚之窗，讓你可以研究運用于监狱內的各種新功能。他们有辦公室之後，基本上就會自行管理。
 
-buildtoolbar_popup_help_armedguard_1	武裝警衛隨時隨地攜帶槍械，確保囚犯們安分守己，尤其是那些危險或不守規矩的囚犯。他們抑制周遭所有囚犯，藉此降低囚犯鬧事的可能性。假使他們的生命受到威脅，他們會使用散彈槍，而這通常會使附近所有的囚犯停止鬧事。\n\n
-buildtoolbar_popup_help_armedguard_2	~選定武裝警衛後，只要在某個地方右鍵，你就可以命令他們移動至監獄裡任何地方。\n\n
+buildtoolbar_popup_help_armedguard_1	武裝警衛隨時隨地攜帶槍械，確保囚犯们安分守己，尤其是那些危險或不守規矩的囚犯。他们抑制周遭所有囚犯，藉此降低囚犯鬧事的可能性。假使他们的生命受到威脅，他们會使用散彈槍，而這通常會使附近所有的囚犯停止鬧事。\n\n
+buildtoolbar_popup_help_armedguard_2	~選定武裝警衛後，只要在某個地方右鍵，你就可以命令他们移動至监狱裡任何地方。\n\n
 buildtoolbar_popup_help_armedguard_3	^提示
-buildtoolbar_popup_help_armedguard_4	- 若啟動「自由開槍」鈕，武裝警衛不會等到生命受到威脅才開槍。他們會直接開槍射擊鬧事的囚犯。
-buildtoolbar_popup_help_armedguard_5	- 武裝警衛很難被囚犯擊倒，但若真的發生，他們的散彈槍就任人拿取...
+buildtoolbar_popup_help_armedguard_4	- 若啟動「自由開槍」鈕，武裝警衛不會等到生命受到威脅才開槍。他们會直接開槍射擊鬧事的囚犯。
+buildtoolbar_popup_help_armedguard_5	- 武裝警衛很難被囚犯擊倒，但若真的發生，他们的散彈槍就任人拿取...
 
-buildtoolbar_popup_help_doctor_1	醫師負責治療囚犯和職員在監獄期間無可避免受到的傷害。他們會醫治傷勢、治療用藥過量的囚犯，並執行戒毒計劃。\n\n
-buildtoolbar_popup_help_doctor_2	~選定醫師後，只要在某個地方按右鍵，你就可以命令他們移動至監獄裡任何地方。
+buildtoolbar_popup_help_doctor_1	醫師負責治療囚犯和職員在监狱期間無可避免受到的傷害。他们會醫治傷勢、治療用药過量的囚犯，並執行戒毒計劃。\n\n
+buildtoolbar_popup_help_doctor_2	~選定醫師後，只要在某個地方按右鍵，你就可以命令他们移動至监狱裡任何地方。
 
-buildtoolbar_popup_help_janitor_1	工友負責維持監獄的整潔，也會協助洗衣房的工作。\n\n
+buildtoolbar_popup_help_janitor_1	工友負責維持监狱的整潔，也會協助洗衣房的工作。\n\n
 buildtoolbar_popup_help_janitor_2	^提示
-buildtoolbar_popup_help_janitor_3	- 工友負責的所有工作，工作的囚犯也可以做。若你分配足夠的囚犯到洗衣房和打掃衛生間，你可能僅需少量的工友，甚至完全不需要。
+buildtoolbar_popup_help_janitor_3	- 工友負責的所有工作，工作的囚犯也可以做。若你分配足够的囚犯到洗衣房和打掃衛生間，你可能僅需少量的工友，甚至完全不需要。
 
-buildtoolbar_popup_help_gardener_1	園丁負責維持監獄戶外空間的整潔、除草和種樹。\n\n
+buildtoolbar_popup_help_gardener_1	園丁負責維持监狱戶外空間的整潔、除草和種樹。\n\n
 buildtoolbar_popup_help_gardener_2	^提示
-buildtoolbar_popup_help_gardener_3	- 若你有林場，園丁就會負責種植你所收到的樹苗。請確保你有足夠的園丁種植所有的樹苗！
+buildtoolbar_popup_help_gardener_3	- 若你有林場，園丁就會負責種植你所收到的樹苗。請確保你有足够的園丁種植所有的樹苗！
 
 buildtoolbar_popup_help_doghandler_1	訓犬員和警犬是成對出現。警犬擅長嗅出強烈氣味的違禁品，如毒品和酒精，也會找出逃獄地道。\n\n
-buildtoolbar_popup_help_doghandler_2	~選定訓犬員後，只要在某個地方按右鍵，你就可以命令他們移動至監獄裡任何地方。\n\n
+buildtoolbar_popup_help_doghandler_2	~選定訓犬員後，只要在某個地方按右鍵，你就可以命令他们移動至监狱裡任何地方。\n\n
 buildtoolbar_popup_help_doghandler_3	^提示
 buildtoolbar_popup_help_doghandler_4	- 派訓犬員至某一個區域，警犬就會試圖嗅出可能隱藏在附近的違禁品。
 buildtoolbar_popup_help_doghandler_5	- 走在逃獄地道的上方時，警犬會示意，指出其存在。然後會有一個小記號以示之。有時候，就算沒有任何東西，警犬也有可能會示意...
-buildtoolbar_popup_help_doghandler_6	- 如果訓犬員被殺死，他們的警犬很可能會發狂並試圖在離開監獄前殺害該殺人犯。
+buildtoolbar_popup_help_doghandler_6	- 如果訓犬員被殺死，他们的警犬很可能會發狂並試圖在离开监狱前殺害該殺人犯。
 
-buildtoolbar_popup_help_sniper_1	狙擊手留守於監獄各處的守衛塔，針對鬧事的囚犯發揮強而有力的嚇阻作用，也是阻止逃獄囚犯的最後一道防線。\n\n
+buildtoolbar_popup_help_sniper_1	狙擊手留守于监狱各處的守衛塔，針對鬧事的囚犯發揮強而有力的嚇阻作用，也是阻止逃獄囚犯的最後一道防線。\n\n
 buildtoolbar_popup_help_sniper_2	^提示
-buildtoolbar_popup_help_sniper_3	- 狙擊手配有強大、長射程的步槍，但僅能顧及他們視線所及的範圍。
-buildtoolbar_popup_help_sniper_4	- 狙擊手會鳴槍警告在監獄內鬧事的囚犯。如果囚犯不乖乖就範，他們就會開始直接射擊囚犯。
-buildtoolbar_popup_help_sniper_5	- 如果啟動「自由開槍」，或囚犯逃出監獄外，狙擊手就不會鳴槍警告。
+buildtoolbar_popup_help_sniper_3	- 狙擊手配有強大、長射程的步槍，但僅能顧及他们視線所及的範圍。
+buildtoolbar_popup_help_sniper_4	- 狙擊手會鳴槍警告在监狱內鬧事的囚犯。如果囚犯不乖乖就範，他们就會開始直接射擊囚犯。
+buildtoolbar_popup_help_sniper_5	- 如果啟動「自由開槍」，或囚犯逃出监狱外，狙擊手就不會鳴槍警告。
 
-buildtoolbar_popup_help_chief_1	警長是負責你的監獄治安的最高負責人。他回報給你監獄的整體氣氛，顯示囚犯鬧事的可能性，同時也可以讓你追蹤目前在監獄內工作的守衛數量。他也可以讓你研究更高階的安全功能，例如警犬或監視錄影器。他們有辦公室之後，基本上就會自行管理。
+buildtoolbar_popup_help_chief_1	警長是負責你的监狱治安的最高負責人。他回報給你监狱的整體氣氛，顯示囚犯鬧事的可能性，同時也可以讓你追蹤目前在监狱內工作的守衛數量。他也可以讓你研究更高階的安全功能，例如警犬或監視錄影器。他们有辦公室之後，基本上就會自行管理。
 
-buildtoolbar_popup_help_foreman_1	工頭是負責監督監獄內的維修與建造的人，讓你研究並雇用工友和園丁。他也負責監獄勞工，並親自監督囚犯使用工作坊工具的培訓。\n\n
+buildtoolbar_popup_help_foreman_1	工頭是負責監督监狱內的維修與建造的人，讓你研究並雇用工友和園丁。他也負責监狱勞工，並親自監督囚犯使用工作坊工具的培訓。\n\n
 buildtoolbar_popup_help_foreman_2	^提示
-buildtoolbar_popup_help_foreman_3	- 一旦你在監獄建造一個工作坊，工頭就會負責工作坊安全計劃的教學，你可以透過報告視窗中的計劃標籤，安排日程。
+buildtoolbar_popup_help_foreman_3	- 一旦你在监狱建造一個工作坊，工頭就會負責工作坊安全計劃的教學，你可以透過報告視窗中的計劃標籤，安排日程。
 
-buildtoolbar_popup_help_psychologist_1	心理學家負責監控囚犯的心理健康。有了心理學家可以讓你看出囚犯當前的需求，他們也負責為囚犯進行感化課程。\n\n
+buildtoolbar_popup_help_psychologist_1	心理學家負責監控囚犯的心理健康。有了心理學家可以讓你看出囚犯當前的需求，他们也負責为囚犯進行感化課程。\n\n
 buildtoolbar_popup_help_psychologist_2	^提示
-buildtoolbar_popup_help_psychologist_3	- 監獄內有了心理學家，你可以透過選定單一囚犯看出每一個囚犯的需求，或透過報告視窗的「需求」標籤查看所有囚犯的整體需求。
-buildtoolbar_popup_help_psychologist_4	- 心理學家負責執行戒酒計劃，治療監獄內的酒癮，以及行為治療計劃，藉此試圖管理比較麻煩的囚犯。如此一來，若你覺得有需要，在監獄內安排多個心理學家不失為一個好選擇。
+buildtoolbar_popup_help_psychologist_3	- 监狱內有了心理學家，你可以透過選定單一囚犯看出每一個囚犯的需求，或透過報告視窗的「需求」標籤查看所有囚犯的整體需求。
+buildtoolbar_popup_help_psychologist_4	- 心理學家負責執行戒酒計劃，治療监狱內的酒癮，以及行为治療計劃，藉此試圖管理比較麻煩的囚犯。如此一來，若你覺得有需要，在监狱內安排多個心理學家不失为一個好選擇。
 
-buildtoolbar_popup_help_accountant_1	會計師負責管理監獄的財務，並且解鎖以查看監獄的現金流和總價值，還有一些改善你收入的研究項目。他們有辦公室之後，基本上就會自行管理。
+buildtoolbar_popup_help_accountant_1	會計師負責管理监狱的財務，並且解鎖以查看监狱的現金流和總價值，还有一些改善你收入的研究項目。他们有辦公室之後，基本上就會自行管理。
 
-buildtoolbar_popup_help_lawyer_1	律師可以協助你解決運行監獄時可能面臨的棘手法律問題，也可以在監獄發生災難性事件時，協助你規避法律責任。他們也可以解鎖你的監獄的死囚選項。他們有辦公室之後，基本上就會自行管理。
+buildtoolbar_popup_help_lawyer_1	律師可以協助你解決運行监狱時可能面臨的棘手法律問題，也可以在监狱發生灾難性事件時，協助你規避法律責任。他们也可以解鎖你的监狱的死囚選項。他们有辦公室之後，基本上就會自行管理。
 
-buildtoolbar_popup_help_gangs_1	幫派畫面顯示監獄目前的幫派狀況。你可以查看每一個幫派的資訊，也可以看到哪些幫派擁有哪些房間，以及哪些囚犯是幫派成員。你也可以看到哪些幫派成員是幫派幹部（以雙圈圖案標示），以及幫派領袖（以三圈圖案標示）。\n\n
+buildtoolbar_popup_help_gangs_1	幫派畫面顯示监狱目前的幫派狀況。你可以查看每一個幫派的資訊，也可以看到哪些幫派拥有哪些房間，以及哪些囚犯是幫派成員。你也可以看到哪些幫派成員是幫派幹部（以雙圈圖案標示），以及幫派領袖（以三圈圖案標示）。\n\n
 buildtoolbar_popup_help_gangs_2	~若你想強制移除管理某個區域的幫派，你可以選定房間，待「驅逐」鈕出現後按之。但是該幫派不會太開心...\n\n
 buildtoolbar_popup_help_gangs_3	^提示
 buildtoolbar_popup_help_gangs_4	- 你無法改變幫派控制的區域。若你想增加或移除該區域的任何東西，你必須先將其收回。
 buildtoolbar_popup_help_gangs_5	- 非幫派成員使用幫派控制區域的設施將被收取使用費。敵對幫派成員會徹底避免出入那些區域。
-buildtoolbar_popup_help_gangs_6	- 你可以使用監控室協助維持你在某個區域的影響力。位於潛在幫派區域附近的監控室守衛，皆算在你的控制範圍。
-buildtoolbar_popup_help_gangs_7	- 幫派成員非常保護他們的領袖。若領袖出了什麼事，他們肯定不高興...
+buildtoolbar_popup_help_gangs_6	- 你可以使用監控室協助維持你在某個區域的影響力。位于潛在幫派區域附近的監控室守衛，皆算在你的控制範圍。
+buildtoolbar_popup_help_gangs_7	- 幫派成員非常保護他们的領袖。若領袖出了什麼事，他们肯定不高興...
 
-buildtoolbar_popup_help_weathermap_1	「溫度畫面」顯示監獄內各區域的溫度。溫度主要是透過暖器而增加。若一個區域過冷，該區域的囚犯溫暖需求就會增加。
+buildtoolbar_popup_help_weathermap_1	「溫度畫面」顯示监狱內各區域的溫度。溫度主要是透過暖器而增加。若一個區域過冷，該區域的囚犯溫暖需求就會增加。
 
-buildtoolbar_popup_help_prefabs_1	「快速建造」選單包含協助加速建造你經常使用的房間的選項。複製工具可以讓你複製監獄的一個選定區域，並重新安置該區域。預製房間讓你安置自動符合需求的預製房間。\n\n
-buildtoolbar_popup_help_prefabs_2	~選擇複製工具後，按住滑鼠右鍵並拖曳您想要複製的區域。接著，在監獄其他地方按左鍵，即可排定該區域的複製工程。 \n
-buildtoolbar_popup_help_prefabs_3	~選定預製工具後，只要在你想要建造房間的區域上按左鍵，工人就會為你建造。\n\n
+buildtoolbar_popup_help_prefabs_1	「快速建造」選單包含協助加速建造你經常使用的房間的選項。複製工具可以讓你複製监狱的一個選定區域，並重新安置該區域。預製房間讓你安置自動符合需求的預製房間。\n\n
+buildtoolbar_popup_help_prefabs_2	~選擇複製工具後，按住滑鼠右鍵並拖曳您想要複製的區域。接著，在监狱其他地方按左鍵，即可排定該區域的複製工程。 \n
+buildtoolbar_popup_help_prefabs_3	~選定預製工具後，只要在你想要建造房間的區域上按左鍵，工人就會为你建造。\n\n
 buildtoolbar_popup_help_prefabs_4	^提示
 buildtoolbar_popup_help_prefabs_5	- 複製工具無法複製管線的連接。你必須手動連接電和水到你新建的區域。
 
-buildtoolbar_popup_help_zoning_1	分區工具讓你控制哪些囚犯可以出入監獄哪些區域，其中「共享」以及「解鎖」則開放給所有囚犯類別。\n\n
-buildtoolbar_popup_help_zoning_2	~選擇你要的區域類別，並在區域按左鍵。按右鍵重設區域為共享。\n\n
+buildtoolbar_popup_help_zoning_1	分區工具讓你控制哪些囚犯可以出入监狱哪些區域，其中「共享」以及「解鎖」則開放給所有囚犯類別。\n\n
+buildtoolbar_popup_help_zoning_2	~選擇你要的區域類別，並在區域按左鍵。按右鍵重設區域为共享。\n\n
 buildtoolbar_popup_help_zoning_3	^提示
-buildtoolbar_popup_help_zoning_4	- 由於囚犯不得進入「僅限員工區域」，這讓你得以建立「空氣鎖」，將囚犯留在特定區域或共享區域。這個功能非常實用，舉例來說，你可以將所有保護管束的囚犯留在他們自己的區域，遠離共享庭院或休息室。
-buildtoolbar_popup_help_zoning_5	- 若一個區域設置為解鎖，那麼該區域的所有門鎖都會開啟。
+buildtoolbar_popup_help_zoning_4	- 由于囚犯不得進入「僅限員工區域」，這讓你得以建立「空氣鎖」，將囚犯留在特定區域或共享區域。這個功能非常實用，舉例來說，你可以將所有保護管束的囚犯留在他们自己的區域，遠離共享庭院或休息室。
+buildtoolbar_popup_help_zoning_5	- 若一個區域設置为解鎖，那麼該區域的所有門鎖都會開啟。
 
 buildtoolbar_popup_help_guards_1	守衛工具可以讓你在每個區域駐紮守衛。駐紮守衛會在所分配的區域隨意走動，也會執行該區域的所有守衛工作，例如開門。\n\n
 buildtoolbar_popup_help_guards_2	~按左鍵增加區域內駐紮的守衛人數。按右鍵移除守衛。\n\n
 buildtoolbar_popup_help_guards_3	^提示
 buildtoolbar_popup_help_guards_4	- 若你解鎖微觀管理功能，你可使用部署調度器。這可以讓你制定守衛分配至特定區域的時間表。例如，若你只想要在吃飯時間部署守衛在餐廳，你可以選取調度器上每一個與吃飯時間一致的時間區塊，然後移動時間橫條至該區塊，再點擊餐廳以分配守衛。
-buildtoolbar_popup_help_guards_5	- 共有最多 7 個不同的時間區塊供你調度，還有預設的「常效模式」，讓你可以建立複雜的部署程序以符合你監獄的需求。
+buildtoolbar_popup_help_guards_5	- 共有最多 7 個不同的時間區塊供你調度，还有預設的「常效模式」，讓你可以建立複雜的部署程序以符合你监狱的需求。
 buildtoolbar_popup_help_guards_6	- 若你在分配守衛時，沒有手動選擇一個時間區塊，調度器會使用當下的時間；變化部署時，請確保你選擇了正確的時間！
 
 buildtoolbar_popup_help_patrols_title	巡邏
@@ -1395,7 +1395,7 @@ codex_termsconditions	条款与条件
 codex_twitter	Twitter
 codex_extras	附加功能 ❖
 codex_unlocked	已解锁 *X/*Y
-codex_mapsettings	地图设置
+codex_mapsettings	本监狱的额外玩法
 codex_othergames	其他游戏
 codex_mutators	更改器
 
@@ -1519,45 +1519,45 @@ codex_workshop_current	当前监狱
 codex_workshop_publish	发布此监狱
 codex_workshop_update	更新
 codex_workshop_play	开始游戏
-codex_workshop_downloading	正在下载
-codex_workshop_download_failed	下载失败
-codex_workshop_publishing	发布中……
-codex_workshop_new	新建
+codex_workshop_downloading	 正在下载 
+codex_workshop_download_failed	 下载失败 
+codex_workshop_publishing	 正在发布 
+codex_workshop_new	新
 codex_workshop_title	标题
 codex_workshop_desc	说明
-codex_workshop_view_in_workshop	在 Steam 创意工坊中查看
-codex_workshop_heading_pubed	你已发布监狱
-codex_workshop_heading_subed	你点赞的监狱
-codex_workshop_published_by	由 *P 发布
-codex_workshop_published_by_you	由你发布
+codex_workshop_view_in_workshop	在Steam创意工坊中查看
+codex_workshop_heading_pubed	你已发布的监狱
+codex_workshop_heading_subed	你已订阅的监狱
+codex_workshop_published_by	发布者: *P
+codex_workshop_published_by_you	发布者: 【你自己】
 codex_workshop_published_good	监狱已发布
-codex_workshop_published_good_msg	你也成功发布监狱。
+codex_workshop_published_good_msg	你已成功发布监狱。
 codex_workshop_published_bad	发布监狱失败
 codex_workshop_published_bad_msg	你的监狱未能发布。
 codex_workshop_published_bad_msg_new	你的新监狱发布失败。请重试。
-codex_workshop_busy	Steam正在施魔法，先等它完成再试一次。
-codex_workshop_file_exists	你已经发布了一个使用此名称的监狱，请使用别的名称。
+codex_workshop_busy	遇到了一些古怪……\n等完事之后，再试一次吧。
+codex_workshop_file_exists	你已经发布了一个使用此名称的监狱。\n请使用别的名称。
 codex_workshop_generic_fail	未能发布你的监狱，请重试。
 codex_workshop_download_bad	未能下载该监狱
-codex_workshop_pa_workshop	打开 Prison Architect 创意工坊
-codex_workshop_agreement	提交此项目表示你同意[url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]工坊服务条款[/url]。
-codex_workshop_update_warning	更新已發布監獄
-codex_workshop_update_warning_msg	更新已發佈監獄將以目前裝載的監獄取代已發佈的監獄。這個動作會刪除已發佈的監獄，並被你目前在玩的監獄永久取代。此操作無法復原。\n\n你確定要繼續嗎？
+codex_workshop_pa_workshop	浏览Prison Architect的Steam创意工坊
+codex_workshop_agreement	声明：若你提交此项，则表示你同意[url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]创意工坊服务条款[/url]。
+codex_workshop_update_warning	更新已发布监狱
+codex_workshop_update_warning_msg	更新已发布监狱，意味着用运行中的监狱覆盖它。\n这会删除旧版本，并用当前的新版本永久取代。\n此操作无法复原。\n\n你确定要继续吗？
 
 codex_options_timelapse	延时摄影
-codex_timelapse_record	开始延时摄影
-codex_timelapse_stop	停止延时摄影
-codex_timelapse_camera	摄影机模式
-codex_timelapse_customresw	自定分辨率宽度
-codex_timelapse_customresh	自定分辨率高度
+codex_timelapse_record	延时摄影：开始录制 ●
+codex_timelapse_stop	延时摄影：停止录制 ■
+codex_timelapse_camera	摄影机镜头模式
+codex_timelapse_customresw	自定分辨率宽度 ↔
+codex_timelapse_customresh	自定分辨率高度 ↕
 codex_timelapse_resolution	分辨率
-codex_timelapse_fps	播放速度
-codex_timelapse_interval	拍摄间隔
-codex_timelapse_quality	质量
-codex_timelapse_unsupported	你的硬件无法开启此功能。
+codex_timelapse_fps	（视频文件对帧）回放速率
+codex_timelapse_interval	（帧对游戏时间）拍摄间隔
+codex_timelapse_quality	拍摄质量
+codex_timelapse_unsupported	在你的硬件上，此功能不可用。
 codex_timelapse_savesettings	保存设定
 
-codex_timelapse_cam_zoom	缩放摄影机
+codex_timelapse_cam_zoom	缩放镜头
 codex_timelapse_cam_fitmap	适合地图
 codex_timelapse_cam_fitheight	适合地图高度
 codex_timelapse_cam_fitwidth	适合地图宽度
@@ -1566,7 +1566,7 @@ codex_timelapse_quality_high	高
 codex_timelapse_quality_med	中
 codex_timelapse_quality_low	低
 codex_timelapse_interval_value	*X 游戏分钟
-timelapse_caption	定时拍摄记录长度*X:*Y，录得*Z帧，待办列表：*T
+timelapse_caption	【延时摄影】已录制 *Z 帧，回放时长 *X:*Y
 
 codex_performance_running	正在执行性能测试
 codex_performance_time	时间剩余： *T 秒
@@ -1583,43 +1583,43 @@ codex_sortdate	日期
 codex_apply	应用
 codex_select	选择
 
-codex_mods	模组
+codex_mods	模组 ✜
 codex_mod_activetitle	激活的模组
 codex_mod_inactivetitle	可用的模组
-codex_mod_deactivate	停用所有模组
+codex_mod_deactivate	反激活所有模组
 codex_mod_wiki	查找更多模组（维基百科）
 codex_mod_openmodsfolder	打开模组文件夹
-codex_mod_moresteammods	查找更多模组（Steam 创意工坊）
-codex_mod_findsteamtranslations	查找更多译文（Steam 创意工坊）
+codex_mod_moresteammods	打开 Steam 创意工坊
+codex_mod_findsteamtranslations	查找更多翻译（Steam 创意工坊）
 codex_authortitle	作者
 codex_versiontitle	版本
 codex_datetitle	日期
 codex_urltitle	URL
 codex_typetitle	类型
-codex_mod_graphicsandsound	图形和声音
-codex_mod_translation	译文
-codex_mod_scenario	场景
+codex_mod_graphicsandsound	画面和声音
+codex_mod_translation	翻译
+codex_mod_scenario	剧情
 codex_mod_content	内容
-codex_mod_load_scenario	开始此场景
-codex_publishmod	发布此模组
+codex_mod_load_scenario	加载剧情
 
-codex_mod_update	更新此模组
+codex_publishmod	发布我的这个模组
+codex_mod_update	更新我的这个模组
 codex_mod_published_good	已发布模组
 codex_mod_published_good_msg	你已成功发布模组。
 codex_mod_published_bad	发布模组失败
 codex_mod_published_bad_msg	你的模组发布失败。
 codex_mod_modsupdated	模组已更新
-codex_mod_modsupdated_msg	某些你的已激活模组已经更新，点击确定应用新的变更。游戏会自动保存。
-codex_mod_translationcaption	这是另一种语言的译文吗？
+codex_mod_modsupdated_msg	某些你的已激活模组已经更新，点击[确定]\n以应用新的变更。游戏会自动存档。
+codex_mod_translationcaption	这是非英语的翻译吗？
 
 codex_language	语言
 codex_language_englishdefault	英语（默认）
 codex_language_default	默认语言
 codex_language_download	下载
-codex_language_failed_download	未能下载译文
-codex_language_failed_download_msg	未能下载你所选的译文。
+codex_language_failed_download	翻译下载失败
+codex_language_failed_download_msg	你所选的翻译下载失败了。
 codex_language_searching_workshop	搜索 Steam 创意工坊
-codex_language_community	这些译文包由社区创建并维护——谢谢你!
+codex_language_community	这些翻译由社区创建并维护——谢谢你!
 
 codex_polaroids_new	新
 
@@ -1630,37 +1630,37 @@ codex_delete_confirm	您确定要永久删除 *X 吗？
 codex_premadeprisons	预制的监狱
 
 codex_trending_more	...
-codex_sortbycaption	排序方式：
+codex_sortbycaption	时间范围：
 codex_trending_oneday	一天
 codex_trending_oneweek	一周
 codex_trending_threemonths	三个月
 codex_trending_sixmonths	六个月
 codex_trending_oneyear	一年
-codex_trending_alltime	所有时间
+codex_trending_alltime	不限时间
 codex_trending_failedtogetlist	无法获取监狱列表
-codex_trending_failedtogetlist_msg	无法获取热门监狱列表。
+codex_trending_failedtogetlist_msg	无法获取热门监狱的列表
 
-codex_settings	地图设置
-codex_settings_gangs	启用帮派
-codex_settings_events	启用事件
-codex_settings_weather	启用天气
+codex_settings	本监狱的额外玩法
+codex_settings_gangs	启用 帮派
+codex_settings_events	启用 事件
+codex_settings_weather	启用 天气
 codex_settings_staffneeds	启用 员工需求
-codex_settings_failureconditions	启用故障模式
-codex_settings_confirm	这种设置一经启用便无法停用。您确定要启用 *X吗？
+codex_settings_failureconditions	启用 失败条件
+codex_settings_confirm	该特性一旦启用便无法取消。\n\n你确定要启用 *X 吗？
 
 codex_packrects	Pack Rectangles
-codex_addboxbutton	新增長方形
-codex_setsize	設置區域大小
+codex_addboxbutton	新增长方形
+codex_setsize	设置区域大小
 codex_removeallrects	移除所有矩形
-codex_packrects_widthcaption	空間寬度
-codex_packrects_heightcaption	空間高度
-codex_packrects_boxwcaption	長方形寬度
-codex_packrects_boxhcaption	長方形高度
+codex_packrects_widthcaption	空间宽度
+codex_packrects_heightcaption	空间高度
+codex_packrects_boxwcaption	长方形宽度
+codex_packrects_boxhcaption	长方形高度
 
-mods_downscaled_spritesheet	精靈表遭縮減
-mods_downscaled_spritesheet_msg	由於你的顯卡限制，精靈表必須縮減。可能是啟動太多 mods 的結果。請停用一些 mods 以改善品質。
-mods_errors_no_memory	已裝載無 Mod 精靈表
-mods_errors_no_memory_msg	沒有足夠的繪圖記憶體以裝載更多 mod 精靈表。可能是啟動太多 mods 的結果。請停用一些 mods 以減少記憶體的使用。
+mods_downscaled_spritesheet	精灵图片表单遭缩减
+mods_downscaled_spritesheet_msg	由于你的显卡限制，精灵图片表单必须缩减。\n可能是启动太多模组的结果。请反激活一些模组，以改善质量。
+mods_errors_no_memory	没有加载到模组精灵图片
+mods_errors_no_memory_msg	没有足够的显卡内存以装载更多模组精灵图片。\n可能是启动太多模组的结果。请反激活一些模组，以减少内存占用。
 
 # =============================================================================
 # Graphics Change Confirmation
@@ -1682,18 +1682,18 @@ scriptdebugger_title	脚本调试器 (F3)
 # =============================================================================
 
 modnotification_title	发现模组变动
-modnotification_info	保存当前监狱时正在使用以下模组。强烈建议在玩此监狱前下载并激活这些模组。
-modnotification_playnow	开始游戏
-modnotification_active	激活
-modnotification_inactive	停用
-modnotification_new	新建游戏
-modnotification_unknown	未知
-modnotification_popup_title	模组变动
-modnotification_popup_active	模组当前已激活。点击以停用。
-modnotification_popup_inactive	模组当前已停用。点击以激活。
-modnotification_popup_new_url	这是一个新模组。点击在网页浏览器中打开其链接。
-modnotification_popup_new_steam	这是一个新的 Steam 模组。点击立即订阅并下载模组。
-modnotification_popup_unknown	我们无法确定此模组的来源。请你自行查找并安装此模组。
+modnotification_info	这个监狱试图使用下面列表中的模组。\n请确认哪些模组是你目前想要的，点击以激活它们。
+modnotification_playnow	开始玩吧
+modnotification_active	[已激活]
+modnotification_inactive	[未激活]
+modnotification_new	[新的]
+modnotification_unknown	[未知]
+modnotification_popup_title	模组
+modnotification_popup_active	点击以 反激活(✘)
+modnotification_popup_inactive	点击以 激活(✔)
+modnotification_popup_new_url	这是一个新的模组。\n点击以在网页浏览器中打开其链接。
+modnotification_popup_new_steam	这是一个新的Steam模组。\n点击以订阅并下载它。
+modnotification_popup_unknown	无法确定此模组的来源。\n请你自行查找并安装它。
 
 # =============================================================================
 # Biography
@@ -2531,8 +2531,8 @@ needs_title	=[需求]=
 needs_total_prisoners	*X 名囚犯有這個需求
 needs_total_concerned	*X 名囚犯顧慮這個需求
 needs_total_desperate	*X 名囚犯迫切希望這個需求得到滿足
-needs_total_angry	*X 名囚犯大發雷霆，因為這個需求未得到滿足
-needs_total_active	*X 名囚犯正在應付這個需求
+needs_total_angry	*X 名囚犯大發雷霆，因为這個需求未得到滿足
+needs_total_active	*X 名囚犯正在应付這個需求
 
 needs_total_staff				▁ *X 名员工有这个需求\n
 needs_total_concerned_staff		▃ *X 名员工为这个需求所苦恼
@@ -2540,27 +2540,27 @@ needs_total_desperate_staff		▆ *X 名员工迫切希望这个需求得到满�
 needs_total_angry_staff			█ *X 名员工大发雷霆，因为这个需求未得到满足
 needs_total_active_staff		♫ *X名 员工正在应付这个需求
 
-needs_help_bladder	人人皆需使用廁所，囚犯也是。別忘記，你的監獄的大部分體制非常嚴格 - 例如，如果他們當時應在淋浴間，他們就無法使用牢房內的廁所。
-needs_help_bowels	人人皆需使用廁所，囚犯也是。別忘記，你的監獄的大部分體制非常嚴格 - 例如，如果他們當時應在洗澡間，他們就無法使用牢房內的廁所。
-needs_help_sleep	囚犯需要睡眠。囚犯僅能在他們分配到的牢房睡覺，且只能在晚上八點到早上八點其間睡覺。當然，他們會需要一張床。
-needs_help_food	人人需要吃，且大部分的人一天需要吃多過一次。若你發現廚房無法應付需求量，試著多雇用幾個廚師，或增加廚師到你的廚房。你也可以在報告視窗中的政策標籤，調整你的糧食政策。
-needs_help_safety	即使在監獄，你的囚犯也需要安全感。如果你的監獄有太多鬥毆事件或整體危險水平過高，囚犯會感到不安全然後考慮武裝自己。若這漸漸變成一個問題，你可以試著雇用更多守衛、建立更多巡邏路線或者達到囚犯的其他需求，藉此提高監獄的安全。
+needs_help_bladder	人人皆需使用廁所，囚犯也是。別忘記，你的监狱的大部分體制非常嚴格 - 例如，如果他们當時应在淋浴間，他们就無法使用牢房內的廁所。
+needs_help_bowels	人人皆需使用廁所，囚犯也是。別忘記，你的监狱的大部分體制非常嚴格 - 例如，如果他们當時应在洗澡間，他们就無法使用牢房內的廁所。
+needs_help_sleep	囚犯需要睡眠。囚犯僅能在他们分配到的牢房睡覺，且只能在晚上八點到早上八點其間睡覺。當然，他们會需要一張床。
+needs_help_food	人人需要吃，且大部分的人一天需要吃多過一次。若你發現廚房無法应付需求量，試著多雇用幾個廚師，或增加廚師到你的廚房。你也可以在報告視窗中的政策標籤，調整你的糧食政策。
+needs_help_safety	即使在监狱，你的囚犯也需要安全感。如果你的监狱有太多鬥毆事件或整體危險水平過高，囚犯會感到不安全然後考慮武裝自己。若這漸漸變成一個問題，你可以試著雇用更多守衛、建立更多巡邏路線或者達到囚犯的其他需求，藉此提高监狱的安全。
 needs_help_hygiene	大部分的囚犯會想要定期洗澡，尤其是早上起床後。淋浴時間會強迫那些牢房沒有淋浴間的囚犯，前往最近的淋浴間。若這漸漸變成一個問題，你可以考慮擴大你的淋浴間設施，或者增加自由活動時間讓囚犯依自己的需求洗澡。
-needs_help_exercise	很多囚犯會想要保持體態。你可以增加一個庭院，讓他們可以健身。無論是在庭院或其他公共區域放置舉重床，也有所幫助。
-needs_help_recreation	無聊的囚犯，是危險的囚犯。你可以在公共區域增加一些消遣的設施，例如電視或收音機，藉此達到囚犯對於休閒娛樂的需求。
-needs_help_comfort	囚犯一般需要感到舒適，生理和心理兩者皆是。有許多方法可以幫助達到這一點，例如允許家庭探訪、提供熱水澡或者純粹確保他們有地方可以坐。
+needs_help_exercise	很多囚犯會想要保持體態。你可以增加一個庭院，讓他们可以健身。無論是在庭院或其他公共區域放置舉重床，也有所幫助。
+needs_help_recreation	無聊的囚犯，是危險的囚犯。你可以在公共區域增加一些消遣的設施，例如電視或收音機，藉此達到囚犯对于休閒娛樂的需求。
+needs_help_comfort	囚犯一般需要感到舒適，生理和心理兩者皆是。有許多方法可以幫助達到這一點，例如允許家庭探訪、提供熱水澡或者純粹確保他们有地方可以坐。
 needs_help_environment	囚犯討厭居住在髒亂的環境，但是這麼多囚犯一起使用同樣的設施，週遭環境可能很快就髒亂了。你可以雇用一些工友或安排囚犯打掃衛生間，保持環境整潔。
-needs_help_privacy	有時候，囚犯會想要有自己的時間。通常待在自己牢房可以滿足這個需求，但是如果他們和其他囚犯共享一個房間，他們可能覺得隱私不夠。
-needs_help_freedom	就算在監獄裡，你的囚犯還是會想要感到某種程度上的自由。增加自由活動時間或庭院時間到日程表，有利於這一點。
-needs_help_clothing	就算囚犯每天都穿一樣的有色連身服，他門時不時還是會想要洗衣服。增加洗衣房並雇用工友或安排囚犯工作，可以讓他們美夢成真。
-needs_help_drugs	很多囚犯都有毒癮問題 - 這可能也是他們入獄的原因。在你的醫務室推動戒毒計劃，有助於解決這個問題。
+needs_help_privacy	有時候，囚犯會想要有自己的時間。通常待在自己牢房可以滿足這個需求，但是如果他们和其他囚犯共享一個房間，他们可能覺得隱私不够。
+needs_help_freedom	就算在监狱裡，你的囚犯还是會想要感到某種程度上的自由。增加自由活動時間或庭院時間到日程表，有利于這一點。
+needs_help_clothing	就算囚犯每天都穿一樣的有色連身服，他門時不時还是會想要洗衣服。增加洗衣房並雇用工友或安排囚犯工作，可以讓他们美夢成真。
+needs_help_drugs	很多囚犯都有毒癮問題 - 這可能也是他们入獄的原因。在你的醫務室推動戒毒計劃，有助于解決這個問題。
 needs_help_alcohol	很多囚犯飽受酒癮的困擾且會竭盡全力把酒弄到手。你可以嘗試推行酒癮團體治療活動以減輕這種困擾。
-needs_help_spirituality	很多囚犯有各種不同的宗教信仰。在監獄內增加長椅或祈禱墊，可以讓囚犯實行他們的宗教。但是蓋教堂並實施精神指導計劃的成效最佳，同時還能安撫囚犯。
+needs_help_spirituality	很多囚犯有各種不同的宗教信仰。在监狱內增加長椅或祈禱墊，可以讓囚犯實行他们的宗教。但是蓋教堂並實施精神指導計劃的成效最佳，同時还能安撫囚犯。
 needs_help_literacy	一些囚犯只想要閱讀。增加圖書館讓囚犯借閱書籍，可以滿足這個需求。
-needs_help_warmth	沒有人想在寒冷中度日，但大自然沒在管的。在監獄內增加暖氣保持室內溫暖，可以避免冷天演變成問題。
+needs_help_warmth	沒有人想在寒冷中度日，但大自然沒在管的。在监狱內增加暖氣保持室內溫暖，可以避免冷天演變成問題。
 needs_help_babysleep	嬰兒的睡眠時間需要比一般囚犯長。若你的囚犯有嬰兒，請確保有嬰兒床可以使用，讓嬰兒可以按其需求睡覺。
 needs_help_babyplay	嬰兒需要照料和娛樂。若你的囚犯有嬰兒，請確保公共區域有遊戲毯。
-needs_help_family	大部分的囚犯想要和家人保持聯繫。最簡單的方式是在你的監獄增加電話，但是增加會客設施成效更好。郵務室也有所幫助。
+needs_help_family	大部分的囚犯想要和家人保持聯繫。最簡單的方式是在你的监狱增加電話，但是增加會客設施成效更好。郵務室也有所幫助。
 needs_help_luxuries	很多囚犯时不时地要享用一点奢侈品。你可以通过建造商店来满足该需求，并且在这个过程中稍稍挣点小钱。\n该需求得以满足的囚犯会更少惹麻烦，但忽视该需求也没什么大不了的；毕竟，这里是监狱。
 
 needs_help_staffbladder			员工也需要上厕所啊。\n在“员工休息室”或“员工专区”房间里安装马桶。\n当轮休时，他们会来用。
@@ -2641,7 +2641,7 @@ reputationtooltip_instigator		这名囚犯擅长煽动邻近囚犯的不满情�
 reputationtooltip_fighter			该囚犯擅长自卫性搏斗。他们可以夺走对手的武器，甚至在搏斗中把对手的武器夺过来。
 reputationtooltip_gangmember		该囚犯属于一个帮派。他们会保护自己的帮派成员，对敌对帮派心怀仇恨。
 reputationtooltip_federalwitness	这名囚犯是一个重要案件的证人，因此已经被帮派或犯罪头目列为灭口目标。
-reputationtooltip_preacher			這名囚犯非常有魅力，並有能力使其他人改信宗教，讓他們有了精神上的付託。
+reputationtooltip_preacher			這名囚犯非常有魅力，並有能力使其他人改信宗教，讓他们有了精神上的付託。
 reputationtooltip_connected			这个囚犯到处都有路子，无论监狱内外。\n能够不知从哪里就仿佛凭空变出违禁品。
 reputationtooltip_workaholic		这个囚犯无法自拔地工作不休，直到没活儿可干为止。忙碌时会忽视作息甚至自己的基本需求。
 reputationtooltip_clean				这个囚犯执着于保持洁净；因而，对卫生的需求会以很高的速率上升。
@@ -2674,60 +2674,60 @@ nameplate_wounded	流血
 
 objective_feedallprisoners	给所有囚犯提供食物
 objective_caption_prisoners	囚犯
-objective_caption_meals	餐食
-objective_readceosletter	阅读首席执行官的来信
-objective_actionrequired	事件报告
+objective_caption_meals	伙食
+objective_readceosletter	阅读首席执行官的信
+objective_actionrequired	事故报告
 
-objective_deathrowinmates	死囚牢房囚犯状态
+objective_deathrowinmates	死刑犯宽大处理可能性
 
-objective_prisonerintake	接受囚犯数
-objective_intake_arrivals	在*Y 将有 *X 名囚犯抵达
-objective_intake_closed	监狱不再接收新囚犯
-objective_intake_closed2	（查看囚犯报告）
-objective_intake_closed3	（查看接收报告）
-objective_intake_specials	特别转移：
-objective_intake_categories	种类：
-objective_intake_minsec	低危险度，
-objective_intake_medsec	中危险度，
-objective_intake_maxsec	高危险度
-objective_intake_deathrow	死刑犯
-objective_intake_typeclosed	关闭
-objective_intake_typefillcapacity	填满容量
-objective_intake_typetotalprisoners	填到*X
-objective_intake_typenumperday	每天*X
-objective_intake_typeallavailable	全部可用
-objective_intake_closedstrike	在员工罢工期间不可接收
+objective_prisonerintake				接收囚犯
+objective_intake_arrivals				*X 个囚犯将于上午8点抵达
+objective_intake_closed					不再接收新的犯人
+objective_intake_closed2				点击查看[报告/囚犯]
+objective_intake_closed3				点击查看[报告/接收]
+objective_intake_specials				特别的转移：
+objective_intake_categories				类别
+objective_intake_minsec					低戒备，
+objective_intake_medsec					中戒备，
+objective_intake_maxsec					高戒备
+objective_intake_deathrow				死刑犯
+objective_intake_typeclosed				已关闭
+objective_intake_typefillcapacity		填补到监狱容量
+objective_intake_typetotalprisoners		填补到 *X 人
+objective_intake_typenumperday			每天 *X 人
+objective_intake_typeallavailable		尽管来吧
+objective_intake_closedstrike			员工罢工期间无法接收囚犯
 
-objective_firstgrant	接受你第一筆補助金
-objective_firstgrant_description	接受你第一筆補助金：開啟報告視窗（點擊螢幕右下方的按鈕），選擇補助金標籤，然後選擇可用的補助金。
+objective_firstgrant	领取你的第一份补助
+objective_firstgrant_description	打开[报告]窗口（屏幕右下角的按钮），\n选择[补助]标签页，从可用的补助中挑选一个。
 
-objective_builddeliveriesroom	建造囚犯接收区
+objective_builddeliveriesroom	设立 卸货区
 
-objective_outgoing	即将释放的囚犯
-objective_outgoing_count	*X 名囚犯即将被释放
+objective_outgoing			刑满释放的囚犯
+objective_outgoing_count	*X 个囚犯即将刑满释放
 objective_outgoing_timer	(*X 小时)
 
-objective_visitors	探视者（上午8点——晚上8点）
-objective_visitors_waiting	有 *X 名等待探视的家属
-objective_visitors_onsite	监狱里来了 *Y 组共计 *X 名探视者
+objective_visitors			探监者 (上午8点-晚上8点)
+objective_visitors_waiting	*X 名家属在等待探监
+objective_visitors_onsite	*Y 组、*X 名探监者到场
 
-objective_staffexhausted	员工精疲力竭
-objective_reststaff_exhausted	*X 名员工已经精疲力竭。
-objective_reststaff_resting	（ *X 名员工正在休息）
-objective_reststaff_needstaffroom	建立员工休息室，这样他们就可以休息了。
+objective_staffexhausted			员工精疲力竭
+objective_reststaff_exhausted		*X 名员工精疲力竭
+objective_reststaff_resting			(*X 名员工正在休息)
+objective_reststaff_needstaffroom	建立“员工休息室”，这样他们就能休息了。
 
-objective_punishment_solitary	*X 名囚犯被单独禁闭
-objective_punishment_solitary_queue	*X 名囚犯等待单独禁闭
-objective_punishment_solitary_mix	*X 名囚犯在单独禁闭 (*Y 名囚犯在等待)
+objective_punishment_solitary	*X 人被禁闭
+objective_punishment_solitary_queue	*X 人在等待被禁闭
+objective_punishment_solitary_mix	*X 人被禁闭 + *Y 人在等待被禁闭
 objective_punishment_lockdown	*X 人被禁足
-objective_incident_medical	*X 需要治疗
+objective_incident_medical	*X 人需要治疗
 objective_incident_dead	*X 具尸体
 
 objective_prisonerparole	囚犯假释
-objective_parole_count	*X 名囚犯可申请假释
+objective_parole_count	*X 人可申请假释
 
-objective_payment_receivedfull	报酬：*X 已收到
-objective_payment_receivedpart	报酬：已收到总计 *Y 中的 *X
+objective_payment_receivedfull	报酬: 已收到 *X
+objective_payment_receivedpart	已收到 *X\n　总计 *Y
 
 objective_grant_bootstraps	基础监禁中心
 objective_grant_bootstraps_description	把一片空地建成一座可正常运作的监狱。这份政府合同为你提供为首批囚犯建造最基本监狱基础设施所需的资金。
@@ -2757,7 +2757,7 @@ objective_grant_health_doctors	聘请至少两名医师
 objective_grant_health_psychologist	聘请一名心理医生（需要办公室）
 
 objective_grant_bailout	政府紧急救助
-objective_grant_bailout_description	政府对你的表现十分不满，但是政府认为你的监狱规模太大而不能倒闭。政府将使用纳税人的资金防止监狱破产。但是你必须平衡你的帐目——让你的监狱回归正现金流（每日收入高于支出），并且偿还银行贷款。
+objective_grant_bailout_description	政府对你的表现十分不满。但你的监狱规模太大，不能倒闭。\n政府将使用纳税人的资金防止监狱破产。\n但是你必须平衡你的帐目：让你的监狱回归到正的现金流\n（每日的收入高于支出），并且还清对银行的欠款。
 objective_grant_bailout_cashflow	收入高于支出
 objective_grant_bailout_debt	清偿债务
 
@@ -2884,14 +2884,14 @@ objective_grant_contrabandsupply_tools	取缔偷窃工具的供给
 objective_grant_contrabandsupply_weapons	取缔偷窃武器的供给
 
 grant_category_completed	已完成：
-grant_category_unlocked	已解锁：
-grant_category_cash	现金：
-grant_category_cashflow	现金流：
-grant_category_debt	债务：
-grant_category_prisoners	囚犯：
+grant_category_unlocked		已解锁：
+grant_category_cash			现金：
+grant_category_cashflow		现金流：
+grant_category_debt			债务：
+grant_category_prisoners	囚犯数：
 
 grant_property_atleast	至少 *X
-grant_property_atmost	不多于 *X
+grant_property_atmost	至多 *X
 
 
 # =============================================================================
@@ -3534,7 +3534,7 @@ damage_serious	严重受伤
 damage_injured	受伤
 damage_amount	*X%已受损
 
-message_autosaving	自动保存中……
+message_autosaving	正在自动存档...
 
 buildtoolbar_entersearchterm	输入查找术语……
 
@@ -3588,7 +3588,7 @@ roomerror_noprisoners	没有向此餐厅分配用餐囚犯
 roomerror_nocanteen_cells	从此牢房无法抵达任何餐厅。此牢房中的囚犯没有用餐地点
 roomerror_nocanteen_kitchen	从此厨房无法抵达任何餐厅。厨房在用餐时间不会烹制任何食物
 
-ceos_letter	尊敬的先生/女士，\n\n\n恭喜您完成基本导语部分……您现在是完全合格的监狱建筑师了！很快您就会从空闲的地块和几堆砖块开始设计、建造并经营您自己的监狱。在开始之前，我想应该给您分享一些重要的课程。\n\n1.每个监狱都需要典狱长——他是您应最先聘用的人员之一。给他建一间漂亮的办公室，他会通过行政系统打开一系列高级设施。\n\n2.单人牢房很贵，特别是在早期资金紧张时。从可以容纳很多囚犯的大牢房开始，这样可以节省资金。\n\n3.设立厨房和餐厅，并在第一名囚犯抵达之前开始运营，一定要聘请厨师——没有什么比空空的胃更能激怒囚犯！\n\n4.建造监狱是一项昂贵的事业，您需要擅长通过补助与合同筹集大笔资金。您可以从“报告”屏幕进入补助。\n\n我要讲的就是这些——祝您好运！\n\n Prison Architects Corp. \n首席执行官
+ceos_letter	更新(2017-07-23)：\n[同步] 跟进12b版本升级，补上了翻译。\n[改进] 不端行为标记 变得更小且更加透明，这样就不太阻挡你的视线了。\n[改进] 睡眠加速（仅限启用了作弊模式）时，以前会“购买”特殊物品“睡眠加速需求调整”，花费惊人的金额。现在它的价格改成0，并且不再在物品菜单中显示。\n[修复]有六种房间里，即使并非“员工专区”，员工也应该能够休息。我以前不知道这一点，意外地导致员工无法休息。\n[修复]雇佣“工头”时的一个错误。\n[修复][报告/需求]窗口还是官方更新并添加“员工需求”之前的，导致无法查看员工需求。\n[修复]代号48无法在一开始就被移除，而需要先碰到一名囚犯才能出现\n"终止任务并退场"的选项。\n[修复]升级了分拣帮派成员的摄像头，在分拣囚犯时会导致弹出调试窗口。\n\n亲爱的先生/女士：\n\n恭喜你完成基本入门。你现在是完全合格的监狱建筑师了！很快你就会从\n空置地块和几堆砖块开始设计、建造并经营你自己的监狱。在开始之前，\n我想我或许可以给你分享一些重要的经验教训。\n\n1. 每个监狱都需要典狱长——他应当是你最先雇用的人员之一。给他建一间\n漂亮的办公室，他会通过[行政系统]，开启一系列高级功能。\n\n2. 单人牢房很贵，特别是在早期资金紧张时。为了存下钱来，先从一个\n大型的拘留室起步吧；它马上就可以给很多囚犯共同使用。\n\n3. 设立厨房和食堂，并在第一个囚犯抵达之前开始运营。别忘了雇用厨师\n——没有什么比空空的胃更能激怒囚犯！\n\n4. 建造监狱是一项昂贵的事业，你需要擅长通过补助与合同，筹集大笔资金。\n你可以从右下角的[报告]窗口，访问[补助]标签页。\n\n我要讲的就是这些——祝你好运！\n\n监狱建筑师公司\n首席执行官\n\n\n附赠小提示：\n · 按 - 和 + 键，可以缩放界面比例。\n · 按1、2、3、4可以设定时钟速度为1、2、5、10倍。\n  （界面上的三个按钮，则是更快的2、4、10倍。）\n · 经常存档是个好习惯。（我偶尔会遇到程序崩溃的情况。）\n\n{中文豪华版} 祝你游戏愉快！\nyuanze3131@gmail.com
 
 quickbuild_basiccell	基本牢房
 quickbuild_solitarycell	禁闭室
@@ -3818,14 +3818,14 @@ finance_cost_shopcommission	商店销售提成
 # Clock
 # =============================================================================
 
-clock_speed_0	| |
-clock_speed_1	>
-clock_speed_2	>>
-clock_speed_3	>>>
-clock_speed_10	>>>>
-clock_speed_half	……
+clock_speed_0	　┃┃　
+clock_speed_1	▶
+clock_speed_2	▶▶
+clock_speed_3	▶▶▶
+clock_speed_5	▶▶▶
+clock_speed_half	...
 clock_add_hour	+
-clock_am	早上
+clock_am	上午
 clock_pm	下午
 
 # =============================================================================
@@ -3845,16 +3845,16 @@ event_earthquake	当地地震导致监狱的一个区块坍塌！
 event_virus	我们收到许多囚犯生病的报告。有必要甄别并对感染者进行隔离以防止传染。
 event_virus_x	我们收到许多囚犯生病的报告，症状似乎非常严重。你应该将病患隔离治疗以防大范围传染。
 event_treefire	你的林場著火了！
-event_foodpoisoning	我們持續收到囚犯食物中毒的報告。廚房的某些食物肯定壞了。不幸的是，病人除了等症狀退去，也別無他法。
-event_cilistleak	我們不知道為何，但是你的線人的資訊外洩了。如果我們不立刻將他們移到別處，他們將面臨真正的危險。
-event_keysersoze	根據近期備受關注的幫派案件指出，我們其中一名最低安全級別囚犯是高層幫派領袖。他們雖然保持低調，可是現在所有人都知道他們是誰...
-event_preacherconversion	一名富有魅力的囚犯成了某種傳教士，而其他人似乎也開始跟隨他。這不見得是一個大問題，但我們的囚犯很快地會有更多精神層面的需求。
+event_foodpoisoning	我们持續收到囚犯食物中毒的報告。廚房的某些食物肯定壞了。不幸的是，病人除了等症狀退去，也別無他法。
+event_cilistleak	我们不知道为何，但是你的線人的資訊外洩了。如果我们不立刻將他们移到別處，他们將面臨真正的危險。
+event_keysersoze	根據近期備受關注的幫派案件指出，我们其中一名最低安全級別囚犯是高層幫派領袖。他们雖然保持低調，可是現在所有人都知道他们是誰...
+event_preacherconversion	一名富有魅力的囚犯成了某種傳教士，而其他人似乎也開始跟隨他。這不見得是一個大問題，但我们的囚犯很快地會有更多精神層面的需求。
 
 event_massassassination_1	联邦诉讼案件中的多名证人身份泄露，其中一些是我们监狱的囚犯。
 event_massassassination_2	已经有人找杀手想杀掉他们，但我们需要他们或者。你需要找出这些囚犯并保证他们在庭审开始之前安然无恙。
 event_massassassination_3_x	我们得到消息太晚，所以你并没有太多时间抢在杀手之前保护这些囚犯。
 
-event_tvremovaldemand_1	媒體針對准予囚犯使用的設施發起運動，這為我的辦公室施加了很大壓力。
+event_tvremovaldemand_1	媒體針對准予囚犯使用的設施發起運動，這为我的辦公室施加了很大壓力。
 event_tvremovaldemand_2	我正在通过一条禁止在监狱公共区域播放电视的法案。所以你需要移除公共房间里的所有电视机，否则会被罚款。你有6个小时的时间。
 event_tvremovaldemand_fine	你未能按照现行法律要求移除公共房间里的电视机。你将被持续罚款，直到符合要求。
 event_tvremovaldemand_complete	媒体注意力转移到一些别的事情上，禁止在公共房间安装电视机的法案已被废除。如果你愿意可以随时重新安装。
@@ -3889,12 +3889,12 @@ event_morefreetimedemand_2	警卫们听到囚犯们在密谈：如果不快速�
 event_morefreetimedemand_ignore	囚犯们平静下来，停止针对缺乏自由时间而制造麻烦。或许他们意识到如果总被独自监禁，那自由时间就会更少。
 event_morefreetimedemand_complete	已经放任那些要求更多自由时间的囚犯们太久，所以你可以再次自由改变其时间安排。
 
-event_contrabandsurge_complete	我們剛剛發現我們為囚犯課程聘請的老師，一直在走私大量違禁品。他們雖然被開除了，但傷害已造成了。
-event_corruptingspiritualist_complete	我們為了宗教計劃而聘請的其中一位精神領袖，一直用各種仇恨言論激怒囚犯們。他們雖然被開除了，但是囚犯們仍需時間冷靜下來。
+event_contrabandsurge_complete	我们剛剛發現我们为囚犯課程聘請的老師，一直在走私大量違禁品。他们雖然被開除了，但傷害已造成了。
+event_corruptingspiritualist_complete	我们为了宗教計劃而聘請的其中一位精神領袖，一直用各種仇恨言論激怒囚犯们。他们雖然被開除了，但是囚犯们仍需時間冷靜下來。
 
-event_agitatingradio_1	根據一些守衛的說法，囚犯們收聽的廣播電台有一位新主持人一直在發表激怒囚犯的言論。
-event_agitatingradio_2	暫時停止使用收音機可能是個明智的決定，除非他們開始把主持人的話當一回事。
-event_agitatingradio_complete	遭到大量投訴後，那名電台主持人顯然被開除了。接下來監獄應該不會再有電台的問題了。
+event_agitatingradio_1	根據一些守衛的說法，囚犯们收聽的廣播電台有一位新主持人一直在發表激怒囚犯的言論。
+event_agitatingradio_2	暫時停止使用收音機可能是個明智的決定，除非他们開始把主持人的話當一回事。
+event_agitatingradio_complete	遭到大量投訴後，那名電台主持人顯然被開除了。接下來监狱应該不會再有電台的問題了。
 
 # =============================================================================
 # Events Objectives (shown in todo list)
@@ -3920,7 +3920,7 @@ objective_moresleepdemand_child	将睡眠时间增加到每天至少7小时
 objective_morefreetimedemand	给囚犯更多自由时间
 objective_morefreetimedemand_child	将自由时间增加到每天至少6小时
 objective_agitatingradio	煽動的電台節目
-objective_agitatingradio_child	現在的電台廣播節目在激怒我們的囚犯...
+objective_agitatingradio_child	現在的電台廣播節目在激怒我们的囚犯...
 
 # =============================================================================
 # Custom warden strings
@@ -4126,7 +4126,7 @@ mutator_title_somethingdifferent_tooltip	这些是怪怪的玩意儿。没啥意
 # Attract screen
 # =============================================================================
 
-attract_pressanykey	attract_pressanykey 按任意键开始……
+attract_pressanykey	按任意键开始……
 
 # =============================================================================
 # Help warnings
