@@ -1931,7 +1931,6 @@ object_shed	小屋
 object_BasicAutoGatherer	初级自动收集器
 object_AdvanceAutoGatherer	高级自动收集器
 object_AutoHarvester	自动收割机
-object_AutoHarvesterXL	大型自动收割机
 object_AutoScythe	自动镰刀工具
 object_Farmer	农民
 object_CompostFertilizer	堆肥
@@ -2084,7 +2083,6 @@ buildtoolbar_popup_obj_shed	储存所有种子、工具和其他农业道具的�
 buildtoolbar_popup_obj_BasicAutoGatherer	每 6 小时激活一次，用于在一片 5x5 的区域内收集和储存所有食材。
 buildtoolbar_popup_obj_AdvanceAutoGatherer	每 6 小时激活一次，用于在一片 10x10 的区域内收集和储存所有食材。
 buildtoolbar_popup_obj_AutoHarvester	每 6 小时激活一次，收割其前方宽度为 4 的 10 块地砖中的所有农作物。收割过程会因墙和门而受限。
-buildtoolbar_popup_obj_AutoHarvesterXL	每 6 小时激活一次，收割其前方宽度为 5 的 10 块地砖中的所有农作物。收割过程会因墙和门而受限。
 buildtoolbar_popup_obj_AutoScythe	机械化农场工具，会在游戏内每 6 小时激活一次，收割 5x5 区域内的所有农作物。
 
 buildtoolbar_popup_room_pantry	储存所有新鲜种植的蔬菜水果的房间，此房间为冷藏室，用于储存所有监狱内生长的食材。

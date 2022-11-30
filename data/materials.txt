@@ -1,3 +1,19 @@
+BEGIN Object     
+    Name                 MetalDetector  
+    ConstructionTime     10.0000  
+    MoveSpeedFactor      0.500000  
+    Price                -1000  
+    Filter		         Security
+    Group                StaticObject 
+    BlockedBy            Wall    
+    BlockedBy            UtilityStation
+    Sprite               MetalDetector  
+    MadeOf               SolidMetal
+    Properties           Utility
+    Properties           Electrical
+    Properties           DontAvoid
+END
+
 BEGIN Object    
     Name                Laborer
     MoveSpeedFactor     0.500000
@@ -1945,9 +1961,6 @@ BEGIN Object
     Properties          Sellable
 END
 
-
-
-
 BEGIN Object
     Name                Log
     MaxStackSize        3
@@ -1962,7 +1975,7 @@ END
 BEGIN Object
     Name                 LicensePlateBlank
     Price                -16
-    MaxStackSize         20
+    MaxStackSize         64
     RenderDepth          1
     Sprite               PlateBlank
     StackSprite          StackPlatesBlank
@@ -1970,7 +1983,16 @@ BEGIN Object
     Properties           Sellable
 END
 
-
+BEGIN Object
+    Name                 LicensePlate
+    MaxStackSize         512
+    RenderDepth          1
+    Price                -20
+    Sprite               Plate
+    StackSprite          StackPlates
+    Properties           Material
+    Properties           Sellable
+END
 
 BEGIN Object
     Name                 SuperiorBed

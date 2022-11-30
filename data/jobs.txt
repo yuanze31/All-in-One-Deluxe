@@ -4,7 +4,7 @@ BEGIN Job
 	Properties		 HighPriority
     Tool			 Hammer
     Worker			 Laborer
-    Qualification	 	 Workshop
+    Qualification	 Workshop
 	WorkGroup		 Workshop
 END
 
