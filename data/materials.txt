@@ -4116,17 +4116,19 @@ BEGIN Room
     Name                 Security
     Research             Security
     BEGIN Requirement Type MinimumSize  x 2  y 2  END
-    BEGIN LikelyObject  Id    CctvMonitor   END
-    BEGIN LikelyObject  Id      DoorControlSystem  END
-    BEGIN LikelyObject  Id      PhoneMonitor    END
-    BEGIN LikelyObject  Id    solitarydoor     END
-    BEGIN LikelyObject  Id    remotedoor     END
-    BEGIN Contraband    Id      JailKeys        END
-    BEGIN Contraband    Id      Baton           END
-    BEGIN Contraband    Id      Cigs            END
-    BEGIN Contraband    Id      Lighter         END
-    BEGIN Contraband    Id      Torch         END
-    Properties           StaffCanUseFacilities
+    BEGIN LikelyObject  Id      CctvMonitor       END
+    BEGIN LikelyObject  Id      DoorControlSystem END
+    BEGIN LikelyObject  Id      PhoneMonitor      END
+    BEGIN LikelyObject  Id      solitarydoor      END
+    BEGIN LikelyObject  Id      remotedoor        END
+    BEGIN LikelyObject  Id      TrackingMonitor   END
+    BEGIN Contraband    Id      JailKeys          END
+    BEGIN Contraband    Id      Keycard           END
+    BEGIN Contraband    Id      Baton             END
+    BEGIN Contraband    Id      Cigs              END
+    BEGIN Contraband    Id      Lighter           END
+    BEGIN Contraband    Id      Torch             END
+    Properties          StaffCanUseFacilities
 END
 
 BEGIN Room
@@ -4157,14 +4159,17 @@ END
 BEGIN Room
     Name                 MedicalWard
     Research             Health
-    BEGIN Requirement Type MinimumSize  x 2  y 2  END
+    BEGIN Requirement Type Indoor  END
     BEGIN Requirement Type Object  Id MedicalBed  END
     BEGIN Requirement Type Object  Id SinkMirror alt PersonalSink END
     BEGIN LikelyObject  Id      SinkMirror    END
-    BEGIN LikelyObject  Id    Door     END
-    BEGIN LikelyObject  Id    MedicineCabinet     END
-    BEGIN LikelyObject  Id    Bin     END
-    BEGIN LikelyObject  Id    MetalDetector             END
+    BEGIN LikelyObject  Id      Door     END
+    BEGIN LikelyObject  Id      MedicineCabinet     END
+    BEGIN LikelyObject  Id      Bin     END
+    BEGIN LikelyObject  Id      MetalDetector             END
+    BEGIN LikelyObject	Id		FirstAidStation	END
+    BEGIN LikelyObject	Id		MedicalBox	END
+    BEGIN LikelyObject	Id		HealthMonitor	END
     BEGIN Contraband    Id      Needle          END
     BEGIN Contraband    Id      Poison          END
     BEGIN Contraband    Id      Medicine        END
