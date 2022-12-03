@@ -37,7 +37,7 @@ moveobjects_abort	右击：取消移动
 
 buildtoolbar_popup_wallsanddoors	不同的墙壁和门类型
 buildtoolbar_popup_flooring	不同的地板风格
-buildtoolbar_popup_spawn	打开生成菜单。
+buildtoolbar_popup_spawn	你可以自由地创建并放置各种对象。\n\n在已经存在的对象上按住左键并拖动，可以移动其位置。\n按住Shift键并按住和拖动鼠标，可以旋转它的朝向。\n在空地上点击并拖动鼠标，可以新建多个对象；\n但记得同时还应按住Shift键，以免中途变成移动已有对象。\n\n警告：有些（特别是剧情模式才出现的）对象被生成后就无法移除了。
 buildtoolbar_tunnelsearch	管道搜查
 
 buildtoolbar_tooltip_tunnelsearch	怀疑罪犯正企图越狱？命令警卫搜查所有马桶。
@@ -1318,7 +1318,7 @@ dialog_various	多种多样
 report_needs_staffBreaks	这是所有类型的员工中可以同时休假的员工的最大比例。
 reports_privilegetitle	特权政策
 reports_misconducttitle	不当行为政策
-reports_paroletitle	假释截止政策
+reports_paroletitle	假释政策
 reports_parole_info	调整截止期：
 reports_parole_Cutoff	(*P%)
 reports_policy_PrivilegeTableTitle	特权
@@ -1737,14 +1737,14 @@ research_forestrylabour	林中劳役
 researchtooltip_forestrylabour	你可以通过后勤菜单让囚犯在林区工作。你必须封闭林区，以安排囚犯在其中工作，并且防止他们逃跑。请注意，囚犯也需要进入囚犯接收区来重新种植树木。
 action_usecomputer	使用电脑
 
-buildtoolbar_popup_help_roomquality_1	房间质量视图为您展示您的监狱中所有可升级房间的质量等级。数字越大表示质量越好。鼠标在房间各个位置悬停，即可查看决定房间质量的因素，并了解您可以添加什么来提高质量。\n\n
-buildtoolbar_popup_help_roomquality_2	如果囚犯移送已开启
-buildtoolbar_popup_help_roomquality_3	-房间质量也会提高安全区块的整体等级。
-buildtoolbar_popup_help_roomquality_4	-如果该安全区块比他们现在的安全区块质量更好（等级更高），囚犯会希望被转换到较低级的安全区块。\n\n
-buildtoolbar_popup_help_roomquality_5	牢房评级
-buildtoolbar_popup_help_roomquality_6	- 房间品质也将会影响整个区块的总体品质
-buildtoolbar_popup_help_roomquality_7	- 囚犯会想要被转换到安全等级较低的区块，尤其是如果那区块的品质比他现在所在的区块高
-buildtoolbar_popup_help_roomquality_8	- 如果没有其他可用牢房，可以将囚犯放入比他们应得的质量更高的牢房，但这可能会让其他囚犯不高兴……
+buildtoolbar_popup_help_roomquality_1	“牢房品质”视图为你展示监狱中所有牢房和宿舍的质量。\n按照从0到10进行分级，数字越大表示品质越好。\n鼠标悬停一个房间，即可查看决定其品质的因素，\n并了解你可以添加什么来提高品质。
+buildtoolbar_popup_help_roomquality_2	^\n小技巧
+buildtoolbar_popup_help_roomquality_3	\n表现良好的囚犯有权进入品质更高的牢房。\n囚犯可享受的品质待遇级别，等于其“无事故天数”。\n拥有品质更高的牢房有助于激励良好表现。\n
+buildtoolbar_popup_help_roomquality_4	\n你的监狱务必保留一些低品质的牢房，因为新囚犯需要住宿。\n如果所有可用牢房的品质太高，新囚犯可能会无处可去，\n而只能留在拘留室。
+buildtoolbar_popup_help_roomquality_5	\n如果没有合适的牢房，可以将囚犯放入比他们应得的品质\n更高的牢房，但这可能会让其他囚犯不高兴……\n\n我个人觉得这个玩法很鸡肋，倾向于禁用它。
+buildtoolbar_popup_help_roomquality_6	 
+buildtoolbar_popup_help_roomquality_7	 
+buildtoolbar_popup_help_roomquality_8	 
 
 interface_landbuyoverwater	在你的航道或开阔水域周围生成额外的岛屿，以完成扩张。
 interface_landbuywaterislands	岛屿

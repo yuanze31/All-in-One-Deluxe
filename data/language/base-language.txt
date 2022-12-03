@@ -691,15 +691,15 @@ interfacemode_needs	需求
 interfacemode_threats	威胁
 interfacemode_overlays	叠层
 interfacemode_research	行政
-interfacemode_emergencies	紧急
+interfacemode_emergencies	应急
 interfacemode_clone	克隆
 interfacemode_contraband	情报
 interfacemode_grading	评级
-interfacemode_spawn	（再生）
+interfacemode_spawn	作弊生成
 interfacemode_properties	（属性）
 interfacemode_cutscenes	（过场动画）
 interfacemode_selection	选择
-interfacemode_prefabs	快速搭建
+interfacemode_prefabs	快速建造
 
 interfaceoverlay_security	安保人员
 interfaceoverlay_patrols	巡逻
@@ -763,24 +763,24 @@ interfaceplanning_zone7	7区
 interfaceplanning_zone8	8区
 interfaceplanning_zone9	9区
 
-interfacecontraband_source	危险
+interfacecontraband_source	来源
 interfacecontraband_day	-24小时
 interfacecontraband_week	-7天
 interfacecontraband_alltime	-30天
-interfacecontraband_stolenfrom	竊取自
+interfacecontraband_stolenfrom	偷窃回溯
 interfacecontraband_informants	线人
 interfacecontraband_gangs	帮派
 
 interfacecallout_fireengine	消防车
 interfacecallout_riotpolice	防暴警察
-interfacecallout_armedpolice	武警
-interfacecallout_paramedics	护理人员
+interfacecallout_armedpolice	武装警卫
+interfacecallout_paramedics	救护人员
 interfacecallout_soldiers	士兵
 
-interfaceclone_copy	拷贝
+interfaceclone_copy	复制
 interfaceclone_paste	粘贴
-interfaceclone_cancel	撤销Quickbuild
-interfaceclone_clone	克隆
+interfaceclone_cancel	取消快速建造
+interfaceclone_clone	【克隆】
 
 interfacetopbar_todo	待办事项
 interfacetopbar_balance	存款 *B
@@ -969,16 +969,16 @@ connectionmenu_done	完成
 
 buildtoolbar_title	建造
 buildtoolbar_reports	报告
-buildtoolbar_bangup	上锁囚禁
-buildtoolbar_lockdown	防范禁闭
+buildtoolbar_bangup	回归牢房
+buildtoolbar_lockdown	全面戒严
 buildtoolbar_shakedown	彻底搜查
 buildtoolbar_weaponsfree	自由开火
 
-buildtoolbar_tooltip_reports	打开报告窗口，查看与囚犯、员工、收入、政府补助等相关的信息
-buildtoolbar_tooltip_bangup	将所有（愿意回牢房的）囚犯送回牢房，如果关押太长时间会引起不满
-buildtoolbar_tooltip_lockdown	立刻锁闭监狱里所有的门
-buildtoolbar_tooltip_shakedown	下令立即搜查所有牢房，搜查将会耗费一些时间，同时也会惹怒囚犯们。
-buildtoolbar_tooltip_weaponsfree	授权警卫使用致命武力。在击倒目标之前，狙击手不会再鸣枪警告。
+buildtoolbar_tooltip_reports	打开[报告]窗口，查看囚犯、员工、收入、补助等等信息。
+buildtoolbar_tooltip_bangup	将所有（不反抗的）囚犯送回牢房。\n如果关押太长时间，会引发不满。
+buildtoolbar_tooltip_lockdown	立刻锁上监狱里所有的门。\n只有警卫可以开门。
+buildtoolbar_tooltip_shakedown	下令立即搜查所有可能藏匿违禁品的地方。\n搜查将会耗费很长时间，同时也会惹怒囚犯们。
+buildtoolbar_tooltip_weaponsfree	授权武装警卫优先使用致命武器（霰弹枪）。\n狙击手也不会鸣枪警告，而会直接击毙目标。
 buildtoolbar_tooltip_nostrike	在员工罢工期间不可用。
 
 buildtoolbar_cost	费用: $*C
@@ -1004,10 +1004,10 @@ buildtoolbar_modcontent	[模组内容]
 
 buildtoolbar_popup_foundations	建造/拆除建筑以打造你的监狱
 buildtoolbar_popup_construction	不同类型的地面与墙壁。
-buildtoolbar_popup_planning	对监狱进行规划而不建造。
+buildtoolbar_popup_planning	对监狱开展规划，而不用担心工人真的动手。
 buildtoolbar_popup_designation	在监狱里标出特定功能的区域。
 buildtoolbar_popup_objects	在监狱各处放置有用的物品。
-buildtoolbar_popup_overlays	目测监狱布局上的安全弱点。
+buildtoolbar_popup_overlays	从视觉上标明监狱布局上的安全弱点。
 buildtoolbar_popup_utilities	管道与电气系统。
 buildtoolbar_popup_staff	雇用必要的人员经营你的监狱。
 buildtoolbar_popup_deployment	指派员工到监狱里的特定区域。
@@ -1016,9 +1016,9 @@ buildtoolbar_popup_research	为监狱解锁新功能。
 buildtoolbar_popup_emergencies	如果事态恶化，呼叫应急服务。
 buildtoolbar_popup_clone	你可以复制并粘贴现有建筑结构。
 buildtoolbar_popup_properties	查清那该死的东西。
-buildtoolbar_popup_contraband	显示违禁品来源，以及所有最近在监狱发现的违禁品。同时显示你的秘密线人及其情报。
-buildtoolbar_popup_grading	查看你的监狱整体等级基于四个关键指标——惩罚，教化，安全，医疗，同时显示囚犯出狱后的再犯率。
-buildtoolbar_popup_prefabs	复制和粘贴监狱的现有部分，或放置预定义的牢房。
+buildtoolbar_popup_contraband	显示违禁品来源，以及所有最近在监狱查获的违禁品。\n同时显示你的秘密线人及其情报。
+buildtoolbar_popup_grading	查看你的监狱整体等级，基于四个关键指标：\n惩罚、改造、安全、健康。还显示囚犯出狱后的再犯率。
+buildtoolbar_popup_prefabs 复制并粘贴你的监狱的一部分，或者放置预先定义好的房间。
 buildtoolbar_popup_room_cell	囚犯生活场所。
 buildtoolbar_popup_room_holdingcell	用于暂时收容未获得个人牢房的新进囚犯的房间
 buildtoolbar_popup_room_solitary	专门针对恶中之恶的隔离惩戒牢房。
@@ -1132,12 +1132,12 @@ buildtoolbar_popup_autolights	自动布置灯具
 buildtoolbar_popup_autolights_desc	如果启用此项，在新创建的建筑完工之后，\n将自动为其布置灯具。
 
 buildtoolbar_contraband_source	显示违禁品可能被偷取的所有位置。
-buildtoolbar_contraband_day	顯示過去 24 小時內沒收的所有違禁品。圖像顯示違禁品被沒收的地方。
-buildtoolbar_contraband_week	顯示過去 7 天內沒收的所有違禁品。圖像顯示違禁品被沒收的地方。
-buildtoolbar_contraband_alltime	顯示监狱有史以來沒收的所有違禁品。圖像顯示違禁品被沒收的地方。
-buildtoolbar_contraband_stolenfrom	顯示過去 7 天內的所有違禁品。圖像顯示違禁品從何處被竊取，或從何處被走私到监狱內。
+buildtoolbar_contraband_day	显示最近24小时没收的所有违禁品。\n\n另外，如果你想要完全理解违禁品玩法，\n建议你启用作弊模式，按F9，启用"All Contraband"视图。
+buildtoolbar_contraband_week	显示最近7天内没收的所有违禁品。
+buildtoolbar_contraband_alltime	显示你的监狱历史上没收的所有违禁品。
+buildtoolbar_contraband_stolenfrom	图标显示出违禁品是从哪里被偷窃或走私进来的。
 buildtoolbar_contraband_informants	显示秘密线人收集的情报。
-buildtoolbar_contraband_gangs	显示监狱中帮派的相关信息。
+buildtoolbar_contraband_gangs	显示监狱里的帮派信息。
 
 buildtoolbar_deployment_Guards	将警卫指派至你监狱里的区块。
 buildtoolbar_deployment_Patrols	~左键点击在巡逻路线中的点，以部署警卫。右击则移除。\n\n拖拽鼠标可以快速添加多个。
@@ -1156,7 +1156,7 @@ buildtoolbar_deployment_accessonly	囚犯和员工会尽可能地避开此区域
 buildtoolbar_deployment_prisonerdirection	点击并拖动可为楼层标志涂色。\n\n这可提示您的囚犯走哪条路。\n帮助控制监狱里的人流。
 buildtoolbar_deployment_staffdirection	点击并拖动可为楼层标志涂色。\n\n这可提示非囚犯人员走哪条路。\n帮助控制监狱里的人流。
 
-buildtoolbar_quickbuild_clone	克隆工具可以让你复制监狱的一个选定区域，然后将该区域放置到其他地点。选择克隆工具后，按住鼠标右键并拖曳出你想要复制的区域。然后，在监狱其他位置点击鼠标左键，即可将复制该区域的事件加入建造队列中。所选择的区域可以保存为自定义槽位。
+buildtoolbar_quickbuild_clone “克隆”工具可以让你复制监狱的一个选定区域，并重新放置该区域。\n\n选择本工具后，按住鼠标右键，拖曳你想要复制的区域。\n接着，在监狱其它地方左键点击，即可安排建造该区域的副本。
 
 # The ~ and ^ characters in front of some of the lines in the buildtoolbar_popup_help section are colour codes and should be preserved during translation
 
@@ -1167,11 +1167,11 @@ buildtoolbar_popup_help_targettingfood_4	^\n小技巧
 buildtoolbar_popup_help_targettingfood_5	\n如果你发现某个牢房或厨房没有与你预想的食堂配对，\n请尝试右键点击该牢房或厨房，强行重置。
 buildtoolbar_popup_help_targettingfood_6	\n如果你发现在吃饭期间对食堂的供应不足，这表明厨房超负荷了，\n你需要设法烹制更多的食物。
 
-buildtoolbar_popup_help_targettinglaundry_1	洗衣房分配视图为您展示哪些牢房、宿舍和接待室与哪些洗衣房配对。\n\n
-buildtoolbar_popup_help_targettinglaundry_2	~左键点击一间洗衣房，然后左键点击一间牢房、宿舍或接待室，使该洗衣房为该房间提供服务。按住Shift键可设置多个牢房的洗衣房配对。
-buildtoolbar_popup_help_targettinglaundry_3	右键点击一间洗衣房可将该洗衣房的目标配对重置为默认。\n\n
-buildtoolbar_popup_help_targettinglaundry_4	^小技巧
-buildtoolbar_popup_help_targettinglaundry_5	您可以随意为洗衣房搭配多个牢房，但洗衣房的运营速度是有限的（取决于洗衣房的大小、囚犯或守卫的数量）。一个大监狱使用一间洗衣房也是可行的，但每个牢房收到衣服的时间会很不固定。
+buildtoolbar_popup_help_targettinglaundry_1	“衣物分配”视图为你展示哪些牢房、宿舍和入狱搜查室\n与哪些洗衣房配对。\n\n
+buildtoolbar_popup_help_targettinglaundry_2	~左键点击一间洗衣房，然后点击牢房、宿舍或入狱搜查室，\n使该前者为该房间提供服务。\n按住Shift键可设置多个房间的配对。\n\n
+buildtoolbar_popup_help_targettinglaundry_3	右键点击一间洗衣房，可将其目标配对重置为默认。
+buildtoolbar_popup_help_targettinglaundry_4	^\n小技巧
+buildtoolbar_popup_help_targettinglaundry_5	你可以随意为洗衣房搭配多个牢房，但洗衣房的运作速度是\n有限的（取决于洗衣房的大小、囚犯或警卫的数量）。\n一个大监狱使用仅仅一间洗衣房是很不明智的。\n
 
 buildtoolbar_popup_help_jobs_1	“狱中劳动”视图为你展示哪些牢房拥有必须工作的囚犯，\n以及必须工作的囚犯数量。\n\n
 buildtoolbar_popup_help_jobs_2	~左键点击一个房间，可为该房间添加工作职位。\n在工作作息里，每个工作职位都可安排一个囚犯。\n右键点击该房间可移除一个职位。
@@ -1179,24 +1179,25 @@ buildtoolbar_popup_help_jobs_3	^\n小技巧
 buildtoolbar_popup_help_jobs_4	\n有些工作，例如在厨房或车间干活，要求囚犯首先完成培训。\n你可以在[报告]窗口的[项目]标签页里启动这些项目。
 buildtoolbar_popup_help_jobs_5	\n工作的囚犯按照每小时的工作领取少量报酬。\n安排最大数量的岗位未必是好主意；囚犯即使没有活干，\n也能领取报酬。\n\n为了避免偷窃违禁品或者闹事，你还需要部署警卫。
 
-buildtoolbar_popup_help_source_1	危险视图展示囚犯可以从每个牢房偷窃哪些违禁品。此外，您可以在右侧查看每一种违禁品的供需。如果某种违禁品供不应求，囚犯更有可能尝试偷窃，尤其是他们迫切需要某种东西的时候。\n\n
-buildtoolbar_popup_help_source_2	^小技巧
-buildtoolbar_popup_help_source_3	- 并非所有拥有违禁品资源的房间都有必要让囚犯进入，可以限制或完全阻止囚犯进出这些房间。
-buildtoolbar_popup_help_source_4	- 虽然这种视图展示了哪些房间可以偷窃违禁品，但进入房间并不是囚犯得到自己想要的东西的唯一方式……
+buildtoolbar_popup_help_source_1	“来源”视图展示囚犯可以从每个房间偷窃哪些违禁品。\n此外，你可以在右侧查看每一种违禁品的供需。\n如果某种违禁品供不应求，囚犯更有可能尝试偷窃，\n尤其是他们迫切需要某种东西的时候。
+buildtoolbar_popup_help_source_2	^\n小技巧
+buildtoolbar_popup_help_source_3	\n并非所有拥有违禁品资源的房间都有必要让囚犯进入，\n可以限制或完全阻止囚犯进出这些房间。
+buildtoolbar_popup_help_source_4	\n虽然这个视图展示了哪些房间可以偷窃违禁品，但进入房间\n并不是囚犯得到自己想要的东西的唯一方式……
 
 buildtoolbar_popup_help_contraband_title	违禁品
-buildtoolbar_popup_help_contraband_1	违禁品视图为您展示昨天或上周在您的监狱里发现的所有违禁品，以及发现违禁品的地方。\n\n
-buildtoolbar_popup_help_contraband_2	~ 鼠标悬停在某一件违禁品的上方，即可查看它的历史，包括囚犯最初如何得到它，以及在被发现之前它在哪些地方出现过。\n\n
-buildtoolbar_popup_help_contraband_3	^小技巧
-buildtoolbar_popup_help_contraband_4	- 如果您发现很多违禁品来自一小部分地方，您可能需要加强这些地方的安防。
-buildtoolbar_popup_help_contraband_5	- 不同的违禁品的检测方式也不相同。比如说，守卫犬非常擅长探测对它们来说有强烈气味的东西。
+buildtoolbar_popup_help_contraband_1	“违禁品”视图为你展示昨天或上周查获的所有违禁品，\n以及查获它们的地方。
+buildtoolbar_popup_help_contraband_2	~鼠标悬停在某件违禁品，即可查看它的历史，包括\n囚犯最初如何得到它，以及在被查获之前它都去过哪里。
+buildtoolbar_popup_help_contraband_3	^\n小技巧
+buildtoolbar_popup_help_contraband_4	\n如果你发现很多违禁品来自一小部分地方，你可能需要\n加强这些地方的安防。
+buildtoolbar_popup_help_contraband_5	\n不同的违禁品的检测方式也不相同。\n比如说，警犬非常擅长探测对它们来说有强烈气味的东西。
 
-buildtoolbar_popup_help_informants_1	线人视图为您展示目前的秘密线人列表。此外，潜在的秘密线人被标黄，通常在您的单独拘禁牢房里。\n\n
-buildtoolbar_popup_help_informants_2	~为了招募秘密线人，以及寻找潜在的秘密线人，请前往犯罪记录的体验选项卡，点击“招募线人”按钮。\n\n
-buildtoolbar_popup_help_informants_3	~如需激活线人，请点击代表“空闲”的按钮（点击后它会闪烁“活跃”状态），等待线人被押送到安全办公室。保安办公室将根据他们的职责范围，向您展示一些隐藏的违禁品、囚犯声誉和潜在的刺杀目标。
-buildtoolbar_popup_help_informants_4	^小技巧
-buildtoolbar_popup_help_informants_5	- 激活线人并根据线人提供的信息进行搜索，会提高线人的可疑级别。如果可疑级别过高，线人可能会遇到一些麻烦……
-buildtoolbar_popup_help_informants_6	- 点击线人激活按钮旁边的“X”，可以解雇线人。
+buildtoolbar_popup_help_informants_1	“线人”视图为你展示目前的秘密线人列表。\n此外，“潜在的线人”被标为黄色，通常在禁闭室里。\n\n
+buildtoolbar_popup_help_informants_2	~如何招募秘密线人？\n在本视图中，如果你运气好的话，从关禁闭的囚犯当中，\n会遇到潜在的线人，\n在其[犯罪档案>经历]，点击[招募为线人]按钮。\n\n
+buildtoolbar_popup_help_informants_3	~每一次要想启用线人，都要点击显示为“[闲置]”的按钮\n（悬停时会闪烁“激活”）。线人被押送到警卫室后被激活。\n\n
+buildtoolbar_popup_help_informants_4	基于各自的覆盖范围，激活的线人会向你展示：\n藏匿的违禁品、囚犯特征和潜在的刺杀目标。\n\n无论你用了多少‘电话窃听器’，你依然需要几名线人\n以查看上述情报。\n\n
+buildtoolbar_popup_help_informants_5	^\n小技巧
+buildtoolbar_popup_help_informants_6	\n保持激活线人（留在警卫室）并根据线人提供的信息进行搜查，\n会提高线人的“被怀疑度”。如果过高，那么线人就危险了……
+buildtoolbar_popup_help_informants_7	\n点击线人的[激活]按钮旁边的[X]，可以解雇线人。
 
 buildtoolbar_popup_help_utilities_1	“基础设施”视图显示监狱下方的各种管道连接。\n你可以建立电缆和水管，并利用电线连接各种物品。\n\n
 buildtoolbar_popup_help_utilities_2	~创建电缆或管道时，按住鼠标左键，在你想要连接的两个点之间拖曳。\n右键点击可以取消现有的电缆或管道工程任务。
@@ -1268,21 +1269,21 @@ buildtoolbar_popup_help_accountant_1	會計師負責管理监狱的財務，並�
 
 buildtoolbar_popup_help_lawyer_1	律師可以協助你解決運行监狱時可能面臨的棘手法律問題，也可以在监狱發生灾難性事件時，協助你規避法律責任。他们也可以解鎖你的监狱的死囚選項。他们有辦公室之後，基本上就會自行管理。
 
-buildtoolbar_popup_help_gangs_1	幫派畫面顯示监狱目前的幫派狀況。你可以查看每一個幫派的資訊，也可以看到哪些幫派拥有哪些房間，以及哪些囚犯是幫派成員。你也可以看到哪些幫派成員是幫派幹部（以雙圈圖案標示），以及幫派領袖（以三圈圖案標示）。\n\n
-buildtoolbar_popup_help_gangs_2	~若你想強制移除管理某個區域的幫派，你可以選定房間，待「驅逐」鈕出現後按之。但是該幫派不會太開心...\n\n
-buildtoolbar_popup_help_gangs_3	^提示
-buildtoolbar_popup_help_gangs_4	- 你無法改變幫派控制的區域。若你想增加或移除該區域的任何東西，你必須先將其收回。
-buildtoolbar_popup_help_gangs_5	- 非幫派成員使用幫派控制區域的設施將被收取使用費。敵對幫派成員會徹底避免出入那些區域。
-buildtoolbar_popup_help_gangs_6	- 你可以使用監控室協助維持你在某個區域的影響力。位于潛在幫派區域附近的監控室守衛，皆算在你的控制範圍。
-buildtoolbar_popup_help_gangs_7	- 幫派成員非常保護他们的領袖。若領袖出了什麼事，他们肯定不高興...
+buildtoolbar_popup_help_gangs_1 帮派画面显示监狱目前的帮派状况。\n你可以查看每一个帮派的信息，看到哪些帮派拥有哪些房间，\n以及哪些囚犯是帮派成员。还包括：哪些帮派成员是帮派干部\n（以双圈图案标示），以及帮派领袖（以三圈图案标示）。\n\n
+buildtoolbar_popup_help_gangs_2 ~若你想强制赶走控制着某个区域的帮派，你可以选定房间并\n点击[驱逐]按钮。但是显然该帮派不会乐意……
+buildtoolbar_popup_help_gangs_3 ^\n小技巧
+buildtoolbar_popup_help_gangs_4 \n你无法控制和管理被帮派控制的区域。\n你必须将其收复，否则无法添加或移除该区域的任何东西。
+buildtoolbar_popup_help_gangs_5 \n非帮派成员使用帮派控制区域的设施时，将被收取保护费。\n而敌对帮派成员则会彻底避开那些区域。
+buildtoolbar_popup_help_gangs_6 \n你可以使用警卫室以更好地维持你在某个区域的影响力。\n部署警卫到与潜在帮派区域相临的警卫室，有利于你的控制。
+buildtoolbar_popup_help_gangs_7 \n帮派成员非常保护他们的领袖。\n如果领袖出了什么事，他们肯定不高兴……
 
-buildtoolbar_popup_help_weathermap_1	「溫度畫面」顯示监狱內各區域的溫度。溫度主要是透過暖器而增加。若一個區域過冷，該區域的囚犯溫暖需求就會增加。
+buildtoolbar_popup_help_weathermap_1	“温度”视图显示监狱内各区域的温度。\n若一个区域过冷，该区域的囚犯对“保暖”的需求就会上升。\n\n温度主要是通过‘暖气片’来提高。\n热水澡也很重要。\n相应地，需要‘锅炉’和‘热水管’。
 
-buildtoolbar_popup_help_prefabs_1	「快速建造」選單包含協助加速建造你經常使用的房間的選項。複製工具可以讓你複製监狱的一個選定區域，並重新安置該區域。預製房間讓你安置自動符合需求的預製房間。\n\n
-buildtoolbar_popup_help_prefabs_2	~選擇複製工具後，按住滑鼠右鍵並拖曳您想要複製的區域。接著，在监狱其他地方按左鍵，即可排定該區域的複製工程。 \n
-buildtoolbar_popup_help_prefabs_3	~選定預製工具後，只要在你想要建造房間的區域上按左鍵，工人就會为你建造。\n\n
-buildtoolbar_popup_help_prefabs_4	^提示
-buildtoolbar_popup_help_prefabs_5	- 複製工具無法複製管線的連接。你必須手動連接電和水到你新建的區域。
+buildtoolbar_popup_help_prefabs_1 “快速建造”菜单里的选项，会让你加速建造经常使用的房间。\n\n“克隆”工具可以让你选择并复制一个区域，然后再次放置它。\n\n你还可以安置多种“预制”房间。\n\n
+buildtoolbar_popup_help_prefabs_2 ~选择“克隆”工具后，按住鼠标右键并拖曳你想要复制的区域。\n接着，在其它地方左键点击，即可安排建造该区域的副本。
+buildtoolbar_popup_help_prefabs_3 ~选择预制房间后，只需在你想要建造它的地方左键点击即可。
+buildtoolbar_popup_help_prefabs_4 ^\n小技巧
+buildtoolbar_popup_help_prefabs_5 \n“克隆”工具并不复制基础设施的连接。\n你必须手动连接电水到你新建的区域。
 
 buildtoolbar_popup_help_zoning_1	“区划”工具让你控制哪些囚犯可以出入哪些区域。\n\n
 buildtoolbar_popup_help_zoning_2	~选择你要的区域类别，并在区域左键点击。\n右键点击会重设区域为公共。
@@ -1307,7 +1308,7 @@ buildtoolbar_popup_help_patrols_5	\n若你解锁了“微观管理”，你将�
 buildtoolbar_popup_help_accessonly_1	“目的地专区”工具让你可以标记一些区域为通常应被避开。\n如果你更希望人们选择不同的路线，那么它让你可以阻止\n人们把这些房间当做是捷径（穿堂而过）。\n\n
 buildtoolbar_popup_help_accessonly_2	~左键点击你想要标记为“目的地专区”的区域。\n特别的是：这可以叠加在平常的戒备设置上。\n\n
 buildtoolbar_popup_help_accessonly_3	~右键点击则移除它。\n\n
-buildtoolbar_popup_help_accessonly_4	^小技巧\n\n
+buildtoolbar_popup_help_accessonly_4	^\n小技巧\n\n
 buildtoolbar_popup_help_accessonly_5	“目的地专区”并非严格的设置。它并不明文禁止人们进入，\n尤其当他们的目标就在这个区域里面的时候。\n如果穿过某个“目的地专区”比替代路线短得多，那么人们\n仍然会选择前者。
 
 job_matsassigned	已分配材料
@@ -1794,12 +1795,12 @@ punish_active	执行中
 punish_permanent	（无限期）
 punish_end	结束惩罚
 
-punish_up	上
-punish_down	下
-punish_setmin	最小值
-punish_setmed	中间值
-punish_setmax	最大值
-punish_setsuper	超级
+punish_up	升↗
+punish_down	降↘
+punish_setmin	轻
+punish_setmed	中
+punish_setmax	重
+punish_setsuper	超重
 
 # =============================================================================
 # Misconducts
@@ -1994,98 +1995,98 @@ report_prisoners	囚犯
 report_jobs	工作
 report_needs	需求
 report_threats	威胁
-report_regime	统治
+report_regime	作息
 report_policy	政策
 report_grants	补助
 report_finance	财政
-report_valuation	估价
+report_valuation	估值
 report_contraband	违禁品
-report_programs	方案
-report_schedule	调度器
+report_programs	项目
+report_schedule	改造项目时刻表
 report_intake	接收
 
 report_grants_bankloan	银行贷款
-report_grants_bankloan_text	你可以从银行获得一大笔贷款。银行将每天收取利息，你必须通过现金流支付。\n\n按时还款会使你的信用评级逐渐提高，银行会愿意贷给你更多的钱。\n反之如果你错过还款，你的信用评级将会降低，当你下次需要贷款时可能遭到银行拒绝你\n\n注意：靠支付每日利息是无法还清贷款的。
-report_grants_max1	你每次只能接受一项补助。\n让会计师来解除限制。
-report_grants_max2	你每次只能接受不超过两项补助。\n让会计师来解除限制。
-report_grants_max3	你每次只能接受不超过三项补助。
-report_grants_bankloan_amount	当前银行贷款：*X
-report_grants_bankloan_interest	利息：*X每天
+report_grants_bankloan_text	你可以从银行获得一大笔贷款。\n作为回报，银行将每天收取利息，你必须通过现金流支付。\n\n按时还款会使你的信用评级提高，银行会愿意贷给你更多的钱。\n反之，如果你错过还款，你的信用评级会降低，当你下次需要\n贷款时，将遭到银行拒绝。\n\n注意：仅靠支付每日利息，无法还清贷款。
+report_grants_max1	你只能同时接受1项补助。\n让会计来解除限制。
+report_grants_max2	你只能同时接受不超过2项补助。\n让会计来解除限制。
+report_grants_max3	你只能同时接受不超过3项补助。
+report_grants_bankloan_amount	当前贷款：*X
+report_grants_bankloan_interest	每日利息: *X
 report_grants_bankloan_max	最高贷款额度：*X
 report_grants_creditrating	你的信用评级：*X
 report_grants_inprogress_tt	(进行中)
 report_grants_completed_tt	(已完成)
 report_grants_locked_tt	(未解锁)
-report_grants_advancepayment	*X 预付款
-report_grants_completionbonus	*X 完成奖励
-report_grants_objectives	[目标]
+report_grants_advancepayment	预付款: *X
+report_grants_completionbonus	完成奖励: *X
+report_grants_objectives	[任务目标]
 report_grants_prereqs	[前提条件]
 report_grants_completed	已完成
 report_grants_locked	未解锁
 report_grants_inprogress	进行中
-report_grants_hidden	( *X 项以上隐藏)
-report_grants_taptoaccept	轻按以接受
+report_grants_hidden	(还有 *X 项被隐藏)
+report_grants_taptoaccept	点击以接受
 report_grants_cancelfee	取消费用：*X
 
-report_staff_title	总员工数：*X
-report_prisoners_title	总囚犯数：*X
+report_staff_title	员工总数：*X
+report_prisoners_title	囚犯总数：*X
 report_staff_group_builders	工人
 report_staff_group_guards	警卫
-report_staff_group_staff	员工
+report_staff_group_staff	其它员工
 report_staff_group_administrators	管理者
 report_staff_group_prisoners	囚犯
-report_staff_group_prisoners_high	高风险
-report_staff_group_prisoners_normal	中风险
-report_staff_group_prisoners_low	低风险
-report_staff_group_prisoners_protected	重点保护
-report_staff_group_prisoners_supermax	超重刑犯
+report_staff_group_prisoners_high	高戒备
+report_staff_group_prisoners_normal	中戒备
+report_staff_group_prisoners_low	低戒备
+report_staff_group_prisoners_protected	保护性拘留
+report_staff_group_prisoners_supermax	超高戒备
 report_staff_group_prisoners_deathrow	死刑犯
 
-report_staff_fire	开除
+report_staff_fire	解雇
 
 report_intake_title	接收
 report_intake_catheader_cat	类别
-report_intake_catheader_pay	费用
-report_intake_catheader_available	名额
+report_intake_catheader_pay	报酬
+report_intake_catheader_available	可获得
 report_intake_catheader_amount	比例
 report_intake_next_header	下一批接收：*X
-report_intake_cat_minsec	轻刑犯
-report_intake_cat_normal	普通犯
-report_intake_cat_maxsec	重刑犯
+report_intake_cat_minsec	低戒备
+report_intake_cat_normal	中戒备
+report_intake_cat_maxsec	高戒备
 report_intake_cat_deathrow	死刑犯
-report_intake_slider_minsec	调整轻刑犯接收比例
-report_intake_slider_normal	调整普通犯接收比例
-report_intake_slider_maxsec	调整重刑犯接收比例
-report_intake_slider_deathrow	调整死刑犯接收比例
+report_intake_slider_minsec	调整低戒备的接收比例
+report_intake_slider_normal	调整中戒备的接收比例
+report_intake_slider_maxsec	调整高戒备的接收比例
+report_intake_slider_deathrow	调整死刑犯的接收比例
 report_intake_closed	关闭
-report_intake_locked	锁定
-report_intakeclosed	新囚犯入口关闭
-report_intakeclosed_tooltip	您的新囚犯入口已关闭。您不会收到任何新囚犯，直至您重新打开入口。
-report_intakenumperday	每日纳入量
-report_intakenumperday_tooltip	下次纳入新囚犯时您要获得的囚犯总数。您可以增加或减少下次纳入时您想收到的新囚犯数量。\n\n使用上方的滑块调整每个类别的囚犯数量。
+report_intake_locked	未解锁
+report_intakeclosed	关闭囚犯接收
+report_intakeclosed_tooltip	你的囚犯接收是关闭的。除非你再次打开它，否则你将不会收到任何新的囚犯。
+report_intakenumperday	每日人数
+report_intakenumperday_tooltip	你下一次接收囚犯的总人数。\n\n你可以调节上面的滑块，以改变接收犯人的类别的比例。
 report_intaketotalprisoners	囚犯总数
-report_intaketotalprisoners_tooltip	您希望自己的监狱关押的囚犯总数。每天的纳入量会自动达到该数目。\n\n使用上方的滑块调整每个类别的囚犯数量。
-report_intakeallavailable	全部可用
-report_intakeallavailable_tooltip	来自所有开放纳入库的全部可用新囚犯将在下次纳入时交付。
-report_intakefillcapacity	填满容量
-report_intakefillcapacity_tooltip	从可用纳入库尽可能多地纳入新囚犯，以便将监狱容量填满。\n\n使用上方的滑块调整每个类别的囚犯数量。
-reports_intaketypenone	关闭
-reports_intaketypefillcapacity	填满容量
+report_intaketotalprisoners_tooltip	你想要的你的监狱里的囚犯的总数。\n新接收的囚犯不会使监狱的总人数超过这个数字。\n\n你可以调节上面的滑块，以改变接收犯人的类别的比例。\n\n注意：新囚犯的戒备类别，与牢房容量完全无关！\n除非你没有按类别划分牢房区块，否则还是用“填补容量”吧。
+report_intakeallavailable	尽管来吧
+report_intakeallavailable_tooltip	接收全部可获得的囚犯。将会在下一次接收囚犯时执行。
+report_intakefillcapacity	填补容量
+report_intakefillcapacity_tooltip	以尽可能多的囚犯来填补你的监狱容量。\n\n你可以调节上面的滑块，以改变接收犯人的类别的比例。\n每种戒备类别的囚犯，都会补充到其牢房区块的容量。
+reports_intaketypenone	关闭接收
+reports_intaketypefillcapacity	填补容量
 reports_intaketypetotalprisoners	囚犯总数
-reports_intaketypenumperday	每日纳入量
-reports_intaketypeallavailable	全部可用
-report_intakemaxperdaydecr	<<
-report_intakemaxperdayincr	>>
+reports_intaketypenumperday	每日人数
+reports_intaketypeallavailable	尽管来吧
+report_intakemaxperdaydecr	<
+report_intakemaxperdayincr	>
 report_intakemaxperdaynone	无
 report_intakemaxperdayall	全部
 reports_intakedelivernow	开始接收
-report_intakepayment	费用
+report_intakepayment	报酬
 report_intakeall	全部
-report_intakefill	填到*X
-report_intakefill_mothers	填到*X（未计算家庭监狱）
+report_intakefill	到 *X
+report_intakefill_mothers	填补到 *X (不计算家庭牢房)
 report_intake_list_tooltip_title	接收类别
-report_intake_list_tooltip	可接收的囚犯类别列表。\n\n下面的池规模表示每个类别可被押送的囚犯数量。此数量会根据滚动条的比例随时间增长。\n\n你可以调节滚动条来改变下批接收犯人种类的比例。
-report_intake_list_tooltip_dr	\n\n你需要在接收死刑犯前为其分派好死刑犯牢房。死刑犯的接收要比普通囚犯慢很多。你不会看到太多死刑犯，这种囚犯十分罕见。
+report_intake_list_tooltip	可接收的囚犯类别列表。\n\n每个类别下，池的大小表示可得囚犯的数量。\n此数量会根据滑块的比例，随着时间而增减。\n\n你可以调节滑块，以改变接收犯人的类别的比例。\n\n低戒备囚犯如果得到有效改造，并提供假释，\n那么每天能够有10分之一的人被释放，\n从而得到3000元的奖金。\n\n高戒备的囚犯，刑期很长，但也因此可以充分培训，\n进而制造高级商品。
+report_intake_list_tooltip_dr	\n\n在接收死刑犯前，你需要准备好“死刑犯专区”牢房。\n死刑犯的接收要比普通囚犯慢很多。\n你不会总能补充到死刑犯；这种犯人十分罕见。
 report_intake_buttons_tooltip_title	下批接收
 report_intake_buttons_tooltip	你可以在下一批接收时使用此部分增加或减少你希望接收的囚犯数量。\n\n选择”无“监狱将不会接收新囚犯。选择”全部“将接收所有可被接收的囚犯。\n\n每类囚犯的数目可以用上述滚动条调节。
 report_intake_overview_tooltip_title	囚犯接收概况
@@ -2095,31 +2096,31 @@ report_needs_prisoners	囚犯需求
 report_needs_staff	员工需求
 
 valuation_categoryprison	监狱价值
-valuation_construction	房产
-valuation_objects	固定装置及设备
+valuation_construction	房产实体
+valuation_objects	固定附着物和设备
 valuation_stock	存货与材料
 valuation_staff	员工
-valuation_startupgrant	起始补助
+valuation_startupgrant	起步补助
 valuation_capacity	囚犯容量
 valuation_cash	现金
 valuation_debt	银行贷款
-valuation_categoryperformance	安全与保障
-valuation_bonustimewithoutincident	[加分] 无事故时间
-valuation_finedeath	[扣分] 过去24小时的死亡人数
-valuation_fineescape	[扣分] 过去24小时的越狱人数
+valuation_categoryperformance	安全与安保
+valuation_bonustimewithoutincident	[加分]无事故时间
+valuation_finedeath	[扣分]过去24小时的死亡人数
+valuation_fineescape	[扣分]过去24小时的越狱人数
 valuation_total	总计
 valuation_sell	出售
 valuation_sellprison	出售监狱
-valuation_sell_tooltip	出售监狱可以让你获利并拥有更多资金以开启另一栋监狱。\n\n你依然可以继续运营此监狱，但每栋监狱只能出售一次。所有销售利润将会转移到新监狱地点。
-valuation_sold	售出此监狱获得：*X
+valuation_sell_tooltip	出售监狱可以让你获利并拥有更多资金以开启另一栋监狱。\n\n你依然可以继续运营此监狱，但每栋监狱只能出售一次。\n所有销售利润将会转移到新监狱地点。
+valuation_sold	出售此监狱获得：*X
 valuation_donotown	此监狱不属于你，因此无法出售。
-valuation_sellsome	售出股份
-valuation_buysome	购买股份
-valuation_shares	购买及售出股份
-valuation_shares_tooltip	你最多可以向投资者售出监狱50%的股份。你会立即收到现金。作为对他们投资的回报，当你出售监狱时，股东将会获得相应份额的资金。\n\n也就是说如果你出售了30%的股份，在售出监狱时你将只能获得70%的最终销售价值。你随时可以买回之前售出的股份——尽管价格可能比当初出售时高。
+valuation_sellsome	卖出股份
+valuation_buysome	买入股份
+valuation_shares	买入及卖出股份
+valuation_shares_tooltip	你最多可以向投资者出售监狱50%的股份。你会立即收到现金。\n作为对他们投资的回报，当你出售监狱时，股东将会获得相应份额的资金。\n\n例如：如果你出售了30%的股份，在出售监狱时你将只能\n获得70%的最终销售价值。你随时可以买回之前出售的股份\n——尽管可能比当初的出售价格更高。
 valuation_ownership	你拥有 *X% 的监狱股份
 valuation_saleprice	售价：*X
-valuation_title	=[估价]=
+valuation_title	【估值】
 valuation_totalprisonvalue	监狱总价值：*X
 valuation_subcashreserves	减去现金储备：*X
 valuation_tenpercentprice	10%的价格：*X
@@ -2137,56 +2138,56 @@ salecondition_recentescapes	最近无人越狱
 salecondition_passed	[通过]
 salecondition_failed	[未通过]
 
-policy_title	事件
-policy_search	- 搜查 -
-policy_prisoner	他
-policy_prisoner_f	她的
+policy_title	事故类型
+policy_search	自动搜查
+policy_prisoner	囚犯
+policy_prisoner_f	囚犯
 policy_cell	牢房
-policy_security	安全等级
+policy_security	戒备
 policy_punishment	惩罚
 policy_quantity	时间
 policy_punishmenttime	*X 小时
-policy_mealcost	*X美元 /天
-policy_totalmealcost	(总计: *X 美元/ 天)
-policy_cell_quality	使用牢房质量评分
-policy_cell_quality_tooltip_title	使用牢房质量
-policy_cell_quality_tooltip	启用后，根据囚犯的表现，他们只会被分配到相应质量的牢房中。即使没有其他空余牢房，表现不佳的囚犯也无法分配到高质牢房。\n如果停用，囚犯可能分配到各种质量的牢房中，不过质量低于平均值的牢房中的囚犯会更加愤怒。如果表现良好，囚犯仍可升级到更高质量的牢房中。
+policy_mealcost	$*X / 天
+policy_totalmealcost	(总计: $*X / 天)
+policy_cell_quality	启用牢房品质分级
+policy_cell_quality_tooltip_title	牢房品质分级
+policy_cell_quality_tooltip	如果启用，基于行为表现，囚犯只会被指派到其应得的质量的牢房。\n哪怕没有别的牢房可用了，行为不端的囚犯也永远得不到高质量的牢房。\n\n如果禁用，囚犯会被指派到任意质量的牢房。\n但低于平均水平的质量会让人心生不忿。\n如果表现良好，囚犯依旧会被升级到更高质量的牢房。\n\n启用它会导致你为接收新囚犯而费神许多。\n\n我的建议：禁用这个选项。
 policy_staffbreak_length	员工轮流时长: *P 分钟
 policy_staffbreak_num	每日轮休次数: *P
-policy_staffbreakmax	最大员工休息人数：*P%
-policy_staffbreakmax_title	最大员工休息人数
-policy_staffbreakmax_info	每次允许休息的员工人数的最大百分比。设置为低值时，将迫使您的员工更努力、更长时间地工作，而没有休息时间。设置为高值时，可允许警卫在需要时休息。
-reports_staffpaytitle	员工薪水
-reports_payup	加薪10%
-reports_paydown	减薪10%
-reports_payrisepercent	总加薪：*X%
+policy_staffbreakmax	员工轮休上限：*P%
+policy_staffbreakmax_title	员工轮休上限
+policy_staffbreakmax_info	在任意时刻被允许同时轮休的员工的百分比上限。\n设得低，就会让你的员工工作更久。\n反之，警卫会尽情地轮休。
+reports_staffpaytitle	员工薪酬
+reports_payup	薪酬提高 10%
+reports_paydown	薪酬削减 10%
+reports_payrisepercent	薪酬涨幅总计: *X%
 reports_perday	每天
 
 job_construct	建造 *X
 job_installobject	安装 *X
-job_installobjectinroom	在 *Y 内安装 *X
+job_installobjectinroom	把 *X 安装在 *Y
 job_moveobject	移动 *X
 job_moveobjecttoroom	将 *X 移动到 *Y
-job_loadobjectinto	将 *X 装载到 *Y
-job_storeobject	在 *Y 内储存 *X
+job_loadobjectinto	将 *X 装入 *Y
+job_storeobject	把 *X 放置到 *Y
 job_dismantleobject	拆除 *X
 job_dumpobject	丢弃 *X
 job_repairobject	修理 *X
 job_operateequipment	操作 *X
 job_escortprisoner	将囚犯押送到 *X
-job_punishprisoner	囚犯列队前进
+job_punishprisoner	处置囚犯
 job_searchobject	搜查 *X
 job_searchentity	搜查囚犯
 job_searchingentity	正在搜查囚犯
 job_searchcell	搜查牢房
 job_searchcellblock	搜查牢房区块
-job_searchtoilets	搜索厕所
+job_searchtoilets	搜查马桶
 job_improvecellindoor	清理室内区域
 job_improvecelloutdoor	照料户外植物
 job_opendoor	打开上锁的门
 job_giveuniform	给囚犯发放囚服
 job_failurecount	失败了 *X 次
-job_feedprisoner	给囚犯提供食物
+job_feedprisoner	给囚犯送饭
 job_healprisoner	治疗囚犯
 job_delivermail	递送邮件
 
@@ -2196,40 +2197,41 @@ finances_expenses	支出
 finances_total	总计
 finances_profit	净额
 finances_timewithoutincident	(*X天)
-finances_dailyincome	*X /天
+finances_dailyincome	*X/天
 
-finances_category_federalgrant			联邦补助金
-finances_category_minsecprisoners		轻刑犯联邦补助金
-finances_category_medsecprisoners		标准囚犯联邦补助金
-finances_category_maxsecprisoners		重刑犯联邦补助金
+finances_category_federalgrant			联邦补助
+finances_category_minsecprisoners		低戒备犯补助
+finances_category_medsecprisoners		中戒备犯补助
+finances_category_maxsecprisoners		高戒备犯补助
 finances_category_prisoners				囚犯补助
 finances_category_workmen				工人工资
 finances_category_guards				警卫工资
 finances_category_admin					管理者工资
-finances_category_staff					员工工资
+finances_category_staff					其他员工工资
 finances_category_food					囚犯食物
-finances_category_stafffood				员工伙食
+finances_category_stafffood				员工食物
 finances_category_electricity			电力
 finances_category_workshops				工坊
 finances_category_upkeep				保养费
 finances_category_loaninterest			贷款利息
-finances_category_reformprogs			改造方案
+finances_category_reformprogs			改造项目
 finances_category_noincident			无事故天数
-finances_category_exports				导出（昨天）
+finances_category_exports				出货（昨天）
 finances_category_corptax				公司税
 finances_category_prisonerwages			囚犯工资（昨天）
 finances_category_shoprevenue			商店收入（昨天）
 
 reports_foodtitle	营养政策
-meal_quantity	饭菜份量
-meal_variety	饭菜种类
-meal_cost	每名囚犯花费
+meal_quantity	伙食份量
+meal_variety	伙食花样
+meal_cost	每个囚犯花费
 
 reports_otherpolicytitle	其他政策
-parole_title	假释通过率
-parole_desc	如果囚犯的再犯罪率低于此值，将在其假释听证结束之后被释放。
+parole_title	假释的释放标准
+parole_desc	如果囚犯的再犯罪率低于此值，他将在其假释听证结束后被释放。\n建议：设为一个明显低于23%的数。\n理由：\n · 再犯罪的罚款为10000元；\n · 没有再犯罪的奖励为3000元。\n两者平衡时的再犯罪率为 3÷(10+3) ≈ 23.07%。\n只有当被释放囚犯的再犯罪可能性低于这个值时，\n你才能获得净收益。
 parole_fine	囚犯再犯罪罚款
-parole_reward	囚犯提早释放奖励
+parole_reward	囚犯释放奖励
+parole_info 假释放行基准线: *P%
 
 reports_staffbreaktitle	员工休息政策
 
@@ -2353,58 +2355,58 @@ experiencefactor_escapeattempts	尝试越狱*X次
 experiencefactor_addictions	*X种成瘾症状
 experiencefactor_gangmembership	帮派成员
 
-legend_key	钥匙：
+legend_key	图例：
 
-needs_graphscale_title	囚犯：
-needs_graphscale_title_staff	需求\人数
-needs_key_critical	挑剔
+needs_graphscale_title	需求/人数
+needs_graphscale_title_staff	需求/人数
+needs_key_critical	严重
 needs_key_high	高
 needs_key_med	中
-needs_key_satisfied	满足
-needs_key_active	活跃
+needs_key_satisfied	满意
+needs_key_active	解决
 
-needs_show_category	囚犯類別
+needs_show_category	囚犯类别
 needs_show_category_staff	员工类别
-needs_show_category_all	所有囚犯
+needs_show_category_all	全部
 
 contraband_supplyanddemand	供给与需求
-contraband_narcotics	毒品
 contraband_weapons	武器
 contraband_tools	工具
+contraband_narcotics	麻醉剂
 contraband_luxuries	奢侈品
-contraband_metal	金属
-contraband_smelly	难闻的
+contraband_metal	金属的
+contraband_smelly	有气味的
 contraband_rangedweapon	远程武器
-contraband_improvised	临时准备的
+contraband_improvised	拼凑制作的
 
 contraband_key_supply	供给
 contraband_key_demand	需求
 contraband_log_stolen	被偷
 contraband_log_position	放置
-contraband_log_smuggled	非法偷运的
-contraband_log_traded	交易的
-contraband_log_thrown	扔掉的
-contraband_log_hidden	隐藏的
-contraband_log_detected	被发现的
+contraband_log_smuggled	被走私
+contraband_log_traded	被交易
+contraband_log_thrown	被扔进来
+contraband_log_hidden	被藏匿
+contraband_log_detected	被检测
 contraband_log_dog	警犬
-contraband_log_found	找到
+contraband_log_found	查获
 contraband_log_owner	持有者
-contraband_log_arranged	*X小时前安排
+contraband_log_arranged	*X 小时前，被约定从外界扔进来
 
-gangs_guards	警卫*X
-gangs_soldiers	士兵*X/最多*Y
-gangs_evict	驱逐
-gangs_status	*X个成员。*Y人被杀。美金*Z元
+gangs_guards 警卫: *X 人
+gangs_soldiers 喽啰: 最多 *Y 人，当前 *X 人
+gangs_evict 驱逐
+gangs_status 成员 *X 人。杀死 *Y 人。 保护费 $*Z
 
-schedule_zone_shared	公共区域
-schedule_zone_minseconly	轻刑犯
-schedule_zone_medseconly	普通犯
-schedule_zone_maxseconly	重刑犯
-schedule_zone_protectedonly	重点保护
-schedule_zone_supermaxonly	超高设防区
+schedule_zone_shared	公共
+schedule_zone_minseconly	低戒备
+schedule_zone_medseconly	中戒备
+schedule_zone_maxseconly	高戒备
+schedule_zone_protectedonly	保护性拘留
+schedule_zone_supermaxonly	超高戒备
 schedule_zone_deathrowonly	死刑犯
-schedule_zone_staffonly	员工专区
-schedule_zone_unlocked	未上锁区
+schedule_zone_staffonly	【仅员工】
+schedule_zone_unlocked	不上锁
 
 
 
@@ -2502,7 +2504,7 @@ experience_exercise	锻炼
 need_name_nothing	无
 need_name_bladder	小便
 need_name_bowels	大便
-need_name_sleep	睡觉
+need_name_sleep	睡眠
 need_name_food	食物
 need_name_safety	安全
 need_name_hygiene	卫生
@@ -2517,11 +2519,11 @@ need_name_clothing	衣物
 need_name_drugs	毒品
 need_name_alcohol	酒精
 need_name_starving	挨饿
-need_name_spirituality	精神
+need_name_spirituality	宗教
 need_name_literacy	文化
-need_name_babysleep	[婴儿]睡觉
+need_name_babysleep	[婴儿]睡眠
 need_name_babyplay	[婴儿]玩耍
-need_name_warmth	温暖
+need_name_warmth	保暖
 need_name_staffbladder	小便
 need_name_staffbowels	大便
 need_name_stafffood	食物
@@ -2535,11 +2537,11 @@ need_name_luxuries	奢侈品
 needs_locked	（需要心理学家来揭示囚犯的需求）
 needs_title	=[需求]=
 
-needs_total_prisoners	*X 名囚犯有這個需求
-needs_total_concerned	*X 名囚犯顧慮這個需求
-needs_total_desperate	*X 名囚犯迫切希望這個需求得到滿足
-needs_total_angry	*X 名囚犯大發雷霆，因为這個需求未得到滿足
-needs_total_active	*X 名囚犯正在应付這個需求
+needs_total_prisoners	▁ *X 个囚犯有这个需求\n
+needs_total_concerned	▃ *X 个囚犯为这个需求所苦恼
+needs_total_desperate	▆ *X 个囚犯迫切希望这个需求得到满足
+needs_total_angry	█ *X 个囚犯因为未能满足这个需求而大怒
+needs_total_active	√ *X 个囚犯正在处理这个需求
 
 needs_total_staff				▁ *X 名员工有这个需求\n
 needs_total_concerned_staff		▃ *X 名员工为这个需求所苦恼
@@ -2547,28 +2549,28 @@ needs_total_desperate_staff		▆ *X 名员工迫切希望这个需求得到满�
 needs_total_angry_staff			█ *X 名员工大发雷霆，因为这个需求未得到满足
 needs_total_active_staff		♫ *X名 员工正在应付这个需求
 
-needs_help_bladder	人人皆需使用廁所，囚犯也是。別忘記，你的监狱的大部分體制非常嚴格 - 例如，如果他们當時应在淋浴間，他们就無法使用牢房內的廁所。
-needs_help_bowels	人人皆需使用廁所，囚犯也是。別忘記，你的监狱的大部分體制非常嚴格 - 例如，如果他们當時应在洗澡間，他们就無法使用牢房內的廁所。
-needs_help_sleep	囚犯需要睡眠。囚犯僅能在他们分配到的牢房睡覺，且只能在晚上八點到早上八點其間睡覺。當然，他们會需要一張床。
-needs_help_food	人人需要吃，且大部分的人一天需要吃多過一次。若你發現廚房無法应付需求量，試著多雇用幾個廚師，或增加廚師到你的廚房。你也可以在報告視窗中的政策標籤，調整你的糧食政策。
-needs_help_safety	即使在监狱，你的囚犯也需要安全感。如果你的监狱有太多鬥毆事件或整體危險水平過高，囚犯會感到不安全然後考慮武裝自己。若這漸漸變成一個問題，你可以試著雇用更多守衛、建立更多巡邏路線或者達到囚犯的其他需求，藉此提高监狱的安全。
-needs_help_hygiene	大部分的囚犯會想要定期洗澡，尤其是早上起床後。淋浴時間會強迫那些牢房沒有淋浴間的囚犯，前往最近的淋浴間。若這漸漸變成一個問題，你可以考慮擴大你的淋浴間設施，或者增加自由活動時間讓囚犯依自己的需求洗澡。
-needs_help_exercise	很多囚犯會想要保持體態。你可以增加一個庭院，讓他们可以健身。無論是在庭院或其他公共區域放置舉重床，也有所幫助。
-needs_help_recreation	無聊的囚犯，是危險的囚犯。你可以在公共區域增加一些消遣的設施，例如電視或收音機，藉此達到囚犯对于休閒娛樂的需求。
-needs_help_comfort	囚犯一般需要感到舒適，生理和心理兩者皆是。有許多方法可以幫助達到這一點，例如允許家庭探訪、提供熱水澡或者純粹確保他们有地方可以坐。
-needs_help_environment	囚犯討厭居住在髒亂的環境，但是這麼多囚犯一起使用同樣的設施，週遭環境可能很快就髒亂了。你可以雇用一些工友或安排囚犯打掃衛生間，保持環境整潔。
-needs_help_privacy	有時候，囚犯會想要有自己的時間。通常待在自己牢房可以滿足這個需求，但是如果他们和其他囚犯共享一個房間，他们可能覺得隱私不够。
-needs_help_freedom	就算在监狱裡，你的囚犯还是會想要感到某種程度上的自由。增加自由活動時間或庭院時間到日程表，有利于這一點。
-needs_help_clothing	就算囚犯每天都穿一樣的有色連身服，他門時不時还是會想要洗衣服。增加洗衣房並雇用工友或安排囚犯工作，可以讓他们美夢成真。
-needs_help_drugs	很多囚犯都有毒癮問題 - 這可能也是他们入獄的原因。在你的醫務室推動戒毒計劃，有助于解決這個問題。
-needs_help_alcohol	很多囚犯飽受酒癮的困擾且會竭盡全力把酒弄到手。你可以嘗試推行酒癮團體治療活動以減輕這種困擾。
-needs_help_spirituality	很多囚犯有各種不同的宗教信仰。在监狱內增加長椅或祈禱墊，可以讓囚犯實行他们的宗教。但是蓋教堂並實施精神指導計劃的成效最佳，同時还能安撫囚犯。
-needs_help_literacy	一些囚犯只想要閱讀。增加圖書館讓囚犯借閱書籍，可以滿足這個需求。
-needs_help_warmth	沒有人想在寒冷中度日，但大自然沒在管的。在监狱內增加暖氣保持室內溫暖，可以避免冷天演變成問題。
-needs_help_babysleep	嬰兒的睡眠時間需要比一般囚犯長。若你的囚犯有嬰兒，請確保有嬰兒床可以使用，讓嬰兒可以按其需求睡覺。
-needs_help_babyplay	嬰兒需要照料和娛樂。若你的囚犯有嬰兒，請確保公共區域有遊戲毯。
-needs_help_family	大部分的囚犯想要和家人保持聯繫。最簡單的方式是在你的监狱增加電話，但是增加會客設施成效更好。郵務室也有所幫助。
-needs_help_luxuries	很多囚犯时不时地要享用一点奢侈品。你可以通过建造商店来满足该需求，并且在这个过程中稍稍挣点小钱。\n该需求得以满足的囚犯会更少惹麻烦，但忽视该需求也没什么大不了的；毕竟，这里是监狱。
+needs_help_bladder		人人皆需上厕所，囚犯也一样。\n\n别忘记，你的监狱的大部分体制非常严格。\n例如，如果他们应在淋浴间，他们就无法使用牢房内的马桶。\n\n睡觉时间之后，最好给囚犯方便的机会。\n牢房之外也可以考虑添加一些厕所。\n\n+ 时间\n- 小便\n\n失败后果: 坏情绪+尿裤子（让囚服变脏）
+needs_help_bowels		同“小便”。\n只不过，其周期上限是小便的两倍。\n失败后果: 坏情绪+拉裤裆（让囚服变脏）
+needs_help_sleep		囚犯只能在他们指派到的牢房里睡觉。\n显然，他们会需要一张床。\n\n你偶尔会发现，某个囚犯虽然人在被窝里，但其睡眠和\n舒适需求完全没有减少。搜查此人的马桶，会有惊喜。\n从晚上8点开始就可以睡觉了，\n只要囚犯在他的牢房里。\n\n+ 时间\n- 睡觉\n失败后果: 坏情绪
+needs_help_food			人人皆需吃饭，且大部分的人一天需要吃不止一次。\n\n若你发现厨房无法应付需求量，试着多雇用或调来几个厨师。\n你也可以在[报告]窗口中的[政策]标签页，调整你的伙食政策。\n\n+ 时间\n- 吃饭\n\n失败后果: 坏情绪+挨饿（长期的话，会饿死）
+needs_help_safety		即使在监狱，你的囚犯也需要安全感。\n\n如果你的监狱有太多斗殴事件或整体危险水平过高，\n囚犯会感到不安全，进而考虑武装自己。\n\n若这渐渐变成一个问题，你可以试着雇用更多警卫、建立更多\n巡逻路线或者满足囚犯的其它需求，藉此提高监狱的安全。\n\n监狱的“危险等级”的低/高，影响本需求的增/减。\n\n失败后果: 为了自保而去冒险抢武器\n\n以上只是官方说法。我做了实验，并没有发现这个需求\n很高会产生什么后果……
+needs_help_hygiene		大部分的囚犯会想要定期洗澡，尤其是早上起床后。\n\n“淋浴”作息会强迫那些牢房里没有淋浴物品的囚犯前往淋浴间。\n或者，增加自由活动时间，让囚犯依自己的需求洗澡。\n\n+ 时间\n- 淋浴\n\n失败后果: 坏情绪
+needs_help_exercise		很多囚犯会想要保持好身材。\n\n你可以增加一个庭院，让他们散步或跑步。\n无论在庭院还是其它区域，安装举重床也有助于此。\n\n+ 时间\n- (庭院)放风\n- (举重床)举重\n\n失败后果: 坏情绪
+needs_help_recreation	无聊的囚犯，是危险的囚犯。\n\n你可以在公共区域增加一些消遣的设施，例如电视或收音机，\n藉此达到囚犯对于休闲娱乐的需求。\n\n+ 时间\n- 收音机，作用于整个房间\n- (电视和多个座位)看电视\n- (台球桌)打台球\n- (游戏街机)打游戏\n\n失败后果: 坏情绪
+needs_help_comfort		囚犯一般需要感到舒适，生理上和心理上皆如此。\n\n有许多方法可以帮助达到这一点，例如允许家庭探监、\n提供热水澡，或者单纯是确保他们有地方可以坐而已。\n\n+ 时间\n- (座位)坐着\n- (床)放松\n- (电视和多个座位)看电视\n- (探监室)探监\n- (锅炉)热水澡\n- (床)睡觉\n\n失败后果: (不明)\n该需求似乎并不导致坏情绪。
+needs_help_environment	囚犯讨厌居住在脏乱的环境，但这么多囚犯一起使用同样的\n设施，周遭环境可能很快就脏乱了。\n\n雇用一些清洁工或安排囚犯打扫马桶，以保持环境整洁。\n\n周围环境的清洁程度的低/高，影响本需求的增/减。\n\n失败后果: (不明)\n注：该需求不导致坏情绪。亦即不会引发暴动。
+needs_help_privacy		有时候，囚犯会想要有自己的时间。\n\n通常待在自己牢房可以满足这个需求。\n如果和其他囚犯共享一个宿舍（拘留室、宿舍），他们会觉得隐私不足。\n早晚需要换牢房。\n\n+ 与他人共用牢房的时间\n- 独自或与宝宝一起的时间\n\n失败后果: 不明\n不端行为: 发飙\n女性囚犯的概率远高于男性囚犯\n该需求似乎还会导致更多的地道。
+needs_help_freedom		就算在监狱里，你的囚犯还是会想要感到某种程度上的自由。\n\n增加“自由活动”或“庭院放风”到作息，会有助于此。\n\n+ 被关起来的时间\n- 自由活动的时间\n- (游戏街机)玩游戏\n- (树)接触自然\n失败后果: 不明\n不端行为: 越狱
+needs_help_clothing		就算总是一样颜色的连裤衫，囚犯时不时还是会想要干净衣服。\n\n增加洗衣房，并雇用清洁工或安排囚犯工作，以让他们美梦成真。\n\n+ 时间\n+ 下雨时在户外\n- 获得 囚服干净\n\n失败后果: (不明)
+needs_help_drugs		不少囚犯都有毒瘾问题——这可能也是他们入狱的原因。\n\n在医务室推动“毒瘾治疗”项目，有助于解决这个问题。\n\n如果囚犯偷偷使用了麻醉剂，他们会异常亢奋。\n有时会因为过量而导致生命危险。\n\n+ 时间\n- 使用相应的违禁品: 麻醉剂（除了酒）\n\n[可以削弱此需要]\n- 成功通过相应的改造项目: 毒瘾的药物治疗\n- 长时间地戒断（没有使用相应的违禁品）\n\n失败后果: 戒断（长期看是好事）\n不端行为: 发飙
+needs_help_alcohol		不少囚犯饱受酒瘾的困扰，会竭尽全力把酒弄到手。\n\n你可以尝试推行“酗酒者团体治疗”，以减轻这种困扰。\n\n+ 时间\n- 使用相应的违禁品: 酒\n\n[可以削弱此需要]\n- 成功通过相应的改造项目: 酗酒者团体治疗\n- 长时间地戒断（没有使用相应的违禁品）\n\n失败后果: 戒断（长期看是好事）\n不端行为: 发飙
+needs_help_spirituality	一些囚犯有各种不同的宗教信仰。\n\n在监狱内增加教堂长凳或祈祷垫，可以让囚犯施行他们的宗教。\n但是建立 礼拜堂 并实施“精神引导”项目的成效最佳，\n并且还能普遍安抚囚犯。\n\n+ 时间\n- (教堂长凳、祈祷垫)祈祷\n\n失败后果: (不明)
+needs_help_literacy		一些囚犯就是想要读些东西。\n\n增加图书馆，让囚犯借阅书籍，以满足这个需求。\n\n+ 时间\n- (图书馆)借书\n- (小书架)读书\n\n失败后果: (不明)
+needs_help_warmth		没有人想在寒冷中度日，但大自然可不管你。\n\n在监狱内增加暖气片，保持室内温暖，以阻止冷天演变成问题。\n\n+ 暴露在在寒冷区域\n- 在温暖区域（暖气片）\n\n失败后果: (不明)\n\n此外，虽然没有列在这里，但“过热”也是一种负面情况，\n所以不要滥用加热设施。
+needs_help_babysleep	宝宝的睡眠时间需要比一般囚犯长。\n\n若你的囚犯有宝宝，请确保有 婴儿床，让宝宝可以安心睡觉。\n\n+ 时间\n- (婴儿床)[宝宝]睡眠\n\n失败后果: (不明)
+needs_help_babyplay		宝宝需要活动和娱乐。\n\n若你的囚犯有宝宝，请确保公共区域有 玩耍垫。\n\n+ 时间\n- (玩耍垫)[宝宝]玩耍\n\n失败后果: (不明)
+needs_help_family		大部分的囚犯想要和家人保持联系。\n最简单的方式是增加电话亭，不过探监室的成效更好。\n邮件收发室也有利于该需求。\n\n+ 时间\n- (探监室)探监\n- (电话亭)与家人通电话\n- 获得 邮件\n\n失败后果: 坏情绪\n不端行为: 越狱
+needs_help_luxuries		很多囚犯时不时地要享用一点奢侈品。你可以通过建造商店来满足该需求，并且在这个过程中稍稍挣点小钱。\n该需求得以满足的囚犯会更少惹麻烦，但忽视该需求也没什么大不了的；毕竟，这里是监狱。
 
 needs_help_staffbladder			员工也需要上厕所啊。\n在“员工休息室”或“员工专区”房间里安装马桶。\n当轮休时，他们会来用。
 needs_help_staffbowels			员工也需要上厕所啊。\n在“员工休息室”或“员工专区”房间里安装马桶。\n当轮休时，他们会来用。
@@ -2660,19 +2662,19 @@ reputationtooltip_escapeartist		这个囚犯是专业的逃脱大师，以脱逃
 # Nameplate status
 # =============================================================================
 
-nameplate_working	工作中
-nameplate_stationed	站岗
-nameplate_patrolling	巡逻中
-nameplate_resting	休息中
+nameplate_working	在工作
+nameplate_stationed	在驻守
+nameplate_patrolling	在巡逻
+nameplate_resting	休息
 nameplate_tired	疲劳
 nameplate_injured	受伤
 nameplate_unconscious	昏迷
-nameplate_dead	死亡
-nameplate_released	已释放
-nameplate_researching	调查中
-nameplate_overdose	药物过量
-nameplate_starving	挨饿
-nameplate_wounded	流血
+nameplate_dead	死亡！
+nameplate_released	被释放！
+nameplate_researching	在研究
+nameplate_overdose	麻醉剂过量！
+nameplate_starving	挨饿！
+nameplate_wounded	流血！
 
 
 # =============================================================================
@@ -2737,158 +2739,241 @@ objective_payment_receivedfull	报酬: 已收到 *X
 objective_payment_receivedpart	已收到 *X\n　总计 *Y
 
 objective_grant_bootstraps	基础监禁中心
-objective_grant_bootstraps_description	把一片空地建成一座可正常运作的监狱。这份政府合同为你提供为首批囚犯建造最基本监狱基础设施所需的资金。
-objective_grant_bootstraps_holdingcell	建造拘留牢房
-objective_grant_bootstraps_shower	建造淋浴房
-objective_grant_bootstraps_yard	建造庭院
-objective_grant_bootstraps_kitchen	建造厨房
-objective_grant_bootstraps_canteen	建造餐厅
-objective_grant_bootstraps_guard	雇用至少两名警卫
-objective_grant_bootstraps_chef	雇佣至少两名厨师
+objective_grant_bootstraps_description	把一片空地建成一座可正常运作的监狱。\n这份政府合同为你提供必要的资金，从而建造最最基本的\n监狱设施，迎接你的第一批囚犯们。
+objective_grant_bootstraps_holdingcell	建造 拘留室
+objective_grant_bootstraps_shower	建造 淋浴间
+objective_grant_bootstraps_yard	建造 庭院
+objective_grant_bootstraps_kitchen	建造 厨房
+objective_grant_bootstraps_canteen	建造 食堂
+objective_grant_bootstraps_guard	雇用至少2名 一般警卫
+objective_grant_bootstraps_chef	雇用至少2名 厨师
 
 objective_grant_administration	管理中心
-objective_grant_administration_description	每座监狱项目都需要能够正常运作的管理设施，以确保事情顺利进行，使项目正常发挥作用。\n\n这份合同为典狱长、会计师及其办公室提供了经费，使我们能够使用完备的联邦行政系统。
-objective_grant_administration_offices	建造两间办公室
-objective_grant_administration_warden	雇佣一名典狱长
-objective_grant_administration_accountant_research	通过行政系统解锁财政
-objective_grant_administration_accountant	雇用一名会计师
+objective_grant_administration_description	每座监狱工程都需要能够正常运作的管理设施，\n以确保事情顺利进行，并且有人对工程责任。\n\n这份合同为典狱长、会计及其办公室提供了经费，\n进而使我们得以充分接入联邦补助系统。
+objective_grant_administration_offices	建造2间 办公室
+objective_grant_administration_warden	雇用 典狱长
+objective_grant_administration_accountant_research	通过[行政系统]解锁“财政”
+objective_grant_administration_accountant	雇用 会计
 
-objective_grant_firstcellblock	牢房区块 A
-objective_grant_firstcellblock_description	基础设施已建好并运转，现在应该建造第一间牢房，把现有的囚犯转入其自己的牢房。
-objective_grant_firstcellblock_cells	将监狱容量提高到15人
+objective_grant_firstcellblock	牢房区块 Ⅰ
+objective_grant_firstcellblock_description	基础已建好并运转。现在是时候该建造第一个牢房区块了。\n把现有的（在拘留室的）囚犯们转移到各自的牢房。
+objective_grant_firstcellblock_cells	将监狱囚犯容量提高到 15 人
 
 objective_grant_health	囚犯健康与福祉
-objective_grant_health_description	囚犯们的生理和心理健康对于我们来说十分重要。这项补助用于促进建设最先进的内科病房，并聘用医师和心理医生来照顾囚犯的健康需求。
-objective_grant_health_ward	建立内科病房
-objective_grant_health_doctors	聘请至少两名医师
-objective_grant_health_psychologist	聘请一名心理医生（需要办公室）
+objective_grant_health_description	囚犯们的生理和心理健康对于我们来说十分重要。\n这项补助用于打造完善的医务室，并雇用医生和心理学家\n来照顾囚犯们的健康需求。
+objective_grant_health_ward	建造 医务室
+objective_grant_health_doctors	雇用2名 医生
+objective_grant_health_psychologist	雇用1名 心理学家（需要办公室）
 
 objective_grant_bailout	政府紧急救助
 objective_grant_bailout_description	政府对你的表现十分不满。但你的监狱规模太大，不能倒闭。\n政府将使用纳税人的资金防止监狱破产。\n但是你必须平衡你的帐目：让你的监狱回归到正的现金流\n（每日的收入高于支出），并且还清对银行的欠款。
 objective_grant_bailout_cashflow	收入高于支出
 objective_grant_bailout_debt	清偿债务
 
+objective_grant_maintenance								监狱维护
+objective_grant_maintenance_description					监狱及其场地的基本保养与维护非常重要，\n关系到员工和犯人的安全和保障。\n请雇用必要的人员，保持监狱整洁和有序。
+objective_grant_maintenance_research_root				通过[行政系统]解锁“维护”
+objective_grant_maintenance_research_cleaning			通过[行政系统]解锁“清洁”
+objective_grant_maintenance_research_groundskeeping		通过[行政系统]解锁“园艺”
+objective_grant_maintenance_foreman						雇用 工头（需要办公室）
+objective_grant_maintenance_janitor						雇用2名 清洁工
+objective_grant_maintenance_gardener					雇用1名 园丁
 
-objective_grant_maintenance	监狱维护
-objective_grant_maintenance_description	监狱和场地的基本保养与维护非常重要，关系到工作人员和囚犯的安全。雇佣必要的人员保持监狱整洁有序。
-objective_grant_maintenance_research_root	通过行政系统解锁维护
-objective_grant_maintenance_research_cleaning	通过行政系统解锁清洁
-objective_grant_maintenance_research_groundskeeping	通过行政系统解锁园艺
-objective_grant_maintenance_foreman	雇佣一名工头（需要办公室）
-objective_grant_maintenance_janitor	雇佣至少两名清洁工
-objective_grant_maintenance_gardener	雇佣一名园丁
+objective_grant_visitation	探监权
+objective_grant_visitation_description	由于否认囚犯的探监权，这片地区里好多家其它监狱正面临诉讼。\n投资者不希望陷入丑闻，于是提供了这一补助，以确保功能齐备。\n在探监室里，安装会客桌或更安全的探监柜台。\n此外，为了基本的声誉，也补充一些娱乐设施吧。\n它们可以安装在庭院、食堂或公共活动室。
+objective_grant_visitation_room	建造 探监室
+objective_grant_visitation_tables	至少接受 5 人探监
+objective_grant_visitation_commonroom	安装3张 举重床
+objective_grant_visitation_pooltable	安装1张 台球桌
+objective_grant_visitation_tv	安装1台 大电视
+objective_grant_visitation_phones	安装5个 电话亭
 
-objective_grant_visitation	探视权
-objective_grant_visitation_description	由于拒绝承认囚犯的探视权，这片区域许多其他监狱正面临诉讼。投资者们不希望陷入丑闻，他们正提供资金以确保提供充足的设施。
-objective_grant_visitation_room	建立1个探访室
-objective_grant_visitation_tables	添加至少3张探访桌
-objective_grant_visitation_commonroom	建造公共房间
-objective_grant_visitation_pooltable	添加台球桌
-objective_grant_visitation_tv	添加至少2台电视
-objective_grant_visitation_phones	建造至少5个电话亭
-
-objective_grant_basicsecurity	安全程序认证
-objective_grant_basicsecurity_description	由于员工缺乏经验而造成的安全漏洞是新监狱的常见缺陷。将安保力度增强到可接受水平来避免出现一些会影响我们声誉的问题。
-objective_grant_basicsecurity_chief	聘请一名安保主管（需要办公室）
-objective_grant_basicsecurity_guards	雇用十名警卫
-objective_grant_basicsecurity_patrols	将三名警卫分配到巡逻路线
-objective_grant_basicsecurity_research	通过行政系统解锁巡逻
+objective_grant_basicsecurity				安全程序认证
+objective_grant_basicsecurity_description	由于员工缺乏经验而造成的安全漏洞，是新监狱的常见陷阱。\n将安保提升到可接受的水平，以免出现有损我们声誉的灾难。
+objective_grant_basicsecurity_chief			雇用 安保主管（需要办公室）
+objective_grant_basicsecurity_guards		雇用10名 一般警卫
+objective_grant_basicsecurity_patrols		指派3名 一般警卫 巡逻
+objective_grant_basicsecurity_research		通过[行政系统]解锁“巡逻”
 
 objective_grant_enhancedsecurity	政府安全评级
-objective_grant_enhancedsecurity_description	政府对超过特定规模的监狱有特定安全要求，并会重罚那些不合标准的监狱。确保这方面不出现问题。
-objective_grant_enhancedsecurity_armoury	建立枪械库
-objective_grant_enhancedsecurity_kennel	建立警犬休息室
-objective_grant_enhancedsecurity_guards	雇用两名武装警卫
-objective_grant_enhancedsecurity_dogs	雇用两名警犬训练员
-objective_grant_enhancedsecurity_patroldogs	将两名警犬训练员分配至警犬巡逻队
-objective_grant_enhancedsecurity_patrolarmed	将两名武装警卫分配至巡逻队
+objective_grant_enhancedsecurity_description	政府对超过特定规模的监狱有特定安全要求，\n并会重罚那些不合标准的监狱。\n确保这方面不出现问题。
+objective_grant_enhancedsecurity_armoury	建造 枪械库
+objective_grant_enhancedsecurity_kennel	建造 狗舍
+objective_grant_enhancedsecurity_guards	雇用2名 武装警卫
+objective_grant_enhancedsecurity_dogs	雇用2名 训犬员
+objective_grant_enhancedsecurity_patroldogs	指派2名 训犬员（警犬） 巡逻
+objective_grant_enhancedsecurity_patrolarmed	指派3名 武装警卫 巡逻
 
-objective_grant_advancedsecurity	实施最高设防基础设施
-objective_grant_advancedsecurity_description	保证大量囚犯的妥善关押或许比较困难，但是囚犯突破防卫造成的代价远比实施适当安保措施的代价大得多。在你的监狱中安装必要的设备。
-objective_grant_advancedsecurity_guards	扩大安保力量的规模
+objective_grant_advancedsecurity	最大化安保基础建设
+objective_grant_advancedsecurity_description	保证大量囚犯的妥善关押会相当困难。\n但是比实施安保措施的代价，囚犯突破防卫造成的代价要大得多。\n在你的监狱中配置必要的人力和装备。
+objective_grant_advancedsecurity_guards	雇用20名 一般警卫
 objective_grant_advancedsecurity_researchcctv	通过[行政系统]解锁“监控”
-objective_grant_advancedsecurity_researchbodyarmour	通过行政系统解锁防弹衣
-objective_grant_advancedsecurity_researchtazers	通过行政系统解锁电击枪
+objective_grant_advancedsecurity_researchbodyarmour	通过[行政系统]解锁“护甲”
+objective_grant_advancedsecurity_researchtazers	通过[行政系统]解锁“电击枪”
 objective_grant_advancedsecurity_office	建造 警卫室
-objective_grant_advancedsecurity_cctvmonitor	建造闭路电视监视器
-objective_grant_advancedsecurity_cctvcameras	在监狱中安装闭路电视监控摄像头
+objective_grant_advancedsecurity_cctvmonitor	通过[行政系统]解锁“推广电击枪”
+objective_grant_advancedsecurity_cctvcameras	令10名一般警卫通过 警卫电击枪认证
 
-objective_grant_prisonerworkforce	囚犯适应和劳役
-objective_grant_prisonerworkforce_description	让囚犯在监狱中工作是在削减费用的同时使他们融入环境的好办法。完成必要的训练并建造必需的设备将囚犯投入工作。
-objective_grant_prisonerworkforce_research	通过行政系统解锁囚犯劳役
-objective_grant_prisonerworkforce_cleaning	建造清洁橱柜
-objective_grant_prisonerworkforce_laundry	建造洗衣房
-objective_grant_prisonerworkforce_kitchenclass	让三名囚犯完成厨房安全和卫生方案
-objective_grant_prisonerworkforce_laundryassigned	将三名囚犯分配到洗衣房工作
-objective_grant_prisonerworkforce_kitchenassigned	将三名囚犯分配到厨房工作
-objective_grant_prisonerworkforce_cleaningassigned	将三名囚犯分配到清洁橱柜工作
+objective_grant_SecurityOutdoor 强化户外安保
+objective_grant_SecurityOutdoor_description 在户外，狙击手可以大范围压制不安分的囚犯。\n虽然他们的薪酬很高，但完全值得。
+objective_grant_SecurityOutdoor_GuardTowers 通过[行政系统]解锁“警戒塔”
+objective_grant_SecurityOutdoor_GuardTower 安装1座 警戒塔
+objective_grant_SecurityOutdoor_Sniper 雇用1名 狙击手
 
-objective_grant_educationreformprogram	通过教育方案进行改造
-objective_grant_educationreformprogram_description	一个著名的群体正在执行有关教育对囚犯再犯罪率影响的大规模社会实验。设立一些教室开始教育你的囚犯。
-objective_grant_educationreformprogram_research	通过行政系统解锁教育
-objective_grant_educationreformprogram_classroom	建造教室
-objective_grant_educationreformprogram_desks	建造二十张学校用桌
-objective_grant_educationreformprogram_foundationed	让十名囚犯通过基础教育课程
-objective_grant_educationreformprogram_generaled	让一名囚犯通过普通教育课程
+objective_grant_SecurityTunnel 固若金汤
+objective_grant_SecurityTunnel_description 对于追求自由的“鼹鼠们”，警犬和围墙是头号大敌。\n\n在牢房周围，让警犬在夜间巡逻，以便及时发现“地下”活动。\n围墙是专门克制越狱地道的防线。不仅高，而且深。\n挖穿围墙很费时间。因而囚犯会倾向于绕道。\n\n另外，为了让警犬移动更迅速，你还需要建设铺石路。\n\n由于游戏本身的限制，我只能圈出一个范围，\n在其中的围墙和铺石路才会被计数。
+objective_grant_SecurityTunnel_Dog 指派6名 训犬员（警犬） 巡逻
+objective_grant_SecurityTunnel_PerimeterWall 建造50米 围墙
+objective_grant_SecurityTunnel_PavingStone 建造250平米的 铺石路
+
+objective_grant_securityoffice1 警卫室 Ⅰ
+objective_grant_securityoffice1_description 让待命的一般警卫和武装警卫有一个据点。\n警卫室最适合位于容易发生事端的区域附近。\n这里也是远程管理门禁的重要地点。
+objective_grant_SecurityOffice1_office 建造 警卫室
+objective_grant_SecurityOffice1_RemoteAccess 通过[行政系统]解锁“遥控”
+objective_grant_SecurityOffice1_DoorControlSystem 在警卫室，安装1台 门禁系统
+objective_grant_SecurityOffice1_RemoteDoor 安装2个 遥控门
+objective_grant_SecurityOffice1_Servo 安装3个 门禁伺服器
+
+objective_grant_securityoffice2 警卫室 Ⅱ
+objective_grant_securityoffice2_description 违禁品是监狱里各种动荡的催化剂。\n为了充分地预防和搜查它们，你需要更好地获取情报。
+objective_grant_SecurityOffice_contraband 通过[行政系统]解锁“情报”
+objective_grant_SecurityOffice_Cctv 通过[行政系统]解锁“监控”
+objective_grant_SecurityOffice_PhoneMonitor 在警卫室，安装1台 电话窃听器 （基础设施）
+
+objective_grant_securityoffice3 警卫室 Ⅲ
+objective_grant_securityoffice3_description 我们不希望忽视在监狱这种地方里留下监视的死角。\n在缺少警卫巡逻的角落，安装一些摄像头。
+objective_grant_SecurityOffice_cctvmonitor 在警卫室，安装1台 闭路电视监视器
+objective_grant_SecurityOffice_cctvcameras 在监狱各处，安装4台 闭路电视摄像头
+
+objective_grant_prisonerworkforce	囚犯的适应和劳役
+objective_grant_prisonerworkforce_description	让囚犯在监狱中工作，是个一石二鸟的好办法：\n既能削减费用，同时又能使他们融入环境。\n完成必要的研究，建造必需的设施，然后将囚犯投入工作。
+objective_grant_prisonerworkforce_research	通过[行政系统]解锁“狱中劳动”
+objective_grant_prisonerworkforce_cleaning	建造 清洁间
+objective_grant_prisonerworkforce_laundry	建造 洗衣房
+objective_grant_prisonerworkforce_kitchenclass	让3个囚犯完成 厨房安全与卫生 项目
+objective_grant_prisonerworkforce_laundryassigned	将3个囚犯指派到 洗衣房 工作
+objective_grant_prisonerworkforce_kitchenassigned	将3个囚犯指派到 厨房 工作
+objective_grant_prisonerworkforce_cleaningassigned	将3个囚犯指派到 清洁间 工作
+
+objective_grant_educationreformprogram	通过教育行动来改造
+objective_grant_educationreformprogram_description	一个著名的运动团体正在执行一个大规模社会实验。\n它考察的是教育对囚犯的再犯罪率的影响。\n设立一些教室，并开始教育你的囚犯。
+objective_grant_educationreformprogram_research	通过[行政系统]解锁“教育”
+objective_grant_educationreformprogram_classroom	建造 教室
+objective_grant_educationreformprogram_desks	安装10张 课桌
+objective_grant_educationreformprogram_foundationed	令10个囚犯通过 基础教育课程 项目
+objective_grant_educationreformprogram_generaled	让1名囚犯通过 普通教育课程 项目
+objective_grant_educationreformprogram_generaled 在监狱各处，安装5个 小书架
 
 objective_grant_prisonlabour	监狱制造设施
-objective_grant_prisonlabour_description	投资人想让你提高监狱的盈利能力，希望投资资金来帮你建立工坊以将囚犯们转变为劳动力。
-objective_grant_prisonlabour_workshop	建造工坊
-objective_grant_prisonlabour_saw	建造两个锯木台
-objective_grant_prisonlabour_press	建造两个冲压机
-objective_grant_prisonlabour_reform	让五名囚犯通过工坊安全方案
-objective_grant_prisonlabour_plates	制作30个车牌
+objective_grant_prisonlabour_description	投资人想让你提高监狱的盈利能力，愿意投资资金来帮你\n建造工坊，并将囚犯们转变为劳动力。
+objective_grant_prisonlabour_workshop	建造 工坊
+objective_grant_prisonlabour_saw	安装2个 锯木台
+objective_grant_prisonlabour_press	建造2个 电锯台
+objective_grant_prisonlabour_reform	让5名囚犯通过 工坊安全方案 项目
+objective_grant_prisonlabour_plates	制作30个 车牌
 
-objective_grant_furnituremanufacturing	木工学徒方案
-objective_grant_furnituremanufacturing_description	向囚犯们提供木工课程，给他们传授出狱后能够使用的宝贵技能，让他们在你的工坊中制作可以出售以提高收入的高档家具。
-objective_grant_furnituremanufacturing_forestry	建造一片森林
-objective_grant_furnituremanufacturing_table	建造两张木工桌
-objective_grant_furnituremanufacturing_reform	让两名囚犯通过木工课程
-objective_grant_furnituremanufacturing_bed	制作十张优秀床铺
+objective_grant_furnituremanufacturing	木工学徒项目
+objective_grant_furnituremanufacturing_description	向囚犯们提供木工课程，传授出狱后能够用上的宝贵技能。\n让他们在工坊中制作高档家具，并且出售以增加收入。\n先建造林场，以生产圆木。\n平均分成5片，按天分别种植，以稳定产量。
+objective_grant_furnituremanufacturing_forestry	建造第一个 林场
+objective_grant_furnituremanufacturing_forestrys 一共建造5个 林场
+objective_grant_FurnitureManufacturing_gardener 雇用4名 园丁
+objective_grant_furnituremanufacturing_table	安装2张 木工桌
+objective_grant_furnituremanufacturing_reform	令2个囚犯通过 木工学徒 项目
+objective_grant_furnituremanufacturing_bed	制作10张 高级床
 
-objective_grant_reducestaffstress	员工福祉倡议
-objective_grant_reducestaffstress_description	监狱工会收到了员工过分紧张和过度工作的报告，已经达到能够导致错误的程度。确保相似的问题在你的监狱中不会发生。
-objective_grant_reducestaffstress_staffroom	建造员工休息室
-objective_grant_reducestaffstress_freeguards	至少不给五名警卫安排职责
+objective_grant_reducestaffstress				员工福利行动
+objective_grant_reducestaffstress_description	监狱工会收到报告称，员工过分紧张和过度劳累，\n已经到了失误频发的地步。\n确保类似的问题在你的监狱中不会发生。
+objective_grant_reducestaffstress_staffroom		建造 员工休息室
+objective_grant_reducestaffstress_freeguards	令5名一般警卫待命（没有安排值班）
 objective_grant_reducestaffstress_restedstaff	确保员工中无人精疲力竭
 
 objective_grant_shortterminvestment	短期投资
-objective_grant_shortterminvestment_description	将金钱用于投资，最终能够带来与初始投资额相称的合理回报。
-objective_grant_shortterminvestment_wait	等待资金……
+objective_grant_shortterminvestment_description	付钱给一项短期投资，最终会带来与投资额相称的合理回报。\n\n等待: 72小时(3天)\n回报率: 3倍
+objective_grant_shortterminvestment_wait	等待资金回笼...
 
 objective_grant_longterminvestment	长期投资
-objective_grant_longterminvestment_description	将金钱用于长期投资，最终能够带来与初始投资额相称的大额回报。
-objective_grant_longterminvestment_wait	等待资金……
+objective_grant_longterminvestment_description	付钱给一项长期投资，最终会带来与投资额相称的可观回报。\n\n等待: 192小时(8天)\n回报率: 10倍
+objective_grant_longterminvestment_wait	等待资金回笼...
 
-objective_grant_cellblock50	牢房区块 B
-objective_grant_cellblock50_description	该扩建你的监狱了，使其超越简单收容场所的规模。
-objective_grant_cellblock50_cells	将监狱囚犯容量提高到50
+objective_grant_cellblock50	牢房区块 Ⅱ
+objective_grant_cellblock50_description	该扩建你的监狱了，使其规模超越简单收容场所。
+objective_grant_cellblock50_cells	将监狱囚犯容量提高到 50 人
 
-objective_grant_cellblock100	牢房区块 C
+objective_grant_cellblock100	牢房区块 Ⅲ
 objective_grant_cellblock100_description	继续扩建监狱以充分利用土地。
-objective_grant_cellblock100_cells	将监狱囚犯容量提高到100
+objective_grant_cellblock100_cells	将监狱囚犯容量提高到 100 人
 
-objective_grant_cellblock200	牢房区块 D
-objective_grant_cellblock200_description	更多囚犯意味着更多政府资金。提升监狱容量利用这些资金。
-objective_grant_cellblock200_cells	将监狱囚犯容量提高到200
+objective_grant_cellblock200	牢房区块 Ⅳ
+objective_grant_cellblock200_description	更多的囚犯意味着更多的政府财政支持。\n提升监狱容量以利用这一规则。
+objective_grant_cellblock200_cells	将监狱囚犯容量提高到 200 人
 
-objective_grant_cellblock500	牢房区块 E
-objective_grant_cellblock500_description	政府会给最大的监狱提供相当多的财政激励。你应该朝这个目标努力。
-objective_grant_cellblock500_cells	将监狱囚犯容量提高到500
+objective_grant_cellblock500	牢房区块 Ⅴ
+objective_grant_cellblock500_description	政府给最大的那些监狱提供极多的财政激励。\n接下来朝这个目标努力吧。
+objective_grant_cellblock500_cells	将监狱囚犯容量提高到 500 人
 
 objective_grant_nutritionresearch	囚犯营养调查
-objective_grant_nutritionresearch_description	一个独立调查小组提供资金以参与针对同监狱囚犯饮食习惯变化影响的试验。
-objective_grant_nutritionresearch_poor	两天提供1餐低份量低种类餐食
-objective_grant_nutritionresearch_good	两天提供3餐高份量高种类餐食
+objective_grant_nutritionresearch_description	有个独立研究小组出钱，以参与一项试验，考察犯人的\n饮食习惯发生变动的影响。
+objective_grant_nutritionresearch_poor	持续2天，每日提供： \n1顿饭，低份量、低花样
+objective_grant_nutritionresearch_good	持续2天，每日提供： \n3顿饭，高份量、高花样
 
 objective_grant_drugsearch	取缔毒品
-objective_grant_drugsearch_description	近来较大监狱中的毒品使用越来越引人关注。采取主动立场并向人们展示你在处理这个问题。
-objective_grant_drugsearch_find	搜出十份非法毒品
+objective_grant_drugsearch_description	大型监狱中的毒品现象，近来越发引人关注。\n采取主动立场，展现出你在应对这个问题。
+objective_grant_drugsearch_find	查获10份 麻醉剂
 
-objective_grant_contrabandsupply	工具清理
-objective_grant_contrabandsupply_description	在其他监狱中发生多起涉及偷窃物品的事件之后，一个组织正在监狱中执行针对工具和武器分布情况的调查研究。实验的这部分涉及尝试着从囚犯那儿夺走所有类似物品。
-objective_grant_contrabandsupply_tools	取缔偷窃工具的供给
-objective_grant_contrabandsupply_weapons	取缔偷窃武器的供给
+objective_grant_contrabandsupply	杜绝工具失窃
+objective_grant_contrabandsupply_description	随着其他监狱中发生多起涉及物品失窃的事故，一个小组\n正在开展针对在监狱各处工具和武器的分布情况的研究。\n试验的这部分为：尝试令囚犯总体杜绝所有这类物品。
+objective_grant_contrabandsupply_tools	取缔被盗 工具 的供给
+objective_grant_contrabandsupply_weapons	取缔被盗 武器 的供应
+
+objective_grant_Referralreformprogram 针对性改造
+objective_grant_Referralreformprogram_description 一些囚犯有着严重的生理或心理症状，需要专门治疗。\n政府希望你有效地提供针对性的服务。\n让你的医生和心理学家忙起来吧。
+objective_grant_Referralreformprogram_Methadone 令3个囚犯通过 毒瘾的药物治疗
+objective_grant_Referralreformprogram_alcoholicsmeeting 令5个囚犯通过 酗酒者团体治疗
+objective_grant_Referralreformprogram_Therapy 令1个囚犯通过 行为疗法
+
+objective_grant_Release1 出狱 Ⅰ
+objective_grant_Release1_description 恭喜！这是从你的监狱释放的第一个犯人。
+objective_grant_Release1_JustTakeIt 领取这份额外的奖励吧。
+
+objective_grant_Release2 出狱 Ⅱ
+objective_grant_Release2_description 除了到期放人，你更重要的职责是让他们有效地回归社会。\n政府希望从你监狱出来的囚犯的整体的再犯罪率足够低。\n（你可以在屏幕左上角打开[监狱评级]来查看）\n\n除了压制和惩罚，也给囚犯们提供一些积极的改造项目。
+objective_grant_Release2_Population 释放10个囚犯
+objective_grant_Release2_ReoffendingRate 令整体的再犯罪率低于30%
+
+objective_grant_Release3 出狱 Ⅲ
+objective_grant_Release3_description 再接再厉。\n保持你对监狱秩序的控制力。\n并且提供更多改造项目，让囚犯们改头换面。
+objective_grant_Release3_Population 释放50个囚犯
+objective_grant_Release3_ReoffendingRate 令整体的再犯罪率低于25%
+
+objective_grant_Release4 出狱 Ⅳ
+objective_grant_Release4_description 你的监狱对社会有重要意义。\n政府期待你更上一层楼。\n补充并优化你监狱里的方方面面。\n用无懈可击的秩序和丰富多样的改造项目，让囚犯们洗心革面。
+objective_grant_Release4_Population 释放200个囚犯
+objective_grant_Release4_ReoffendingRate 令整体的再犯罪率低于20%
+
+objective_grant_Parole1 假释 Ⅰ
+objective_grant_Parole1_description 囚犯会给你带来每日收入，但让他们早点离开同样有利可图。\n政府非常鼓励这种多方共赢的结果。
+objective_grant_Parole1_ParoleRoom 建造 假释听证室
+objective_grant_Parole1_Passed 令5个囚犯通过 假释听证会
+
+objective_grant_Parole2 假释 Ⅱ
+objective_grant_Parole2_description 扩大你的假释成果。\n但政府不会乐意见到这个好意被滥用。\n只有当再犯罪率非常低时，你才会得到这份奖励。\n在[政策]标签页里，下调“假释放行基准线”
+objective_grant_Parole2_Passed 令20个囚犯通过 假释听证会
+objective_grant_Parole2_ReoffendingRate 令整体的再犯罪率低于15%
+
+objective_grant_Parole3 假释 Ⅲ
+objective_grant_Parole3_description 你能为了社会更加美好而做出卓越的贡献吗？\n相应地，奖励会很丰厚。\n接受挑战吧！
+objective_grant_Parole3_Passed 令100个囚犯通过 假释听证会
+objective_grant_Parole3_ReoffendingRate 令整体的再犯罪率低于10%
+
+objective_Grant_FireProtection 预防火灾
+objective_Grant_FireProtection_description “防患于未然”，防火于未燃。\n虽然火灾的发生概率很低，万一不幸发生了，\n你会蒙受相当大的损失。\n在厨房等房间安装一些喷水灭火器，\n以便在消防队到来之前控制火势，减少损失。
+objective_Grant_FireProtection_Sprinkler 安装10个 喷水灭火器
+
+objective_Grant_SmallIsBeautiful 小而美
+objective_grant_SmallIsBeautiful_description 建立一个小型监狱，并尽可能优化其安保配置。\n\n人工成本是现实中监狱运营的重点，也是私营监狱相比于\n国营监狱的主要优势。\n雇佣大量的警卫来维持秩序不算本事。\n你能只用1:5的警卫比例来管好囚犯们吗？\n\n【提示】为了最大化利用警卫，你需要——\n · 给警卫方便的休息手段。\n · 尽量避免警卫浪费精力在替人开门上。\n · 建设发达的道路网络，以便警卫及时赶赴事端现场。\n · 充分利用[部署时刻盘]。\n\n另注：关于两种警卫人数对应的进度百分比，请反过来理解。
+objective_Grant_SmallIsBeautiful_Prisoners 囚犯数至少 120
+objective_Grant_SmallIsBeautiful_Guards 一般警卫数少于 25
+objective_Grant_SmallIsBeautiful_ArmedGuard 武装警卫数少于 4
 
 grant_category_completed	已完成：
 grant_category_unlocked		已解锁：
@@ -3223,118 +3308,119 @@ equipment_bookclosed	书本
 
 research_requires_short	需要一个 *X
 
-reformprogram_workshopinduction	工坊安全导语
-reformprogram_foundationeducation	基础教育方案
-reformprogram_generaleducation	普通教育资格
-reformprogram_carpentry	木工学徒
-reformprogram_kitcheninduction	厨房安全与卫生
-reformprogram_therapy	行为疗法
-reformprogram_methadone	药物治疗毒瘾
-reformprogram_alcoholicsmeeting	酗酒者集体理疗
-reformprogram_tazertraining	警卫电击枪认证
-reformprogram_spiritualguidance	精神指导
-reformprogram_parolehearing	假释听证会
-reformprogram_deathrowappeal	死刑上诉
+reformprogram_workshopinduction	[制造Ⅰ]工坊安全入门
+reformprogram_foundationeducation	[学术Ⅰ]基础教育项目
+reformprogram_generaleducation	[学术Ⅱ]普通教育资格
+reformprogram_carpentry	[制造Ⅱ]木工学徒
+reformprogram_kitcheninduction	[后勤]厨房安全与卫生
+reformprogram_therapy	[治疗]行为疗法
+reformprogram_methadone	[治疗]毒瘾的药物治疗
+reformprogram_alcoholicsmeeting	[治疗]酗酒者团体治疗
+reformprogram_tazertraining	[员工]警卫电击枪认证
+reformprogram_spiritualguidance	[其它]精神引导
+reformprogram_parolehearing	[其它]假释听证会
+reformprogram_deathrowappeal	[其它]死刑上诉
 
 reformprogram_tazertrained	持有执照：电击枪
 
 reformprogram_workshopinduction_text	安全第一！囚犯必须通过这门课程才能在工坊工作。
-reformprogram_foundationeducation_text	许多囚犯甚至缺乏基本的阅读、写作和数学技能。本课程旨在使囚犯达到基本水平。通过的囚犯可在图书馆工作。
-reformprogram_carpentry_text	需要较强实践能力的一项复杂技能。合格的囚犯可用此技能在木匠台制作出高价木制品。
-reformprogram_kitcheninduction_text	在为数百人提供食物时，食物标准十分重要。在去厨房工作之前囚犯必须完成此课程。
-reformprogram_therapy_text	囚犯通常较难控制他们的暴力天性。与监狱心理医生的一对一谈话旨在提供工具帮助囚犯在变得暴力之前阻止事态升级。
-reformprogram_methadone_text	一套包括5种药物替代品的课程，用以治疗囚犯的毒品成瘾症状。每次治疗都将帮助囚犯缓解毒瘾，完成课程可能完全消除毒瘾。
-reformprogram_alcoholicsmeeting_text	酗酒者集体理疗能够帮助囚犯减少对酒精的欲望。无法完全消除需求。
-reformprogram_parolehearing_text	确定囚犯是否符合提前释放资格的听证会。囚犯被释放后不再犯罪可以获得不错的奖励。
-reformprogram_spiritualguidance_text	某些囚犯有宗教信仰或精神方面的需求。从当地社区邀请精神领袖带领他们进行祈祷，向他们灌输平静的心态。
+reformprogram_foundationeducation_text	许多囚犯甚至缺乏基本的阅读、写作和数学技能。\n本课程旨在使囚犯达到基本水平。通过的囚犯可在图书馆工作。\n难度为25。总课时极长。好在同时上课的人数够多。
+reformprogram_generaleducation_text		没有任何已知的好处。\n感兴趣的囚犯极少。\n难度为50。通过率很低。\n我猜想也许会降低再犯罪率。\n\n【调整】原本这是一个早期补助“通过教育行动来改造”的条件。\n一直卡在这一条，很让人难受。\n我把它从补助条件里去掉了。\n所以，你完全不用再为它纠结了。
+reformprogram_carpentry_text			需要较强实践能力的一项复杂技能。\n合格的囚犯可用此技能在木匠桌制作出高价木制品。\n难度为60。
+reformprogram_kitcheninduction_text		在为数百人提供伙食时，食物标准十分重要。\n在去厨房工作之前，囚犯必须完成此课程。
+reformprogram_therapy_text				囚犯通常较难控制他们的暴力天性。与监狱心理学家的一对一谈话，\n旨在提供工具帮助囚犯，在变得暴力之前阻止事态升级。\n\n只有暴力倾向的囚犯会来参加，而且全凭自愿。\n如果改造成功，那么囚犯会变得更有忍耐力，不容易闹事。\n（开发者官方的说法如此。\n在游戏中验证太麻烦，我就干脆信了吧。）\n难度为40。总课时10小时。\n\n警卫巡逻会压制囚犯，导致其成功率下降。\n事实上，自愿接受治疗的囚犯似乎也不会闹事。\n注意：不要因为“员工专区”导致囚犯无法走到办公室。\n\n这大概是性价比最低的改造。\n建议：设为“超高戒备”专区，只服务于这些最让你头疼的危险分子。
+reformprogram_methadone_text			一套包括5种药物替代品的课程，用以治疗囚犯的毒品成瘾症状。\n每次治疗都将帮助囚犯缓解毒瘾，完成课程还有几率完全消除毒瘾。\n\n大约每20个囚犯中有一人需要这个项目。
+reformprogram_alcoholicsmeeting_text	酗酒者团体治疗能够帮助囚犯减少对酒精的欲望。\n无法完全消除需求。\n\n大约每20个囚犯中有一人需要这个项目。
+reformprogram_parolehearing_text		确定囚犯是否符合提前释放资格的听证会。\n如果囚犯被提前释放后不再犯罪，那么可以获得可观的奖励。\n如果你积极改造囚犯，那么这是让你的努力开花结果的好途径。\n\n如果有资格的囚犯得不到听证机会，会增加状态“焦躁”。
+reformprogram_spiritualguidance_text	某些囚犯有宗教信仰或精神方面的需求。从当地社区邀请\n精神领袖带领他们进行祈祷，向他们灌输平静的心态。\n\n让信仰者们在满足“宗教”需求的同时，变得心灵上很“平静”。\n这个状态会让人更能忍受各种不满。
 
 reformerror_unscheduled	未安排
-reformerror_noroom	未找到房间
+reformerror_noroom	未找到所需房间
 reformerror_nofreetimeslot	所有房间都已预订
-reformerror_staffonly	所有房间仅限员工使用
-reformerror_noobjects	没有设备
-reformerror_noregimetime	无制度时间槽
-reformerror_noteachers	无教师
+reformerror_staffonly	所有房间为员工专区
+reformerror_noobjects	缺少所需物品
+reformerror_noregimetime	缺少“工作”作息时间槽
+reformerror_noteachers	缺少教师
 
-reform_interested	*X 名囚犯感兴趣
-reform_interested_qualified	*X 名囚犯感兴趣/合格
-reform_queued	*X 名囚犯在排队
-reform_completion	- *X 名囚犯已完成 - *Y 名囚犯已通过 (*P%)
-reform_locked	锁定
-reform_start	开始
-reform_costpersession	*X 人每期
-reform_placespersession	*X 个席位 / *Y 期
-reform_program_starting	启动中
+reform_interested	*X 人感兴趣 
+reform_interested_qualified	*X 人感兴趣且有资格 
+reform_queued	*X 人在排队 
+reform_completion	*Y 人已通过 / *X 人已结束 = *P%
+reform_locked	未解锁
+reform_start	✚
+reform_costpersession	每堂课 *X
+reform_placespersession	*X 个席位；*Y 堂课
+reform_program_starting	即将开始
 reform_program_active	进行中
 reform_program_paused	已暂停
-reform_program_stop	停止
-reform_program_ledby	- 由*P在*Z中领导
-reform_program_ledwith	- 由*S协助
-reform_program_length	- 期间长度：*X小时
-reform_program_requirements	- 每名囚犯需要*X
-reform_program_requirements_alt	- 每名囚犯需要*X或*Y
-reform_program_prereqs	囚犯必须完成：
+reform_program_stop	╳
+reform_program_ledby	- 由 *P 在 *Z 中主持
+reform_program_ledwith	- 由 *S 协助
+reform_program_length	- 课时: *X 小时
+reform_program_requirements	- 每人需要一个 *X
+reform_program_requirements_alt	- 每人需要一个 *X 或 *Y
+reform_program_prereqs	囚犯必须已完成：
 reform_program_research_required	需要：*X
 
-reform_program_intake_none	无
-reform_program_intake_mandatory	强制性
-reform_program_intake_voluntary	自愿性
-reform_program_intake_referralviolence	移交：暴力
-reform_program_intake_referraldrugaddiction	移交：毒品成瘾
-reform_program_intake_referralalcoholism	移交：酗酒
+reform_program_intake_none	无参加者（配置错误）
+reform_program_intake_mandatory	强制参加
+reform_program_intake_voluntary	自愿参加
+reform_program_intake_referralviolence	适用对象：暴力
+reform_program_intake_referraldrugaddiction	适用对象：毒瘾
+reform_program_intake_referralalcoholism	适用对象：酗酒
 reform_program_intake_guards	仅限警卫
 reform_program_intake_parole	在度过50%或70%的刑期后
-reform_program_intake_needrequired	每名囚犯在加入前都有特殊需求
+reform_program_intake_needrequired	囚犯有特定需要才能参加
 reform_program_intake_deathrow	囚犯被判死刑
 
-reform_program_properties_canhireexternally	可从外部雇佣
-reform_program_properties_studentssit	学生就坐
-reform_program_properties_academic	学术
-reform_program_properties_practical	实用
+reform_program_properties_canhireexternally	教师从外部雇用
+reform_program_properties_studentssit	学生 要有座位
+reform_program_properties_academic	学术性的
+reform_program_properties_practical	实践性的
 reform_program_properties_repeatable	可重复
-reform_program_properties_passive	被动
-reform_program_properties_staffonly	员工专区
-reform_program_properties_outsideofwork	可在工作时间外进行
-reform_program_properties_teacherssit	教室就坐
-reform_program_properties_canescortstudent	学生可由警卫护送
+reform_program_properties_passive	被动的（无需专心和理解）
+reform_program_properties_staffonly	仅限 员工
+reform_program_properties_outsideofwork	可在“工作”作息之外进行
+reform_program_properties_teacherssit	教师 要有座位
+reform_program_properties_canescortstudent	（被禁足或禁闭的）囚犯可由警卫护送
 
-reform_program_waittime	只能每 *T 天进行一次
+reform_program_waittime	同一囚犯每 *T 天参加一次
 
-reform_program_difficulty_easy	- 简单
-reform_program_difficulty_intermediate	- 中等
-reform_program_difficulty_advanced	- 高级
-reform_program_difficulty_expert	- 专家
+reform_program_difficulty_easy	- 难度：初级
+reform_program_difficulty_intermediate	- 难度：中级
+reform_program_difficulty_advanced	- 难度：高级
+reform_program_difficulty_expert	- 难度：专家级
 
-regime_nothing	监禁
+regime_nothing	关押
 regime_sleep	睡觉
-regime_eat	进食
-regime_shower	淋浴间
-regime_yard	庭院
-regime_work	工作时间/自由时间
-regime_lockdown	防范禁闭
-regime_freetime	自由时间
-regime_currenttime	现在
+regime_eat	吃饭
+regime_shower	淋浴
+regime_yard	庭院放风
+regime_work	工作或自由活动
+regime_lockdown	禁足
+regime_freetime	自由活动
+regime_currenttime	现在时刻
 regime_unspecified	未指明
-regime_worklockdown	工作/监禁
+regime_worklockdown	工作或关押
 
-regimetooltip_nothing	囚犯被监禁在其牢房中。他们无事可做只能反思自己犯下的罪行。\n\n长期监禁可以给即使最强硬的囚犯造成决定性惩罚。
-regimetooltip_sleep	囚犯被监禁在牢房里，关掉灯具。所有人都睡觉。\n\n除了那些在挖越狱地道的囚犯……
-regimetooltip_eat	囚犯们可前往就近的餐厅坐下享用午餐。\n\n囚犯可以使用餐厅内的所有设施，用餐结束后，他们可以在监狱内自由走动。
-regimetooltip_shower	囚犯们脱掉衣服进入淋浴间。每日的淋浴时间对保持囚犯卫生来说很重要，但有些囚犯根本不愿意洗澡，除非被押送到这里。洗完澡后，囚犯可以在监狱内自由走动。
-regimetooltip_yard	囚犯可以离开牢房，并进入庭院中进行必要的锻炼、晒太阳和呼吸新鲜空气。\n\n在此期间，囚犯可以使用庭院内的任何设施，例如用举重台健身、打电话给爱人或冲澡等。锻炼结束后，囚犯可以在监狱内自由走动。
-regimetooltip_work	囚犯可在监狱周围工作。任何职位空缺都会被填补，囚犯会自动到其工作岗位报到。（你可以在部署菜单设置职位空缺。）\n\n工作期间改造方案也会进行。没有工作或目前没有参加改造方案的囚犯在“自由时间”可以在监狱里自由漫步。
-regimetooltip_freetime	囚犯们被放出其各自的牢房，可以使用监狱中的所有设施。囚犯最喜欢这段时间，会进行社交，并尽可能照顾其各自的需求。\n\n较长的自由时间可以缓解监狱中的压力和紧张情绪，但很多人认为这很难被称作刑罚。
-regimetooltip_worklockdown	囚犯被要求在监狱里工作。所有空缺职位都会被填满，囚犯将自动向工作地点汇报。（您可以从“部署”页面设置空缺职位。）\n\n所有改造计划都在工作时间内进行。无业和未被列入改造计划的囚犯被限制在牢房里，如同“监禁”。
+regimetooltip_nothing	囚犯被关在其牢房中。他们无事可做，只能反思以往作出\n的选择，是怎样令自己走到这步田地。\n\n即使对于最强硬的囚犯，长期监禁也是一种态度坚决的惩罚。\n对于需要严惩的囚犯，可以适当增加这个作息。\n相应地，会产生“自由”需求。\n\n其实还是可以做点事的，比如淋浴、娱乐、睡觉。\n但囚犯会感到被压制，而情绪会不太好。\n\n一般用在“睡觉”作息前后的一个小时。\n\n而如果用“关押”完全替代“睡觉”，囚犯虽然会照常入睡，\n但会早早醒来，而得不到充分睡眠。
+regimetooltip_sleep	囚犯被关在牢房里，灯也熄了。所有人都上床睡觉。\n除了正在异常兴奋的那些家伙，以及挖越狱地道的……\n\n正常情况下，囚犯会尽可能待在被窝里。\n这样可以充分睡眠。但注意不要过度睡眠。\n\n一觉醒来后，很多人会积攒不少生理需求。比如吃喝拉撒和卫生。
+regimetooltip_eat	囚犯们前往指定的食堂，就坐吃饭。\n\n囚犯可以使用食堂内的一切设施，但在时间结束前不得离开。\n\n厨师会提前4小时开始准备伙食。\n如果你突然调整作息，那么小心会出现断档。\n\n由于游戏机制的种种问题，我建议你每天只提供2顿。\n这不真实，但3顿实在不适合这游戏。
+regimetooltip_shower	囚犯们脱掉衣服进入淋浴间。每日的淋浴对囚犯的卫生很重要。\n但有些囚犯懒得去，除非被强迫。（我表示怀疑……）\n\n注意：其实，强制的淋浴时间，很少是个好主意。\n哪怕牢房里就有花洒，他们也只能去淋浴间。\n不用淋浴而有其它需求的囚犯，也无法提前离开。
+regimetooltip_yard	囚犯可以到庭院中进行必要的锻炼、晒太阳、呼吸新鲜空气。\n\n这段时间内，囚犯可以使用庭院里的任何设施，比如\n用举重床健身、打电话给所爱之人、淋浴等。\n\n囚犯被限制在庭院。不过你可以在庭院安装多种功能物品。\n该作息可以用来错开不同的囚犯群体，以防发生冲突。\n特别是帮派之间的冲突。\n\n对于高戒备群体，“庭院放风”+警戒塔可以压制其嚣张气焰。
+regimetooltip_work	囚犯可在监狱四处工作。\n任何职位空缺都会被填补，囚犯会自动到其工作岗位报到。\n（你可以在[部署>狱中劳动]设立职位空缺。）\n\n“工作”期间，所有的改造项目也会进行。它们算是一回事。\n\n注意：工作中的囚犯无法处理自己的需求。\n\n至于目前没有工作或参加改造项目的囚犯，则如同“自由活动”。
+regimetooltip_freetime	囚犯们可以使用监狱中的所有设施，只要区划允许其进入。\n囚犯最喜欢这段时间，会开展社交，并尽可能好地打理其需求。\n\n较长的自由活动可以缓解监狱中的压力和紧张情绪，\n但很多人认为这算不上什么刑罚。（降低[评级]中改造指标的评分）\n\n自由活动时，囚犯可以按其需要，最大自由地行动。\n不过，狱中劳动和囚犯参加的改造项目，无法进行。\n\n此外不会做的事情，只有一个：开始吃饭。不过如果\n上一个作息是吃饭，那么没吃完的囚犯可以在这时继续。
+regimetooltip_worklockdown	关于“工作”部分，见“工作或自由活动”。\n\n目前没有工作或参加改造项目的囚犯，会被“关押”在牢房里。
 
-regime_clear	为这类囚犯清除制度，并使用默认的普通安全制度。
+regime_clear	清除这类囚犯的作息，\n而采用中威胁的作息。
 
-schedule_editor_students	学生：*X/*Y
-schedule_editor_error_staffonly	目标房间仅限员工使用
-schedule_editor_error_noregimetime	方案在有效工作制度之外
-schedule_editor_error_noteachers	这个方案没有教师
-schedule_editor_error_noobjects	任何房间都没有此方案需要的物品
-schedule_editor_pin	固定此方案
-schedule_editor_unpin	取消此方案
+schedule_editor_students	学生数：*X/*Y
+schedule_editor_error_staffonly	目标房间为【仅员工】，囚犯无法进入
+schedule_editor_error_noregimetime	项目不在有效的“工作”作息内
+schedule_editor_error_noteachers	这个项目没有教师
+schedule_editor_error_noobjects	任何房间都没有此项目所需的物品
+schedule_editor_pin	固定（即使条件不足，也不会自动关停）
+schedule_editor_unpin	取消固定（如果条件不足，则会自动关停）
 
 # =============================================================================
 # DoorTimer stuff
@@ -3457,35 +3543,35 @@ prisoner_informant	秘密线人
 prisoner_dayswithoutincident	*X天无事件
 prisoner_availablemoney	现金：*X美元
 
-informant_title	線人
-informant_coverage	覆蓋率
-informant_suspicion	怀疑度
+informant_title	秘密线人
+informant_coverage	覆盖率
+informant_suspicion	被怀疑度
 informant_status	状态
 informant_none	你没有记录在案的秘密线人
-informant_hint	（招募被监禁的囚犯——比如单独禁闭）
-informant_recruitable	（潜在机密线人）
+informant_hint	从被禁闭的囚犯中招募。\n操作：[查看犯罪档案>经历]
+informant_recruitable	（潜在的线人）
 informant_target	目标
-informant_dead	死亡
-informant_released	已释放
-informant_coverblown	线人身份暴露
+informant_dead	死亡！
+informant_released	被释放
+informant_coverblown	身份曝光！
 informant_activate	激活
-informant_deactivate	停用
-informant_idle	空闲
-informant_onroute	在途中……
-informant_active	活跃
-informant_coveragecaps	覆盖率*X%
+informant_deactivate	反激活
+informant_idle	[闲置]
+informant_onroute	[待押送]
+informant_active	[已激活]
+informant_coveragecaps	覆盖率：*X%
 
 
-contraband_owner	所有者： *X
-contraband_ownerunknown	所有者未知
-contraband_stolenfrom	*Y 小时前从 *X 处偷走
-contraband_smuggledthrough	*Y小时前通过*X偷运进来
-contraband_smuggledin	*Y 小时前由囚犯偷运进来
-contraband_type	类型：*X
+contraband_owner 所有者: *X
+contraband_ownerunknown 所有者不明
+contraband_stolenfrom *Y 小时前，从 *X 处偷走
+contraband_smuggledthrough *Y 小时前，通过 *X 走私进来
+contraband_smuggledin *Y 小时前，由囚犯走私进来或捡到
+contraband_type	类型: *X
 contraband_tradevalue_title	交易价格
-contraband_tradevalue_low	$
+contraband_tradevalue_low		$
 contraband_tradevalue_medium	$$
-contraband_tradevalue_high	$$$
+contraband_tradevalue_high		$$$
 contraband_tradevalue_veryhigh	$$$$
 
 staff_exhausted	精疲力竭
@@ -3503,18 +3589,18 @@ entity_carryingkeys	携带着监狱钥匙
 entity_carryingstaffkeys	携带着员工钥匙
 entity_wearingarmour	穿着*X
 
-reports_schedule	重新安排所有方案
-reports_edit	编辑日程表
+reports_schedule	重新安排所有项目
+reports_edit	编辑时刻表
 reports_bankloan	银行贷款
-reports_increaseloan	增长
-reports_decreaseloan	减少
-reports_unlockbankloans	由会计师解锁
+reports_increaseloan	增加+
+reports_decreaseloan	减少-
+reports_unlockbankloans	由会计解锁
 
 drugs_heroin	海洛因
 drugs_cocaine	可卡因
 
-#                                       Eg "Bob's Mother"
 visitor_relationship	*X的*Y
+# Eg "Bob's Mother"
 visitor_age	年龄：*X
 
 family_wife	妻子
@@ -3555,40 +3641,40 @@ supplyanddemand_demandheader	需求
 tooltip_multipleobjects	按TAB切换对象
 remotedoor_noservo	未连接正常工作伺服器的遥控门不会打开
 
-targettingfood_prisonersassigned	分配的囚犯：*X
-targettingfood_predicteddemand	= 预计需求 =
-targettingfood_demand	需求*X
+targettingfood_prisonersassigned	指派的囚犯: *X
+targettingfood_predicteddemand	=预测需求=
+targettingfood_demand	需求 *X
 targettingfood_supply	供应 *X (+*Y)
 targettingfood_prisoners	囚犯
 targettingfood_required	需要的伙食：*X
-targettingfood_ready	做好的伙食：*X
-targettingfood_cooked	正在烹饪的伙食：*X
+targettingfood_ready	准备好的伙食：*X
+targettingfood_cooked	烹制中的伙食：*X
 
-roomgrading	牢房评级
-roomgrading_cell_roomsize	[*E] 房间面积至少*X平方米
-roomgrading_cell_cleanliness	[*E] 清洁度*X%以上
-roomgrading_cell_outsidewindow	[*E] *Y 室外窗户
-roomgrading_cell_item	[*E] 项目：*X
+roomgrading	牢房品质评级
+roomgrading_cell_roomsize	房间面积至少 *X ㎡
+roomgrading_cell_cleanliness	清洁度 *X% 以上
+roomgrading_cell_outsidewindow	户外窗户
+roomgrading_cell_item	物品: *X
 
-roomgrading_dormitory_roomsize	[*E] 每名囚犯的房间面积至少*X平方米
-roomgrading_dormitory_cleanliness	[*E] 清洁度*X%以上
-roomgrading_dormitory_outsidewindow	[*E] *Y 每8名囚犯配备一个室外窗户
-roomgrading_dormitory_item	[*E] 项目：每4名囚犯 *X
+roomgrading_dormitory_roomsize	人均牢房面积至少 *X ㎡
+roomgrading_dormitory_cleanliness	清洁度高于 *X%
+roomgrading_dormitory_outsidewindow	每8个囚犯1个朝着户外的窗
+roomgrading_dormitory_item	物品: 每4个囚犯1个 *X
 
-roomgrading_sharedcell_roomsize	[*E] 每名囚犯的房间面积至少*X平方米
-roomgrading_sharedcell_cleanliness	[*E] 清洁度*X%以上
-roomgrading_sharedcell_outsidewindow	[*E] *Y 室外窗户
-roomgrading_sharedcell_item	[*E] 项目：每4名囚犯 *X
+roomgrading_sharedcell_roomsize	人均牢房面积至少 *X ㎡
+roomgrading_sharedcell_cleanliness	清洁度高于 *X%
+roomgrading_sharedcell_outsidewindow	朝着户外的窗
+roomgrading_sharedcell_item	物品: 每4个囚犯1个 *X
 
-roomgrading_result	等级 *X/*Y
+roomgrading_result	等级 *X
 roomgrading_currentoccupant	此牢房的囚犯有权使用等级 *X 的牢房
-roomgrading_unoccupied	未分配
-roomgrading_shared_occupuants	当前囚犯数量：*X / *Y
+roomgrading_unoccupied	未指派
+roomgrading_shared_occupuants	目前居住者: *X / *Y
 
 weathermap_temperature_title	温度
-weathermap_temperature_text	*C° C / *F° F
-weathermap_temperature_c	*C° C
-weathermap_temperature_f	*F° F
+weathermap_temperature_text	*C℃=*F℉
+weathermap_temperature_c	*C℃
+weathermap_temperature_f	*F℉
 
 roomerror_nokitchen	没有指派 厨房 向此食堂提供食物。
 roomerror_noprisoners	没有指派 牢房区块 的囚犯到此食堂吃饭。
@@ -3601,12 +3687,12 @@ quickbuild_basiccell	基本牢房
 quickbuild_solitarycell	禁闭室
 quickbuild_office	办公室
 quickbuild_luxurycell	豪华牢房
-quickbuild_sharedcell	共用牢房
-quickbuild_kitchen	廚房
+quickbuild_sharedcell	多人牢房
+quickbuild_kitchen	厨房
 quickbuild_canteen	食堂
-quickbuild_utilityroom	雜物房
+quickbuild_utilityroom	基础设施房
 quickbuild_classroom	教室
-quickbuild_commonroom	公共房间
+quickbuild_commonroom	公共活动室
 
 season_current	当前季节：*X
 season_spring	春季
