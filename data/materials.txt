@@ -195,8 +195,6 @@ BEGIN Object
     Properties             WaterUtility
 END
 
-
-
 BEGIN Object
     Name                 JailDoor
     ConstructionTime     7
@@ -243,7 +241,6 @@ BEGIN Object
     Properties           Door
 END
 
-
 BEGIN Object
     Name                 JailDoorXL
     Width                3
@@ -267,7 +264,6 @@ BEGIN Object
     Properties           StaticObject
     Properties           Door
 END
-
 
 BEGIN Object
     Name                 SolitaryDoor
@@ -335,12 +331,6 @@ BEGIN Object
     Properties           Door
 END
 
-
-
-
-
-
-
 BEGIN Object
     Name                 ShowerHead
     ConstructionTime     1
@@ -356,9 +346,6 @@ BEGIN Object
     Properties           StaticObject
     Properties           DontAvoid
 END
-
-
-
 
 BEGIN Object
     Name                 Tv
@@ -385,8 +372,6 @@ BEGIN Object
     Properties           Electrical
     Properties           RoomSpecific
 END
-
-
 
 BEGIN Object
     Name                 LargeTv
@@ -416,9 +401,6 @@ BEGIN Object
     Properties           RoomSpecific
 END
 
-
-
-
 BEGIN Object
     Name                 PoolTable
     Width                3
@@ -439,7 +421,6 @@ BEGIN Object
     Properties           StaticObject
     Properties           RoomSpecific
 END
-
 
 BEGIN Object
     Name                 Cctv
@@ -470,7 +451,6 @@ BEGIN Object
     Research             Cctv
 END
 
-
 BEGIN Object
     Name                 Sprinkler
     ConstructionTime     5
@@ -488,7 +468,6 @@ BEGIN Object
     Properties           RoomSpecific
 END
 
-
 BEGIN Object
     Name                 Light
     ConstructionTime     3
@@ -505,7 +484,6 @@ BEGIN Object
     Properties           DontAvoid
     Properties           Uncloneable
 END
-
 
 BEGIN Object
     Name                 TargetSorter
@@ -555,10 +533,6 @@ BEGIN Object
     Research             PrisonerSorting
 END
 
-
-
-
-
 BEGIN Object
     Name                 Toilet
     ConstructionTime     5
@@ -576,7 +550,6 @@ BEGIN Object
     MadeOf               HollowMetal
     Properties           StaticObject
 END
-
 
 BEGIN Object
     Name                 Table
@@ -664,9 +637,6 @@ BEGIN Object
     END
 END
 
-
-
-
 BEGIN Object
     Name                 Bench
     ConstructionTime     1
@@ -692,9 +662,6 @@ BEGIN Object
       TopAligned false
     END
 END
-
-
-
 
 BEGIN Object
     Name                 Window
@@ -837,8 +804,6 @@ BEGIN Object
     Research             PrisonLabour
 END
 
-
-
 BEGIN Object
     Name                 SortingTable
     Width                3
@@ -881,7 +846,6 @@ BEGIN Object
       Index 2
     END
 
-
     BEGIN Marker
       x 11
       y 0.7
@@ -903,7 +867,6 @@ BEGIN Object
       orientation.y 1
       Index 2
     END
-
 
     BEGIN Marker
       x 13
@@ -935,9 +898,6 @@ BEGIN Object
     Research             PrisonLabour
     WorkGroup            LibraryMailRoom
 END
-
-
-
 
 BEGIN Object
     Name                 Radio
@@ -976,8 +936,6 @@ BEGIN Object
     ToolbarSprite        WeightsToolbar
     Properties           StaticObject
 END
-
-
 
 BEGIN Object
     Name                 Bookshelf
@@ -1026,7 +984,6 @@ BEGIN Object
     Properties           StaticObject
     Properties           RoomSpecific
 END
-
 
 BEGIN Object
     Name                 OfficeDesk
@@ -1082,8 +1039,6 @@ BEGIN Object
     ToolbarSprite       ChurchAltar
 END
 
-
-
 BEGIN Object
     Name                 Bin
     ConstructionTime     1
@@ -1101,8 +1056,6 @@ BEGIN Object
     MadeOf               Composite
     Properties           StaticObject
 END
-
-
 
 BEGIN Object
     Name                ShopShelf
@@ -1130,7 +1083,6 @@ BEGIN Object
     StackSprite         ShopShelfGoods1
     Research            PrisonLabour
 END
-
 
 BEGIN Object
     Name                 DrinkMachine
@@ -1171,9 +1123,6 @@ BEGIN Object
     Properties           StaticObject
     Properties          RoomSpecific
 END
-
-
-
 
 BEGIN Object
     Name                 VisitorTable
@@ -1218,13 +1167,6 @@ BEGIN Object
     BlockedBy            UtilityStation
 END
 
-
-
-
-
-
-
-
 BEGIN Object
     Name                 Bed
     Height               2
@@ -1262,7 +1204,6 @@ BEGIN Object
     Properties           RoomSpecific
 END
 
-
 BEGIN Object
     Name                 Tree
     Width                3
@@ -1288,7 +1229,6 @@ BEGIN Object
     Properties           SlowDelivery
     Properties           RoomSpecific
 END
-
 
 BEGIN Object
     Name                GuardTower
@@ -1333,8 +1273,6 @@ BEGIN Object
     WorkGroup            Shop
     Research             PrisonLabour
 END
-
-
 
 BEGIN Object
     Name                 DogCrate
@@ -1386,7 +1324,6 @@ BEGIN Object
     Properties           RoomSpecific
 END
 
-
 BEGIN Object
     Name                 WeaponRack
     Width                2
@@ -1414,14 +1351,6 @@ BEGIN Object
     END
 
 END
-
-
-
-
-
-
-
-
 
 BEGIN Object
     Name                 Chair
@@ -1478,9 +1407,6 @@ BEGIN Object
     Properties           RoomSpecific
 END
 
-
-
-
 BEGIN Object
     Name                 SchoolDesk
     Height               2
@@ -1526,8 +1452,6 @@ BEGIN Object
     Properties           StaticObject
     Properties           RoomSpecific
 END
-
-
 
 BEGIN Object
     Name                 AccountingBookUnfinished
@@ -1580,7 +1504,6 @@ BEGIN Object
     Properties           DontAvoid
 END
 
-
 BEGIN Object
     Name                 PressurePad
     ConstructionTime     10
@@ -1598,11 +1521,6 @@ BEGIN Object
     Research             RemoteAccess
     Properties           DontAvoid
 END
-
-
-
-
-
 
 BEGIN Object
     Name                 PowerSwitch
@@ -1659,12 +1577,6 @@ BEGIN Object
     Research             RemoteAccess
 END
 
-
-
-
-
-
-
 BEGIN Object
     Name                Pews
     Width               4
@@ -1685,23 +1597,6 @@ BEGIN Object
     Properties          RoomSpecific
     ToolbarSprite       ChurchPewToolbar
 END
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 BEGIN Object
     Name                 PersonalSink
@@ -1751,8 +1646,6 @@ BEGIN Object
     Properties           RoomSpecific
 END
 
-
-
 BEGIN Object
     Name                MedicineCabinet
     RenderDepth         2
@@ -1779,7 +1672,6 @@ BEGIN Object
     TopAligned false
     END
 END
-
 
 BEGIN Object
     Name                 AccountingTable
@@ -1845,7 +1737,6 @@ BEGIN Object
       Index 2
     END
 
-
     BEGIN Marker
       x 13
       y -3
@@ -1882,12 +1773,6 @@ BEGIN Object
     END
 END
 
-
-
-
-
-
-
 BEGIN Object
     Name                 ServoProxy
     ConstructionTime     10
@@ -1907,7 +1792,6 @@ BEGIN Object
     Properties           Scripted
     Research             RemoteAccess
 END
-
 
 BEGIN Object
     Name                 TimedCaller
@@ -1933,9 +1817,6 @@ BEGIN Object
     Properties           Scripted
 END
 
-
-
-
 BEGIN Object
     Name                 Anchor
     ConstructionTime     -1
@@ -1949,10 +1830,9 @@ BEGIN Object
     END
 END
 
-
 BEGIN Object
     Name                Wood
-    MaxStackSize        12
+    MaxStackSize        32
     RenderDepth         1
     Price               -60
     Sprite              Wood
@@ -2017,37 +1897,6 @@ BEGIN Object
 END
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   BEGIN Material
     Name                 Dirt
     ConstructionTime     1
@@ -2073,7 +1922,6 @@ BEGIN Material
     BEGIN Sprite0    x 15  y 4  END
     BEGIN Sprite1    x 5  y 2  END
 END
-
 
   BEGIN Material
     Name                 Mud
@@ -2131,7 +1979,6 @@ BEGIN Material
     BEGIN Sprite1    x 5  y 2  END
 END
 
-
   BEGIN Material
     Name                 Sand
     ConstructionTime     1
@@ -2157,12 +2004,6 @@ BEGIN Material
     BEGIN Sprite0    x 15  y 6  END
     BEGIN Sprite1    x 2  y 2  END
 END
-
-
-
-
-
-
 
   BEGIN Material
     Name                 ConcreteTiles
@@ -2271,7 +2112,6 @@ BEGIN Material
     BEGIN Sprite1    x 2  y 2  END
 END
 
-
   BEGIN Material
     Name                 Fence
     ConstructionTime     10.0000
@@ -2284,27 +2124,6 @@ END
     NumSprites           1
     BEGIN Sprite0    x 0  y 16  END
 END
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 BEGIN Object
     Name                 Warden
@@ -2446,12 +2265,6 @@ BEGIN Object
     Equipment            Clipboard
 END
 
-
-
-
-
-
-
 BEGIN Object
     Name                 Workman
     MoveSpeedFactor      1.50000
@@ -2490,7 +2303,6 @@ BEGIN Object
     Equipment            Baton
 END
 
-
 BEGIN Object
     Name                 Doctor
     Toughness            10.0000
@@ -2511,7 +2323,6 @@ BEGIN Object
     Equipment            Needle
 END
 
-
 # BEGIN Object
 #   Name                 ChiefInspector
 #   Toughness            10
@@ -2529,7 +2340,6 @@ END
 #   Equipment            Clipboard
 # END
 
-
 BEGIN Object
     Name                 ExecutionWitness
     RenderDepth          2
@@ -2539,7 +2349,6 @@ BEGIN Object
     Properties           DoesNotTire
     Properties           Scripted
 END
-
 
 BEGIN Object
     Name                 ElectricChair
@@ -2561,9 +2370,6 @@ BEGIN Object
     Properties           Scripted
 END
 
-
-
-
   BEGIN Callout
     Name                 NationalGuard
     MaxNumber            3
@@ -2573,10 +2379,6 @@ END
     NumEntities          4
     Sprite               EmergencyRiotPolice
 END
-
-
-
-
 
 BEGIN Object
     Name                 MoneyBag10
@@ -2608,7 +2410,6 @@ BEGIN Object
     Properties           Uncloneable
 END
 
-
 BEGIN Object
     Name                 DiciplineBonus
     RenderDepth          3
@@ -2618,7 +2419,6 @@ BEGIN Object
     Properties           Sellable
     Properties           Uncloneable
 END
-
 
 BEGIN Object
     Name                 MisconductMarker
@@ -2639,11 +2439,6 @@ BEGIN Object
     Properties           Scripted
     Properties           Uncloneable
 END
-
-
-
-
-
 
 BEGIN Object
     Name                 BoldHost
@@ -2684,8 +2479,6 @@ BEGIN Object
     Properties           Scripted
 END
 
-
-
 BEGIN Object
     Name                MusterGuards
     Research            Deployment
@@ -2709,8 +2502,6 @@ BEGIN Object
     Properties          Scripted
 END
 
-
-
 BEGIN Object
     Name                 SearchToilets
     Price                -20
@@ -2725,12 +2516,6 @@ BEGIN Object
     Properties           Staff
     Properties           DoesNotTire
 END
-
-
-
-
-
-
 
 BEGIN Object
     Name                 SwapOfficeMarker
@@ -2765,12 +2550,6 @@ BEGIN Object
     Properties          Staff
     Properties          Scripted
 END
-
-
-
-
-
-
 
 BEGIN Object
     Name                 Avatar
@@ -2890,7 +2669,6 @@ BEGIN Object
     Properties           Uncloneable
 END
 
-
 BEGIN Object
     Name                 HitmanReward
     RenderDepth          4
@@ -2939,10 +2717,6 @@ BEGIN Object
     Properties           Sellable
 END
 
-
-
-
-
 BEGIN Object
    Name                 A48Clothes
    RenderDepth          1
@@ -2950,7 +2724,6 @@ BEGIN Object
    SpriteScale          1.1
    Properties           Rubbish
 END
-
 
 BEGIN Object
     Name                 Icon_Intercom
@@ -3032,7 +2805,6 @@ BEGIN Object
     Properties           Material
 END
 
-
 BEGIN Object
     Name                 Icon_Dynamite
     RenderDepth          5
@@ -3040,7 +2812,6 @@ BEGIN Object
     SpriteScale          1.5
     Properties           Material
 END
-
 
 BEGIN Object
     Name                 Icon_Flammable
@@ -3056,7 +2827,6 @@ BEGIN Object
     SpriteScale          0.75
     Properties           Material
 END
-
 
 BEGIN Object
     Name                 Icon_Lighter
@@ -3081,7 +2851,6 @@ BEGIN Object
     Properties           Material
 END
 
-
 BEGIN Object
     Name                 FlammableUniform
     RenderDepth          1
@@ -3089,7 +2858,6 @@ BEGIN Object
     Properties           Material
     Properties           SlowDelivery
 END
-
 
 BEGIN Object
     Name                 FakeExtinguisher
@@ -3116,8 +2884,6 @@ BEGIN Object
     Properties           CanPlaceOnRoad
     ToolbarSprite        Fire
 END
-
-
 
 BEGIN Object
     Name                 Rubble
@@ -3169,8 +2935,6 @@ BEGIN Object
     Properties           Rubbish
 END
 
-
-
 BEGIN Object
     Name                 Fire
     MoveSpeedFactor      0.250000
@@ -3188,13 +2952,6 @@ BEGIN Object
     Properties           RadiatesHeat
     RadiantTemperature   233
 END
-
-
-
-
-
-
-
 
 BEGIN Object
     Name                CheatPrisonerMisbehavior
@@ -3218,7 +2975,6 @@ BEGIN Object
     Research            AdvancedManagement
     Properties          Uncloneable
 END
-
 
 BEGIN Object
     Name                 RoomCellMarker
@@ -3254,7 +3010,6 @@ BEGIN Object
     Properties           Uncloneable
 END
 
-
 BEGIN Object
     Name                 CloneSimple
     Toughness            10
@@ -3273,7 +3028,6 @@ BEGIN Object
     Properties           Scripted
     Research             AdvancedManagement
 END
-
 
 BEGIN Object
     Name                 CloneFlipX
@@ -3313,7 +3067,6 @@ BEGIN Object
     Research             AdvancedManagement
 END
 
-
 BEGIN Object
     Name                 CloneSpreadAligned
     Toughness            10
@@ -3352,8 +3105,6 @@ BEGIN Object
     Research             AdvancedManagement
 END
 
-
-
 BEGIN Object
     Name                 MoveRoom
     Toughness            10
@@ -3391,8 +3142,6 @@ BEGIN Object
     Properties           Scripted
     Research             AdvancedManagement
 END
-
-
 
 BEGIN Object
     Name                 MoveObjectMarker
@@ -3448,7 +3197,6 @@ BEGIN Object
     Research             AdvancedManagement
 END
 
-
 # BEGIN Object
 #   Name                 Reinstall
 #   Sprite               DoorLockedOpen
@@ -3457,7 +3205,6 @@ END
 #   SpriteScale          1
 #   Properties           Scripted
 # END
-
 
 BEGIN Object
     Name                 LightHere
@@ -3471,9 +3218,6 @@ BEGIN Object
     Properties           Scripted
     Research             Maintainance
 END
-
-
-
 
 BEGIN Object
     Name                 AttentionMarker
@@ -3493,8 +3237,6 @@ BEGIN Object
     ViewRange            2
     Properties           Uncloneable
 END
-
-
 
 BEGIN Object
     Name                AttentionToPrisoner
@@ -3520,11 +3262,6 @@ BEGIN Object
     Properties          Scripted
 END
 
-
-
-
-
-
 BEGIN Object
     Name                 TimeWarpNeedModifier
     ConstructionTime     1
@@ -3547,7 +3284,6 @@ BEGIN Object
     Properties           Uncloneable
 END
 
-
 BEGIN Object
     Name                 PCommand
     RenderDepth          6
@@ -3559,13 +3295,6 @@ BEGIN Object
     RenderDepth          6
     Properties           Uncloneable
 END
-
-
-
-
-
-
-
 
 BEGIN Object
     Name                 Medicine1
@@ -3604,7 +3333,6 @@ BEGIN Object
     Properties           Uncloneable
 END
 
-
 BEGIN Object
     Name                 MedWaste1
     RenderDepth          3
@@ -3620,7 +3348,6 @@ BEGIN Object
     END
     Properties           Uncloneable
 END
-
 
 BEGIN Object
     Name                 MedWaste2
@@ -3638,7 +3365,6 @@ BEGIN Object
     Properties           Uncloneable
 END
 
-
 BEGIN Object
     Name                 MedWaste3
     RenderDepth          3
@@ -3655,8 +3381,6 @@ BEGIN Object
     Properties           Uncloneable
 END
 
-
-
 BEGIN Object
     Name                 BodyBonus0
     Sprite               Prisoner
@@ -3667,7 +3391,6 @@ BEGIN Object
     Properties           Uncloneable
 END
 
-
 BEGIN Object
     Name                 BodyBonus2
     Sprite               Prisoner3
@@ -3677,7 +3400,6 @@ BEGIN Object
     Properties           Sellable
     Properties           Uncloneable
 END
-
 
 BEGIN Object
     Name                 BodyBonus3
@@ -3767,7 +3489,6 @@ BEGIN Room
     BEGIN Grading       Type    HasPASystem GradeEffect -1  END
 END
 
-
 BEGIN Room
     Name                 Dormitory
     Properties           Housing
@@ -3815,11 +3536,6 @@ BEGIN Room
     BEGIN Grading       Type    HasPASystem GradeEffect -1  END
 END
 
-
-
-
-
-
 BEGIN Room
     Name                FamilyCell
     Properties          Housing
@@ -3850,13 +3566,6 @@ BEGIN Room
     BEGIN Grading       Type    Item    Id      PASystem   GradeEffect -1    END
     BEGIN Grading       Type    HasPASystem GradeEffect -1  END
 END
-
-
-
-
-
-
-
 
 BEGIN Room
     Name                Nursery
@@ -3998,7 +3707,6 @@ BEGIN Room
     BEGIN Grading       Type    Item    Id      PASystem    GradeEffect -1 END
 END
 
-
 BEGIN Room
     Name                 CommonRoom
     Properties           QualityGraded
@@ -4044,8 +3752,6 @@ BEGIN Room
     BEGIN Grading       Type    Item    Id      Radio       END
     BEGIN Grading       Type    Item    Id      ArcadeMachine   END
 END
-
-
 
 BEGIN Room
     Name                 Storage
@@ -4186,7 +3892,6 @@ BEGIN Room
 
 END
 
-
 BEGIN Room
     Name                 Laundry
     Research             Cleaning
@@ -4224,7 +3929,6 @@ BEGIN Room
     BEGIN Contraband    Id      Booze   END
     BEGIN Contraband    Id      MobilePhone END
 END
-
 
 BEGIN Room
     Name                 ParoleRoom
@@ -4430,11 +4134,6 @@ BEGIN Room
     Research            PrisonLabour
 END
 
-
-
-
-
-
 BEGIN Equipment
     Name                 MobilePhone
     Sprite               MobilePhone
@@ -4471,7 +4170,6 @@ BEGIN Equipment
     Properties           NoImport
 END
 
-
   BEGIN Equipment
     Name                 PianoWire
     Sprite               PianoWire
@@ -4480,7 +4178,6 @@ END
     RechargeTime         0.15000
     TwoHanded            true
 END
-
 
   BEGIN Equipment
     Name                 Soap

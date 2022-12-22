@@ -690,7 +690,7 @@ interfacemode_prisoners	囚犯
 interfacemode_needs	需求
 interfacemode_threats	威胁
 interfacemode_overlays	叠层
-interfacemode_research	行政
+interfacemode_research	行政系统
 interfacemode_emergencies	应急
 interfacemode_clone	克隆
 interfacemode_contraband	情报
@@ -801,15 +801,15 @@ interfacetopbar_title_weathericon	天气
 interfacetopbar_tooltip_balance	你在银行内的存款余额。\n\n点击以通过补助清单获得更多资金。
 interfacetopbar_tooltip_budget	根据目前你的日常费用和收入计算出的每天你能获取的资金。\n\n点击查看细分收支清单。
 interfacetopbar_tooltip_cctv	你目前拥有的监控摄像头与监视器数量。
-interfacetopbar_tooltip_day	你经营监狱的时长。
+interfacetopbar_tooltip_day	你经营本监狱的时长。
 interfacetopbar_tooltip_prisoners	目前拥有的监狱数量以及可容纳的囚犯数量。
 interfacetopbar_tooltip_guards	监狱中待命的警卫数量
-interfacetopbar_tooltip_tension	安保主管报告的监狱整体风险等级。
+interfacetopbar_tooltip_tension	安保主管所报告的监狱整体风险等级。\n\n需求不被满足的囚犯，严重时会愤怒，导致危险等级上升。\n太多的人如此，则可能引发暴动。\n暴动者达到10人后，监狱各处会纷纷响应。\n武装警卫可以压制不满的囚犯，让其暂且保持安分。\n但他们的存在本身就会令囚犯不满，影响监狱整体气氛。\n（开发者如是说）
 interfacetopbar_tooltip_weathericon	当前的天气和温度。
 
 interfacetopbar_tooltip_recenttransactions	最近的交易
 
-interfacetopbar_tooltip_gametime	游戏时间总计: *X小时, *Y分钟, *Z秒
+interfacetopbar_tooltip_gametime	游戏时间总计: *X小时*Y分钟*Z秒
 
 interfacetopbar_tooltip_totalguards	共计 *X 名警卫
 interfacetopbar_tooltip_guardincapacitated	*X 名无法行动
@@ -853,30 +853,30 @@ interfacetopbar_prisonercells_parents	父母能力：*X
 interfacetopbar_cctv_current	目前启用了 *C 个摄像头
 interfacetopbar_cctv_cap	还可安装 *C 个摄像头
 
-interfacetopbar_tension_currentlevel	危险等级为 *X
-interfacetopbar_tension_currentlevellow	低水平
-interfacetopbar_tension_currentlevelmedium	中等水平
-interfacetopbar_tension_currentlevelhigh	高水平
-interfacetopbar_tension_increasing	且正在上升
-interfacetopbar_tension_decreasing	且正在降低
-interfacetopbar_tension_description	因素：
-interfacetopbar_tension_happyprisoners	- *X 名囚犯表示受到了良好对待
-interfacetopbar_tension_unhappyprisoners	+ *X 名囚犯大发牢骚
-interfacetopbar_tension_lockedupprisoners	+ *X 名囚犯被关在自己的牢房或禁闭室中禁足
-interfacetopbar_tension_riotingprisoners	+ *X 名囚犯正在暴动
-interfacetopbar_tension_wellfedprisoners	- *X 名囚犯饮食充足
-interfacetopbar_tension_suppressedprisoners	= *X 囚犯遭到镇压（抱怨）
-interfacetopbar_tension_activeriotguards	+ *X 名防暴警察就位
-interfacetopbar_tension_activearmedguards	+ *X 名武装警卫执勤中
-interfacetopbar_tension_recentdeaths	+ *X 个人最近被杀
-interfacetopbar_tension_recentsearches	+ *X 名囚犯最近遭到无故搜身
-interfacetopbar_tension_angrygangmembers	+ *X 名帮派成员非常愤怒（头目被惩罚）
-interfacetopbar_tension_recentpunishments	= （威慑）最近宣布了 *X 项惩罚
-interfacetopbar_tension_recentcalmed	- *X 名囚犯最近很平静
-interfacetopbar_tension_staffmorale_low	+员工士气低落
-interfacetopbar_tension_staffmorale_high	+员工士气高涨
-interfacetopbar_tension_staffonstrike	+您的员工正在罢工
-interfacetopbar_tension_dangerzone	+危险区！
+interfacetopbar_tension_currentlevel	危险等级：*X
+interfacetopbar_tension_currentlevellow	低
+interfacetopbar_tension_currentlevelmedium	中
+interfacetopbar_tension_currentlevelhigh	高
+interfacetopbar_tension_increasing	正在升高 ↗
+interfacetopbar_tension_decreasing	正在降低 ↘
+interfacetopbar_tension_description	【因素】（目前或最近）
+interfacetopbar_tension_happyprisoners	- *X 人表示待遇良好
+interfacetopbar_tension_unhappyprisoners	+ *X 人大发牢骚
+interfacetopbar_tension_lockedupprisoners	+ *X 人被戴镣铐并且关起来
+interfacetopbar_tension_riotingprisoners	+ *X 人正在暴动！
+interfacetopbar_tension_wellfedprisoners	- *X 人吃得不错
+interfacetopbar_tension_suppressedprisoners	= *X 人被压制（顺从但消极）
+interfacetopbar_tension_activeriotguards	+ *X 名防暴警察被雇用
+interfacetopbar_tension_activearmedguards	+ *X 名武装警卫在场
+interfacetopbar_tension_recentdeaths	+ *X 人被杀！
+interfacetopbar_tension_recentsearches	+ *X 人被无故搜身
+interfacetopbar_tension_angrygangmembers	+ *X 名帮派成员暴怒（头目被惩罚）
+interfacetopbar_tension_recentpunishments	= （威慑）下达了 *X 项惩罚
+interfacetopbar_tension_recentcalmed	- *X 人心灵平静
+interfacetopbar_tension_staffmorale_low	+ 员工士气低
+interfacetopbar_tension_staffmorale_high	- 员工士气高
+interfacetopbar_tension_staffonstrike	+ 您的员工正在罢工
+interfacetopbar_tension_dangerzone	+ 危险地带！
 
 interfacetopbar_staffmorale_title	员工士气
 interfacetopbar_staffmorale_happystaff	+ *X名员工在他们的工作中很快乐
@@ -888,13 +888,13 @@ interfacetopbar_staffmorale_staffpaygood	+ 员工薪水很高
 interfacetopbar_staffmorale_staffpaybad	-- 员工薪水不够
 
 interfacecontrol_mainmenu	主菜单（Esc）
-interfacecontrol_mainmenu_tooltip	开启主菜单（新建游戏/加载/存档/退出等）
+interfacecontrol_mainmenu_tooltip	打开主菜单（新建游戏/读档/存档/退出等）
 interfacecontrol_todo	待办事项清单
-interfacecontrol_todo_tooltip	切换显示待办事项清单
-interfacecontrol_research	行政
-interfacecontrol_research_tooltip	打开行政系统窗口，你可以在其中指派管理层以解锁新的物品、员工类型和设施。
+interfacecontrol_todo_tooltip	开关待办事项清单
+interfacecontrol_research	行政系统
+interfacecontrol_research_tooltip	打开行政系统窗口。\n你可以在其中指派管理者，以解锁新的物品、员工类型和功能。
 interfacecontrol_grading	监狱评级
-interfacecontrol_grading_tooltip	打开监狱评级窗口，你可以在这里看到监狱运营情况的总体评级。
+interfacecontrol_grading_tooltip	打开监狱评级窗口，你可以在这里看到你成功程度的总体评分。
 
 interface_confirmlandbuy	你确定要花 $*X 购买这个地块吗？
 interface_loadconfirm	你确定要加载这张地图？\n\n你将失去所有未保存的进度。
@@ -2131,12 +2131,12 @@ salecondition_title	销售要求
 salecondition_cannotsell	必须满足以下条件你才能出售监狱或股份。
 salecondition_minimumvalue	最低50,000美元的估值
 salecondition_cashflow	正现金流
-salecondition_accountant	设有现场会计师
+salecondition_accountant	拥有会计
 salecondition_minprisoners	至少有20名囚犯
 salecondition_recentdeaths	最近无人死亡
 salecondition_recentescapes	最近无人越狱
-salecondition_passed	[通过]
-salecondition_failed	[未通过]
+salecondition_passed	[合格]
+salecondition_failed	[不合格]
 
 policy_title	事故类型
 policy_search	自动搜查
@@ -2238,10 +2238,10 @@ reports_staffbreaktitle	员工休息政策
 victory_title	证明
 
 victory_PrisonValue	监狱价值
-victory_Income	日常利润
-victory_Prisoners	容量
+victory_Income	每日利润
+victory_Prisoners	囚犯容量
 victory_PrisonersReleased	释放囚犯数
-victory_prisonersdied	服刑期间死亡数
+victory_prisonersdied	狱中死亡数
 victory_prisonersescaped	越狱囚犯数
 victory_Bankrupt	破产
 victory_Riot	失控\n暴动
@@ -2255,8 +2255,8 @@ victory_escapes	越狱
 victory_counter	(*X今天)
 victory_executions	非法处决
 victory_innocentsexecuted	处决了无辜囚犯
-victory_staffdeaths	员工死亡人数
-victory_staffpayrise	员工不快乐
+victory_staffdeaths	员工死亡事故
+victory_staffpayrise	员工薪酬涨幅
 victory_staffstrike	员工罢工
 
 victory_warning_bankrupt	你有24个小时来消除财政危机。
@@ -2264,16 +2264,16 @@ victory_warning_riot	迅速制止暴动，否则政府将被迫接管指挥权�
 victory_warning_toomanydeaths	如果今天死亡人数过多，你将被起诉。
 victory_warning_toomanyescapes	如果今天有更多囚犯越狱，你将遭到解雇。
 victory_warning_executions	如果另一名无辜的囚犯被处决，则您将被解雇。
-victory_warning_staffpayrise	如果员工的工资没有增加，他们将罢工。
-victory_warning_staffstrike	您的员工正在罢工！
-victory_warning_staffonstrike	员工罢工了 - 我们失去了90%的警卫力量！如果我们一天不增加他们的工资，他们很多人就威胁说要完全辞职。
+victory_warning_staffpayrise	如果再不提高薪酬，你的员工就快要罢工了。
+victory_warning_staffstrike	你的员工罢工了！
+victory_warning_staffonstrike	员工已经在罢工——我们失去了大约90%的警卫力量！\n如果不在今天提高薪酬，他们威胁要彻底走人了。
 
 victory_prisoners_units	放置
 victory_prisonersreleased_units	释放
 victory_toomanydeaths_units	死亡
 victory_toomanyescapes_units	越狱
 victory_executions_units	无辜处决
-victory_staffpay_units	提供的涨幅
+victory_staffpay_units	满足涨薪要求
 
 victory_prisonersparoled	假释的囚犯
 victory_prisonersreoffended	再犯罪囚犯
@@ -2302,23 +2302,23 @@ victory_adviserwarning_executions1	这是你第二次处死无辜囚犯了。公
 victory_adviserwarning_executions2	如果再有无辜的囚犯被处死，你要承担责任。
 victory_advisernotice_executions1	你处死了太多无辜的囚犯。我们不能再让你管理这座监狱。你失败了。
 victory_advisernotice_InnocentsExecuted1	你刚刚未按照适当的程序处死囚犯，结果发现这名囚犯是无辜的。这是严重的误判，你难辞其咎。你被解雇了，或许还会有牢狱之灾。
-victory_adviserwarning_staffpayrise1	我们的员工对他们在监狱中的工作条件感到不满，并威胁说，如果他们没有得到50%的加薪，就要罢工。
-victory_adviserwarning_staffstrike1	我们的员工罢工了！如果他们得到50%的加薪，他们仍然愿意回来。
+victory_adviserwarning_staffpayrise1	我们的员工对在监狱的工作条件感到不高兴，\n并威胁要得到50%的涨薪，否则就罢工。
+victory_adviserwarning_staffstrike1	我们的员工罢工了！如果得到50%的涨薪，他们还是愿意回来的。
 
 score_title	监狱评级
 score_reoffendingrate	再犯罪率
-score_prisonersreleased	*X 名囚犯被释放了
-score_minimumprisonersreleased	必须有 *X 名囚犯被释放后才能编制此报告
+score_prisonersreleased	*X 个囚犯已被释放
+score_minimumprisonersreleased	必须有 *X 个囚犯被释放后，才能编制此报告
 score_deaths	*X 名囚犯在监禁期间死亡
 score_escapes	*X 名囚犯越狱
 score_reoffendingchance	估计再犯罪几率
 score_startingreoffendingchance	预计到达：*X%
-score_prisonersparoled	提前假释数（再犯罪）
-score_prisonersparoled_info	*P (*E%)
+score_prisonersparoled	提早假释数 | 再犯罪率
+score_prisonersparoled_info	*P | *E%
 score_clemencychance	获得宽大处理的可能性
 score_convictionstrength	国家批准的定罪力度
-score_prisonersexecuted	处决囚犯数（无辜）
-score_prisonersexecuted_info	*E (*I)
+score_prisonersexecuted	处决囚犯数 | 无辜者
+score_prisonersexecuted_info	*E | *I
 
 score_tooltip_punishment	这是公众对囚犯为其罪行所受惩罚是否合适的评价。长期服刑是严厉惩罚的基础，但单独拘禁也算严厉惩罚。\n\n注意，太多的改造或自由时间会被视为“对犯罪手软”，不利于囚犯的惩罚评级。\n\n惩罚分数较高会阻止囚犯出狱后再次犯罪。
 score_tooltip_reform	对您使用改造计划来改造囚犯的意愿是否强烈的评级。\n\n较高的改造分数将大大增加囚犯出狱后真正找到工作的可能性，从而降低再次犯罪的可能性。\n\n注：让您的囚犯在监狱里工作也算改造囚犯。
