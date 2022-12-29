@@ -179,7 +179,7 @@ buildtoolbar_popup_obj_guardPavilionCorner	放在庭院和开放区域的角落�
 buildtoolbar_popup_obj_officeChair	椅子，供工作人员坐在办公桌中央。
 
 buildtoolbar_popup_obj_visitorDoor	门，允许监狱探视者自行通过，不需要警卫来开门。警卫和工作人员也可以使用这扇门，但囚犯不能用。
-buildtoolbar_popup_obj_ironingBoardShort	较短的熨衣板。
+buildtoolbar_popup_obj_ironingBoardShort	把‘囚服(皱)’变成‘囚服(待穿)’。\n\n每件囚服花费3分钟。\n3.33个熨衣板可以搭配1台洗衣机。\n\n如果积压了20件 囚服(待穿)，\n熨衣板将无法继续工作。\n\n安装时，注意留出给人的额外格子。\n\n对人的行走速度影响大(0.6倍)。\n\n每20（甚至更多）个囚犯才需要1个熨衣板。
 buildtoolbar_popup_obj_fencegatestaff	大门，装上栅栏看起来很棒，功能和门一样。
 buildtoolbar_popup_obj_fencegatestandard	大门，装上栅栏看起来很棒，功能和门一样。
 buildtoolbar_popup_obj_fencegatevisitor	大门，装上栅栏看起来很棒，功能和门一样。
@@ -1523,7 +1523,7 @@ buildtoolbar_popup_help_Psychiatrist_2	每位医生都需要专门的精神科�
 buildtoolbar_popup_help_Psychiatrist_3	需制定心理咨询方案（项目），然后精神科医生才能治疗精神病人囚犯。
 buildtoolbar_popup_help_Psychiatrist_4	可使用新物品升级精神科医生办公室，以改善精神科医生的治疗效果。
 
-rapsheet_action	行为
+rapsheet_action	处置
 codex_settings_escapeplans	启用 逃脱计划
 
 ############################### Sea and Air Pack ###############################
@@ -1733,7 +1733,7 @@ roomerror_nodeliveryarealinked	“后勤”中没有与此相连接的囚犯接�
 
 buildtoolbar_popup_help_jobs_6	你必须封闭林区，以安排囚犯在其中工作，并且防止他们逃跑。
 
-research_forestrylabour	林中劳役
+research_forestrylabour	林业劳动
 researchtooltip_forestrylabour	你可以通过后勤菜单让囚犯在林区工作。你必须封闭林区，以安排囚犯在其中工作，并且防止他们逃跑。请注意，囚犯也需要进入囚犯接收区来重新种植树木。
 action_usecomputer	使用电脑
 
@@ -2802,7 +2802,7 @@ buildtoolbar_popup_mat_GardenWall	为监狱边界增添些许生气和色彩。
 buildtoolbar_popup_obj_TopiaryBushBall	一种球形装饰灌木丛。
 buildtoolbar_popup_obj_SellUtility_01	需手动操作。以 85% 的购置价格出售已放置的电缆。
 buildtoolbar_popup_obj_SellUtility_02	需手动操作。以 85% 的购置价格出售已放置的水管。
-buildtoolbar_popup_obj_SellObject	需手动操作。以 85% 的购置价格出售外销物品、食材及任何未经使用的物品和已拆卸的物品。
+buildtoolbar_popup_obj_SellObject	如题。\n\n按住左键并拖动鼠标，可以连续卖掉多个物品。
 buildtoolbar_popup_obj_SellMaterial	以 85% 的购置价格出售任何多余的建筑材料堆（如电缆和砖块）。
 buildtoolbar_popup_obj_SellFlooring	以 85% 的购置价格出售不再需要的地面砖块。
 d11_meal_quantity_description	调整每个囚犯进餐时消耗的食材量，可调范围为 1 至 3。消耗更多的食材将会进一步满足囚犯对食物的需求，同时也会在当前供应量的基础上增加食材配送量。
@@ -3365,7 +3365,7 @@ report_Coverage	覆蓋率
 d11_coverage_staff_only	员工专区
 codex_new_weathertype_disabled	禁用
 object_arcadecabinet	游戏街机
-object_drinkmachine	饮料售卖机
+object_drinkmachine	饮料贩卖机
 object_WaterCooler	饮水机
 weather_calamityheatwave_2	高温
 weather_Clear	清洁工
@@ -3479,7 +3479,7 @@ object_BackupGenerator	备用发电机
 object_SonicDeterrent	超声波老鼠威慑器
 object_FirstAidStation	急救站
 object_WeatherMachine	气象仪
-object_Sprinkler	自动喷水灭火装置
+object_Sprinkler	喷水灭火器
 object_FireAlarm	火警警报器
 interface_action_range	排序
 object_PipeSmallLagged	管道（小）隔热层
@@ -3612,7 +3612,7 @@ grant_category_CalamityHappened	灾难发生：
 action_brewing	正在酝酿
 action_electricalsabotaging	正在破坏
 job_failed_frozen	持续极寒天气
-action_readbook	读书
+action_readbook	还书
 action_PassiveBookShelf	读书
 weather_DeepFreeze	极寒天气
 weather_LightningStorm	雷雨
@@ -3833,15 +3833,15 @@ room_FightClubRoom	搏击俱乐部房间
 buildtoolbar_popup_room_FightClubRoom	无论谁问起，都不要承认此房间的存在。
 object_CageGate	牢笼大门
 buildtoolbar_popup_obj_CageGate	可以完美搭配围栏使用的监狱大门。功能和门一样。
-buildtoolbar_popup_obj_RemoteDoor	此门开关通过伺服系统遥控控制。确保有足够的警卫控制此类大门的进出，或安装压力板
+buildtoolbar_popup_obj_RemoteDoor	用这种门可以有效地防止囚犯窃取钥匙而大规模越狱。\n\n不能用钥匙打开，而只能遥控开门。\n需要有警卫操作对应的‘门禁系统’，给员工和囚犯放行。\n需要及时安装其所需的‘门禁伺服器’，以免阻碍通行。\n\n员工会尽量不走这个门，即使其所在路线很近……\n所以，如无必要，那么安装‘禁闭门’就够了。
 object_RemoteDoorOrange	遥控门（橙色）
-buildtoolbar_popup_obj_RemoteDoorOrange	此门开关通过伺服系统遥控控制。确保有足够的警卫控制此类大门的进出，或安装压力板
+buildtoolbar_popup_obj_RemoteDoorOrange	用这种门可以有效地防止囚犯窃取钥匙而大规模越狱。\n\n不能用钥匙打开，而只能遥控开门。\n需要有警卫操作对应的‘门禁系统’，给员工和囚犯放行。\n需要及时安装其所需的‘门禁伺服器’，以免阻碍通行。\n\n员工会尽量不走这个门，即使其所在路线很近……\n所以，如无必要，那么安装‘禁闭门’就够了。
 object_RemoteDoorRed	遥控门（红色）
-buildtoolbar_popup_obj_RemoteDoorRed	此门开关通过伺服系统遥控控制。确保有足够的警卫控制此类大门的进出，或安装压力板
+buildtoolbar_popup_obj_RemoteDoorRed	用这种门可以有效地防止囚犯窃取钥匙而大规模越狱。\n\n不能用钥匙打开，而只能遥控开门。\n需要有警卫操作对应的‘门禁系统’，给员工和囚犯放行。\n需要及时安装其所需的‘门禁伺服器’，以免阻碍通行。\n\n员工会尽量不走这个门，即使其所在路线很近……\n所以，如无必要，那么安装‘禁闭门’就够了。
 object_RemoteDoorYellow	遥控门（黄色）
-buildtoolbar_popup_obj_RemoteDoorYellow	此门开关通过伺服系统遥控控制。确保有足够的警卫控制此类大门的进出，或安装压力板
+buildtoolbar_popup_obj_RemoteDoorYellow	用这种门可以有效地防止囚犯窃取钥匙而大规模越狱。\n\n不能用钥匙打开，而只能遥控开门。\n需要有警卫操作对应的‘门禁系统’，给员工和囚犯放行。\n需要及时安装其所需的‘门禁伺服器’，以免阻碍通行。\n\n员工会尽量不走这个门，即使其所在路线很近……\n所以，如无必要，那么安装‘禁闭门’就够了。
 object_RemoteDoorWhite	遥控门（白色）
-buildtoolbar_popup_obj_RemoteDoorWhite	此门开关通过伺服系统遥控控制。确保有足够的警卫控制此类大门的进出，或安装压力板
+buildtoolbar_popup_obj_RemoteDoorWhite	用这种门可以有效地防止囚犯窃取钥匙而大规模越狱。\n\n不能用钥匙打开，而只能遥控开门。\n需要有警卫操作对应的‘门禁系统’，给员工和囚犯放行。\n需要及时安装其所需的‘门禁伺服器’，以免阻碍通行。\n\n员工会尽量不走这个门，即使其所在路线很近……\n所以，如无必要，那么安装‘禁闭门’就够了。
 object_GymInstructor	健身教练
 object_FilingCabinetFancy	档案柜（豪华）
 buildtoolbar_popup_obj_FilingCabinetFancy	给员工豪华档案柜以兹奖励。
@@ -4168,14 +4168,14 @@ rank_specialist	专家级警官
 rank_popup_text_1	高级警卫、警官和专家级警官更强壮，也更难杀死。但是如果有机会的话，他们会优先考虑待在监狱中不那么吵闹的区域。\n\n
 rank_popup_text_2	所有警卫必须获得警卫电击枪认证，才能开始晋升过程。晋升至警官需要在监狱工作至少10天，晋升至专家级警官需要至少20天。\n不是每个警卫都能得到晋升，10个高级警卫中只有4个可以成为警官，而3个警官中只有1个可以成为专家级警官。
 finance_cost_gun	装备：枪
-buildtoolbar_popup_room_laundry	分配到洗衣工作的清洁工和囚犯会将脏制服带到此处，并进行清洗、熨烫，然后将制服重新分发出去。
-buildtoolbar_popup_room_visitation	囚犯与其家人见面的地方。要警惕，囚犯家人可能会在探视期间将违禁品偷偷运进监狱。
-buildtoolbar_popup_room_cleaningcupboard	存放清洁用具的地方。需要建造清洁橱柜才能指派监狱工人进行清洁工作。
-buildtoolbar_popup_room_armoury	武装警卫值班结束后会待在此房间。所有枪械均存放于此处。
-buildtoolbar_popup_room_forestry	种树的地方。树木可用于在工坊中制成产品，用以出售。
-buildtoolbar_popup_room_classroom	用来学习的地方。囚犯可在此处参加教育改造计划。
-buildtoolbar_popup_room_exports	工人和囚犯制造的任何货物都会被带到此处，以供收集之用。
-buildtoolbar_popup_room_mailroom	囚犯可在此接收邮件。邮件室的工作也由囚犯负责。
+buildtoolbar_popup_room_laundry	让囚犯协助清洁工洗衣的前提条件。\n\n干净的囚服用于满足囚犯们的“衣物”需求。\n\n每个囚犯需要4平米才会工作。\n工作岗位上限为20人。\n\n1台洗衣机+2个熨衣板+4个洗衣篮+5个打工囚犯，\n可满足64个囚犯的衣物需求。\n\n每个牢房区块应当有各自的洗衣房。\n记得偶尔去[后勤/衣物分配]检查，确保它们被正确配对。
+buildtoolbar_popup_room_visitation	让家属与囚犯面对面交谈的地方。\n\n满足“家庭”需求。\n即使在工作作息之外，囚犯总可以来接受探监。\n\n有的家属会带来违禁品。\n\n如果采用探监柜台，则可以杜绝这种行为。\n但不甘心的他们会尝试别的办法……\n\n注意：在进入探监室之前，家属身上并不存在违禁品。\n只有与囚犯会面时，才会（根据囚犯的需要）凭空生成。\n所以你无法针对家属进行检测和拦截。\n\n【新增玩法】律师可以到这里提供咨询服务。\n按照探监者人次，获得政府奖金。\n\n大约每10个囚犯每天会有1组探监者来访。
+buildtoolbar_popup_room_cleaningcupboard	让囚犯协助打扫监狱的前提条件。\n\n在这里打工的囚犯需要漂白剂，而清洁工并不需要它们。\n\n每个囚犯需要4平米才会工作。\n工作岗位上限为20人。但你只需要很少的打工者。\n\n事实上，如果监狱足够干净，你都不需要这个房间。\n\n这里会产生的违禁品：\n · “毒物”是毒品的一种替代品。\n · “木棍”是一种无法检测出来的武器。\n考虑到它们所带来的麻烦，还是多雇用几名清洁工吧。\n\n如果牢房都是无锁门，那么打扫效率就会极高。
+buildtoolbar_popup_room_armoury	武装警卫的锁柜安装在这里，对应于其人数上限。\n这里还是武装警卫和狙击手专用的休息处。\n\n注意：武装警卫并不会替清洁工开门。\n最好安装遥控门和门禁伺服器。\n\n[推荐区划：员工专区]\n\n越狱时，囚犯们有可能试图攻入这里，以抢夺武器。\n与房间内武器架存在与否无关……
+buildtoolbar_popup_room_forestry	让你可以自产木材。\n\n1. 园丁自动种树。\n2. 树苗长大。\n3. 工人将其砍伐，得到圆木。\n4. 在工坊里，圆木通过电锯台变成木板。\n5. 之后，再通过木工桌变成高级床。\n\n圆木本身也可以直接卖掉，但很不值钱。\n\n树苗会被自动采购并种植。5天后长大。\n建议按天拆分出5个林场；不要所有树都挤在同一天种/收。\n地面不要为沙土；那会导致成长缓慢。\n\n园丁种树时，会在本“房间”的上方和左侧留出1米的空白。\n换言之，最左上角的树苗，会位于房间的(3, 3)坐标。
+buildtoolbar_popup_room_classroom	这里，进行学术性的改造项目。\n\n由于“[学术Ⅰ]基础教育项目”的感兴趣人数比例很低，\n仅10分之一，所以对教室和课桌的需求很少。\n\n如果教室里有警卫，会压制囚犯，不利于其专心。\n如果囚犯们不安定，那么最稳妥的方式是，利用[部署时刻盘]，\n让警卫仅仅在课程前、后的各一小时来巡逻。\n\n【新增功能】更好的选择是安装‘定时呼叫’。\n或者，让教室外面的格子就是户外，这样巡逻的警卫的\n影响力会被隔离在户外。
+buildtoolbar_popup_room_exports	在这里，堆放工坊的产品，然后装车送走，从而卖掉。\n\n[推荐区划：员工专区]
+buildtoolbar_popup_room_mailroom	把从外界收来的信件，转送给囚犯。\n满足“家庭”、“娱乐”和“舒适”需求。\n\n每天上午8点，邮件被送过来。（但不寄出邮件）\n\n可以让囚犯打工。\n\n本房间的区划决定了邮件会属于哪个戒备类别的囚犯。\n（收信人取决于分拣者。这是颠倒因果……）\n只有设为“公共区域”时，才会给所有区划的牢房递送邮件。\n如果打工的囚犯无法走到某些牢房，那么会由待命的一般警卫来做。\n\n由于邮件只有一个来源，所以这个房间只需要建造一个。\n\n要注意检测邮件里的违禁品。\n\n送来的邮件为监狱囚犯总数的1/4。\n假设每天工作8小时（有效时间则为7小时），\n大约每50个囚犯，需要有1人来分拣邮件。\n每个囚犯需要12平米才会工作。
 buildtoolbar_popup_room_psychiatristoffice	供精神科医生诊断精神病人囚犯的区域。解锁额外物品并将其放置在精神科医生办公室，从而提升对精神病人囚犯的治疗效果。通过让精神病人囚犯参加心理咨询计划来解锁物品。
 d11_logging_caption	启用监狱日志
 d11_logging_caption_tooltip	此日志会记录监狱内实时发生的所有重大事件，人员死亡、不当行为及囚犯获释均会记录在册。
@@ -4266,7 +4266,7 @@ room_graveyard	墓地
 quickbuild_graveyard	墓地
 buildtoolbar_popup_room_graveyard	部分监狱囚犯的安息之地。他们是否想要一直安息下去就是另一回事了。
 room_empty	空房间
-buildtoolbar_popup_room_empty	你不再需要墙壁和门来分隔各个区域了。使用这个空房间建立新区域，用于部署和分配安全区块。
+buildtoolbar_popup_room_empty	什么也没有……\n\n这个“房间”可以用来节省墙壁和门，进而方便通行。\n它能够用来灵活地分割区块，以便设置区划。\n比如：\n · 代替墙壁分隔多个办公室\n · 在监狱大门旁边，划出一个小小区块，然后\n   指派一般警卫驻守，以便及时开门。\n · 在公共区域的房间门前，划出一个小小区块，\n   限定只有某一类别的囚犯可以通过。
 d11_graveyard_advisor_onboarding	墓地里有动静……地狱已满，活尸现世。
 object_DistractionContraption	干扰装置
 buildtoolbar_popup_obj_DistractionContraption	一种音频设备，用于在短时间内转移作用范围内所有受感染单位的注意力，每24小时只能使用1次。建议在接近午夜时使用此物品，但这并不是强制要求。
@@ -4319,7 +4319,7 @@ prisonerTracking_AllPrisoners	所有囚犯
 prisonerTracking_Misconduct	不当行为：
 buildtoolbar_popup_help_PrisonerTracking_4	^提示
 graph_axis_EscapedUndead	活尸已脱逃
-buildtoolbar_popup_room_staffroom	感到疲劳的员工可在此放松身心。为确保员工规范用餐，员工房间必须设置为“员工专用”（部署部门），并与厨房连通，以便收集和清洗托盘。
+buildtoolbar_popup_room_staffroom	让员工快速恢复疲劳（精力）。\n\n位置合理的话，可以大大提高员工的工作时长。\n\n所有员工中，只有武装警卫、狙击手和警犬在别处休息。\n\n[推荐区划：员工专区]\n\n这里也可以安装闭路电视监视器、门禁系统、电话窃听器。\n在这里，它们很少会出现缺少警卫操作的空档。\n当然，最好与警卫室相邻，且两者不隔墙壁。\n\n增加沙发并不会让员工恢复更快。\n\n但如果你启用“员工需求”，这里就有很多事情会不一样了。
 d11_nearFuture_advisor_onboarding	考虑给不那么听话的囚犯戴上追踪器。这样，我们就可以在警卫室对他们进行监控。
 object_TrackingMonitor	追踪监视器
 buildtoolbar_popup_uts_TrackingMonitor	追踪清单所需物品。\n\n由警卫在警卫室里进行操作，可监视任何佩戴追踪器的囚犯。连接路由器以扩展监控范围。
