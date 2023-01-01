@@ -4026,7 +4026,7 @@ guardinvestigation_investigated	已调查 *A/*B 名警卫
 informant_investigating	调查中
 crookedguard_fired_reward	腐败警卫已开除
 crookedguard_advisor_onboarding	我们发现一名腐败警卫与帮派窜通。我已在“报告”窗口中的“员工”选项卡将其标出。记得把他给开除。
-buildtoolbar_popup_staff_doghandler	训犬师和他们的工作犬可以在囚犯近距离经过时发现他们身上的违禁品。
+buildtoolbar_popup_staff_doghandler	训犬员和警犬结成搭档、共同行动。\n【调整】为了真实性，我给训犬员配了警棍。
 buildtoolbar_popup_staff_kimber_doghandler	训犬师和他们的工作犬可以在囚犯和腐败警卫近距离经过时发现他们身上的违禁品。
 d11_prisoner_replacement	囚犯替换
 d11_prisoner_replacement_tooltip	囚犯人数被补充至所期望的数量，而安全级别的比率尽可能保持不变。超出规定数量的囚犯均需按照标准系统提出申请

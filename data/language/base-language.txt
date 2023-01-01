@@ -1140,20 +1140,20 @@ tc__tt__last_response_time 上次响应用时：*M 分
 tc__tt__waiting_for_guard 等待警卫到来
 tc__tt__no_guard_available 没有发现可用的警卫
 
-buildtoolbar_popup_staff_workman	根据你所提供的规划为你建造监狱。
-buildtoolbar_popup_staff_guard	用于看管囚犯以防其滋事。
-buildtoolbar_popup_staff_armedguard	给警卫装备散弹枪，囚犯在攻击他之前就会三思。\n\n注意：每个配备枪械的警卫都需要在军械库拥有自己的储物柜。
-buildtoolbar_popup_staff_doctor	自动治疗附近所有受伤的人，无论是警卫还是囚犯
-buildtoolbar_popup_staff_cook	把他们烹制的餐食提供给囚犯们。
-buildtoolbar_popup_staff_gardener	保持监狱地面干净整洁。
-buildtoolbar_popup_staff_janitor	保持监狱内部干净整洁，也可协助监狱洗衣工作。
-buildtoolbar_popup_staff_warden	监狱大总管，在你寻找并聘用高级员工之前必须拥有此职位。
-buildtoolbar_popup_staff_chief	这名高级员工使你可以使用部署、闭路电视监控系统和防暴警卫调查项目。
-buildtoolbar_popup_staff_foreman	这名高级员工使你可以雇佣清洁工和园丁。
-buildtoolbar_popup_staff_psychologist	这名高级员工使你可以洞察囚犯们的心理活动。
-buildtoolbar_popup_staff_accountant	这名高级员工使你可以查看财务报告。
-buildtoolbar_popup_staff_lawyer	这名高级员工可帮助你打破规则，获得监狱的更大控制权。
-buildtoolbar_popup_staff_sniper	一名训练有素的神枪手，他会自动占据无人值守的警戒塔(如有)。在击倒目标之前，多次对囚犯鸣枪警告会不会在监狱里造成麻烦？越狱的囚犯不会受到鸣枪警告。
+buildtoolbar_popup_staff_workman	按照你所提供的规划，为你建造监狱。\n\n选中一种员工后，本工具栏菜单面板的右上角，\n会出现“？”图标按钮。\n悬停它，你会看到更多有用的帮助说明。\n\n【调整】行走速度提高为2倍。\n毕竟，等待建造太无趣了。
+buildtoolbar_popup_staff_guard	看管囚犯，以防其滋事。\n监狱安保的主力。
+buildtoolbar_popup_staff_armedguard	装备了霰弹枪。囚犯在攻击他之前会多掂量掂量。\n\n每个武装警卫都需要在‘枪械库’拥有自己的锁柜。
+buildtoolbar_popup_staff_doctor	监狱这种地方，医生不愁没有用武之地。\n\n【调整】原本医生治疗的速率为每分钟8%。太快了。\n我让其降低为2%。\n并且，治疗会显著消耗医生的精力。每分钟2点。\n这样，你不再只靠区区一名医生就能轻松地照顾近百个囚犯。\n\n此外，治疗过程中，会产生医疗用品的消耗，成为你的成本。\n因此，人员受伤并不再是对你的经营无关痛痒的小事。\n\n医疗用品的废弃物的价格，参见‘医药箱’。\n在生成它们时，你的银行余额就已经扣减了其价格。
+buildtoolbar_popup_staff_cook	烹制伙食，并提供给囚犯。
+buildtoolbar_popup_staff_gardener	保持监狱户外干净整洁。
+buildtoolbar_popup_staff_janitor	保持监狱室内干净整洁。
+buildtoolbar_popup_staff_warden	监狱大总管，在你研究并雇用高级员工之前必须拥有此职位。\n\n【调整】管理人员不会疲劳。\n\n【新增玩法】\n典狱长会自动评估周围囚犯的改造程度，并产生相应奖金。\n半径10米。每3分钟一个人次。\n但为了让他走出办公室，你需要开设“近距离接触”项目。\n\n在典狱长悬停提示为统计信息。你可以切换其大类。\n疾病点数玩法的难度也通过他来调整。\n\n我还增加了“睡眠加速”功能。\n\n详情见“？”的更多帮助。
+buildtoolbar_popup_staff_chief	这名高级员工令你可以访问“部署”、“闭路电视”和高级警卫\n等研究项。\n\n【新增】标记不端行为的囚犯\n每1分钟检查一次所有囚犯。\n如果刚刚发生不端行为，那么会给该囚犯一个醒目的标记。\n该标记在15分钟后会自动消失。\n\n【新增玩法】\n在主管的菜单中，你可以启用“与腐败作斗争”玩法。\n你的一般警卫当中，有概率会产生腐败分子。\n在白天，他们会勒索囚犯，从而引发负面情绪甚至打斗。\n勒索零用钱的比例、囚犯的爆发点和再犯罪可能性三者\n影响其反抗的概率。\n\n如果放任腐败的家伙肆意妄为，那么他们会越发贪婪。\n囚犯会更难忍受；其他警卫更容易出现效仿者。\n你可以在主管的悬停提示中看到整体腐败水平。\n\n如果某个一般警卫经常“拜访”不同囚犯，且很容易疲劳，\n说明他把精力大都用在了以权谋私的“副业”上。\n让他到主管的办公室走一趟，接受调查。\n在那里，腐败的警卫会被解雇，而你会得到奖励。
+buildtoolbar_popup_staff_foreman	这名高级员工令你可以访问“清洁工”和“园丁”。\n\n【新增功能】如果你启用工具和作弊，那么点击他，你可以\n批量地改变很多格子的地面种类。包括：\n · 边界：正常情况下你无法编辑它们\n · 主体：除了边界、室内和房间之外的所有格子\n · 网格：每10米“画”一条参考线
+buildtoolbar_popup_staff_psychologist	这名高级员工使你可以洞察囚犯们的心理活动。\n此外，有些改造项目需要他们。
+buildtoolbar_popup_staff_accountant	这名高级员工使你可以查看财务报告。\n\n【新增玩法】会计可以强制培训囚犯，以便进行记账工作。\n\n此外，囚犯的正确率终究有限。其错误还需正式员工来修正。\n错误的账本会被送到会计的办公室。会计每10分钟修正一本。\n相当于支持囚犯记账10人时。\n但仅限白天时段（从早上9点到晚上9点）。\n而且，会计还肩负培训的重担。\n所以当工作量上升后，你也许应该考虑多雇佣一个。
+buildtoolbar_popup_staff_lawyer	这名高级员工可帮助你打破规则，获得监狱的更大控制权。\n\n虽然没有上限，但雇用1个就足够了。\n除非你特别急于加速完成相关研究……\n\n【新增玩法】律师可以到探监室提供咨询服务。\n详情见改造项目“探监者服务”
+buildtoolbar_popup_staff_sniper	一个受过严格培训的狙击手。\n他们会自动占据空置的警戒塔。
 
 buildtoolbar_popup_uts_powerstation	产生监狱所需的电力。\n非常依赖电容器。\n\n两个发电站不能共用电缆，会冲突。\n是唯一会遇水爆炸的东西。
 buildtoolbar_popup_uts_capacitor	放置在发电站旁边，可以提高发电量。\n\n随着监狱规模的扩大，请记得及时追加电容器。
@@ -1170,11 +1170,12 @@ buildtoolbar_popup_uts_cctvmonitor	你可远程监控监狱各处的摄像头。
 buildtoolbar_popup_uts_DoorControlSystem	你可遥控打开监狱各处的门。\n\n使用“连接”工具，将此系统与‘门禁伺服器’相连。\n门禁伺服器（齿轮部分）应安装在你希望遥控的门上。\n\n注意：你可向此系统连接无限多的伺服器，但操作此系统的\n警卫每秒最多只能打开两扇门。\n\n最好安装在‘警卫室’。或在‘员工休息室’；更高效但不真实。\n待命的一般警卫会来操作。\n\n强烈推荐你采用这套系统。
 buildtoolbar_popup_uts_phonemonitor	监听囚犯们打出的所有电话，以提前洞察有组织的违法活动。\n\n使用“连接”工具将此系统与‘电话亭’或‘探监柜台’相连。\n窃听可以让你得知打电话的囚犯的特征。\n\n此外，还有从外界扔违禁品进来的约定。\n但这仍然需要线人来印证（去[情报>线人]视图激活线人）。\n\n最好安装在‘警卫室’或‘员工休息室’。\n在附近待命、驻守或巡逻的一般警卫，会主动来操作。\n当多个囚犯同时打电话，据说只能窃听其一。
 buildtoolbar_popup_uts_Servo	安装在你想要遥控的门上。\n\n请确保马达齿轮在门的正上方；另一端则在墙壁上。\n\n一旦安装好，门禁伺服器在被触发时就会自动开门——\n通常由‘门禁控制系统’或‘门禁定时器’触发。\n\n门禁伺服器可以串连，当第一个伺服器开启时，\n会触发后面的伺服器。\n\n奇怪的是，无法安装在围墙上。\n我建议你还是用[物品]菜单里的同名物品吧。
-buildtoolbar_popup_uts_LogicCircuit	仅限高级建筑师使用。\n\n一个可以根据输入数据进行逻辑运算后输出相应结果的简单电路盒。\n\n可用运算：And / Or / Not / Nand / Nor / Xor\n\n点击右键循环切换逻辑运算。
-buildtoolbar_popup_uts_LogicBridge	仅限高级建筑师使用。\n\n接收其输入讯号，并将其桥接至同一格的电力线路上，电力线路再将信号传递到同一线路上的另一个逻辑电路。\n\n可以用来对整个监狱“广播”公共讯号，例如在广播时钟讯号时很有用。
-buildtoolbar_popup_uts_DoorTimer	可用于在每天固定的时段自动开门。\n\n使用连接工具将定时器连接到门禁伺服器上。
-buildtoolbar_popup_uts_Wire	连接你的远程操控系统。
-buildtoolbar_popup_uts_showallwires	显示监狱中所有已连接的电线。
+buildtoolbar_popup_uts_LogicCircuit	仅限高级建筑师使用。\n\n这个简单电路盒，可以根据输入的数据进行逻辑运算，\n然后输出相应的结果。\n\n支持的运算：And / Or / Not / Nand / Nor / Xor\n\n右键点击以循环切换逻辑运算。
+buildtoolbar_popup_uts_LogicBridge	仅限高级建筑师使用。\n\n接收其输入信号，并将其桥接至同一格的电缆上，\n电缆再将信号传递到同一电缆上的其它‘逻辑电路’。\n\n可以用来对整个监狱广播公共信号。例如：时钟信号。\n\n能帮你节省掉大量而复杂的常规布线。
+buildtoolbar_popup_uts_DoorTimer	可用于在每天固定的时段自动开门。\n\n使用“连接”工具将定时器连接到‘门禁伺服器’或‘逻辑桥’上。
+buildtoolbar_popup_uts_Wire	连接以构成你的遥控系统。
+buildtoolbar_popup_uts_showallwires	显示监狱中所有已连接的线路。
+buildtoolbar_popup_uts_tidywires 交织的线路让你眼花缭乱？\n现在，你可以让一些线路“绕路”。\n\n点击一个线路后，再点击某处，会增加一个中途的节点。\n右键点击则可移除节点。
 buildtoolbar_popup_uts_remotedoor	不能用钥匙打开的坚固金属门(只能远程开启)。用这种门可以有效防止囚犯窃取钥匙大规模越狱。
 buildtoolbar_popup_uts_dismantleutility	如题。
 buildtoolbar_popup_uts_pressurepad	每当有物体压在其上时，会向其连接的设备发出信号。\n\n不能区分员工与囚犯。\n\n我更喜欢用于为外部的教师、探监者和卡车打开‘道路闸门’。\n至于监狱内的门，如果我希望员工和囚犯都迅速通过，\n那么我干脆让它们一直开着好了。\n\n备注：有的模组提供了专供员工的门或压力板，\n但其实囚犯依然会等员工过来，然后跟着通过。\n况且，设置员工专区更简单有效。\n所以我就不提供这些半吊子的物品了。
@@ -1252,75 +1253,83 @@ buildtoolbar_popup_help_informants_5	^\n小技巧
 buildtoolbar_popup_help_informants_6	\n保持激活线人(留在警卫室)并根据线人提供的信息进行搜查，\n会提高线人的“被怀疑度”。如果过高，那么线人就危险了……
 buildtoolbar_popup_help_informants_7	\n点击线人的[激活]按钮旁边的[X]，可以解雇线人。
 
-buildtoolbar_popup_help_utilities_1	“基础设施”视图显示监狱下方的各种管道连接。\n你可以建立电缆和水管，并利用电线连接各种物品。\n\n
-buildtoolbar_popup_help_utilities_2	~创建电缆或管道时，按住鼠标左键，在你想要连接的两个点之间拖曳。\n右键点击可以取消现有的电缆或管道工程任务。
-buildtoolbar_popup_help_utilities_3	~\n利用电线连接物品时(例如将闭路电视监视器连接到摄像头)，\n点击第一个物品，然后点击你想要连接的另一个物品。\n按住Shift键可以让你一次连接多个物品。
-buildtoolbar_popup_help_utilities_4	^\n小技巧
-buildtoolbar_popup_help_utilities_5	\n小型电器，例如灯泡和电视，只要附近有电缆，就会自动通电。\n大型电器，如洗衣机或水泵，则需要直接连接到电缆上。
-buildtoolbar_popup_help_utilities_6	\n大型水管可以长程运送水，而小型水管的范围较短。\n由大型水管连接到建筑物或区块，再用小水管连接各个物品，\n是个省钱的好方法。
-buildtoolbar_popup_help_utilities_7	\n“基础设施”视图有繁多事项，尤其在大型监狱。\n点击特定的物品可以更清楚显示相关的连接，让你看得更清楚。\n例如，点击电缆会让监狱的所有电缆和物体显示得更清楚。
-buildtoolbar_popup_help_utilities_8	\n若你的监狱有多个发电站，每一个发电站需要有独立的电缆。\n如果连接两个不同发电站的电缆相连接，两者皆会停止运作。
+buildtoolbar_popup_help_utilities_1		“基础设施”视图显示监狱下方的各种管道连接。\n你可以建立电缆和水管，并利用电线连接各种物品。\n\n
+buildtoolbar_popup_help_utilities_2		~创建电缆或管道时，按住鼠标左键，在你想要连接的两个点之间拖曳。\n右键点击可以取消现有的电缆或管道工程任务。
+buildtoolbar_popup_help_utilities_3		~\n利用电线连接物品时(例如将闭路电视监视器连接到摄像头)，\n点击第一个物品，然后点击你想要连接的另一个物品。\n按住Shift键可以让你一次连接多个物品。
+buildtoolbar_popup_help_utilities_4		^\n小技巧
+buildtoolbar_popup_help_utilities_5		\n小型电器，例如灯泡和电视，只要附近有电缆，就会自动通电。\n大型电器，如洗衣机或水泵，则需要直接连接到电缆上。
+buildtoolbar_popup_help_utilities_6		\n大型水管可以长程运送水，而小型水管的范围较短。\n由大型水管连接到建筑物或区块，再用小水管连接各个物品，\n是个省钱的好方法。
+buildtoolbar_popup_help_utilities_7		\n“基础设施”视图有繁多事项，尤其在大型监狱。\n点击特定的物品可以更清楚显示相关的连接，让你看得更清楚。\n例如，点击电缆会让监狱的所有电缆和物体显示得更清楚。
+buildtoolbar_popup_help_utilities_8		\n若你的监狱有多个发电站，每一个发电站需要有独立的电缆。\n如果连接两个不同发电站的电缆相连接，两者皆会停止运作。
 
-buildtoolbar_popup_help_guard_1	守衛是监狱最主要的工作人員，負責處理所有事項，從押送新囚犯到他们的牢房、處理打架鬥毆、到搜查違禁品等。\n\n
-buildtoolbar_popup_help_guard_2	~選定守衛後，只要在某個地方右鍵，你就可以命令他们移動至监狱裡任何地方。\n\n
-buildtoolbar_popup_help_guard_3	^提示
-buildtoolbar_popup_help_guard_4	- 守衛可以透過搜查牢房的廁所找到逃獄地道。如果守衛仔細搜查廁所，他们肯定會找到逃獄地道。
-buildtoolbar_popup_help_guard_5	- 如果你有一個安全警長，你可以從螢幕上方的資訊欄看到你有多少個閒置的守衛。若你的可用守衛經常是 0，這可能代表你沒有足够的守衛去負荷目前的工作量。
+buildtoolbar_popup_help_guard_1			一般警卫是监狱工作人员的主体，处理形形色色的事项，包括：\n押送囚犯、处理打架斗殴、搜查违禁品等。\n\n
+buildtoolbar_popup_help_guard_2			~你还可以左键点击或按住左键拖动鼠标，以选定一个或一群警卫，\n然后右键点击某个地方，命令他们立即移动到那里。\n\n
+buildtoolbar_popup_help_guard_3			有“压制”影响，让周围的囚犯更加安分一些。\n影响力的直径为17米（8+1+8）。\n可以越过墙壁。但室内和户外互相独立。\n（你在作弊模式下，按F9，启用 Influence 可查看。）\n\n
+buildtoolbar_popup_help_guard_4			注意：压制的好处很明显，但同时会让囚犯变得消极：\n · 囚犯走路变慢。\n · 对工作和改造项目缺乏兴趣。\n · 即使参加培训项目，也容易失败。\n所以，你应当只对必要的人和地方进行压制。\n\n
+buildtoolbar_popup_help_guard_5			在屏幕顶部显示，你可以查看有多少一般警卫在待命。\n保留适当比例的警卫待命，可以让轮岗更顺畅。
+buildtoolbar_popup_help_guard_6			搜查有概率会失败。\n唯一的例外是搜查有地道的马桶。
 
-buildtoolbar_popup_help_workman_1	工人是負責建造监狱、協助卸貨的人，在某些情況下，还會將卸載的貨物運送至监狱各區域。\n\n
-buildtoolbar_popup_help_workman_2	^提示
-buildtoolbar_popup_help_workman_3	工人大部分是自行運作，但是如果你想要快速完成一個工程，你可以利用「Ctrl+右鍵」將該工程設为高優先。這會使最靠近的工人放下手邊的工作，然後完成你的任務。
+buildtoolbar_popup_help_workman_1	工人负责建造监狱、卸货，并把货物运送到需要它们的地方。\n\n如果你合理分布‘仓库’，可以缩减他们在路上的时间。\n\n
+buildtoolbar_popup_help_workman_2	^小技巧\n\n
+buildtoolbar_popup_help_workman_3	工人大体上会自行运作。但如果想要快速完成一个建造任务，\n你可以利用“Ctrl+左键”将该它设为高优先级。\n这会使最近的工人放下手头的工作，而去完成你给的任务。
 
-buildtoolbar_popup_help_cook_1	廚師为你的囚犯準備食物、清洁用餐區域並將食材運送至廚房。\n\n
-buildtoolbar_popup_help_cook_2	^提示
-buildtoolbar_popup_help_cook_3	- 確保你有足够的廚師应付监狱的食物需求非常重要。若你沒有足够的廚師，他们就無法準備足够的食物，而你的囚犯就會餓肚子...
+buildtoolbar_popup_help_cook_1	厨师会做饭、洗餐盘、倒垃圾，并把食材运到厨房。\n\n
+buildtoolbar_popup_help_cook_2	当你有多个厨房时，你不能直接指定每个厨房有多少厨师。\n不过你可以通过炊具数量来间接管理。\n\n
+buildtoolbar_popup_help_cook_3	厨师的忙碌时间从饭前4小时开始，到餐盘洗完和垃圾清完结束。
+buildtoolbar_popup_help_cook_4	大体上，你需要厨师的数量=炊具数×1.5\n或者，=囚犯数÷12\n\n当然，伙食政策会显著影响厨师的工作量。\n\n即使有囚犯打工，你仍然需要这么多厨师，\n以便确保早餐可以及时完成。
 
-buildtoolbar_popup_help_warden_1	监狱長是連接监狱的官僚主義的一環。他们推開官僚之窗，讓你可以研究運用于监狱內的各種新功能。他们有辦公室之後，基本上就會自行管理。
+buildtoolbar_popup_help_warden_1	“悬停提示”\n点击典狱长，在其菜单中可以设置统计的大类。\n这同时也决定所有囚犯的信息。\n\n不过，当囚犯刚刚被典狱长评估后，会暂时优先显示\n“再犯罪可能性”；在举重后，暂时显示“疾病点数”；\n“危险的座谈”，暂时显示“不满爆发点”。
+buildtoolbar_popup_help_warden_2	\n“疾病”（或者说，不健康）\n你可以调整疾病难度系数，但不可以关闭该机制。\n每个囚犯根据其疾病点数，会随机发生受伤事件。\n（请理解为生病。毕竟我无法很真实地模拟。）\n受伤的频率与整体的难度系数和个人的点数成正比。\n受伤程度与疾病点数相关，不过还有一些上下浮动。\n这些非暴力的受伤者们需要你更加重视医疗和伙食。
+buildtoolbar_popup_help_warden_3	\n“睡眠加速”\n每天有近一半的时间，你会觉得傻傻地等待很无聊。\n点击典狱长，在其菜单中可以设置。\n到了你定义的时间段，时钟会加快5倍。于是早晨很快就会到来。\n\n注意：由于技术限制，我无法针对囚犯睡眠的行为。\n你定义的“睡眠时间段”应该确保绝大多数囚犯真的会在其间睡觉。\n否则，即使没有睡觉，只要囚犯在他们的牢房，一律会被当做睡觉，\n而加速改变其多种需求。见特殊物品“睡眠加速需求调整”。\n\n由于技术上的重重限制，它仅当你“启用工具和作弊”时才生效。\n确切地说，按F1后可以看到，"ImmediateObjects"一项必须启用。
+buildtoolbar_popup_help_warden_4	\n\n“睡眠加速”功能的开发很难很难。\n但即使我克服了一个又一个技术难题，最终还是需要作弊模式。\n假如我能联系上开发者、且他们还有意愿改进的话就好了………
 
-buildtoolbar_popup_help_armedguard_1	武裝警衛隨時隨地攜帶槍械，確保囚犯们安分守己，尤其是那些危險或不守規矩的囚犯。他们抑制周遭所有囚犯，藉此降低囚犯鬧事的可能性。假使他们的生命受到威脅，他们會使用散彈槍，而這通常會使附近所有的囚犯停止鬧事。\n\n
-buildtoolbar_popup_help_armedguard_2	~選定武裝警衛後，只要在某個地方右鍵，你就可以命令他们移動至监狱裡任何地方。\n\n
-buildtoolbar_popup_help_armedguard_3	^提示
-buildtoolbar_popup_help_armedguard_4	- 若啟動「自由開槍」鈕，武裝警衛不會等到生命受到威脅才開槍。他们會直接開槍射擊鬧事的囚犯。
-buildtoolbar_popup_help_armedguard_5	- 武裝警衛很難被囚犯擊倒，但若真的發生，他们的散彈槍就任人拿取...
+buildtoolbar_popup_help_armedguard_1	除了应对囚犯的暴力举动之外，武装警卫并不会做\n一般警卫的工作（开监狱门、搜查等）。\n\n
+buildtoolbar_popup_help_armedguard_2	平时适合用影响力压制囚犯，避免他们闹事。\n影响力的直径为25米（12+1+12）。\n武装警卫的压制太强。不要过度部署。\n在关键的时间出现在关键区域为宜。\n\n
+buildtoolbar_popup_help_armedguard_3	“电击枪”被研究后，还会配备这种非致命武器。\n\n一旦发生闹事，会优先使用电击枪；\n如果不得已用了霰弹枪，那么会杀死囚犯。\n\n
+buildtoolbar_popup_help_armedguard_4	开枪射杀囚犯，一般会让周围的家伙立即安分下来。\n但万一囚犯夺取了霰弹枪，乐子可就大了。\n\n
+buildtoolbar_popup_help_armedguard_5	疲劳时，会去员工休息室。
 
-buildtoolbar_popup_help_doctor_1	醫師負責治療囚犯和職員在监狱期間無可避免受到的傷害。他们會醫治傷勢、治療用药過量的囚犯，並執行戒毒計劃。\n\n
-buildtoolbar_popup_help_doctor_2	~選定醫師後，只要在某個地方按右鍵，你就可以命令他们移動至监狱裡任何地方。
+buildtoolbar_popup_help_doctor_1	自动治疗附近5米所有受伤的人，无论是员工还是囚犯。\n\n平时在‘医务室’待命。\n往往被动地等待伤员上门。只有发生集体受伤事件才会出来服务。
+buildtoolbar_popup_help_doctor_2	~你可以选中他们并右键点击目的地，让其立即移动。
 
-buildtoolbar_popup_help_janitor_1	工友負責維持监狱的整潔，也會協助洗衣房的工作。\n\n
-buildtoolbar_popup_help_janitor_2	^提示
-buildtoolbar_popup_help_janitor_3	- 工友負責的所有工作，工作的囚犯也可以做。若你分配足够的囚犯到洗衣房和打掃衛生間，你可能僅需少量的工友，甚至完全不需要。
+buildtoolbar_popup_help_janitor_1	最基本的工作是清洁室内的各种脏东西。\n此外，也负责协助洗衣并运送囚服。\n\n
+buildtoolbar_popup_help_janitor_2	^小技巧\n\n
+buildtoolbar_popup_help_janitor_3	用囚犯打工并代替清洁工，可以省钱。\n你需要足够尺寸的洗衣房和清洁用品间。\n不过，为了杜绝违禁品，你最好把清洁用品间只交给清洁工。\n\n
+buildtoolbar_popup_help_janitor_4	当没有活儿时，他们在垃圾场或仓库待命。\n\n如果在白天也有不少清洁工在待命，那么你应该解雇一些了。
 
-buildtoolbar_popup_help_gardener_1	園丁負責維持监狱戶外空間的整潔、除草和種樹。\n\n
-buildtoolbar_popup_help_gardener_2	^提示
-buildtoolbar_popup_help_gardener_3	- 若你有林場，園丁就會負責種植你所收到的樹苗。請確保你有足够的園丁種植所有的樹苗！
+buildtoolbar_popup_help_gardener_1	室外的主要清理对象是藤蔓和杂草。\n\n
+buildtoolbar_popup_help_gardener_2	^小技巧\n\n
+buildtoolbar_popup_help_gardener_3	若你有林场，园丁还会负责种植树苗。\n不过，之后并不需要照看，树就会健康成长。
 
-buildtoolbar_popup_help_doghandler_1	訓犬員和警犬是成對出現。警犬擅長嗅出強烈氣味的違禁品，如毒品和酒精，也會找出逃獄地道。\n\n
-buildtoolbar_popup_help_doghandler_2	~選定訓犬員後，只要在某個地方按右鍵，你就可以命令他们移動至监狱裡任何地方。\n\n
-buildtoolbar_popup_help_doghandler_3	^提示
-buildtoolbar_popup_help_doghandler_4	- 派訓犬員至某一個區域，警犬就會試圖嗅出可能隱藏在附近的違禁品。
-buildtoolbar_popup_help_doghandler_5	- 走在逃獄地道的上方時，警犬會示意，指出其存在。然後會有一個小記號以示之。有時候，就算沒有任何東西，警犬也有可能會示意...
-buildtoolbar_popup_help_doghandler_6	- 如果訓犬員被殺死，他们的警犬很可能會發狂並試圖在离开监狱前殺害該殺人犯。
+buildtoolbar_popup_help_doghandler_1	警犬可以闻出“有气味的”违禁品。\n适合在卸货区、医务室等地巡逻。\n\n
+buildtoolbar_popup_help_doghandler_2	警犬的嗅探范围为直径3米（1+1+1）。\n\n
+buildtoolbar_popup_help_doghandler_3	注意：训犬员和警犬并不压制囚犯，亦即毫无影响力。\n\n
+buildtoolbar_popup_help_doghandler_4	在户外时，警犬还有可能发现地道的迹象，并做出标记。\n\n你并不能对标记做任何事，而应当寻找地道的入口。\n误报的概率挺高。但如果同一片地方重复被报告，\n那么你就应该去关心某人的睡眠情况和他的马桶了。\n\n极少时候，警犬会直接挖出地道。\n\n
+buildtoolbar_popup_help_doghandler_5	警犬疲劳时，需要在狗笼里睡觉，才能快速恢复。\n\n警犬可以追上任何逃跑的囚犯，除非此人有“敏捷✚”特征。
+buildtoolbar_popup_help_doghandler_6	如果训犬员死亡，其警犬会发狂，试图杀掉凶手。\n之后，警犬会离开监狱。
 
-buildtoolbar_popup_help_sniper_1	狙擊手留守于监狱各處的守衛塔，針對鬧事的囚犯發揮強而有力的嚇阻作用，也是阻止逃獄囚犯的最後一道防線。\n\n
-buildtoolbar_popup_help_sniper_2	^提示
-buildtoolbar_popup_help_sniper_3	- 狙擊手配有強大、長射程的步槍，但僅能顧及他们視線所及的範圍。
-buildtoolbar_popup_help_sniper_4	- 狙擊手會鳴槍警告在监狱內鬧事的囚犯。如果囚犯不乖乖就範，他们就會開始直接射擊囚犯。
-buildtoolbar_popup_help_sniper_5	- 如果啟動「自由開槍」，或囚犯逃出监狱外，狙擊手就不會鳴槍警告。
+buildtoolbar_popup_help_sniper_1	适合大范围地压制室外的囚犯。\n也是对囚犯越狱的最后一道防线。\n\n
+buildtoolbar_popup_help_sniper_2	只在警戒塔上才能发挥作用。\n\n压制影响力的直径为61米（30+1+30），但仅限户外。\n\n
+buildtoolbar_popup_help_sniper_3	射击距离（半径）则多达50米。\n而且由于警戒塔很高，狙击手的视线可以越过围墙。\n所以即使囚犯通过地道来到墙外，也逃不出步枪的威慑。\n\n
+buildtoolbar_popup_help_sniper_4	对在监狱里捣乱的囚犯，会在击毙目标之前先鸣枪警告。\n对于试图越狱或行使暴力的囚犯，则没有这种警告。\n不过，如果他们识相，会及时投降。\n\n
+buildtoolbar_popup_help_sniper_5	新的狙击手需要先去一趟枪械库，以领取步枪。\n\n疲劳时，会去枪械库休息。\n\n没有警戒塔可用的时候，则会在警卫室待命。
 
-buildtoolbar_popup_help_chief_1	警長是負責你的监狱治安的最高負責人。他回報給你监狱的整體氣氛，顯示囚犯鬧事的可能性，同時也可以讓你追蹤目前在监狱內工作的守衛數量。他也可以讓你研究更高階的安全功能，例如警犬或監視錄影器。他们有辦公室之後，基本上就會自行管理。
+buildtoolbar_popup_help_chief_1	[行政系统]的一些研究需要此高级员工。\n\n
+buildtoolbar_popup_help_chief_2	囚犯被勒索后，在一小时内，其悬停提示会显示勒索信息。\n这会有助于你寻找腐败的警卫。\n\n
+buildtoolbar_popup_help_chief_3	一般警卫来到主管的办公室时，会被调查是否腐败。\n清白的警卫会因为调查而精疲力竭。\n所以不要随意调查。
 
-buildtoolbar_popup_help_foreman_1	工頭是負責監督监狱內的維修與建造的人，讓你研究並雇用工友和園丁。他也負責监狱勞工，並親自監督囚犯使用工作坊工具的培訓。\n\n
-buildtoolbar_popup_help_foreman_2	^提示
-buildtoolbar_popup_help_foreman_3	- 一旦你在监狱建造一個工作坊，工頭就會負責工作坊安全計劃的教學，你可以透過報告視窗中的計劃標籤，安排日程。
+buildtoolbar_popup_help_foreman_1	[行政系统]的一些研究需要此高级员工。\n\n
+buildtoolbar_popup_help_foreman_2	如果你大力发展工坊的生产，那么工头会担当培训教师。\n\n
+buildtoolbar_popup_help_foreman_3	如果培训需求很大，你可能希望再多雇佣一个工头。\n可惜有名额限制。所以你只能优化培训和生产。\n比如：设法提高培训的通过率；工作的囚犯们的刑期不应太短。
 
-buildtoolbar_popup_help_psychologist_1	心理學家負責監控囚犯的心理健康。有了心理學家可以讓你看出囚犯當前的需求，他们也負責为囚犯進行感化課程。\n\n
-buildtoolbar_popup_help_psychologist_2	^提示
-buildtoolbar_popup_help_psychologist_3	- 监狱內有了心理學家，你可以透過選定單一囚犯看出每一個囚犯的需求，或透過報告視窗的「需求」標籤查看所有囚犯的整體需求。
-buildtoolbar_popup_help_psychologist_4	- 心理學家負責執行戒酒計劃，治療监狱內的酒癮，以及行为治療計劃，藉此試圖管理比較麻煩的囚犯。如此一來，若你覺得有需要，在监狱內安排多個心理學家不失为一個好選擇。
+buildtoolbar_popup_help_psychologist_1	[报告/需求]需要你雇佣至少一名心理学家。\n\n
+buildtoolbar_popup_help_psychologist_2	两种改造项目需要用到心理学家。在你采用我这个模组之前，\n心理学家是唯一需要雇佣多名的高级员工。\n\n
+buildtoolbar_popup_help_psychologist_3	使用"对调办公室"来给心理学家们合适位置上的办公室。\n\n
+buildtoolbar_popup_help_psychologist_4	如果你开设“行为疗法”项目，那么要确保囚犯可以\n走到心理学家的办公室。
 
-buildtoolbar_popup_help_accountant_1	會計師負責管理监狱的財務，並且解鎖以查看监狱的現金流和總價值，还有一些改善你收入的研究項目。他们有辦公室之後，基本上就會自行管理。
+buildtoolbar_popup_help_accountant_1	[行政系统]的一些研究需要此高级员工。
 
-buildtoolbar_popup_help_lawyer_1	律師可以協助你解決運行监狱時可能面臨的棘手法律問題，也可以在监狱發生灾難性事件時，協助你規避法律責任。他们也可以解鎖你的监狱的死囚選項。他们有辦公室之後，基本上就會自行管理。
+buildtoolbar_popup_help_lawyer_1	[行政系统]的一些研究需要此高级员工。
 
 buildtoolbar_popup_help_gangs_1 帮派画面显示监狱目前的帮派状况。\n你可以查看每一个帮派的信息，看到哪些帮派拥有哪些房间，\n以及哪些囚犯是帮派成员。还包括：哪些帮派成员是帮派干部\n(以双圈图案标示)，以及帮派领袖(以三圈图案标示)。\n\n
 buildtoolbar_popup_help_gangs_2 ~若你想强制赶走控制着某个区域的帮派，你可以选定房间并\n点击[驱逐]按钮。但是显然该帮派不会乐意……
@@ -3049,8 +3058,8 @@ grant_property_atmost	至多 *X
 
 
 object_none						无
-object_box						箱子
-object_stack					堆
+object_box						一箱
+object_stack					一堆
 object_bed						单人床
 object_bunkbed					双层床
 object_crib						婴儿床
@@ -3079,53 +3088,53 @@ object_servingtable				配餐桌
 object_showerhead				花洒喷头
 object_brick					砖
 object_concrete					混凝土
-object_steel					钢
+object_steel					钢材
 object_ingredients				食材
 object_ingredientscooking		食材(烹制中)
 object_ingredientscooked		食材(已烹制)
-object_ingredientsspoiled		食材(已腐坏)
-object_meal						餐食
+object_ingredientsspoiled		食材(坏掉了)
+object_meal						伙食
 object_foodtray					餐盘
 object_foodtraydirty			餐盘(脏)
 object_grassturf				草坪
-object_prisoneruniform			囚服
+object_prisoneruniform			囚服(待穿)
 object_dirtyprisoneruniform		囚服(脏)
 object_crumpledprisoneruniform	囚服(皱)
 object_bleach					漂白剂
 object_sheetmetal				金属板
 object_licenseplateblank		车牌(空白)
-object_licenseplate				车牌
+object_licenseplate				车牌(成品)
 object_log						圆木
-object_wood						木材
+object_wood						木板
 object_workman					工人
 object_truckdriver				卡车司机
-object_guard					警卫
-object_riotguard				防暴警卫
+object_guard					一般警卫
+object_riotguard				防暴警察
 object_armedguard				武装警卫
 object_prisoner					囚犯
-object_doctor					医师
-object_paramedic				医护人员
+object_doctor					医生
+object_paramedic				救护人员
 object_cook						厨师
 object_gardener					园丁
 object_janitor					清洁工
 object_fireman					消防员
 object_avatar					头像
-object_actor					人物
-object_visitor					探视者
+object_actor					演员\n(剧情用)
+object_visitor					探监者
 object_executionwitness			死刑见证人
-object_doghandler				警犬训练员
+object_doghandler				训犬员
 object_dog						警犬
 object_dogcrate					狗笼
 object_teacher					教师
 object_soldier					士兵
 object_sniper					狙击手
 object_warden					典狱长
-object_chief					主管
+object_chief					安保主管
 object_foreman					工头
 object_psychologist				心理医生
 object_accountant				会计
 object_lawyer					律师
-object_supplytruck				供给卡车
+object_supplytruck				供给车
 object_prisonerbus				囚车
 object_fireengine				消防车
 object_riotvan					防暴警车
@@ -3160,7 +3169,7 @@ object_phonebooth				电话亭
 object_tv						小电视
 object_largetv					大电视
 object_pooltable				台球桌
-object_polaroid					宝丽来
+object_polaroid					宝丽来照片
 object_cctv						闭路电视摄像头
 object_cctvmonitor				闭路电视监视器
 object_laundrymachine			洗衣机
@@ -3171,7 +3180,7 @@ object_visitortablesecure		探监柜台
 object_workshopsaw				电锯台
 object_workshoppress			冲压机
 object_carpentertable			木工桌
-object_boombox					立体扬声器
+object_boombox					扬声器
 object_guardlocker				警卫锁柜
 object_sofachairsingle			单人沙发
 object_sofachairdouble			双人沙发
@@ -3181,7 +3190,7 @@ object_bookshelflarge			图书馆书架
 object_weaponrack				武器架
 object_treestump				树桩
 object_schooldesk				课桌
-object_superiorbed				优秀床铺
+object_superiorbed				高级床
 object_doorcontrolsystem		门禁系统
 object_phonemonitor				电话窃听器
 object_servo					门禁伺服器
@@ -3195,10 +3204,10 @@ object_sellobject				【卖掉物品】
 object_canceljobs				取消工作
 object_showallwires				显示线缆
 object_tidywires				整理线缆
-object_cutscenepolaroid			宝丽来过场动画
-object_cutscenecamera			动画摄像头
+object_cutscenepolaroid			过场动画\n宝丽来照片
+object_cutscenecamera			动画镜头
 object_cutscenecue				动画提示
-object_cutscenecaption			剧情画面说明
+object_cutscenecaption			动画字幕
 object_foodwaste				食物残渣
 object_altar					圣坛
 object_pews						教堂长凳
@@ -3207,18 +3216,18 @@ object_paroleofficer			假释官
 object_parolelawyer				假释律师
 object_spiritualleader			神职人员
 object_librarybookshelf			图书馆书架
-object_librarybookunsorted		图书馆书籍(未分类)
-object_librarybooksorted		图书馆书籍(已分类)
+object_librarybookunsorted		图书(未分类)
+object_librarybooksorted		图书(已分类)
 object_sortingtable				分拣台
-object_ruinedbook				毁坏的书
-object_foodbowl					食物
+object_ruinedbook				损毁的图书
+object_foodbowl					一碗食物
 object_appealslawyer			上诉律师
 object_appealsmagistrate		上诉法官
-object_mailsatchel				邮件包
-object_mailunsorted				未分类邮件
-object_mailsorted				已分类邮件
-object_prisonermail				邮件
-object_prisonermailopened		邮件(已打开)
+object_mailsatchel				邮包
+object_mailunsorted				邮件(未分类)
+object_mailsorted				邮件(已分类)
+object_prisonermail				邮件(待读)
+object_prisonermailopened		邮件(已拆开)
 object_shopfront				店面
 object_shopgoods				商店货物
 object_shopshelf				商店货架
@@ -3230,7 +3239,9 @@ object_stafffood				员工餐
 object_stafffoodboxed			员工餐
 object_newspaper				报纸
 object_strikefire				火桶
-
+object_Limo						防暴警车\n(剧情用)
+object_SmokeGenerator			烟雾生成器
+object_Smoke					烟雾生成器
 
 material_none	无
 material_building	建筑\n（砖墙）
@@ -3339,9 +3350,9 @@ equipment_fork	叉子
 equipment_gun	枪
 equipment_spoon	勺子
 equipment_needle	针
-equipment_booze	酒
+equipment_booze	烈酒
 equipment_poison	毒药
-equipment_cigs	烟
+equipment_cigs	香烟
 equipment_saw	锯子
 equipment_jailkeys	监狱钥匙
 equipment_mobilephone	手机
