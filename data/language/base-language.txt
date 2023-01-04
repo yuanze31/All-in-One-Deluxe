@@ -926,8 +926,8 @@ interface_action_servoclose	触发时关门
 interface_action_follow	镜头跟随
 interface_action_rapsheet	显示罪犯档案
 
-interface_contents_container	内容：*X
-interface_contents_stack	内容：*X x *Y
+interface_contents_container	内含：*X
+interface_contents_stack	内含：*X × *Y
 
 interface_skip	跳过
 
@@ -1853,8 +1853,8 @@ punish_lockdown	禁足
 punish_none	无
 punish_timer	*X小时 *Y分钟
 punish_timer_minutes	*X分钟
-punish_active	执行中
-punish_permanent	(无限期)
+punish_active	[执行中]
+punish_permanent	(永久)
 punish_end	【结束惩罚】
 
 punish_up	升↗
@@ -1881,8 +1881,8 @@ misconduct_reporttype_contrabandtools	私藏工具
 misconduct_reporttype_contrabandnarcotics	私藏麻醉剂
 misconduct_reporttype_contrabandluxuries	私藏奢侈品
 misconduct_reporttype_intoxicated	醉酒
-misconduct_title	=[不当行为]=
-misconduct_totalitems	(附加的*X )
+misconduct_title	【不端行为】
+misconduct_totalitems	(还有 *X 条)
 
 misconduct_report_addiction	对 *X 上瘾
 misconduct_report_recoving	正在戒除 *X
@@ -2303,6 +2303,8 @@ reports_staffbreaktitle	员工休息政策
 
 victory_title	证明
 
+victory_failure	失败
+victory_warning	警告
 victory_PrisonValue	监狱价值
 victory_Income	每日利润
 victory_Prisoners	囚犯容量
@@ -2310,11 +2312,9 @@ victory_PrisonersReleased	释放囚犯数
 victory_prisonersdied	狱中死亡数
 victory_prisonersescaped	越狱囚犯数
 victory_Bankrupt	破产
-victory_Riot	失控\n暴动
-victory_TooManyDeaths	玩忽\n职守
-victory_TooManyEscapes	安全\n灾难
-victory_failure	失败
-victory_warning	警告
+victory_Riot	失控暴动
+victory_TooManyDeaths	玩忽职守
+victory_TooManyEscapes	安全灾难
 victory_remaining	余下的
 victory_death	死亡
 victory_escapes	越狱
@@ -2523,25 +2523,26 @@ action_foodpoisoning_3	(食物中毒)呕吐得到处都是
 action_foodpoisoning_4	(食物中毒)怎么遇上这种事
 action_foodpoisoning_5	(食物中毒)奄奄一息
 
-status_effect_title	=[状态效果]=
+status_effect_title	【状态效果】
 status_effect_none	无
-status_effect_suppressed	被镇压
-status_effect_goodfood	饮食充足
-status_effect_drunk	喝醉
-status_effect_high	高
-status_effect_withdrawal	戒毒
-status_effect_tazed	电晕
+status_effect_suppressed	被压制
+status_effect_goodfood	饮食良好
+status_effect_drunk	醉酒
+status_effect_high	(麻醉剂)亢奋
+status_effect_withdrawal	戒断
+status_effect_tazed	被电晕
 status_effect_overdosed	药物过量
-status_effect_surrendered	投降
-status_effect_calming	镇静
-status_effect_angst	愤怒
-status_effect_wounded	流血
+status_effect_surrendered	投降了
+status_effect_calming	(心灵)平静
+status_effect_angst	焦躁
+status_effect_wounded	持续流血！
 status_effect_virus	生病
-status_effect_virusdeadly	生病
+status_effect_virusdeadly	致命病毒！
 status_effect_overheating	过热
-status_effect_exposure	暴露
+status_effect_frigid	过冷
+status_effect_exposure	暴露(在恶劣天气中)
 status_effect_foodpoisoning	食物中毒
-status_effect_riledup	惱羞成怒
+status_effect_riledup	被激怒
 status_effect_statusswimming	游泳
 status_effect_statusdrowning	溺水
 
@@ -2600,8 +2601,8 @@ need_name_staffenvironment	环境
 need_name_staffrest	休息
 need_name_staffwarmth	保暖
 need_name_luxuries	奢侈品
-needs_locked	(需要心理学家来揭示囚犯的需求)
-needs_title	=[需求]=
+needs_locked	(需要心理学家来揭示需求)
+needs_title	【需求】
 
 needs_total_prisoners	▁ *X 个囚犯有这个需求\n
 needs_total_concerned	▃ *X 个囚犯为这个需求所苦恼
@@ -3238,7 +3239,7 @@ object_pipehotwater				热水管
 object_stafffood				员工餐
 object_stafffoodboxed			员工餐
 object_newspaper				报纸
-object_strikefire				火桶
+object_strikefire				抗议之火
 object_Limo						防暴警车\n(剧情用)
 object_SmokeGenerator			烟雾生成器
 object_Smoke					烟雾生成器
@@ -3344,14 +3345,14 @@ equipment_none	无
 equipment_fists	拳头
 equipment_baton	警棍
 equipment_club	木棍
-equipment_shank	刀柄
+equipment_shank	刃尖
 equipment_knife	小刀
 equipment_fork	叉子
-equipment_gun	枪
+equipment_gun	手枪
 equipment_spoon	勺子
-equipment_needle	针
+equipment_needle	注射器
 equipment_booze	烈酒
-equipment_poison	毒药
+equipment_poison	毒物
 equipment_cigs	香烟
 equipment_saw	锯子
 equipment_jailkeys	监狱钥匙
@@ -3362,16 +3363,16 @@ equipment_drugs	毒品
 equipment_sheers	大剪刀
 equipment_mop	拖把
 equipment_rake	耙子
-equipment_hose	软管
-equipment_spatula	铲
+equipment_hose	消防软管
+equipment_spatula	抹刀
 equipment_woodenspoon	木勺
 equipment_cleaningbrush	清洁刷
 equipment_hammer	锤子
-equipment_clipboard	笔记板
+equipment_clipboard	写字板
 equipment_drill	钻头
 equipment_pianowire	钢琴线
-equipment_scissors	剪刀
-equipment_medicine	药品
+equipment_scissors	小剪刀
+equipment_medicine	药物
 equipment_shotgun	霰弹枪
 equipment_moneybag	钱袋
 equipment_tazer	电击枪
@@ -3408,7 +3409,7 @@ reformprogram_spiritualguidance	[其它]精神引导
 reformprogram_parolehearing	[其它]假释听证会
 reformprogram_deathrowappeal	[其它]死刑上诉
 
-reformprogram_tazertrained	持有执照：电击枪
+reformprogram_tazertrained	已有执照：电击枪
 
 reformprogram_workshopinduction_text	安全第一！囚犯必须通过这门课程才能在工坊工作。
 reformprogram_foundationeducation_text	许多囚犯甚至缺乏基本的阅读、写作和数学技能。\n本课程旨在使囚犯达到基本水平。通过的囚犯可在图书馆工作。\n难度为25。总课时极长。好在同时上课的人数够多。
@@ -3531,41 +3532,41 @@ doortimer_security_DeathRow	死刑犯
 # Execution
 # =============================================================================
 
-execution_stage_completed	完成
-execution_stage_authorise	授权
-execution_stage_Start	已启动处决
-execution_stage_Lockdown	发起全监狱封锁
-execution_stage_Testing	测试设施
-execution_stage_Assemble	汇总行刑细节
-execution_stage_Witnesses	护送死刑见证人至行刑室
+execution_stage_completed	[已完成]
+execution_stage_authorise	批准
+execution_stage_Start	行刑流程已启动
+execution_stage_Lockdown	启动全监狱戒严
+execution_stage_Testing	测试功能
+execution_stage_Assemble	召集行刑特派组
+execution_stage_Witnesses	护送见证人至行刑室
 execution_stage_Escort	护送囚犯至行刑室
-execution_stage_Execution	行刑
+execution_stage_Execution	行刑！
 execution_stage_Dismissed	解散员工及见证人
 execution_stage_FinalReport	最终报告
 
-execution_stagetooltip_start	你安排了这名囚犯的处决时间，现在必须遵循正式程序。
-execution_stagetooltip_lockdown	所有囚犯返回自己的牢房，封锁监狱。
-execution_stagetooltip_testing	最终测试确保一切正常运作。正在负载状态下测试电椅的电力供给。另外，囚犯最终路线已经确定——他必须能够自己走到行刑室。
-execution_stagetooltip_assemble	监狱长和看守长走向死囚牢房。此外，囚犯选择的牧师或精神领袖也会到达现场，探望狱中的囚犯，进行最后一次祷告。
-execution_stagetooltip_witnesses	死刑见证人到场，前往行刑室。见证人包括囚犯家属以及受害人家属。\n\n注意，需要向死刑见证人提供座椅。
-execution_stagetooltip_escort	把将要被处决的囚犯从牢房押送至行刑设施，由典狱长、安保主管以及牧师陪同。
-execution_stagetooltip_execution	所有人到场，所有程序进行完毕，给予处决的最终授权。
+execution_stagetooltip_start	你安排了该囚犯的处决时间，现在必须遵循正式流程。
+execution_stagetooltip_lockdown	所有囚犯被送回自己的牢房。封锁监狱。
+execution_stagetooltip_testing	最终测试，以确保一切正常运作。\n在负载条件下测试电椅的通电。\n此外，囚犯的最终路线要被安排好——\n他必须能够亲自走到行刑室。
+execution_stagetooltip_assemble	典狱长和安保主管前往将要被处死的囚犯的牢房。\n另外，囚犯指定的的牧师或者精神领袖也要到场，\n让囚犯做最后的祷告。
+execution_stagetooltip_witnesses	死刑见证人到场，前往行刑室。\n见证人包括囚犯家属以及受害人家属。\n\n注：最好给死刑见证人提供椅子。
+execution_stagetooltip_escort	把将要被处决的囚犯从牢房押送至行刑设施，\n由典狱长、安保主管以及牧师陪同。
+execution_stagetooltip_execution	所有人到场且所有流程完毕，给予处决最终许可。
 execution_stagetooltip_dismissed	解散员工及见证人，让其离开行刑室。
 execution_stagetooltip_finalreport	行刑结束后，会出具一份报告以评估你的表现。
 
-execution_underway	正在行刑
-execution_result_ok	对*N的电椅死刑在见证人在场的情况下于*T如期进行，执行死刑的监狱获得了10,000美元的标准补偿。
-execution_result_appealed	对*N的电椅死刑在见证人在场的情况下于*T如期进行。令人遗憾的是，新的信息表明囚犯本能够成功上诉并获得宽大处理。但是执行死刑的监狱不会被惩罚，他们仍能获得10,000美元的标准补偿。
-execution_result_innocent	对*N的电椅死刑在见证人在场的情况下于*T如期进行。令人遗憾的是，后来发现证据表明*N是无辜的。但是执行死刑的监狱不会被惩罚，他们仍能获得10,000美元的标准补偿。
-execution_result_illegal	对*N的电椅死刑在见证人在场的情况下于*T如期进行。由于未遵循必要的上诉流程并发现能最终导致成功上诉的信息，该监狱被罚款50,000美元。由于未能遵从合法协议，行刑推后，未受刑的死刑犯被转移至其他监狱。
-execution_result_illegalinnocent	对*N的不合法电椅死刑在见证人在场的情况下于*T如期进行。由于未能遵循必要的上述流程且事实上*N是无辜的，该监狱的负责人被立即撤职。
-execution_warning_one	如果这里再发生不遵循正确程序而进行的处决，你将被解雇。
-execution_warning_two	由于你过去未能遵循正确的程序，如果再次以同样方式违反协议，你将被解雇。
+execution_underway	执行死刑
+execution_result_ok	对 *N 的电椅死刑，\n在见证人在场的情况下，于*T如期执行。\n\n执行死刑的监狱获得了10,000元的标准报酬。
+execution_result_appealed	对 *N 的电椅死刑，\n在见证人在场的情况下，于*T如期执行。\n\n令人遗憾的是，新的信息表明，\n囚犯本能够成功上诉并获得宽大处理。\n\n但是执行死刑的监狱不会被惩罚，\n他们仍能获得10,000元的标准报酬。
+execution_result_innocent	对 *N 的电椅死刑，\n在见证人在场的情况下，于*T如期执行。\n\n令人遗憾的是，有证据表明此人是无辜的。\n\n但是执行死刑的监狱不会被惩罚，\n他们仍能获得10,000元的标准报酬。
+execution_result_illegal	对 *N 的电椅死刑，\n在见证人在场的情况下，于*T如期执行。\n\n由于法律规定的上诉流程未被遵循，\n且发现本能最终导致成功上诉的信息，\n该监狱被罚款50,000元。\n\n由于你未能遵从正当协议，行刑被推后，\n剩余的死刑犯会被转移给其他监狱。
+execution_result_illegalinnocent	对 *N 的非法电椅死刑，\n在见证人在场的情况下，于*T如期执行。\n\n由于法律规定的上诉流程未被遵循，且事实上\n此人是无辜的，本监狱的负责人被撤职，\n立即生效。
+execution_warning_one	\n\n如果下次这里进行的处决还不遵循正确流程，\n你将被开除。
+execution_warning_two	\n\n由于你过去未能遵循正确的流程，如果再次\n以同样方式违反协议，你将被开除。
 
 execution_error_MissingEquipment	错误：缺少设备\n你需要给行刑室提供电椅。
 execution_error_ElectricalSupply	错误：电力故障\n电椅电力不足。
 execution_error_NavigationPrisoner	错误：囚犯路线\n囚犯无法从牢房走向行刑室。
-execution_error_NoRouteFromRoad	错误：无法进入\n外部死刑见证人无法到达行刑室。
+execution_error_NoRouteFromRoad	错误：无法进入\n外部来的见证人无法到达行刑室。
 execution_error_NoSpaceInRoom	错误：空间不足\n行刑室没有足够的空间容纳前来的人。
 execution_error_NoRoom	在行刑前你需要一间行刑室
 
@@ -3577,14 +3578,14 @@ roomerror_laundryoverloaded	无法卸下洗衣篮。洗衣房可能太小，无�
 # Misc
 # =============================================================================
 
-box_contents	内容： *X
-stack_contents	内容： *X x *Y
-mail_contents	内容：*X 封信件
-mail_opened_from	来自*X的*F的信件
-mail_closed_from	给*X的信件
+box_contents	内含：*X
+stack_contents	内含：*X × *Y
+mail_contents	内含：*X 封信
+mail_opened_from	来自 *X 的 *F
+mail_closed_from	给 *X 的信
 
 object_dump	垃圾
-object_todo	待办事项： *X
+object_todo	待办事项：*X
 object_sale_price	售价：*X
 
 object_door_cyclepermissions	点击以循环切换进出许可
@@ -3597,9 +3598,9 @@ object_firemen_hosehelp	你也可以按住H键，手动瞄准消防软管
 interface_clone_help_copy	按住鼠标右键拖动以选择克隆区域
 interface_clone_help_paste	点击鼠标左键复制选定区域
 
-object_inactive	未启动
-object_cctv_moremonitors	建造更多闭路电视监视器
-object_cctvmonitor_needsguards	需要警卫操作监视器
+object_inactive	[不起作用]
+object_cctv_moremonitors	需要从闭路电视监视器连接过来
+object_cctvmonitor_needsguards	需要由警卫操作
 object_processor_blocked	无法到达工作位置
 
 administrator_requiresoffice	需要办公室
@@ -3609,8 +3610,8 @@ office_ownership	*X的办公室
 teacher_teaching	教学中
 teacher_preparing	准备中
 
-prisoner_assignedto	需要： *X
-prisoner_roomquality	牢房质量：*X (*Y)
+prisoner_assignedto	需要：*X
+prisoner_roomquality	牢房品质：*X (*Y)
 prisoner_roomquality_average	平均
 prisoner_roomquality_aboveaverage	高于平均
 prisoner_roomquality_wayaboveaverage	远高于平均
@@ -3620,15 +3621,15 @@ prisoner_attendance	出勤
 prisoner_concentration	专心
 prisoner_understanding	理解
 prisoner_concentration_0	非常差
-prisoner_concentration_1	坏
+prisoner_concentration_1	较差
 prisoner_concentration_2	一般
-prisoner_concentration_3	好
+prisoner_concentration_3	较好
 prisoner_concentration_4	非常好
 prisoner_passchance	成功几率：*X%
 prisoner_informant	秘密线人
 
-prisoner_dayswithoutincident	*X天无事件
-prisoner_availablemoney	现金：*X美元
+prisoner_dayswithoutincident	*X 天没闹事
+prisoner_availablemoney	零用钱：$*X
 
 informant_title	秘密线人
 informant_coverage	覆盖率
@@ -3665,16 +3666,16 @@ staff_exhausted	精疲力竭
 staff_tired	疲劳
 staff_pissedoff	愤怒
 staff_onstrike	罢工了
-staff_needsrest	员工更喜欢在员工休息室休息
+staff_needsrest	员工更喜欢在 员工休息室 里休息
 
-dog_needskennel	狗需要警犬休息室休息
+dog_needskennel	警犬需要 狗舍 和 狗笼 来睡觉
 
-doctor_requireinfirmary	需要医务室
+doctor_requireinfirmary	需要 医务室
 
-entity_carryingequipment	携带着 *X
-entity_carryingkeys	携带着监狱钥匙
-entity_carryingstaffkeys	携带着员工钥匙
-entity_wearingarmour	穿着*X
+entity_carryingequipment	携带 *X
+entity_carryingkeys	携带 监狱钥匙
+entity_carryingstaffkeys	携带 员工钥匙
+entity_wearingarmour	穿着 *X
 
 reports_schedule	重新安排所有项目
 reports_edit	编辑时刻表
@@ -3686,13 +3687,14 @@ reports_unlockbankloans	由会计解锁
 drugs_heroin	海洛因
 drugs_cocaine	可卡因
 
-visitor_relationship	*X的*Y
+visitor_relationship	*X 的 *Y
 # Eg "Bob's Mother"
 visitor_age	年龄：*X
 
+family_none	无
 family_wife	妻子
 family_exwife	前妻
-family_girlfriend	女朋友
+family_girlfriend	女友
 family_son	儿子
 family_daughter	女儿
 family_mother	母亲
@@ -3703,16 +3705,15 @@ family_lawyer	律师
 family_priest	牧师
 family_victims	受害者家属
 family_caption	家庭成员：
-family_none	无
 family_husband	丈夫
 family_exhusband	前夫
 family_boyfriend	男友
 
 damage_dead	死亡
 damage_unconscious	昏迷
-damage_serious	严重受伤
-damage_injured	受伤
-damage_amount	*X%已受损
+damage_serious	重伤
+damage_injured	轻伤
+damage_amount	*X% 受损
 
 message_autosaving	正在自动存档...
 
@@ -3725,8 +3726,8 @@ deploymentscheduler_scheduletime	显示 *X:00 到 *Y:00 的部署
 supplyanddemand_supplyheader	供给
 supplyanddemand_demandheader	需求
 
-tooltip_multipleobjects	按TAB切换对象
-remotedoor_noservo	未连接正常工作伺服器的遥控门不会打开
+tooltip_multipleobjects	(按Tab键循环对象提示)
+remotedoor_noservo	需要有伺服器才能开门
 
 targettingfood_prisonersassigned	指派的囚犯: *X
 targettingfood_predicteddemand	=预测需求=
@@ -3795,9 +3796,9 @@ weather_snow	雪
 weather_heatwave	酷暑
 weather_torrentialrain	暴雨
 
-prisoner_cellerror_nonefree	沒有空牢房給這一名囚犯
-prisoner_cellerror_toohighquality	所有可用牢房對這名囚犯來說品質過高
-prisoner_cellerror_nosolitary	這名囚犯需要被關到禁閉室，但沒有可用的禁閉室
+prisoner_cellerror_nonefree	没有空牢房给该囚犯
+prisoner_cellerror_toohighquality	所有可用牢房对该囚犯来说品质过高
+prisoner_cellerror_nosolitary	该囚犯需要被关到禁闭室，但没有可用的禁闭室
 
 group_all_staff	所有员工
 staff_onbreak	休息
