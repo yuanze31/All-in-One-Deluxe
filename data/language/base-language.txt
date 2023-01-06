@@ -4,7 +4,7 @@
 
 # 劳工 Start
 object_Laborer							劳工
-buildtoolbar_popup_staff_Laborer		没有人使用工坊？不妨让这些劳工帮你创造更多的收入。
+buildtoolbar_popup_staff_Laborer		没有人使用工坊？不妨让这些劳工帮你创造更多的收入。\n\n- 略微带有作弊之意，可以按照自身喜好选择是否使用
 # 劳工 End
 
 # 声音编辑器(F5)
@@ -455,7 +455,7 @@ research_PrisonerEvaluation 评估囚犯
 researchtooltip_PrisonerEvaluation 监狱的主要使命是降低囚犯们的再犯罪率。\n及时地评估囚犯，会有助于你关注这一课题。\n\n · 解锁项目“近距离接触”\n · 解锁新员工“大胆的主持人”\n · 解锁项目“危险的座谈”\n\n你可以了解各个囚犯的“不满爆发点”和“再犯罪可能性”，\n并转化成经济效益。
 
 reformprogram_CloseContact [特殊]近距离接触
-reformprogram_CloseContact_text 让你的典狱长走出被行政文件包围的办公室。\n他会观察周围的囚犯们，评估并记录其再犯罪可能性。\n每当一名囚犯有阶段性的进步，你会收到政府的奖金。\n\n典狱长会每3分钟评估一个人次。\n被评估的囚犯需要在10米之内。\n同一个囚犯的评估间隔至少为12小时。\n\n囚犯的“再犯罪可能性”的最低值会被记录。\n每当这个值下降经过5%的整数倍，会产生100元奖金。\n当典狱长接触囚犯时，其积累的奖金会被生成。\n\n由于技术限制，必须随机地强制一个囚犯来“参加”本项目。\n\n建议你[编辑时刻表]，以合理安排时间和地点。
+reformprogram_CloseContact_text 让你的典狱长走出被行政文件包围的办公室。\n他会观察周围的囚犯们，评估并记录其再犯罪可能性。\n每当一个囚犯有阶段性的进步，你会收到政府的奖金。\n\n典狱长会每3分钟评估一个人次。\n被评估的囚犯需要在10米之内。\n同一个囚犯的评估间隔至少为12小时。\n\n囚犯的“再犯罪可能性”的最低值会被记录。\n每当这个值下降经过5%的整数倍，会产生100元奖金。\n当典狱长接触囚犯时，其积累的奖金会被生成。\n\n由于技术限制，必须随机地强制一个囚犯来“参加”本项目。\n\n建议你[编辑时刻表]，以合理安排时间和地点。
 
 object_MoneyBag1000 奖金($1000)
 object_MoneyBag100 奖金($100)
@@ -583,12 +583,12 @@ ellipsis	...
 # Dialog Editor
 # =============================================================================
 
-dialogeditor_title	对话编辑器
+dialogeditor_title	对话框编辑器(F4)
 dialogeditor_back	后退
 dialogeditor_front	前进
 dialogeditor_reloadlanguage	重新加载语言
 dialogeditor_test	测试
-dialogeditor_window	视窗
+dialogeditor_window	窗口
 dialogeditor_grid	网格
 dialogeditor_caption	标题
 dialogeditor_component	组件
@@ -607,7 +607,7 @@ dialogcomponent_inputfield	输入区
 dialogcomponent_inputslider	输入条
 dialogcomponent_dropdownmenu	下拉菜单
 dialogcomponent_selectionlist	选择列表
-dialogcomponent_selectionlistitem	选择列表项目
+dialogcomponent_selectionlistitem	选择列表项
 dialogcomponent_scrollbar	滚动条
 dialogcomponent_progressbar	进度条
 dialogcomponent_canvas	画布
@@ -617,15 +617,19 @@ dialogposition_absolute	绝对位置
 dialogposition_relative	相对位置
 dialogposition_scaled	按比例放置
 
+dataregistryeditor_title 数据注册表编辑器
 
 # =============================================================================
 # Profiler
 # =============================================================================
 
-profiler_title	分析器
+profiler_title	分析器(F2)
 profiler_name	名称
 profiler_timings	计时
 profiler_totaltime	总计
+profiler_Mode_total	总计
+profiler_Modetotal	总计
+profiler_total	总计
 profiler_glfinishcaption	glFinish
 profiler_reset	重置
 
@@ -634,8 +638,8 @@ profiler_reset	重置
 # Sound tools
 # =============================================================================
 
-soundchannelviewer_title	声音频道
-soundeditor_title	声音编辑器
+soundchannelviewer_title	声道
+soundeditor_title	声音编辑器(F5)
 soundinstanceeditor_title	声音实例编辑器
 
 soundeditor_positiontitle	位置类型
@@ -935,7 +939,7 @@ interface_error_riotmove	无法进入：暴动
 
 interface_foundationsinprogress	地基在建造中
 riot_underway	发生暴动！
-riot_status_prisoners	*X 名囚犯正在暴动
+riot_status_prisoners	*X 个囚犯正在暴动
 shakedown_underway	正在进行彻底搜查
 shakedown_found	查获：
 
@@ -1745,7 +1749,8 @@ graphicschange_revert	还原
 # Script
 # =============================================================================
 
-scriptdebugger_title	脚本调试器 (F3)
+scriptdebugger_title	脚本调试器(F3)
+scriptdebugger_output	输出
 
 # =============================================================================
 # Mod Confirmation
@@ -2198,7 +2203,7 @@ salecondition_cannotsell	必须满足以下条件你才能出售监狱或股份�
 salecondition_minimumvalue	最低50,000美元的估值
 salecondition_cashflow	正现金流
 salecondition_accountant	拥有会计
-salecondition_minprisoners	至少有20名囚犯
+salecondition_minprisoners	至少有20个囚犯
 salecondition_recentdeaths	最近无人死亡
 salecondition_recentescapes	最近无人越狱
 salecondition_passed	[合格]
@@ -2315,10 +2320,10 @@ victory_Bankrupt	破产
 victory_Riot	失控暴动
 victory_TooManyDeaths	玩忽职守
 victory_TooManyEscapes	安全灾难
-victory_remaining	余下的
+victory_remaining	剩余考察时间
 victory_death	死亡
 victory_escapes	越狱
-victory_counter	(*X今天)
+victory_counter	(今日 *X 人)
 victory_executions	非法处决
 victory_innocentsexecuted	处决了无辜囚犯
 victory_staffdeaths	员工死亡事故
@@ -2327,47 +2332,47 @@ victory_staffstrike	员工罢工
 
 victory_warning_bankrupt	你有24个小时来消除财政危机。
 victory_warning_riot	迅速制止暴动，否则政府将被迫接管指挥权。
-victory_warning_toomanydeaths	如果今天死亡人数过多，你将被起诉。
+victory_warning_toomanydeaths	如果今天死亡人数过多，你将面临起诉。
 victory_warning_toomanyescapes	如果今天有更多囚犯越狱，你将遭到解雇。
-victory_warning_executions	如果另一名无辜的囚犯被处决，则您将被解雇。
+victory_warning_executions	今天你处决死刑犯时，必须严格遵循正式流程。
 victory_warning_staffpayrise	如果再不提高薪酬，你的员工就快要罢工了。
 victory_warning_staffstrike	你的员工罢工了！
 victory_warning_staffonstrike	员工已经在罢工——我们失去了大约90%的警卫力量！\n如果不在今天提高薪酬，他们威胁要彻底走人了。
 
-victory_prisoners_units	放置
-victory_prisonersreleased_units	释放
-victory_toomanydeaths_units	死亡
-victory_toomanyescapes_units	越狱
-victory_executions_units	无辜处决
+victory_prisoners_units	处地方
+victory_prisonersreleased_units	个囚犯被释放
+victory_toomanydeaths_units	人死亡
+victory_toomanyescapes_units	个囚犯越狱
+victory_executions_units	非法处决
 victory_staffpay_units	满足涨薪要求
 
-victory_prisonersparoled	假释的囚犯
-victory_prisonersreoffended	再犯罪囚犯
+victory_prisonersparoled	个囚犯被假释
+victory_prisonersreoffended	个囚犯再犯罪
 
-victory_adviserwarning_toomanydeaths1	昨天是这座监狱历史上十分黑暗的一刻。太多人在这里失去了生命。
+victory_adviserwarning_toomanydeaths1	昨天，是这座监狱历史上十分黑暗的一页。\n太多太多人在这里失去了生命。
 victory_adviserwarning_toomanydeaths2	确保今天没人再死去，否则你会被控玩忽职守罪。
-victory_advisernotice_toomanydeaths1	别说我们没警告过你。由于最近这里发生的事件，你被判玩忽职守罪。
-victory_advisernotice_toomanydeaths2	你因犯罪被判在自己的监狱服刑十年。祝你好运。
-victory_adviserwarning_riot1	你的监狱失控了。立刻镇压暴动，否则政府就要干涉并用武力收回监狱。
-victory_advisernotice_riot1	你没能控制这次暴动。政府已撤销我们的监狱合约，现在派了国民警卫队来夺回监狱。
-victory_adviserwarning_toomanyescapes1	我们面临潜在的公关危机。近期有太多囚犯越狱，这是你的责任。
-victory_adviserwarning_toomanyescapes2	封闭此区域，确保没人能够越狱，否则媒体会对你口诛笔伐。
+victory_advisernotice_toomanydeaths1	别说我们没警告过你。\n由于最近这里发生的事件，你被判玩忽职守罪。
+victory_advisernotice_toomanydeaths2	你因犯罪被判入狱服刑十年。祝你好运。
+victory_adviserwarning_riot1	你的监狱失控了。立刻镇压暴动。\n否则，政府就要干涉并用武力收回监狱。
+victory_advisernotice_riot1	你没能控制这次暴动。\n政府已吊销我们的监狱合约，并派出国民警卫队来夺回监狱。
+victory_adviserwarning_toomanyescapes1	我们即将面临公关危机。近期有太多囚犯越狱，这是你的错。
+victory_adviserwarning_toomanyescapes2	封锁这个地方，确保再没有人能够越狱，否则媒体会对你口诛笔伐。
 victory_advisernotice_toomanyescapes1	你失败了。这座监狱成了媒体的笑柄，他们需要讨伐的对象。
 victory_advisernotice_toomanyescapes2	那个对象就是你。你被解雇了。
 victory_adviserwarning_bankrupt1	我们破产了！你极糟的管理能力使监狱陷入财政危机。
 victory_adviserwarning_bankrupt2	迅速设法解决这个问题，否则你会被解雇。
-victory_advisernotice_bankrupt1	我们被迫宣布破产，把这座监狱交给政府管理。你失败了。
-victory_adviserwarning_wardendeaths1	为你工作风险实在太高。我们很难再找到愿意在这座监狱当典狱长的人。
+victory_advisernotice_bankrupt1		我们被迫宣布破产，把这座监狱交给政府管理。你失败了。
+victory_adviserwarning_wardendeaths1	为你工作风险实在太高了。\n我们很难再找到愿意在这座监狱工作的典狱长。
 victory_adviserwarning_wardendeaths2	如果你再让典狱长死掉，我们就只好让解雇你了。
-victory_advisernotice_wardendeaths1	你没能为典狱长提供安全的工作环境。所有人都害怕给你工作。
+victory_advisernotice_wardendeaths1	你没能为典狱长提供安全的工作环境。\n所有人都害怕给你工作。
 victory_advisernotice_wardendeaths2	除了让你走我们别无选择。你被解雇了。
-victory_adviserwarning_reoffenders1	很多你提前释放的囚犯又再次犯罪了，如果不能控制这种情况，我们将付出惨重代价。
-victory_adviserwarning_reoffenders2	如果又有很多囚犯被释放后再次犯罪，你将成为众矢之的。
+victory_adviserwarning_reoffenders1	很多你提前释放的囚犯又再犯罪了，如果不能控制这种情况，\n我们将付出惨重代价。
+victory_adviserwarning_reoffenders2	如果又有很多囚犯被释放后再犯罪，你将成为众矢之的。
 victory_advisernotice_reoffenders1	你放出了太多危险罪犯。我们只能让你走。你失败了。
 victory_adviserwarning_executions1	这是你第二次处死无辜囚犯了。公众表示强烈不满。
 victory_adviserwarning_executions2	如果再有无辜的囚犯被处死，你要承担责任。
-victory_advisernotice_executions1	你处死了太多无辜的囚犯。我们不能再让你管理这座监狱。你失败了。
-victory_advisernotice_InnocentsExecuted1	你刚刚未按照适当的程序处死囚犯，结果发现这名囚犯是无辜的。这是严重的误判，你难辞其咎。你被解雇了，或许还会有牢狱之灾。
+victory_advisernotice_executions1	你处死了太多无辜的囚犯。我们不能再让你管理这座监狱。\n你失败了。
+victory_advisernotice_InnocentsExecuted1	你刚刚未按照适当的流程处死囚犯，结果发现该囚犯是无辜的。\n这是严重的误判，你难辞其咎。\n你被解雇了，或许还会有牢狱之灾。
 victory_adviserwarning_staffpayrise1	我们的员工对在监狱的工作条件感到不高兴，\n并威胁要得到50%的涨薪，否则就罢工。
 victory_adviserwarning_staffstrike1	我们的员工罢工了！如果得到50%的涨薪，他们还是愿意回来的。
 
@@ -2375,8 +2380,8 @@ score_title	监狱评级
 score_reoffendingrate	再犯罪率
 score_prisonersreleased	*X 个囚犯已被释放
 score_minimumprisonersreleased	必须有 *X 个囚犯被释放后，才能编制此报告
-score_deaths	*X 名囚犯在监禁期间死亡
-score_escapes	*X 名囚犯越狱
+score_deaths	*X 个囚犯在服刑期间死亡
+score_escapes	*X 个囚犯越狱
 score_reoffendingchance	估计再犯罪几率：
 score_startingreoffendingchance	刚来时的几率：*X%
 score_prisonersparoled	提早假释数 | 再犯罪率
@@ -2928,7 +2933,7 @@ objective_grant_educationreformprogram_research	通过[行政系统]解锁“教
 objective_grant_educationreformprogram_classroom	建造 教室
 objective_grant_educationreformprogram_desks	安装10张 课桌
 objective_grant_educationreformprogram_foundationed	令10个囚犯通过 基础教育课程 项目
-objective_grant_educationreformprogram_generaled	让1名囚犯通过 普通教育课程 项目
+objective_grant_educationreformprogram_generaled	让1个囚犯通过 普通教育课程 项目
 objective_grant_educationreformprogram_generaled 在监狱各处，安装5个 小书架
 
 objective_grant_prisonlabour	监狱制造设施
@@ -2936,7 +2941,7 @@ objective_grant_prisonlabour_description	投资人想让你提高监狱的盈利
 objective_grant_prisonlabour_workshop	建造 工坊
 objective_grant_prisonlabour_saw	安装2个 锯木台
 objective_grant_prisonlabour_press	建造2个 电锯台
-objective_grant_prisonlabour_reform	让5名囚犯通过 工坊安全方案 项目
+objective_grant_prisonlabour_reform	让5个囚犯通过 工坊安全方案 项目
 objective_grant_prisonlabour_plates	制作30个 车牌
 
 objective_grant_furnituremanufacturing	木工学徒项目
@@ -3769,7 +3774,7 @@ roomerror_noprisoners	没有指派 牢房区块 的囚犯到此食堂吃饭。
 roomerror_nocanteen_cells	从此牢房无法抵达任何食堂。\n此牢房中的囚犯没有吃饭的地方。
 roomerror_nocanteen_kitchen	从此厨房无法抵达任何食堂。\n厨房在吃饭时间不会烹制任何食物。
 
-ceos_letter	更新(2017-07-23)：\n[同步] 跟进12b版本升级，补上了翻译。\n[改进] 不端行为标记 变得更小且更加透明，这样就不太阻挡你的视线了。\n[改进] 睡眠加速(仅限启用了作弊模式)时，以前会“购买”特殊物品“睡眠加速需求调整”，花费惊人的金额。现在它的价格改成0，并且不再在物品菜单中显示。\n[修复]有六种房间里，即使并非“员工专区”，员工也应该能够休息。我以前不知道这一点，意外地导致员工无法休息。\n[修复]雇佣“工头”时的一个错误。\n[修复][报告/需求]窗口还是官方更新并添加“员工需求”之前的，导致无法查看员工需求。\n[修复]代号48无法在一开始就被移除，而需要先碰到一名囚犯才能出现\n"终止任务并退场"的选项。\n[修复]升级了分拣帮派成员的摄像头，在分拣囚犯时会导致弹出调试窗口。\n\n亲爱的先生/女士：\n\n恭喜你完成基本入门。你现在是完全合格的监狱建筑师了！很快你就会从\n空置地块和几堆砖块开始设计、建造并经营你自己的监狱。在开始之前，\n我想我或许可以给你分享一些重要的经验教训。\n\n1. 每个监狱都需要典狱长——他应当是你最先雇用的人员之一。给他建一间\n漂亮的办公室，他会通过[行政系统]，开启一系列高级功能。\n\n2. 单人牢房很贵，特别是在早期资金紧张时。为了存下钱来，先从一个\n大型的拘留室起步吧；它马上就可以给很多囚犯共同使用。\n\n3. 设立厨房和食堂，并在第一个囚犯抵达之前开始运营。别忘了雇用厨师\n——没有什么比空空的胃更能激怒囚犯！\n\n4. 建造监狱是一项昂贵的事业，你需要擅长通过补助与合同，筹集大笔资金。\n你可以从右下角的[报告]窗口，访问[补助]标签页。\n\n我要讲的就是这些——祝你好运！\n\n监狱建筑师公司\n首席执行官\n\n\n附赠小提示：\n · 按 - 和 + 键，可以缩放界面比例。\n · 按1、2、3、4可以设定时钟速度为1、2、5、10倍。\n  (界面上的三个按钮，则是更快的2、4、10倍。)\n · 经常存档是个好习惯。(我偶尔会遇到程序崩溃的情况。)\n\n{中文豪华版} 祝你游戏愉快！\nyuanze3131@gmail.com
+ceos_letter	更新(2017-07-23)：\n[同步] 跟进12b版本升级，补上了翻译。\n[改进] 不端行为标记 变得更小且更加透明，这样就不太阻挡你的视线了。\n[改进] 睡眠加速(仅限启用了作弊模式)时，以前会“购买”特殊物品“睡眠加速需求调整”，花费惊人的金额。现在它的价格改成0，并且不再在物品菜单中显示。\n[修复]有六种房间里，即使并非“员工专区”，员工也应该能够休息。我以前不知道这一点，意外地导致员工无法休息。\n[修复]雇佣“工头”时的一个错误。\n[修复][报告/需求]窗口还是官方更新并添加“员工需求”之前的，导致无法查看员工需求。\n[修复]代号48无法在一开始就被移除，而需要先碰到一个囚犯才能出现\n"终止任务并退场"的选项。\n[修复]升级了分拣帮派成员的摄像头，在分拣囚犯时会导致弹出调试窗口。\n\n亲爱的先生/女士：\n\n恭喜你完成基本入门。你现在是完全合格的监狱建筑师了！很快你就会从\n空置地块和几堆砖块开始设计、建造并经营你自己的监狱。在开始之前，\n我想我或许可以给你分享一些重要的经验教训。\n\n1. 每个监狱都需要典狱长——他应当是你最先雇用的人员之一。给他建一间\n漂亮的办公室，他会通过[行政系统]，开启一系列高级功能。\n\n2. 单人牢房很贵，特别是在早期资金紧张时。为了存下钱来，先从一个\n大型的拘留室起步吧；它马上就可以给很多囚犯共同使用。\n\n3. 设立厨房和食堂，并在第一个囚犯抵达之前开始运营。别忘了雇用厨师\n——没有什么比空空的胃更能激怒囚犯！\n\n4. 建造监狱是一项昂贵的事业，你需要擅长通过补助与合同，筹集大笔资金。\n你可以从右下角的[报告]窗口，访问[补助]标签页。\n\n我要讲的就是这些——祝你好运！\n\n监狱建筑师公司\n首席执行官\n\n\n附赠小提示：\n · 按 - 和 + 键，可以缩放界面比例。\n · 按1、2、3、4可以设定时钟速度为1、2、5、10倍。\n  (界面上的三个按钮，则是更快的2、4、10倍。)\n · 经常存档是个好习惯。(我偶尔会遇到程序崩溃的情况。)\n\n{中文豪华版} 祝你游戏愉快！\nyuanze3131@gmail.com
 
 quickbuild_basiccell	基本牢房
 quickbuild_solitarycell	禁闭室
@@ -3840,8 +3845,8 @@ adviser_deathrow_church7	不管你曾经做过什么，只要你向上帝请求�
 adviser_deathrow_church8	但你必须在法律面前承认自己的罪行。别无选择。
 
 adviser_deathrowintro_1	这事很难办。
-adviser_deathrowintro_2	有名囚犯监禁在此，他犯有双重谋杀罪，被判处死刑
-adviser_deathrowintro_3	我们从那里进来。我们签了合同要为处决这名囚犯及时建造一间行刑室。
+adviser_deathrowintro_2	有个囚犯监禁在此，他犯有双重谋杀罪，被判处死刑
+adviser_deathrowintro_3	我们从那里进来。我们签了合同要为处决这个囚犯及时建造一间行刑室。
 adviser_deathrowintrob_1	我想把新设施建在这里。
 adviser_deathrowintrob_2	任何这种类似项目的第一步都是构造建筑本身——内部有足够的空间来布置行刑室和拘留室
 adviser_deathrowintrob_3	我们开始吧，在这里建造一座新建筑。
@@ -4018,90 +4023,90 @@ event_powerstationfire_x	功率骤增导致我们的发电机严重过载爆炸�
 event_powerstationfirelarge	功率骤增导致我们的发电机过载起火了！
 event_powerstationfirelarge_x	功率骤增导致我们的发电机严重过载爆炸了！
 event_kitchenfire	厨房着火了！
-event_waterpipeburst	水管爆裂了，水四处蔓延。尽快修好以避免造成严重损坏。
-event_bulkintake	附近监狱的灾难导致设施里的整个区块都无法使用。我不不得不将那里的囚犯转移到你的监狱，因为附近没有其他合适的设施。他们很快就会抵达。
-event_workshopaccident	工坊事故导致一名囚犯严重受伤，没办法移动他！快派一名医师！
+event_waterpipeburst	水管爆裂了，水四处蔓延。\n尽快修好以避免造成严重损坏。
+event_bulkintake	附近监狱的一场灾难导致其整个设施都无法使用。\n我们不得不将那里的囚犯转移到你的监狱，因为附近没有其他\n合适的设施。他们很快就会抵达。
+event_workshopaccident	工坊事故导致一个囚犯严重受伤，没办法移动他！快派一名医生！
 event_subsidence	地面下沉摧毁了我们的一部分外墙。你应该立即修补！
 event_earthquake	当地地震导致监狱的一个区块坍塌！
-event_virus	我们收到许多囚犯生病的报告。有必要甄别并对感染者进行隔离以防止传染。
-event_virus_x	我们收到许多囚犯生病的报告，症状似乎非常严重。你应该将病患隔离治疗以防大范围传染。
-event_treefire	你的林場著火了！
-event_foodpoisoning	我们持續收到囚犯食物中毒的報告。廚房的某些食物肯定壞了。不幸的是，病人除了等症狀退去，也別無他法。
-event_cilistleak	我们不知道为何，但是你的線人的資訊外洩了。如果我们不立刻將他们移到別處，他们將面臨真正的危險。
-event_keysersoze	根據近期備受關注的幫派案件指出，我们其中一名最低安全級別囚犯是高層幫派領袖。他们雖然保持低調，可是現在所有人都知道他们是誰...
-event_preacherconversion	一名富有魅力的囚犯成了某種傳教士，而其他人似乎也開始跟隨他。這不見得是一個大問題，但我们的囚犯很快地會有更多精神層面的需求。
+event_virus	我们收到许多囚犯生病的报告。\n有必要甄别感染者，并对他们进行隔离，以防止传染。
+event_virus_x	我们收到许多囚犯生病的报告，症状似乎非常严重。\n你应该将病患隔离治疗，以防大范围传染。
+event_treefire	你的林场着火了！
+event_foodpoisoning	我们持续收到囚犯食物中毒的报告。厨房的某些食物肯定坏了。\n不幸的是，病人除了等症状退去，也别无他法。
+event_cilistleak	我们不知道为何，但是你的线人们的信息外泄了。\n如果我们不立刻将他们移到别处，他们将面临真正的危险。
+event_keysersoze	近期有一起备受关注的帮派案件，表明我们这儿的\n一名低戒备的囚犯，其实是某帮派的高层领袖。\n虽然此人保持低调，可是现在每个人都知道了……\n(制作组在致敬电影《非常嫌疑犯》)...
+event_preacherconversion	一名富有魅力的囚犯成了某种传教士，而其他人似乎也开始跟随他。\n这不见得是一个问题，但囚犯们也许很快会有更多精神层面的需求。
 
 event_massassassination_1	联邦诉讼案件中的多名证人身份泄露，其中一些是我们监狱的囚犯。
-event_massassassination_2	已经有人找杀手想杀掉他们，但我们需要他们或者。你需要找出这些囚犯并保证他们在庭审开始之前安然无恙。
-event_massassassination_3_x	我们得到消息太晚，所以你并没有太多时间抢在杀手之前保护这些囚犯。
+event_massassassination_2	已经有人找杀手、想做掉他们，但我们需要他们活着。\n你需要找出这些囚犯，并保证他们在庭审开始之前安然无恙。
+event_massassassination_3_x	我们得到消息太晚，所以在杀手得手之前，留给你的时间不多。
 
-event_tvremovaldemand_1	媒體針對准予囚犯使用的設施發起運動，這为我的辦公室施加了很大壓力。
-event_tvremovaldemand_2	我正在通过一条禁止在监狱公共区域播放电视的法案。所以你需要移除公共房间里的所有电视机，否则会被罚款。你有6个小时的时间。
-event_tvremovaldemand_fine	你未能按照现行法律要求移除公共房间里的电视机。你将被持续罚款，直到符合要求。
-event_tvremovaldemand_complete	媒体注意力转移到一些别的事情上，禁止在公共房间安装电视机的法案已被废除。如果你愿意可以随时重新安装。
+event_tvremovaldemand_1	媒体针对给囚犯们提供的生活福利设施发起了一项运动，\n令我的部门受到很多非议。
+event_tvremovaldemand_2	我正在通过一条法案，禁止在监狱公共区域放置电视。\n所以你需要移除公共活动室里的所有电视，否则会被罚款。\n你有6个小时的时间。
+event_tvremovaldemand_fine	你未能按照现行法律要求，移除公共活动室里的电视。\n你将被持续罚款，直到你遵从为止。
+event_tvremovaldemand_complete	媒体注意力转移到一些别的事情上了。\n禁止在公共活动室放置电视的法案已被废除。\n如果你愿意，随时可以重新安装。
 
-event_weightsremovaldemand_1	媒体针对给囚犯们提供的康乐设施发起了一项活动，令我对监狱的管理遭受了很多批评。
-event_weightsremovaldemand_2	我正在通过一条禁止在监狱庭院放置健身设施的法案。所以你需要移除庭院里的所有举重床，否则会被罚款。你有6个小时的时间。
-event_weightsremovaldemand_fine	你未能按照现行法律要求移除庭院里的举重床。你将被持续罚款，直到符合要求。
-event_weightsremovaldemand_complete	媒体注意力转移到一些别的事情上，禁止在监狱庭院放置健身设施的法案已被废除。如果你愿意可以随时重新安装。
+event_weightsremovaldemand_1	媒体针对给囚犯们提供的生活福利设施发起了一项运动，\n令我的部门受到很多非议。
+event_weightsremovaldemand_2	我正在通过一条法案，禁止在监狱庭院放置健身设施。\n所以你需要移除庭院里的所有举重床，否则会被罚款。\n你有6个小时的时间。
+event_weightsremovaldemand_fine	你未能按照现行法律要求，移除庭院里的举重床。\n你将被持续罚款，直到你遵从为止。
+event_weightsremovaldemand_complete	媒体注意力转移到一些别的事情上了。\n禁止在监狱庭院放置健身设施的法案已被废除。\n如果你愿意，随时可以重新安装。
 
-event_lessfooddemand_1	董事会决定在我们的所有设施里试行多项节省资金的设施，你的监狱也包括在内。
-event_lessfooddemand_2	你需要将餐食分量和种类政策调节至“低”，这样我们就可以看到对总体预算的影响。
-event_lessfooddemand_fine	由于你未实施我们所要求的新食物政策，我们将直接从你的资金中扣取可能节省出来的金额。我们将持续这样做，直到你按我们要求的做。
-event_lessfooddemand_complete	食物预算试验结束了，结果无定论。你可随意设定食物政策。
+event_lessfooddemand_1	董事会决定在我们的所有设施里试行多项节省资金的设施。\n你的监狱也包括在内。
+event_lessfooddemand_2	你需要将伙食的份量和花样政策，都调节至“低”，\n这样我们就能看到它对总体预算有何影响。
+event_lessfooddemand_fine	由于你没有实施我们所要求的新伙食政策，我们将直接\n从你的资金中扣掉原本有望节省下来的金额。\n这会一直持续，直到你按我要求的做。
+event_lessfooddemand_complete	食物预算试验结束了，结果是没有定论。\n你又可以按你的意愿设定伙食政策了。
 
-event_removevisitationdemand_1	另一所设施发生的事故凸显了监狱家庭探视安全检查中的潜在问题。
-event_removevisitationdemand_2	在安检流程得到妥善审查之前暂停所有探视。你有12个小时的时间来移除监狱里的所有探视间。
-event_removevisitationdemand_fine	尽管目前有安全问题，你还是未能移除监狱中的探视间。你会被持续罚款，直到符合要求。
-event_removevisitationdemand_complete	我们已完成对探视流程的安全审查，你现在可以向监狱重新添加探视间。
+event_removevisitationdemand_1	另一所监狱发生事故，凸显了家庭探监的安全检查有潜在问题。
+event_removevisitationdemand_2	在安检流程得到妥善审查之前，暂停所有探监。\n你有12个小时的时间来移除监狱里的所有探监室。
+event_removevisitationdemand_fine	尽管目前存在安全问题，你还是没有移除监狱中的探监室。\n你会被持续罚款，直到你遵从为止。
+event_removevisitationdemand_complete	我们已完成对探监流程的安全审查。\n你现在可以向监狱重新添加探监室。
 
-event_lessworkdemand_1	我听说囚犯们对每天的工作时长颇有怨言，如果不减少工作时间他们就打算制造事端。一名警卫偷听到一些囚犯说如果工作时间超过两小时他们就会“毁掉这个地方”。
-event_lessworkdemand_2	一名守卫无意间听到囚犯说，如果他们必须工作两小时以上，他们就要“把监狱拆掉”。
-event_lessworkdemand_ignore	看起来囚犯们屈服并平静下来了。他们并不开心，但这次让他们知道了谁才是这里的大老板。
-event_lessworkdemand_complete	囚犯们现在不再抱怨工作时长——我猜他们把刚过去的几天当做休假了。我们能让他们重新开始工作而不生事端。
+event_lessworkdemand_1	我听说囚犯们对每天的工作时长颇有怨言，\n如果不减少工作时间他们就打算制造事端。
+event_lessworkdemand_2	一名警卫无意间听到囚犯说，如果他们必须工作两小时以上，\n那么他们就要“把监狱拆掉”。
+event_lessworkdemand_ignore	看起来囚犯们屈服并平静下来了。\n他们并不乐意，但这次让他们明白了，谁才是这儿的老大。
+event_lessworkdemand_complete	囚犯们现在不再抱怨工作时长——我猜他们把刚过去的几天当做休假了。\n我们能让他们重新开始工作而不生事端。
 
-event_moresleepdemand_1	有抱怨说囚犯们没有足够的睡眠时间，并为此感到非常愤怒。
-event_moresleepdemand_2	他们说如果每晚得不到至少7小时的睡眠时间，就会开始闹事。
-event_moresleepdemand_ignore	看起来囚犯们最终失去势头放弃了对缺乏睡眠的抗议。我猜他们太累了。
-event_moresleepdemand_complete	囚犯们的睡眠时间安排问题最终平息了，你可以根据需要再次改变安排，不会引发问题。
+event_moresleepdemand_1	有囚犯抱怨说没有足够的睡眠时间，并为此感到非常愤怒。
+event_moresleepdemand_2	他们说，如果每晚得不到7小时的睡眠时间，就会开始闹事。
+event_moresleepdemand_ignore	看起来囚犯们最终失去势头，放弃了对缺乏睡眠的抗议。\n估计他们太累了。
+event_moresleepdemand_complete	囚犯们的睡眠时间安排问题最终平息了。\n你可以根据需要再次改变安排，不会引发问题。
 
-event_morefreetimedemand_1	囚犯们对其日常安排中的自由时间过短感到很不开心。
-event_morefreetimedemand_2	警卫们听到囚犯们在密谈：如果不快速改变安排，囚犯们就会开始搞破坏。
-event_morefreetimedemand_ignore	囚犯们平静下来，停止针对缺乏自由时间而制造麻烦。或许他们意识到如果总被独自监禁，那自由时间就会更少。
-event_morefreetimedemand_complete	已经放任那些要求更多自由时间的囚犯们太久，所以你可以再次自由改变其时间安排。
+event_morefreetimedemand_1	囚犯们对其日常安排中的自由活动过短感到很不开心。
+event_morefreetimedemand_2	警卫们听到囚犯们在密谈，如果事情不马上改变，他们就会开始搞破坏。
+event_morefreetimedemand_ignore	囚犯们平静下来，不再针对缺乏自由活动而制造麻烦了。\n或许他们意识到，如果总被关禁闭，那么自由活动就更少。
+event_morefreetimedemand_complete	已经放任那些要求更多自由活动的囚犯们够久了，\n所以你可以再次随意改变其时间安排。
 
-event_contrabandsurge_complete	我们剛剛發現我们为囚犯課程聘請的老師，一直在走私大量違禁品。他们雖然被開除了，但傷害已造成了。
-event_corruptingspiritualist_complete	我们为了宗教計劃而聘請的其中一位精神領袖，一直用各種仇恨言論激怒囚犯们。他们雖然被開除了，但是囚犯们仍需時間冷靜下來。
+event_contrabandsurge_complete	我们刚刚发现，我们为囚犯课程而雇用的老师，一直在走私\n大量的违禁品。\n此人虽然被开除，但伤害已经造成。
+event_corruptingspiritualist_complete	我们为了宗教项目而雇用的精神领袖，其中一人一直用各种\n仇恨言论激怒囚犯们。\n此人虽然被开除了，但是囚犯们仍需时间冷静下来。
 
-event_agitatingradio_1	根據一些守衛的說法，囚犯们收聽的廣播電台有一位新主持人一直在發表激怒囚犯的言論。
-event_agitatingradio_2	暫時停止使用收音機可能是個明智的決定，除非他们開始把主持人的話當一回事。
-event_agitatingradio_complete	遭到大量投訴後，那名電台主持人顯然被開除了。接下來监狱应該不會再有電台的問題了。
+event_agitatingradio_1	根据一些警卫的说法，囚犯们收听的广播电台有一位新主持人，\n一直在发表激怒囚犯的言论。
+event_agitatingradio_2	趁他们还没有开始把那人的话往心里去，在这段时期里，\n还是把收音机移除为好。
+event_agitatingradio_complete	遭到大量投诉后，那名电台主持人显然被开除了。\n接下来监狱应该不会再有收音机的问题了。
 
 # =============================================================================
 # Events Objectives (shown in todo list)
 # =============================================================================
 
-objective_bulkintake	新到囚犯
-objective_tvremovaldemand	从公共房间移除电视机
-objective_tvremovaldemand_child	确保公共房间没有电视机
-objective_weightsremovaldemand	从庭院移除举重床
-objective_weightsremovaldemand_child	确保庭院中没有举重床
-objective_lessfooddemand	将餐食数量和种类设定为低
-objective_lessfooddemand_child	将囚犯餐食数量和种类政策设定为低
-objective_removevisitationdemand	移除所有探视间
-objective_removevisitationdemand_child	确保在安全审查完成之前监狱中没有探视间
+objective_bulkintake	新囚犯涌入
+objective_tvremovaldemand	从 公共活动室 移除 电视
+objective_tvremovaldemand_child	确保 公共活动室 没有 电视
+objective_weightsremovaldemand	从 庭院 移除 举重床
+objective_weightsremovaldemand_child	确保 庭院 中没有 举重床
+objective_lessfooddemand	将伙食的 份量 和 花样 设定为 低
+objective_lessfooddemand_child	将伙食的 份量 和 花样 政策，都设定为 低
+objective_removevisitationdemand	移除所有 探监室
+objective_removevisitationdemand_child	确保在安全审查完成之前，监狱中没有 探监室
 objective_virus	病毒爆发
 objective_virus_child	感染囚犯总数：
 objective_massassassination	联邦证人\n庭审日期
 objective_massassassination_child	存活的证人：
-objective_lessworkdemand	要求减少工作时间的囚犯
-objective_lessworkdemand_child	将工作时间减少到每天两小时或更少
+objective_lessworkdemand	囚犯要求减少工作
+objective_lessworkdemand_child	将工作时间减少到\n每天2小时或更少
 objective_moresleepdemand	给囚犯更多睡眠时间
-objective_moresleepdemand_child	将睡眠时间增加到每天至少7小时
-objective_morefreetimedemand	给囚犯更多自由时间
-objective_morefreetimedemand_child	将自由时间增加到每天至少6小时
-objective_agitatingradio	煽動的電台節目
-objective_agitatingradio_child	現在的電台廣播節目在激怒我们的囚犯...
+objective_moresleepdemand_child	将睡眠时间增加到\n每天至少7小时
+objective_morefreetimedemand	给囚犯更多自由活动
+objective_morefreetimedemand_child	将自由活动时间增加到\n每天至少6小时
+objective_agitatingradio	煽动的电台节目
+objective_agitatingradio_child	当前的电台广播节目在激怒我们的囚犯……\n移除所有收音机
 
 # =============================================================================
 # Custom warden strings
@@ -4338,13 +4343,13 @@ buildtoolbar_walk_speed_Veryfast	非常快
 codex_load_failed_title	加载监狱
 schedule_zone_custom	自定义
 room_Helipad	停机坪
-interfacetopbar_tension_hoursonrollcall	+ 名囚犯们对于点名很恼火
+interfacetopbar_tension_hoursonrollcall	+ 个囚犯们对于点名很恼火
 codex_load_failed_message	监狱文件损坏，无法加载。
 script_error_critical	有什么出错了。
 script_error_critical_msg	执行一个游戏脚本时，有什么出错了。\n\n如果你在运行一个模组，那么请让该模组的作者知晓。\n否则请提交一个bug报告，附上你的 debug.txt。
 report_staff_group_otherstaff	其他
 reputation_swimmer	游泳者
-reputationtooltip_pickpocket	这名囚犯长了三只手，谁要是倒了大霉在他附近，保准被偷个精光。
+reputationtooltip_pickpocket	这个囚犯长了三只手，谁要是倒了大霉在他附近，保准被偷个精光。
 reputationtooltip_swimmer	这个囚犯很识水性。\n只要进入水里就能解锁游泳技能，\n但囚犯无法不停地游泳。
 object_climbingrope	爬绳
 object_banner	条幅
