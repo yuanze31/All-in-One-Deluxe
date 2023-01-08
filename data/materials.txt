@@ -3621,16 +3621,17 @@ BEGIN Room
 BEGIN Room
     Name                 Kitchen
     BEGIN Requirement Type MinimumSize  x 3  y 3  END
-    BEGIN Requirement Type Object  Id Cooker END
-    BEGIN Requirement Type Object  Id Fridge  END
+    BEGIN Requirement Type Object  Id Cooker                END
+    BEGIN Requirement Type Object  Id Fridge Alt TallFridge END
     BEGIN LikelyObject  Id    Sink             END
-    BEGIN LikelyObject  Id    Bin     END
-    BEGIN LikelyObject  Id    MetalDetector             END
-    BEGIN LikelyObject  Id    Sprinkler             END
-    BEGIN LikelyObject  Id    StaffDoor     END
-    BEGIN Contraband    Id      Knife           END
-    BEGIN Contraband    Id      Fork            END
-    BEGIN Contraband    Id      Spoon           END
+    BEGIN LikelyObject  Id    Bin              END
+    BEGIN LikelyObject  Id    MetalDetector    END
+    BEGIN LikelyObject  Id    Sprinkler        END
+    BEGIN LikelyObject  Id    StaffDoor        END
+    BEGIN LikelyObject  Id    TallFridge       END
+    BEGIN Contraband    Id    Knife            END
+    BEGIN Contraband    Id    Fork             END
+    BEGIN Contraband    Id    Spoon            END
     Properties           PrisonersCanWork
     Properties           RequiresSector
     Properties           BlockMaterialTransfer

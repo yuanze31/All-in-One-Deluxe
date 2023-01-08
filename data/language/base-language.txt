@@ -651,15 +651,15 @@ soundeditor_soundnametitle	声音名称
 soundeditor_volumetitle	音量
 soundeditor_frequencytitle	频率
 soundeditor_mindistancetitle	最小距离
-soundeditor_attacktitle	进攻
-soundeditor_sustaintitle	维持
-soundeditor_releasetitle	释放
+soundeditor_attacktitle	起音
+soundeditor_sustaintitle	延持
+soundeditor_releasetitle	释音
 soundeditor_loopdelaytitle	循环延迟
 soundeditor_dsptitle	DSP
 soundeditor_nexteventtitle	下一事件
 
-soundeditor_play	开始游戏
-soundeditor_stop	停止
+soundeditor_play	播放 ►
+soundeditor_stop	停止 ■
 
 soundparametereditor_title	声音参数
 soundparametereditor_typetitle	类型
@@ -670,9 +670,9 @@ soundparametereditor_chaintitle	连锁
 
 soundeditor_newdsp	添加DSP
 sounddspeditor_title	DSP编辑器
-samplebankeditor_title	样品库编辑器
+samplebankeditor_title	音色库编辑器
 samplebankeditor_addsample	添加声音
-samplebank	(样品库)
+samplebank	(音色库)
 
 
 # =============================================================================
@@ -680,7 +680,7 @@ samplebank	(样品库)
 # =============================================================================
 
 interfacemode_done	完成
-interfacemode_destroy	拆除
+interfacemode_destroy	销毁
 interfacemode_foundations	地基
 interfacemode_construction	建材
 interfacemode_planning	规划
@@ -693,22 +693,22 @@ interfacemode_logistics	后勤
 interfacemode_prisoners	囚犯
 interfacemode_needs	需求
 interfacemode_threats	威胁
-interfacemode_overlays	叠层
+interfacemode_overlays	分布图
 interfacemode_research	行政系统
 interfacemode_emergencies	应急
 interfacemode_clone	克隆
 interfacemode_contraband	情报
-interfacemode_grading	评级
+interfacemode_grading	品质
 interfacemode_spawn	作弊生成
-interfacemode_properties	(属性)
-interfacemode_cutscenes	(过场动画)
+interfacemode_properties	属性
+interfacemode_cutscenes	过场动画
 interfacemode_selection	选择
 interfacemode_prefabs	快速建造
 
-interfaceoverlay_security	安保人员
+interfaceoverlay_security	安保
 interfaceoverlay_patrols	巡逻
 interfaceoverlay_decay	腐烂
-interfaceoverlay_territory	辖区
+interfaceoverlay_territory	占领势力
 interfaceoverlay_contraband	违禁品
 
 interfaceproperty_indoor	室内
@@ -743,8 +743,8 @@ interfacedeployment_zoneblue	蓝色区域
 interfacedeployment_zoneyellow	黄色区域
 interfacedeployment_zoning	区划
 interfacedeployment_accessonly	目的地专区
-interfacedeployment_prisonerdirection	囚犯说明
-interfacedeployment_staffdirection	其他说明
+interfacedeployment_prisonerdirection	囚犯方向
+interfacedeployment_staffdirection	其他人方向
 
 interfacelogistics_jobs	狱中劳动
 interfacelogistics_removejobs	移除劳动名额
@@ -787,7 +787,7 @@ interfaceclone_cancel	取消快速建造
 interfaceclone_clone	【克隆】
 
 interfacetopbar_todo	待办事项
-interfacetopbar_balance	存款 *B
+interfacetopbar_balance	余额 *B
 interfacetopbar_budget	现金流 *C
 interfacetopbar_income	收入 *I
 interfacetopbar_expenses	支出 *C
@@ -795,7 +795,7 @@ interfacetopbar_day	第 *D 天
 
 interfacetopbar_title_balance	银行余额
 interfacetopbar_title_budget	每日现金流
-interfacetopbar_title_cctv	闭路电视监控系统
+interfacetopbar_title_cctv	闭路电视
 interfacetopbar_title_day	天数
 interfacetopbar_title_prisoners	囚犯
 interfacetopbar_title_guards	警卫
@@ -804,7 +804,7 @@ interfacetopbar_title_weathericon	天气
 
 interfacetopbar_tooltip_balance	你在银行内的存款余额。\n\n点击查看补助清单，以获得更多资金。
 interfacetopbar_tooltip_budget	根据目前你的日常费用和收入计算出的\n每天你能获取的资金。\n\n点击打开[财政]标签页，查看细分收支。
-interfacetopbar_tooltip_cctv	你目前拥有的监控摄像头与监视器数量。
+interfacetopbar_tooltip_cctv	你当前拥有的闭路电视摄像头和监视器的数量
 interfacetopbar_tooltip_day	你经营本监狱的时长。
 interfacetopbar_tooltip_prisoners	目前的/可容纳的囚犯数
 interfacetopbar_tooltip_guards	待命的/总共的一般警卫数量\n
@@ -957,7 +957,7 @@ sector_insecure	与外界连通
 # =============================================================================
 
 hardware_compat_title	硬件兼容性测试
-hardware_compat_message	在你的许可下，我们将从你的计算机收集下列硬件数据。\n\n这些信息完全匿名并将帮助我们确保 Prison Architect 在尽可能多的电脑硬件上运行。\n\n非常感谢！
+hardware_compat_message	在你的许可下，我们将从你的计算机收集下列硬件数据。\n\n这些信息完全匿名。它们将帮助我们确保《监狱建筑师》\n在尽可能多的电脑硬件上运行。\n\n非常感谢！
 hardware_compat_accept	接受
 hardware_compat_decline	拒绝
 
@@ -988,7 +988,7 @@ buildtoolbar_tooltip_nostrike	在员工罢工期间不可用。
 buildtoolbar_cost	费用: $*C
 buildtoolbar_cost_sqrft	费用: $*C /㎡
 buildtoolbar_wages	工资: 每天 $*W
-buildtoolbar_upkeep	保养费：每天 $*W
+buildtoolbar_upkeep	维持费：每天 $*W
 buildtoolbar_outdoor	仅限户外
 buildtoolbar_indoor	仅限室内
 buildtoolbar_walk_speed	行走速度：*S
@@ -1019,7 +1019,7 @@ buildtoolbar_popup_logistics	指派囚犯在监狱内劳动，并可手动分派
 buildtoolbar_popup_research	为监狱解锁新功能。
 buildtoolbar_popup_emergencies	如果事态恶化，呼叫应急服务。
 buildtoolbar_popup_clone	你可以复制并粘贴现有建筑结构。
-buildtoolbar_popup_properties	查清那该死的东西。
+buildtoolbar_popup_properties	找出乱子。
 buildtoolbar_popup_contraband	显示违禁品来源，以及所有最近在监狱查获的违禁品。\n同时显示你的秘密线人及其情报。
 buildtoolbar_popup_grading	查看你的监狱整体等级，基于四个关键指标：\n惩罚、改造、安全、健康。还显示囚犯出狱后的再犯率。
 buildtoolbar_popup_prefabs 复制并粘贴你的监狱的一部分，或者放置预先定义好的房间。
@@ -1180,7 +1180,7 @@ buildtoolbar_popup_uts_DoorTimer	可用于在每天固定的时段自动开门�
 buildtoolbar_popup_uts_Wire	连接以构成你的遥控系统。
 buildtoolbar_popup_uts_showallwires	显示监狱中所有已连接的线路。
 buildtoolbar_popup_uts_tidywires 交织的线路让你眼花缭乱？\n现在，你可以让一些线路“绕路”。\n\n点击一个线路后，再点击某处，会增加一个中途的节点。\n右键点击则可移除节点。
-buildtoolbar_popup_uts_remotedoor	不能用钥匙打开的坚固金属门(只能远程开启)。用这种门可以有效防止囚犯窃取钥匙大规模越狱。
+buildtoolbar_popup_uts_remotedoor	无法用钥匙打开的坚固金属门(只能远程遥控打开)。用这种门可以有效防止囚犯窃取钥匙大规模越狱。
 buildtoolbar_popup_uts_dismantleutility	如题。
 buildtoolbar_popup_uts_pressurepad	每当有物体压在其上时，会向其连接的设备发出信号。\n\n不能区分员工与囚犯。\n\n我更喜欢用于为外部的教师、探监者和卡车打开‘道路闸门’。\n至于监狱内的门，如果我希望员工和囚犯都迅速通过，\n那么我干脆让它们一直开着好了。\n\n备注：有的模组提供了专供员工的门或压力板，\n但其实囚犯依然会等员工过来，然后跟着通过。\n况且，设置员工专区更简单有效。\n所以我就不提供这些半吊子的物品了。
 buildtoolbar_popup_uts_statuslight	根据接收到的信号，亮红灯或绿灯。\n\n它只是让你看的；对于囚犯和员工则毫无影响。
@@ -1211,8 +1211,8 @@ buildtoolbar_deployment_DeathRowZone	只有“死刑犯”能够进入此区域�
 buildtoolbar_deployment_StaffOnlyZone	只有员工能够进入此区域。\n\n由于囚犯不得进入“员工专区”，这让你得以建立“气闸舱”，\n把监狱分割成若干个大区。\n比如：把监狱按囚犯戒备类型分成四、五个大区。
 buildtoolbar_deployment_UnlockedZone	任何人都能够进入此区域，所有门都不上锁。
 buildtoolbar_deployment_accessonly	囚犯和员工会尽可能地避开此区域，而优先选择其它路线。\n只有当目的地就是此区域时，人们才会进入它。
-buildtoolbar_deployment_prisonerdirection	点击并拖动可为楼层标志涂色。\n\n这可提示您的囚犯走哪条路。\n帮助控制监狱里的人流。
-buildtoolbar_deployment_staffdirection	点击并拖动可为楼层标志涂色。\n\n这可提示非囚犯人员走哪条路。\n帮助控制监狱里的人流。
+buildtoolbar_deployment_prisonerdirection	点击并拖动，以在地面涂上引导标示。\n\n这会提示你的囚犯们朝哪个方向走。\n有助于控制监狱中的人流。
+buildtoolbar_deployment_staffdirection	点击并拖动，以在地面涂上引导标示。\n\n这会提示非囚犯人员朝哪个方向走。\n有助于控制监狱中的人流。
 
 buildtoolbar_quickbuild_clone “克隆”工具可以让你复制监狱的一个选定区域，并重新放置该区域。\n\n选择本工具后，按住鼠标右键，拖曳你想要复制的区域。\n接着，在监狱其它地方左键点击，即可安排建造该区域的副本。
 
@@ -1409,24 +1409,24 @@ failuremessage_maxstaff	员工过多
 # Status Toolbar
 # =============================================================================
 
-statustoolbar_deliveries	运载
+statustoolbar_deliveries	递送
 statustoolbar_finances	财政
-statustoolbar_regime	统治
-statustoolbar_escapemap	安保人员
+statustoolbar_regime	作息
+statustoolbar_escapemap	安保
 statustoolbar_electricity	电力
-statustoolbar_stats	状态
-statustoolbar_danger	危险等级
+statustoolbar_stats	统计
+statustoolbar_danger	危险
 statustoolbar_jobs	工作
 statustoolbar_gangs	帮派
 statustoolbar_staff	员工
-statustoolbar_research	调查
+statustoolbar_research	研究
 
 
 # =============================================================================
 # Sprite Bank Editor + other tools
 # =============================================================================
 
-spritebankeditor_title	Sprite Bank 编辑器
+spritebankeditor_title	精灵图片库编辑器
 spritebankeditor_create	创建
 spritebankeditor_rotate	旋转
 spritebankeditor_sort	分类
@@ -1470,8 +1470,8 @@ codex_twitter	Twitter
 codex_extras	附加功能 ❖
 codex_unlocked	已解锁 *X/*Y
 codex_mapsettings	本监狱的额外玩法
-codex_othergames	其他游戏
-codex_mutators	更改器
+codex_othergames	Introversion 的其它游戏
+codex_mutators	变异器
 
 codex_cloudsavedesc	保存到Steam云
 codex_cloud_enabled	新存档将保存在Steam云中。
@@ -1511,7 +1511,7 @@ codex_options_clocktype_analogue	模拟(指针)
 codex_options_clocktype_12h	12小时制
 codex_options_clocktype_24h	24小时制
 
-codex_options_directions	楼层标志显示
+codex_options_directions	显示地面引导标示
 codex_options_dirrender_hidden	隐藏
 codex_options_dirrender_visible	可见
 codex_options_dirrender_zoom	缩放
@@ -1574,9 +1574,9 @@ codex_tooltip_enablecheats				在这个监狱，启用开发者工具和作弊�
 codex_option_staffneeds					员工需求
 codex_tooltip_staffneeds				你的安保员工们也会有一些类似囚犯的需求。\n你需要在“员工休息室”或“员工专区”房间里\n提供满足这些需求的设施。\n员工的满足与否，会影响他们的各种行为的效率和成功率，也会影响他们对囚犯的控制力。\n例如：极度恼火的警卫在搜查一个危险的帮派成员时，成功率会掉到10%之低。\n或者更糟，警卫可能收取贿赂而不没收违禁品。(虽然你无从得知……)\n警卫甚至可能殴打囚犯致死来发泄不满。
 codex_option_wardenmode					典狱长模式
-codex_tooltip_wardenmode				作为典狱长在您建造的监狱里工作。
+codex_tooltip_wardenmode				在你所建造中的监狱里扮演现场工作的典狱长。
 codex_option_wardenmode_permadeath		永久死亡
-codex_tooltip_wardenmode_permadeath		如果您担任的典狱长死亡，则游戏结束！
+codex_tooltip_wardenmode_permadeath		如果你作为典狱长死掉了，那么游戏结束！
 
 codex_option_funds	资金
 codex_tooltip_funds	开始游戏时你将拥有这么多存款。\n在“估值”画面出售你建好的监狱，以获得更多启动资金吧。
@@ -1774,8 +1774,8 @@ modnotification_popup_unknown	无法确定此模组的来源。\n请你自行查
 # Biography
 # =============================================================================
 
-biography_search	停止并搜索
-biography_selected	已选择
+biography_search	停止并搜查
+biography_selected	选中的
 biography_prisoner_name	*S, *F
 biography_prisoner_number               囚犯 #*X
 biography_prisoner_age	年龄：*X
@@ -2038,16 +2038,16 @@ unlock_electricity_caption	使你能够建造电站和电线，为所有需要�
 # Advisers
 # =============================================================================
 
-click_to_continue	点击继续……
-incoming_call	来电……
+click_to_continue	(点击继续...)
+incoming_call	(来电呼叫...)
 
 adviser_name_unknown	未知
 adviser_name_ceo	首席执行官
 adviser_name_warden	典狱长
 adviser_name_governer	州长
 adviser_name_chief	主管
-adviser_name_doctor	医师
-adviser_name_kingpin	领袖
+adviser_name_doctor	医生
+adviser_name_kingpin	大头目
 adviser_name_edwardshooter	爱德华
 adviser_name_edwardsinner	爱德华
 adviser_name_edwardinmate	爱德华
@@ -3824,148 +3824,152 @@ campaignchapter_chapternumber	第 *C 章
 
 campaignchapter_deathrow	死刑犯
 
-campaignchapter_deathrow_description	我们已签订在这座监狱中建立处决室的合同，必须要赶在其中一名的处决时间之前建成。
+campaignchapter_deathrow_description	我们已签订在这座监狱中建立处决室的合同，必须要赶在\n其中一名的处决时间之前建成。
 
 campaigncutscene_deathrowmurder	双重谋杀
 campaigncutscene_deathrowconfession	忏悔
 
 adviser_deathrow_murder1	我就知道能在这里抓到你们俩
-adviser_deathrow_murder2	爱德华！我……
-adviser_deathrow_murder25	不要，请不要……不要。
+adviser_deathrow_murder2	爱德华！我...
+adviser_deathrow_murder25	不，...别说了。
 adviser_deathrow_murder3	你要干什么？
 
 adviser_deathrow_church1	我可以帮到你吗？
 adviser_deathrow_church15	...
 adviser_deathrow_church2	你是想寻求宽恕吗？
-adviser_deathrow_church3	我不知道，但是我得做点什么，我无法背负着我的所作所为活下去。
+adviser_deathrow_church3	我不知道，但是我得做点什么。\n我无法背负着我的所作所为活下去。
 adviser_deathrow_church4	你必须自首。无论你做了什么，都无法逃避后果。
-adviser_deathrow_church5	除非你能直面过去，否则你永远都无法面对自己
-adviser_deathrow_church6	我想回到过去，想宽恕她，也想让她宽恕我
+adviser_deathrow_church5	除非你能直面过去，否则你永远都无法面对自己。
+adviser_deathrow_church6	我想回到过去，想宽恕她，也想让她宽恕我。
 adviser_deathrow_church7	不管你曾经做过什么，只要你向上帝请求，他都会宽恕你。
-adviser_deathrow_church8	但你必须在法律面前承认自己的罪行。别无选择。
+adviser_deathrow_church8	但你必须在法律面前承认自己的罪行。没有其它办法。
 
-adviser_deathrowintro_1	这事很难办。
-adviser_deathrowintro_2	有个囚犯监禁在此，他犯有双重谋杀罪，被判处死刑
-adviser_deathrowintro_3	我们从那里进来。我们签了合同要为处决这个囚犯及时建造一间行刑室。
+adviser_deathrowintro_1	这事有些难办。
+adviser_deathrowintro_2	有名囚犯监禁在此。他犯有双重谋杀罪，被判处死刑。
+adviser_deathrowintro_3	这就轮到我们出马了。我们签了合同，\n要为该囚犯的“重大日子”，建造一间行刑室。
 adviser_deathrowintrob_1	我想把新设施建在这里。
-adviser_deathrowintrob_2	任何这种类似项目的第一步都是构造建筑本身——内部有足够的空间来布置行刑室和拘留室
-adviser_deathrowintrob_3	我们开始吧，在这里建造一座新建筑。
+adviser_deathrowintrob_2	任何这种类似工程的第一步，都是构造建筑本身——\n让内部有足够的空间来容纳一间行刑室和一间拘留房。
+adviser_deathrowintrob_3	我们开始吧。在这里建造一座新建筑。
 
 adviser_deathrow_explain1	你的工人负责建设大楼。
 adviser_deathrow_explain2	他们会从储藏室取钢铁和水泥送往建筑工地。
-adviser_deathrow_explain3	他们会用这些原材料来打造你的新建筑物的地基和框架
-adviser_deathrow_explain4	这是施工最慢的部分，所以你应该在建立新设施时提前做好计划
-adviser_deathrow_explain5	在等待期间四处查看。按WASD键或箭头键移动，按鼠标滚轮放大或缩小。
+adviser_deathrow_explain3	他们会用这些原材料来打造你的新建筑物的地基和框架。
+adviser_deathrow_explain4	这是施工最慢的部分，所以你应该在建立新设施时，\n提前做好计划。\n(点击右上角的时钟下的按钮，可以加速游戏。)
+adviser_deathrow_explain5	在等待期间四处查看。\n按WASD键或箭头键移动镜头。按鼠标滚轮放大或缩小。
 
 objective_deathrow_building	建造一栋建筑来容纳行刑设施
 
 adviser_deathrow_buildinside1	我们还需要为新的行刑设施建造入口。
-adviser_deathrow_buildinside2	在南墙上建造一个大型监狱门。
+adviser_deathrow_buildinside2	在南墙上，建造一个监狱门(大)。
 
-objective_deathrow_buildouterdoor	建造大型监狱门入口
+objective_deathrow_buildouterdoor	建造 监狱门(大) ，作为入口
 
-adviser_deathrow_internalwalls1	我想在大楼里建造一间牢房和一间行刑室。
+adviser_deathrow_internalwalls1	在大楼里，我想要一间牢房和一间行刑室。
 adviser_deathrow_internalwalls2	建造一些砖墙以分隔空间。
 
 objective_deathrow_buildinternalwalls	建造内墙
 
-adviser_deathrow_internaldoors1	现在给分隔墙安装大监狱门。
-adviser_deathrow_internaldoors2	你可以点击鼠标中键(或按R键)在放置前旋转对象。
+adviser_deathrow_internaldoors1	现在给分隔墙安装监狱门(大)。
+adviser_deathrow_internaldoors2	你可以点击鼠标中键(或按R键)在放置前旋转物品。
 
-objective_deathrow_buildinternaldoors	建造内门(点击鼠标中键或按R键来旋转对象)
+objective_deathrow_buildinternaldoors	建造内门(点击鼠标中键或按R键来旋转物品)
 
-adviser_deathrow_designation1	似乎不错。现在我们需要在这些空间中标出各个房间。
-adviser_deathrow_designation2	在较小的区域中标出一间牢房，被定罪的囚犯将会住在里面。
-adviser_deathrow_designation3	然后在较大区域中标出行刑室。
+adviser_deathrow_designation1	似乎不错。现在我们需要在这些空间中指定各个房间。
+adviser_deathrow_designation2	在较小的区域中指定一间牢房，给被定罪的囚犯住。
+adviser_deathrow_designation3	然后在较大区域中指定行刑室。
 
-objective_deathrow_designatecell	标出牢房
-objective_deathrow_designateexecution	标出行刑室
+objective_deathrow_brickwall 砖墙
+objective_deathrow_jaildoorlarge 监狱门(大)
+objective_deathrow_cell 指定牢房
 
-adviser_deathrow_roomrequirements1	这些新的房间需要设置一些条件才能使用。
-adviser_deathrow_roomrequirements2	这间牢房需要床和卫生间。
+objective_deathrow_designatecell	指定牢房
+objective_deathrow_designateexecution	指定行刑室
+
+adviser_deathrow_roomrequirements1	这些新的房间需要满足一些需要才能使用。
+adviser_deathrow_roomrequirements2	牢房需要床和马桶。
 adviser_deathrow_roomrequirements3	行刑室需要电椅。
 
-objective_deathrow_cellobjects1	建造床
-objective_deathrow_cellobjects2	建造厕所
-objective_deathrow_executionobjects	建造电椅
+objective_deathrow_cellobjects1	建造 单人床
+objective_deathrow_cellobjects2	建造 马桶
+objective_deathrow_executionobjects	建造 电椅
 
 adviser_deathrow_optional1	重要的部分已经弄好，但你还可以做一些改进。
-adviser_deathrow_optional2	这并非必要的要求，完全由你来决定，这取决于你对囚犯及其生活环境的重视程度。
+adviser_deathrow_optional2	这并非必要的要求，完全由你来决定。\n这取决于你对囚犯及其生活环境的重视程度。
 adviser_deathrow_optional3	一扇向外的窗户和一个小书架即可改善牢房环境。
-adviser_deathrow_optional4	较高品质的地板材料——比如木地板或马赛克瓷砖会让监狱看起来更好。
-adviser_deathrow_optional5	你可以在外面安装一些照明设施，如果你认为需要的话，还可以修建一条铺砌路面。
+adviser_deathrow_optional4	较高品质的地板材料——比如木地板或马赛克瓷砖，\n会让监狱看起来更好。
+adviser_deathrow_optional5	你可以在外面安装一些照明。\n如果你认为需要的话，还可以加一条铺砌的路径。
 
-adviser_deathrow_transfer05	这就是接受审问的人，爱德华·罗姆塞。他曾经是一名教师，难以置信吧。
-adviser_deathrow_transfer06	他是否应该被监禁不由我们决定，需要法律裁决，我们只负责执行任务。
-adviser_deathrow_transfer1	当你感觉设施已准备就绪时，就可以开始把囚犯转移到新牢房。
-adviser_deathrow_transfer2	点击其牢房内的宝丽来摄像头来发起转移。
+adviser_deathrow_transfer05	这就是接受审问的人，爱德华•罗姆西。\n曾经是一名教师，难以置信吧。
+adviser_deathrow_transfer06	他是否应该被监禁不由我们决定，需要法律裁决，\n我们只负责执行任务。
+adviser_deathrow_transfer1	当你感觉设施已准备就绪时，就能开始把囚犯转入到新牢房。
+adviser_deathrow_transfer2	点击其牢房内的宝丽来照片来发起转入。
 
 objective_deathrow_path	(可选)建造一条通往新设施的道路
-objective_deathrow_window	(可选)给牢房添加一扇窗
-objective_deathrow_bookshelf	(可选)向牢房添加一个书架
+objective_deathrow_window	(可选)给牢房添加 窗户
+objective_deathrow_bookshelf	(可选)向牢房添加 小书架
 objective_deathrow_flooring	(可选)用质量更好的材料重铺地板
-objective_deathrow_outerlights	(可选)在设施周围安装一些户外照明设施
-objective_deathrow_transferinmate	完成之后，点击爱德华牢房内的宝丽来摄像头发起囚犯转移。
+objective_deathrow_outerlights	(可选)在设施周围安装一些户外照明
+objective_deathrow_transferinmate	完成之后，点击爱德华牢房内的宝丽来\n照片发起囚犯转入。
 
-adviser_deathrow_setupmurder1	不要对这家伙有丝毫同情，他是个被定罪了的冷血杀手。
-adviser_deathrow_setupmurder2	他甚至承认了自己的罪行，想听听他如何描述自己的所作所为吗？
-adviser_deathrow_setupmurder3	相当精彩，“那天夜里，晚上11点左右，房间的灯光开着，我知道她在家……”
+adviser_deathrow_setupmurder1	不要对这家伙有丝毫同情。他是个被定了罪的冷血杀手。
+adviser_deathrow_setupmurder2	他甚至承认了自己的罪行。\n想听听他如何描述自己的所作所为吗？
+adviser_deathrow_setupmurder3	那是一出好戏。\n“那天夜里11点左右。房间的灯光开着。我知道她在家……”
 adviser_deathrow_postmurder1	正如我说的那样，一名铁石心肠的杀手。
 adviser_deathrow_postmurder2	要我说，案情十分清晰，他是罪有应得。
-adviser_deathrow_postmurder3	所有的人都应该得到宽恕，包括他。你就这么确定你能够做出这种最终判决？
-adviser_deathrow_postmurder4	即使当场撞见自己的妻子跟别的男人通奸，也不能成为他所作所为的理由。
-adviser_deathrow_postmurder5	而且他带了一把上膛的枪到那儿，他知道自己会发现奸情，这就是有预谋的双重谋杀。
-adviser_deathrow_postmurder6	他什么也没做，只是与当局合作。本州拿他作为案例警示他人。
-adviser_deathrow_postmurder7	如果他在100英里以北犯下这种罪行，他会被判终身监禁。这算什么正义？
-adviser_deathrow_postmurder8	你想看到像他一样的人逃脱法网吗？知道他逃脱了我晚上也能睡得很好。
+adviser_deathrow_postmurder3	所有的人都应该得到宽恕，包括他。\n你就这么确定你能够做出这种最终判决？
+adviser_deathrow_postmurder4	即使把自己的妻子跟别的男人抓奸在床，\n也不能成为他所作所为的理由。
+adviser_deathrow_postmurder5	而且他到那儿带着一把上膛的枪，知道自己会发现奸情。\n那是有预谋的谋杀。
+adviser_deathrow_postmurder6	他什么也没做，只是与当局合作。\n本州拿他作为案例警示他人。
+adviser_deathrow_postmurder7	如果他在100英里以北犯下这种罪行，他会被判终身监禁。\n这算什么正义？
+adviser_deathrow_postmurder8	你希望他这样的家伙逃脱法网吗？\n要是知道他逃脱了，那我晚上可就睡得安稳咯。
 
 
 adviser_deathrowelectricity_1	目前做得不错。
-adviser_deathrowelectricity_2	还有一个问题——行刑室目前还无法使用，因为没有电力。
+adviser_deathrowelectricity_2	还有一个问题——行刑室目前还无法使用，因为没有电。
 adviser_deathrowelectricity_3	我们需要为其提供电力供应。
 
-adviser_deathrowelectricityb_1	我们现在用“公用设施”模式查看监狱，可以看到整个监狱的电线布局。
-adviser_deathrowelectricityb_2	监狱里的每栋建筑都通过这些密集的地下电缆与电力网连接。
-adviser_deathrowelectricityb_3	国家电网的电力通过这个变电站输送给监狱。
-adviser_deathrowelectricityb_4	如你所见，监狱牢房的整个侧翼没有电力。所有灯具都未开启。
-adviser_deathrowelectricityb_4b	为了解决这个问题，我们首先需要切换到公用设施模式来查看为什么灯具没有电力供应。
-adviser_deathrowelectricityb_5	最近的电缆线太远——我们的工程师无法完成此区域的布线。
-adviser_deathrowelectricityb_6	延长附近电缆以覆盖监狱侧翼。
+adviser_deathrowelectricityb_1	我们现在用“基础设施”模式查看监狱，\n可以看到整个监狱的电线布局。
+adviser_deathrowelectricityb_2	监狱里的每栋建筑都通过这些密集的地下电缆与电网连接。
+adviser_deathrowelectricityb_3	国家电网的电力通过这个发电站输送给监狱。
+adviser_deathrowelectricityb_4	如你所见，监狱牢房的整个区域没有电力。\n所有灯具都熄了。
+adviser_deathrowelectricityb_4b	为了解决这个问题，我们首先需要切换到基础设施模式，\n查看为什么灯具没有电力供应。
+adviser_deathrowelectricityb_5	最近的电缆太远——我们的工程师无法完成此区域的布线。
+adviser_deathrowelectricityb_6	延长附近电缆以覆盖监狱区域。
 
-objective_deathrow_cellpower	给房间提供电力供应
+objective_deathrow_cellpower	给 房间 提供电力供应
 
-adviser_deathrow_connectchair_1	灯具不是唯一需要电力的东西。新电刑椅也需要电力。
-adviser_deathrow_connectchair_2	用电源电缆连将行刑设施连接到电网。
-adviser_deathrow_connectchair_3	电刑椅本身是一件特种电器。它需要专属电线。你需要把它直接连接到主电缆上。
+adviser_deathrow_connectchair_1	灯具不是唯一需要电力的东西。新的电椅也需要电力。
+adviser_deathrow_connectchair_2	用电缆将行刑设施连接到电网。
+adviser_deathrow_connectchair_3	电椅本身是一件特种电器。它需要专属电线。\n你需要把它直接连接到主电缆上。
 
-objective_deathrow_chairpower	给电刑椅提供电力供应
-objective_deathrow_condemnedcellpower	给牢房提供电力供应
+objective_deathrow_chairpower	给 电椅 提供电力供应
+objective_deathrow_condemnedcellpower	给 牢房 提供电力供应
 
-adviser_deathrow_testchair_1	我们就快要完成了。在启用前我们至少要测试一下新的行刑室一次。
+adviser_deathrow_testchair_1	我们就快要完成了。\n在启用前我们至少要测试新的行刑室一次。
 adviser_deathrow_testchair_2	我要将它打开几秒钟，以确保一切正常。
-adviser_deathrow_testchair_3	呃，没用。看来我们用电过多，导致发电站的断路器断开。整个监狱陷入黑暗之中。
-adviser_deathrow_testchair_4	我们需要更多电力来满足电椅的用电高峰。
+adviser_deathrow_testchair_3	呃，不起作用。看来我们耗电过多，导致发电站跳闸了。\n整个监狱陷入了黑暗。
+adviser_deathrow_testchair_4	我们需要更多电力来满足电椅的用电尖峰。
 adviser_deathrow_testchair_5	首先我们需要恢复电力。需要进行两步操作：
-adviser_deathrow_testchair_5b	点击电站，然后在弹出的菜单中选择开启，即可开启电站。
+adviser_deathrow_testchair_5b	点击发电站，然后在弹出的菜单中选择“开机”。
 adviser_deathrow_testchair_6	然后再建立三个电容器，让我们有足够的功率为电椅供电。
-adviser_deathrow_testchair_7	完成之后，点击电椅并在菜单中选择开启将其开启进行测试。
+adviser_deathrow_testchair_7	完成之后，点击电椅，并在菜单中选择“开机”以测试它。
 
-objective_deathrow_poweron	重新开启电站。(点击电站，然后在菜单中选择开启)
-objective_deathrow_expandpower	用三个新电容器来扩建电站
-objective_deathrow_chairworking	再次测试电椅(点击，然后选择开启)
+objective_deathrow_poweron	重新开启发电站。\n(点击发电站，然后在菜单中选择“开机”)
+objective_deathrow_expandpower	用3个新电容器来扩建发电站
+objective_deathrow_chairworking	再次测试电椅(点击，然后选择“开机”)
 
-adviser_deathrow_execution_1	非常好，我想我们完工了。
-adviser_deathrow_execution_2	现在发生的事情不归我们负责。我们干得很专业，这在我们这一行是非常重要的。
+adviser_deathrow_execution_1	干得好。我想我们完工了。
+adviser_deathrow_execution_2	现在发生的事情就不归我们管了。\n我们干得很专业，这在我们这一行是非常重要的。
 adviser_deathrow_execution_3	不要担心接下来要发生的事。
 
-adviser_deathrow_setupexecution1	爱德华，吉时已到。
+adviser_deathrow_setupexecution1	爱德华，时辰已到。
 adviser_deathrow_setupexecution2	你做了正确的事，即使这个世界不会宽恕你。
 adviser_deathrow_setupexecution3	你马上就会见到上帝，他会对你做出最终判决。
 
-adviser_deathrow_setupexecution4	爱德华·罗姆塞，你犯了一级双重谋杀罪。
+adviser_deathrow_setupexecution4	爱德华•罗姆西，你犯了一级双重谋杀罪。
 adviser_deathrow_setupexecution5	判处你死刑。
 adviser_deathrow_setupexecution6	你有什么要说的吗？
-adviser_deathrow_setupexecution7	苏珊……
+adviser_deathrow_setupexecution7	苏珊...
 adviser_deathrow_setupexecution8	我很抱歉。
 
 # =============================================================================
@@ -4340,11 +4344,11 @@ help_warning_deathrow	我们的第一个死刑犯刚刚到达了。我们需要�
 
 
 buildtoolbar_walk_speed_Veryfast	非常快
-codex_load_failed_title	加载监狱
+codex_load_failed_title	加载监狱吧。
 schedule_zone_custom	自定义
 room_Helipad	停机坪
 interfacetopbar_tension_hoursonrollcall	+ 个囚犯们对于点名很恼火
-codex_load_failed_message	监狱文件损坏，无法加载。
+codex_load_failed_message	无法加载这个监狱，因为它文件损坏了。
 script_error_critical	有什么出错了。
 script_error_critical_msg	执行一个游戏脚本时，有什么出错了。\n\n如果你在运行一个模组，那么请让该模组的作者知晓。\n否则请提交一个bug报告，附上你的 debug.txt。
 report_staff_group_otherstaff	其他

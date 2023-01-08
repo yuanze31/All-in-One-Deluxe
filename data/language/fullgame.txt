@@ -1,6 +1,6 @@
 ﻿
-campaigncutscene_tooltip 				（点击触发剧情的下一章）
-campaignchapter_locked                  （锁定）
+campaigncutscene_tooltip 				(点击触发剧情的下一章)
+campaignchapter_locked                  (未解锁)
 
 
 # =============================================================================
