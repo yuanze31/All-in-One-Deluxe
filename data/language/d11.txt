@@ -216,15 +216,15 @@ buildtoolbar_popup_help_Dogs_1	警犬训练员工具可以让你在每个区域�
 buildtoolbar_popup_help_Dogs_2	~按左键增加区域内驻扎的警犬训练员人数。按右键移除警犬训练员。\n\n
 buildtoolbar_popup_help_Dogs_3	^提示
 buildtoolbar_popup_help_Dogs_4	- 若你解锁微观管理功能，你可使用部署调度器。这可以让你制定警犬训练员分配至特定区域的时间表。例如，若你只想要在吃饭时间部署警犬训练员在餐厅，你可以选取调度器上每一个与吃饭时间一致的时间区块，然后移动时间横条至该区块，再点击餐厅以分配警犬训练员。
-buildtoolbar_popup_help_Dogs_5	- 共有最多 7 个不同的时间区块供你调度，还有默认的常效模式，让你可以建立复杂的部署程序以符合你监狱的需求。
-buildtoolbar_popup_help_Dogs_6	- 如果你在分配警犬训练员时，没有手动选择一个时间区块，调度器会使用当下的时间；更改部署时，请确保你选择正确的时间！
+buildtoolbar_popup_help_Dogs_5	
+buildtoolbar_popup_help_Dogs_6	
 
 buildtoolbar_popup_help_ArmedGuards_1	武装警卫工具可以让你在每个区域驻扎武装警卫。驻扎警卫会在所分配的区域随意走动，也会执行该区域的所有警卫工作，例如开门。\n\n
 buildtoolbar_popup_help_ArmedGuards_2	~按左键增加区域内驻扎的警卫人数。按右键移除警卫。\n\n
 buildtoolbar_popup_help_ArmedGuards_3	^提示
 buildtoolbar_popup_help_ArmedGuards_4	- 若你解锁微观管理功能，你可使用部署调度器。这可以让你制定武装警卫分配至特定区域的时间表。例如，若你只想要在吃饭时间部署武装警卫在餐厅，你可以选取调度器上每一个与吃饭时间一致的时间区块，然后移动时间横条至该区块，再点击餐厅以分配武装警卫。
-buildtoolbar_popup_help_ArmedGuards_5	- 共有最多 7 个不同的时间区块供你调度，还有默认的常效模式，让你可以建立复杂的部署程序以符合你监狱的需求。
-buildtoolbar_popup_help_ArmedGuards_6	- 如果你在分配武装警卫时，没有手动选择一个时间区块，调度器会使用当下的时间；更改部署时，请确保你选择正确的时间！
+buildtoolbar_popup_help_ArmedGuards_5	
+buildtoolbar_popup_help_ArmedGuards_6	 
 
 interfacedeployment_PrioritizeArea	优先区域 (*X)
 buildtoolbar_deployment_PrioritizeGuard	使用此选项，可以优先安排指定的警卫监视你监狱周围的特定区块。如果你人手紧缺，警卫会优先监视你设置的优先区域。有两个优先级别可选，“高”(>>) 和“超高”(>>>)。
@@ -563,7 +563,7 @@ interfacetopbar_PrisonerCells_insaneSecOnly	犯罪精神病人容量：*X
 
 roomgrading_PsychiatristOffice_info	在精神科医生办公室解锁并放置额外物品，以提高对于犯罪精神病囚犯的治疗效果。\n
 Items	通过精神病罪犯参加心理咨询计划解锁。
-roomgrading_PsychiatristOffice_Item	项目：*X
+roomgrading_PsychiatristOffice_Item	物品: *X
 roomgrading_PsychiatristOffice_Quality	精神科医生能力：*Q
 roomgrading_PsychiatristOffice_Upgrade	升级精神科医生办公室，以提高他们的能力。
 
@@ -977,22 +977,22 @@ object_ChessTable	国际象棋桌
 object_GlassWindow	窗户玻璃
 object_GlassWindowLarge	窗户玻璃（大）
 object_GymMat	体操垫
-object_SinkMirror	水槽和镜子
+object_SinkMirror	洗手池和镜子
 object_TableFootball	桌上足球
 object_TableTennis	乒乓球
-object_TyreApparatus	轮胎器械
+object_TyreApparatus	轮胎装置
 object_bambooDoor	门（竹制）
 object_Canvas	画布和颜料
 object_PetBird	宠物鸟
-object_SoftPillow	软枕
+object_SoftPillow	松软的枕头
 object_BoxingRing	拳击台
 object_DumbbellRack	哑铃架
 object_Treadmill	跑步机
 object_Fan	风扇
-object_PunchBag	沙袋
+object_PunchBag	拳击袋
 object_WardenStatue	典狱长塑像
 object_SnackMachine	零食贩卖机
-object_Mattress	床（海绵床垫）
+object_Mattress	海绵床垫
 object_MetalBarrel	金属桶
 object_WoodenBarrel	木桶
 object_MooringBollard	系缆桩
@@ -1007,8 +1007,8 @@ object_PASystem	广播系统
 object_TrainingDummy	训练木偶
 object_StoneWaterSpout	石质喷水嘴
 object_WindSock	风向标
-object_ComfyBed	舒适的床铺
-object_IndoorTreePlanter	室内植树花盆
+object_ComfyBed	舒适的床
+object_IndoorTreePlanter	室内植树装置
 object_OldBed	旧床
 object_CameraPillar	摄像机柱
 object_Blackboard	黑板
@@ -1231,32 +1231,32 @@ roomgrading_Cell_HasWindow_None	[*E] 无窗户
 roomgrading_Dormitory_BadWalls	[*E] 四周墙壁摇摇欲坠
 roomgrading_Dormitory_Mattress	[*E] 大多数床质量较差
 roomgrading_Dormitory_HasWindow_None	[*E] 无窗户
-roomgrading_Canteen_RoomSize	[*E] 房间面积至少 *X 平方米
-roomgrading_Canteen_Item	[*E] 项目：*X
-roomgrading_Canteen_MealQuality	[*E] 平均餐食质量
-roomgrading_Canteen_MealQuality_High	[*E] 餐食质量高
-roomgrading_Canteen_MealQuality_Low	[*E] 餐食质量低
-roomgrading_Canteen_MealQuality_None	[*E] 无餐食质量可言
-roomgrading_Canteen_MealVariety	[*E] 平均餐食种类
-roomgrading_Canteen_MealVariety_High	[*E] 餐食种类多
-roomgrading_Canteen_MealVariety_Low	[*E] 餐食种类少
-roomgrading_Canteen_MealVariety_None	[*E] 无餐食种类可言
+roomgrading_Canteen_RoomSize	[*E] 房间面积至少 *X ㎡
+roomgrading_Canteen_Item	[*E] 物品: *X
+roomgrading_Canteen_MealQuality	[*E] 伙食份量：中
+roomgrading_Canteen_MealQuality_High	[*E] 伙食份量：高
+roomgrading_Canteen_MealQuality_Low	[*E] 伙食份量：低
+roomgrading_Canteen_MealQuality_None	[*E] 伙食份量：无
+roomgrading_Canteen_MealVariety	[*E] 伙食花样：中
+roomgrading_Canteen_MealVariety_High	[*E] 伙食花样：高
+roomgrading_Canteen_MealVariety_Low	[*E] 伙食花样：低
+roomgrading_Canteen_MealVariety_None	[*E] 伙食花样：无
 roomgrading_Canteen_HasWindow_None	[*E] 无窗户
-roomgrading_Yard_RoomSize	[*E] 房间面积至少 *X 平方米
-roomgrading_Yard_RoomSizeLess	[*E]房间面积至多 *X 平方米
-roomgrading_Yard_Item	[*E] 项目：*X
-roomgrading_Yard_Floor	[*E] *X 地板（*Y% 以上）
+roomgrading_Yard_RoomSize	[*E] 房间面积至少 *X ㎡
+roomgrading_Yard_RoomSizeLess	[*E] 房间面积不到 *X ㎡
+roomgrading_Yard_Item	[*E] 物品: *X
+roomgrading_Yard_Floor	[*E] 地板: *X（*Y% 以上）
 roomgrading_Yard_MultiItems	[*E] 包含上述物品中的 *X 种
-roomgrading_Yard_Floor_Quantity	[*E] *X *Y 平方米
-roomgrading_CommonRoom_RoomSize	[*E] 房间面积至少 *X 平方米
-roomgrading_CommonRoom_Item	[*E] 项目：*X
-roomgrading_Gymnasium_RoomSize	[*E] 房间面积至少 *X 平方米
+roomgrading_Yard_Floor_Quantity	[*E] 地板数量至少 *X
+roomgrading_CommonRoom_RoomSize	[*E] 房间面积至少 *X ㎡
+roomgrading_CommonRoom_Item	[*E] 物品: *X
+roomgrading_Gymnasium_RoomSize	[*E] 房间面积至少 *X ㎡
 roomgrading_Gymnasium_OutsideWindow	[*E] *Y 室外窗户
-roomgrading_Gymnasium_Item	[*E] 项目：*X
+roomgrading_Gymnasium_Item	[*E] 物品: *X
 roomgrading_Gymnasium_HasWindow_None	[*E] 无窗户
-roomgrading_Classroom_RoomSize	[*E] 房间面积至少 *X 平方米
-roomgrading_Classroom_Item	[*E] 项目：*X
-roomgrading_Classroom_OutsideWindow	[*E] *Y 室外窗户
+roomgrading_Classroom_RoomSize	[*E] 房间面积至少 *X ㎡
+roomgrading_Classroom_Item	[*E] 物品: *X
+roomgrading_Classroom_OutsideWindow	[*E] 户外窗户至少 *Y 个
 
 buildtoolbar_improvement	- 提升一个 *R 的等级
 buildtoolbar_decreased	- 降低一个 *R 的等级
