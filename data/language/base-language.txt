@@ -2,6 +2,11 @@
 # {All-in-One Deluxe Edition}-yuanze31
 # =============================================================================
 
+#作弊组件 Start
+object_CheatWorkman						工人(作弊组件)
+buildtoolbar_popup_staff_CheatWorkman	一个作弊用的工人，被yuanze31用于调试组件时使用，非常不推荐正常游玩时使用
+#作弊组件 End
+
 # 劳工 Start
 object_Laborer							劳工
 buildtoolbar_popup_staff_Laborer		没有人使用工坊？不妨让这些劳工帮你创造更多的收入。\n\n- 略微带有作弊之意，可以按照自身喜好选择是否使用

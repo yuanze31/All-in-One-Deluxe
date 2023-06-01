@@ -1,3 +1,20 @@
+BEGIN Object
+    Name                 CheatWorkman
+    MoveSpeedFactor      2.00000
+    Toughness            5
+    Price                -500
+    Upkeep               10000
+    RenderDepth          2
+    ViewRange            3
+    BlockedBy            Wall
+    BlockedBy            StaticObject
+    BlockedBy            UtilityStation
+    Sprite               Workman
+    SpriteVariants       4
+    Properties           Entity
+    Properties           Staff
+END
+
 BEGIN Object     
     Name                 MetalDetector  
     ConstructionTime     10.0000  
@@ -21,7 +38,7 @@ BEGIN Object
     RenderDepth         3
     ViewRange           6
     Price               -500
-    Upkeep              -100s
+    Upkeep              -100
     BlockedBy           Wall
     BlockedBy           StaticObject
     BlockedBy           tilityStation
@@ -460,7 +477,7 @@ BEGIN Object
     AttachToWall         false
     BlockedBy            Wall
     BlockedBy            UtilityStation
-    Sprite               Sprinkler
+    Sprite               FireSprinkler
     SpriteScale          0.6
     MadeOf               HollowMetal
     Properties           StaticObject
@@ -2937,7 +2954,7 @@ END
 
 BEGIN Object
     Name                 Fire
-    MoveSpeedFactor      0.250000
+    MoveSpeedFactor      0.25
     Toughness            10
     MaxStackSize         -1
     RenderDepth          4
