@@ -2284,7 +2284,7 @@ END
 
 BEGIN Object
     Name                 Workman
-    MoveSpeedFactor      2.00000
+    MoveSpeedFactor      5.00000
     Toughness            5
     Price                -500
     Upkeep               -100
