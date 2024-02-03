@@ -173,6 +173,7 @@ local sizeDict = {
     Sink = {3, 1},
     ServingTable = {5, 1},
     OfficeDesk = {2, 1},
+    WaterBoiler = {2, 1},
     LargeTv = {3, 1},
     ShopFront = {2, 1},
     CctvMonitor = {3, 1},

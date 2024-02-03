@@ -91,7 +91,8 @@ sizeDict = {
     Altar = {3, 2},
     Pews = {4, 1},
     DogCrate = {1, 2},
-    GuardTower = {2, 2}
+    GuardTower = {2, 2},
+    WaterBoiler = {2, 1}
 }
 
 local orDirs = {{0, 1}, {-1, 0}, {0, -1}, {1, 0}, {0, 1}}

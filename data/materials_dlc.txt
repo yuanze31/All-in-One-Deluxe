@@ -1,0 +1,31 @@
+# Misc. changes with the standard bookshelves and also adds inventory slots so that the short bookcases can actually fucking function. How the fuck could they miss this, it is pretty obvious the books are not unloaded on the shelves. Are they even playing this game? /rant
+
+BEGIN Object
+    Name                ShortBookcase
+    Width               3
+    Height              1
+    Sprite              LibraryBookshelf
+	StackSprite			LibraryBooks1
+    RenderDepth         2
+    ConstructionTime    4.0
+    MoveCost            1
+    Toughness           10.000
+    Price               -150
+    Filter		Work
+    Filter		Entertainment
+    Filter		Decoration
+    Group               StaticObject
+    BlockedBy           Wall
+    BlockedBy           StaticObject
+    BlockedBy           UtilityStation
+    MadeOf              Wood
+	NumSlots            1
+	AttachToWall		false
+    Properties          StaticObject
+	Properties          RoomSpecific
+	Properties          ShelfObject
+	Research            PrisonLabour
+	IndoorOutdoor       IndoorOnly
+    ToolbarSprite       d_BookshelfShortToolbar
+	VersionAdded		2000
+END

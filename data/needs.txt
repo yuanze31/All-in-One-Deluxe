@@ -62,9 +62,6 @@ END
 #   Priority        8
 # END
 
-
-
-
 BEGIN Provider
   Action          WashingHand
   ProviderType    Object
@@ -381,3 +378,120 @@ BEGIN Provider
 END
 
 
+BEGIN Provider
+	Action	        Detox
+	ProviderType	Object
+	Object	        MedicineCabinet
+	PrimaryNeed	    Drugs
+	PrimaryRate	    -0.02000
+	ActionType	    Use
+    Flags           Passive
+    BroadcastRange  3.0
+END
+
+BEGIN Provider
+	Action	        Detox
+	ProviderType	Object
+	Object	        MedicineCabinet
+	PrimaryNeed	    Alcohol
+	PrimaryRate	    -0.05000
+	ActionType	    Use
+    Flags           Passive
+    BroadcastRange  3.0
+END
+
+BEGIN Provider
+	Action	        UseFan
+	ProviderType	Object
+	Object	        Fan
+	PrimaryNeed	    Comfort
+	PrimaryRate	    -0.05000
+	ActionType	    Use
+    Flags           Passive
+    BroadcastRange  4.0
+END
+
+BEGIN Provider
+  Action          KeepTidy
+  ProviderType    Object
+  Object          Bin
+  PrimaryNeed     Environment
+  PrimaryRate     -0.05000
+  ActionType      Use
+  Flags           Passive
+  BroadcastRange  6
+END
+
+BEGIN Provider
+  Action          KeepTidy
+  ProviderType    Object
+  Object          RecyclingBin
+  PrimaryNeed     Environment
+  PrimaryRate     -0.05000
+  ActionType      Use
+  Flags           Passive
+  BroadcastRange  6
+END
+
+BEGIN Provider
+  Action          KeepTidy
+  ProviderType    Object
+  Object          Plant
+  PrimaryNeed     Environment
+  PrimaryRate     -0.02000
+  ActionType      Use
+  Flags           Passive
+  BroadcastRange  2
+END
+
+#QOL Usable Desk PC
+
+BEGIN Provider
+	Action	        UseComputer
+	ProviderType	Object
+	Object	        OfficeDesk
+	PrimaryNeed	    Literacy
+	PrimaryRate	    -0.400000
+	ActionType	    Use
+    BroadcastType   Sit
+    BroadcastRange  1
+    Flags           Broadcaster
+END
+
+BEGIN Provider
+	Action	        UseComputer
+	ProviderType	Object
+	Object	        OfficeDesk
+	PrimaryNeed	    Literacy
+	PrimaryRate	    -0.400000
+	ActionType	    Use
+    BroadcastType   Relax
+    BroadcastRange  1
+    Flags           Broadcaster
+END
+
+#QOL Pet bird fixes (range increase - consistent with canvas)
+
+BEGIN Provider
+	Action			ListenToBird
+	ProviderType	Object
+	Object			PetBird
+	PrimaryNeed		Family
+	PrimaryRate	    -0.20000
+	SecondaryNeed	Comfort
+	SecondaryRate	-0.20000
+	ActionType		Use
+	Flags           Passive
+	BroadcastRange  3.0
+END
+
+BEGIN Provider
+	Action			ListenToBirdTwo
+	ProviderType	Object
+	Object			PetBird
+	PrimaryNeed		Luxuries
+	PrimaryRate	    -0.20000
+	ActionType		Use
+	Flags           Passive
+	BroadcastRange  3.0
+END
