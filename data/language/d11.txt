@@ -3172,87 +3172,87 @@ d11_intake_restrictions_caption	移除囚犯接收限制
 d11_intake_restrictions_tooltip	监狱骚乱或员工罢工等棘手事件通常会阻碍囚犯的接收，直到下一次囚犯接收日期的到来。只要接收囚犯的场地未被占用，那么这个选项允许囚犯无论在何种情况下都会被送到你的监狱。
 rapsheet_stint	再犯罪入狱次数
 reform_reward	囚犯改造奖励
-help_warning_prisonerreleased	改造计划是囚犯成功重新融入社会的关键。一些囚犯会浪子回头，开始新的生活，而另一些则会重蹈覆辙，再次犯罪。你会因囚犯改过自新得到额外的现金奖励，但一些再犯罪的囚犯可能会回到你的监狱。你不仅会因为他们的改造失败而被罚款，而且他们也可能在外面染上了更多恶习。
-finances_category_reformed	改造完成的囚犯
-finances_category_reoffended	再犯罪罚款
-finances_category_prisonerbonus	囚犯补助金
-d11_labour_management	劳役管理
-d11_LabourManagementDescription	这个菜单可以对在这里工作的囚犯、劳动时间以及快速警卫部署选项进行控制。
-d11_HighestSecurityLevel	最高安全级别
-d11_LabourManagement_RegimeActivity_hint	在工作时间、自由时间或两者之间，选择客户可以光临时间段。
-d11_LabourManagement_HighestSecurityLevel_hint	重刑犯可以在这里工作，但不能越过该房间的安全区域。
-d11_LabourManagement_GuardDeployment_hint	有平民在场的情况下，在该区域快速分配警卫的方法。
-d11_dollar_per_hour	$*X/小时
-d11_incomplete	未完成
-d11_restaurant_payment_desc	平民交易额
-finances_category_civilian_commerce	平民交易额
-d11_mealquality	饭菜质量
-policy_staff_keys	允许员工携带钥匙
-d11_report_policy_staffKeys_hint	如果启用，所有员工都会携带钥匙。\n这个选项会提高监狱的效率，\n但因为有更多的钥匙在外流动，同时也会增加额外的安全风险。
-codex_new_uniformColour	制服颜色：
-codex_new_defaultColour	默认颜色：
-objectiveWindow_FilterButton_2_title	关于改过自新
-objectiveWindow_FilterButton_2_toolTip	全新的改过自新 DLC 的帮助和信息。
-objective_WorkCredentials	工作证明
-objective_WorkCredentials_child_1	囚犯原有的工作证明
-objective_WorkCredentials_child_1_Description	在入狱之前，即使是重刑犯也会因以前的职业而具有一定的经验。有某一领域背景的囚犯不需要参加相应的培训课程，可直接参加与他们的经验相关的工作。
-objective_WorkCredentials_child_2	工作证明对囚犯的影响
-objective_WorkCredentials_child_2_Description	获得某些工作证明可以赢得某些声誉，即使没有通过培训计划，在某些情况下也可以不需要培训。\n\n厨师可通过获得搏击能手和结交广泛的声誉绕过厨房安全培训。\n\n清洁工可以获得敏捷和洁癖的声誉。\n\n工匠可通过获得工作狂和搏击能手的声誉绕过工坊培训。\n\n劳工可以获得强壮和粗暴的声誉。\n\n顾客服务人员可通过获得教唆犯和传教士的声誉绕过社会工作/计划的培训。
-objective_WorkExperience	工作经验
-objective_WorkExperience_child_2_Description	囚犯可通过 3 种途径获得工作经验：\n\n培训计划，囚犯从 3 个培训计划（作坊安全、厨房安全或三振出局培训）中选择 1 个完成，即可在相应领域（烹饪、工匠、顾客服务）获得 50% 的经验。\n\n原有的工作证明，囚犯可能在入狱前就已经拥有相关领域的工作经验。\n\n狱中劳役，任何参加劳役工作的囚犯都会获得相关领域的工作经验。
-objective_NewRooms	全新房间
-objective_NewRooms_child_4_Description	面包房为囚犯提供获得已有和新型违禁品的机会。由于有可能有大量的囚犯和平民在场，在某些情况下，囚犯有可能变成暴力分子。
-objective_NewRooms_child_8_Description	餐厅为囚犯提供获得已有和新型违禁品的机会。由于有可能有大量的囚犯和平民在场，在某些情况下，囚犯有可能变成暴力分子。
-objective_ScaredStraight	三振出局计划
-objective_ScaredStraight_child_1	为该计划培训囚犯
-objective_ScaredStraight_child_2	计划如何运作
-objective_ScaredStraight_child_2_Description	该计划邀请已受到法律最后警告的平民进入监狱，直接从囚犯那里了解监狱生活的实际情况。囚犯和平民在交流期间分成两组。囚犯会轮流加入小组，分享他们误入歧途的经历和故事。\n\n一名警卫将监督小组交流的顺利和有序进行。
-objective_ScaredStraight_child_3	完成计划的奖励
-objective_ScaredStraight_child_3_Description	囚犯顺利完成该计划后，再犯罪率会有小幅提高，工作经验也会有所增加。此外，囚犯的爆发点会降低，同时获得家庭和自由需求的奖励。
-objective_BehaviouralPrograms	全新的行为计划
-objective_BehaviouralPrograms_child_1	动物疗法计划
-objective_BehaviouralPrograms_child_1_Description	动物疗法与其他现有计划相似，但会为成功完成该课程的囚犯带来额外的提升。\n\n该计划分多次课程进行。参加并完成课程的囚犯再犯罪率降低，爆发点降低，获得舒适、自由和奢侈需求的小幅提升，并有机会消除囚犯目前可能存在的任何负面声誉。
-objective_BehaviouralPrograms_child_2	冲突解决计划
-objective_BehaviouralPrograms_child_3	已释放人员顾问
-objective_SentenceReductions	刑期的缩短和延长
-objective_SentenceReductions_child_1	通过囚犯的行为延长或缩短刑期
-objective_ReleasedPrisoners	已释放的囚犯
-objective_ReleasedPrisoners_child_1	改造和再犯罪的奖励和惩罚
-objective_ReleasedPrisoners_child_1_Description	已被释放的囚犯要么开始新的生活，要么重操旧业，重新回到监狱。\n\n每一个成功改造的囚犯，监狱都会得到一笔现金奖励。\n\n每一个再犯罪并送回监狱的囚犯，监狱会因改造失败而被罚款。
-objective_ReleasedPrisoners_child_2	被送回监狱的囚犯
-objective_LabourWages	狱中劳役工资
-objective_LabourWages_child_1	劳役工资的调整及影响
-objective_PrisonerGrantBonus	囚犯补助金
-objective_PrisonerGrantBonus_child_1	低再犯罪率奖励
-objective_PrisonerGrantBonus_child_1_Description	如果一个监狱拥有成功的改造计划，外界会根据其低再犯罪率提高每日每名囚犯产生的奖励价值。犯罪率越低，日奖金则越高。\n该额外收入可以在财政菜单中的囚犯补助金中找到。
-crisisToolbarTitle_DrugBust	毒品搜查
-buildtoolbar_DrugBust	毒品搜查
-buildtoolbar_tooltip_DrugBust	给所有待命的训犬员下达指令搜查监狱是否有任何藏匿的毒品。
-drug_bust_underway	毒品搜查中
-objective_grant_bakeryProduction	面包房生产技能
-objective_grant_bakeryProduction_description	对于出狱后寻找潜在职业道路的囚犯来说，制作和销售美味的食品既是一种技能，也是一种成就。\n\n囚犯会得到工资，监狱会有收入。
-objective_grant_bakeryProduction_bakery	建造一个面包房
-objective_grant_bakeryProduction_bakedGoods	向顾客售出 25 个烘焙食品
-objective_grant_restaurantService	餐厅服务计划
-objective_grant_restaurantService_description	让囚犯有机会挣钱，并为探监的平民提供服务是让囚犯回归正常生活的好方法。\n\n监狱还将从销售产品所带来的收入中获益。
-objective_grant_restaurantService_restaurant	建造一个餐厅
-objective_grant_restaurantService_serveCustomers	为 30 名平民提供服务
-objective_grant_reformedPrisoner	已改造囚犯计划
-objective_grant_reformedPrisoner_description	政府着眼于囚犯投资的深远影响，并希望树立成功改造囚犯的监狱典型。\n\n已改造囚犯计划为囚犯出狱后的改造起着至关重要的作用。为囚犯提供最好的机会来改变他们的生活。
-objective_grant_reformedPrisoner_reformedPrisoners	成功改造 100 名已释放囚犯
-objective_grant_prisonerReoffendRate	囚犯再犯罪率
-objective_grant_prisonerReoffendRate_description	降低囚犯的再犯罪率对所有人都有好处。如果囚犯在医疗健康方面得到妥善的照顾，获得生活技能和参与改造计划，并通过充分的安全保障使他们免受伤害，那么他们再犯罪的可能性就会降低。
-objective_grant_prisonerReoffendRate_reduceRate	将平均再犯罪率降低至30%
-objective_grant_reformProgramResearch	改造计划调查
-objective_grant_reformProgramResearch_description	初步研究表明，减少暴力倾向和避免冲突的计划能为囚犯成功重新融入社会提供了良好的机会。\n\n设立一系列改造计划，调查其积极影响。
-objective_grant_reformProgramResearch_enrollAnimalTherapy	登记 10 名接受动物疗法的囚犯
-objective_grant_reformProgramResearch_passAnimalTherapy	1 名囚犯通过了动物疗法
-objective_grant_reformProgramResearch_enrollJuvenileCorrection	登记 10 名参加三振出局计划的囚犯
-objective_grant_reformProgramResearch_passJuvenileCorrection	1 名囚犯通过了三振出局计划
+help_warning_prisonerreleased										改造计划是囚犯成功重新融入社会的关键。一些囚犯会浪子回头，开始新的生活，而另一些则会重蹈覆辙，再次犯罪。你会因囚犯改过自新得到额外的现金奖励，但一些再犯罪的囚犯可能会回到你的监狱。你不仅会因为他们的改造失败而被罚款，而且他们也可能在外面染上了更多恶习。
+finances_category_reformed											改造完成的囚犯
+finances_category_reoffended										再犯罪罚款
+finances_category_prisonerbonus										囚犯补助金
+d11_labour_management												劳役管理
+d11_LabourManagementDescription										这个菜单可以对在这里工作的囚犯、劳动时间以及快速警卫部署选项进行控制。
+d11_HighestSecurityLevel											最高安全级别
+d11_LabourManagement_RegimeActivity_hint							在工作时间、自由时间或两者之间，选择客户可以光临时间段。
+d11_LabourManagement_HighestSecurityLevel_hint						重刑犯可以在这里工作，但不能越过该房间的安全区域。
+d11_LabourManagement_GuardDeployment_hint							有平民在场的情况下，在该区域快速分配警卫的方法。
+d11_dollar_per_hour													$*X/小时
+d11_incomplete														未完成
+d11_restaurant_payment_desc											平民交易额
+finances_category_civilian_commerce									平民交易额
+d11_mealquality														饭菜质量
+policy_staff_keys													允许员工携带钥匙
+d11_report_policy_staffKeys_hint									如果启用，所有员工都会携带钥匙。\n这个选项会提高监狱的效率，\n但因为有更多的钥匙在外流动，同时也会增加额外的安全风险。
+codex_new_uniformColour												制服颜色：
+codex_new_defaultColour												默认颜色：
+objectiveWindow_FilterButton_2_title								关于改过自新
+objectiveWindow_FilterButton_2_toolTip								全新的改过自新 DLC 的帮助和信息。
+objective_WorkCredentials											工作证明
+objective_WorkCredentials_child_1									囚犯原有的工作证明
+objective_WorkCredentials_child_1_Description						在入狱之前，即使是重刑犯也会因以前的职业而具有一定的经验。有某一领域背景的囚犯不需要参加相应的培训课程，可直接参加与他们的经验相关的工作。
+objective_WorkCredentials_child_2									工作证明对囚犯的影响
+objective_WorkCredentials_child_2_Description						获得某些工作证明可以赢得某些声誉，即使没有通过培训计划，在某些情况下也可以不需要培训。\n\n厨师可通过获得搏击能手和结交广泛的声誉绕过厨房安全培训。\n\n清洁工可以获得敏捷和洁癖的声誉。\n\n工匠可通过获得工作狂和搏击能手的声誉绕过工坊培训。\n\n劳工可以获得强壮和粗暴的声誉。\n\n顾客服务人员可通过获得教唆犯和传教士的声誉绕过社会工作/计划的培训。
+objective_WorkExperience											工作经验
+objective_WorkExperience_child_2_Description						囚犯可通过 3 种途径获得工作经验：\n\n培训计划，囚犯从 3 个培训计划（作坊安全、厨房安全或三振出局培训）中选择 1 个完成，即可在相应领域（烹饪、工匠、顾客服务）获得 50% 的经验。\n\n原有的工作证明，囚犯可能在入狱前就已经拥有相关领域的工作经验。\n\n狱中劳役，任何参加劳役工作的囚犯都会获得相关领域的工作经验。
+objective_NewRooms													全新房间
+objective_NewRooms_child_4_Description								面包房为囚犯提供获得已有和新型违禁品的机会。由于有可能有大量的囚犯和平民在场，在某些情况下，囚犯有可能变成暴力分子。
+objective_NewRooms_child_8_Description								餐厅为囚犯提供获得已有和新型违禁品的机会。由于有可能有大量的囚犯和平民在场，在某些情况下，囚犯有可能变成暴力分子。
+objective_ScaredStraight											三振出局计划
+objective_ScaredStraight_child_1									为该计划培训囚犯
+objective_ScaredStraight_child_2									计划如何运作
+objective_ScaredStraight_child_2_Description						该计划邀请已受到法律最后警告的平民进入监狱，直接从囚犯那里了解监狱生活的实际情况。囚犯和平民在交流期间分成两组。囚犯会轮流加入小组，分享他们误入歧途的经历和故事。\n\n一名警卫将监督小组交流的顺利和有序进行。
+objective_ScaredStraight_child_3									完成计划的奖励
+objective_ScaredStraight_child_3_Description						囚犯顺利完成该计划后，再犯罪率会有小幅提高，工作经验也会有所增加。此外，囚犯的爆发点会降低，同时获得家庭和自由需求的奖励。
+objective_BehaviouralPrograms										全新的行为计划
+objective_BehaviouralPrograms_child_1								动物疗法计划
+objective_BehaviouralPrograms_child_1_Description					动物疗法与其他现有计划相似，但会为成功完成该课程的囚犯带来额外的提升。\n\n该计划分多次课程进行。参加并完成课程的囚犯再犯罪率降低，爆发点降低，获得舒适、自由和奢侈需求的小幅提升，并有机会消除囚犯目前可能存在的任何负面声誉。
+objective_BehaviouralPrograms_child_2								冲突解决计划
+objective_BehaviouralPrograms_child_3								已释放人员顾问
+objective_SentenceReductions										刑期的缩短和延长
+objective_SentenceReductions_child_1								通过囚犯的行为延长或缩短刑期
+objective_ReleasedPrisoners											已释放的囚犯
+objective_ReleasedPrisoners_child_1									改造和再犯罪的奖励和惩罚
+objective_ReleasedPrisoners_child_1_Description						已被释放的囚犯要么开始新的生活，要么重操旧业，重新回到监狱。\n\n每一个成功改造的囚犯，监狱都会得到一笔现金奖励。\n\n每一个再犯罪并送回监狱的囚犯，监狱会因改造失败而被罚款。
+objective_ReleasedPrisoners_child_2									被送回监狱的囚犯
+objective_LabourWages												狱中劳役工资
+objective_LabourWages_child_1										劳役工资的调整及影响
+objective_PrisonerGrantBonus										囚犯补助金
+objective_PrisonerGrantBonus_child_1								低再犯罪率奖励
+objective_PrisonerGrantBonus_child_1_Description					如果一个监狱拥有成功的改造计划，外界会根据其低再犯罪率提高每日每名囚犯产生的奖励价值。犯罪率越低，日奖金则越高。\n该额外收入可以在财政菜单中的囚犯补助金中找到。
+crisisToolbarTitle_DrugBust											毒品搜查
+buildtoolbar_DrugBust												毒品搜查
+buildtoolbar_tooltip_DrugBust										给所有待命的训犬员下达指令搜查监狱是否有任何藏匿的毒品。
+drug_bust_underway													毒品搜查中
+objective_grant_bakeryProduction									面包房生产技能
+objective_grant_bakeryProduction_description						对于出狱后寻找潜在职业道路的囚犯来说，制作和销售美味的食品既是一种技能，也是一种成就。\n\n囚犯会得到工资，监狱会有收入。
+objective_grant_bakeryProduction_bakery								建造一个面包房
+objective_grant_bakeryProduction_bakedGoods							向顾客售出 25 个烘焙食品
+objective_grant_restaurantService									餐厅服务计划
+objective_grant_restaurantService_description						让囚犯有机会挣钱，并为探监的平民提供服务是让囚犯回归正常生活的好方法。\n\n监狱还将从销售产品所带来的收入中获益。
+objective_grant_restaurantService_restaurant						建造一个餐厅
+objective_grant_restaurantService_serveCustomers					为 30 名平民提供服务
+objective_grant_reformedPrisoner									已改造囚犯计划
+objective_grant_reformedPrisoner_description						政府着眼于囚犯投资的深远影响，并希望树立成功改造囚犯的监狱典型。\n\n已改造囚犯计划为囚犯出狱后的改造起着至关重要的作用。为囚犯提供最好的机会来改变他们的生活。
+objective_grant_reformedPrisoner_reformedPrisoners					成功改造 100 名已释放囚犯
+objective_grant_prisonerReoffendRate								囚犯再犯罪率
+objective_grant_prisonerReoffendRate_description					降低囚犯的再犯罪率对所有人都有好处。如果囚犯在医疗健康方面得到妥善的照顾，获得生活技能和参与改造计划，并通过充分的安全保障使他们免受伤害，那么他们再犯罪的可能性就会降低。
+objective_grant_prisonerReoffendRate_reduceRate						将平均再犯罪率降低至30%
+objective_grant_reformProgramResearch								改造计划调查
+objective_grant_reformProgramResearch_description					初步研究表明，减少暴力倾向和避免冲突的计划能为囚犯成功重新融入社会提供了良好的机会。\n\n设立一系列改造计划，调查其积极影响。
+objective_grant_reformProgramResearch_enrollAnimalTherapy			登记 10 名接受动物疗法的囚犯
+objective_grant_reformProgramResearch_passAnimalTherapy				1 名囚犯通过了动物疗法
+objective_grant_reformProgramResearch_enrollJuvenileCorrection		登记 10 名参加三振出局计划的囚犯
+objective_grant_reformProgramResearch_passJuvenileCorrection		1 名囚犯通过了三振出局计划
 objective_grant_reformProgramResearch_enrollPrisonerConsultation	登记 10 名参加已改造囚犯顾问计划的囚犯
-objective_grant_reformProgramResearch_passPrisonerConsultation	1 名囚犯通过了已改造囚犯顾问计划
-grant_category_ReformPassed	至少有一名囚犯通过
-dlc_name_shelby	改过自新
+objective_grant_reformProgramResearch_passPrisonerConsultation		1 名囚犯通过了已改造囚犯顾问计划
+grant_category_ReformPassed											至少有一名囚犯通过
+dlc_name_shelby														改过自新
 d11_reform_design_info	再犯罪率越低，囚犯改造成功的机会就越大。为了降低囚犯的再犯罪率，最好的办法是根据他们的健康状况、通过改造计划、获得的工作经验以及类似的积分来提高囚犯的等级。更多的信息可以在下面找到。
 d11_reform_punishment_grade_tooltip_title	平均惩罚等级
 d11_reform_reform_grade_tooltip_title	平均改造等级

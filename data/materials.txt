@@ -21,17 +21,18 @@ BEGIN Object
     MoveSpeedFactor      0.500000  
     Price                -1000  
     Filter		         Security
+    Filter		         RequiresElectricity
     Group                StaticObject 
-    BlockedBy            Wall    
+    BlockedBy            Wall
     BlockedBy            UtilityStation
     Sprite               MetalDetector  
     MadeOf               SolidMetal
-    Properties           Utility
+    Properties           StaticObject
     Properties           Electrical
     Properties           DontAvoid
 END
 
-BEGIN Object    
+BEGIN Object
     Name                Laborer
     MoveSpeedFactor     0.500000
     Toughness           5.0000
@@ -487,7 +488,7 @@ END
 
 BEGIN Object
     Name                 Light
-    ConstructionTime     3
+    ConstructionTime     1
     Toughness            5
     Teleportable         true
     Price                -30
@@ -499,8 +500,7 @@ BEGIN Object
     Properties           StaticObject
     Properties           Electrical
     Properties           DontAvoid
-    Properties           Uncloneable
-END
+    END
 
 BEGIN Object
     Name                 TargetSorter
@@ -519,7 +519,7 @@ BEGIN Object
     TopAligned false
     END
     MadeOf               Composite
-    Properties           Utility
+    Properties           Entity
     Properties           Wired
     Properties           DontAvoid
     Properties           Scripted
@@ -1008,6 +1008,9 @@ BEGIN Object
     ConstructionTime     5
     MoveSpeedFactor      0.8
     Price                -200
+    Filter		         Work
+    Filter               Entertainment
+	Filter               RequiresElectricity
     RenderDepth          1
     AttachToWall         true
     Group                StaticObject
@@ -1348,6 +1351,7 @@ BEGIN Object
     MoveSpeedFactor      0.900000
     Toughness            20.0000
     Price                -1000
+    Filter               Security
     AttachToWall         false
     Group                StaticObject
     BlockedBy            Wall
@@ -1391,6 +1395,7 @@ BEGIN Object
     MoveSpeedFactor      0.5
     Toughness            15
     Price                -200
+    Filter               Rest
     AttachToWall         true
     NumSlots             1
     Group                StaticObject
@@ -1669,7 +1674,7 @@ BEGIN Object
     ConstructionTime    5
     MoveSpeedFactor     0.4
     Toughness           10.000
-    Price               -200
+    Price               -1000
     Group               StaticObject
     BlockedBy           Wall
     BlockedBy           StaticObject
@@ -1845,50 +1850,6 @@ BEGIN Object
     h 1
     RotateType 0
     END
-END
-
-BEGIN Object
-    Name                Wood
-    MaxStackSize        32
-    RenderDepth         1
-    Price               -60
-    Sprite              Wood
-    StackSprite         StackWood
-    Properties          Material
-    Properties          Sellable
-END
-
-BEGIN Object
-    Name                Log
-    MaxStackSize        3
-    RenderDepth         1
-    Price               -100
-    Sprite              RawWood
-    StackSprite         StackLogs
-    Properties          Material
-    Properties          Sellable
-END
-
-BEGIN Object
-    Name                 LicensePlateBlank
-    Price                -16
-    MaxStackSize         64
-    RenderDepth          1
-    Sprite               PlateBlank
-    StackSprite          StackPlatesBlank
-    Properties           Material
-    Properties           Sellable
-END
-
-BEGIN Object
-    Name                 LicensePlate
-    MaxStackSize         512
-    RenderDepth          1
-    Price                -20
-    Sprite               Plate
-    StackSprite          StackPlates
-    Properties           Material
-    Properties           Sellable
 END
 
 BEGIN Object
@@ -2200,15 +2161,15 @@ BEGIN Object
     Properties           Staff
     Properties           Scripted
     Equipment            Clipboard
-    MaxAllowed       5
+    MaxAllowed           5
 END
 
 BEGIN Object
     Name                 ArmedGuard
-    MoveSpeedFactor      0.500000
-    Toughness            15.0000
+    MoveSpeedFactor      0.5
+    Toughness            15.0
     Price                -1500
-    Upkeep         -350
+    Upkeep               -350
     RenderDepth          2
     ViewRange            15
     BlockedBy            Wall
@@ -2221,8 +2182,8 @@ BEGIN Object
     Properties           Staff
     Properties           Guard
     Equipment            Shotgun
-    MaxAllowed       30
-END
+    END
+
 BEGIN Object
     Name                 Psychologist
     Price                -1000
@@ -2302,7 +2263,7 @@ END
 BEGIN Object
     Name                 DogHandler
     MoveSpeedFactor      0.5
-    Toughness            15
+    Toughness            15.0
     Price                -1000
     Upkeep               -150
     RenderDepth          2
@@ -2389,12 +2350,42 @@ END
 
   BEGIN Callout
     Name                 NationalGuard
-    MaxNumber            3
+    MaxNumber            5
     Cost                 -1500
     Vehicle              TroopTruck
     Entity               Soldier
-    NumEntities          4
+    NumEntities          6
     Sprite               EmergencyRiotPolice
+END
+
+BEGIN Callout  
+    Name                 RiotPolice  
+    Cost                 -300  
+    MaxNumber            5 
+    Vehicle              RiotVan
+    Entity               RiotGuard
+    NumEntities          6
+    Sprite               EmergencyRiotPolice
+END
+
+BEGIN Callout  
+    Name                 Paramedics
+    Cost                 -100  
+    MaxNumber            5 
+    Vehicle              Ambulance
+    Entity               Paramedic
+    NumEntities          4
+    Sprite               EmergencyParamedics
+END
+
+BEGIN Callout  
+    Name                 FireEngine
+    Cost                 -100 
+    MaxNumber            5  
+    Vehicle              FireEngine
+    Entity               Fireman
+    NumEntities          4
+    Sprite               EmergencyFireEngine
 END
 
 BEGIN Object
@@ -3452,35 +3443,67 @@ BEGIN Room
     Capturable           true
     Properties           Housing
     Properties           QualityGraded
+    Properties           CanAssignGangSegregation
     BEGIN Requirement Type MinimumSize  x 2  y 3  END
+    BEGIN Requirement Type Indoor  END
     BEGIN Requirement Type Enclosed END
-    BEGIN Requirement Type Object  Id Bed Alt Mattress,ComfyBed,OldBed END
+    BEGIN Requirement Type Object  Id Bed Alt Mattress,ComfyBed,CoffinBed,OldBed,CampBed,NettedBed END
     BEGIN Requirement Type Object  Id Toilet  END
+
+    BEGIN LikelyObject	Id		JailDoor		END
+    BEGIN LikelyObject	Id		WoodDrain		END
     BEGIN LikelyObject  Id      Bookshelf       END
+    BEGIN LikelyObject  Id      Tv              END
+	BEGIN LikelyObject  Id      LargeTv         END
+    BEGIN LikelyObject  Id      Window          END
+	BEGIN LikelyObject  Id      WindowLarge		END
+	BEGIN LikelyObject  Id 		SinkMirror		END
+    BEGIN LikelyObject  Id      Radio           END
+	BEGIN LikelyObject	Id		BoomBoxRoundhouse	END
+    BEGIN LikelyObject  Id      OfficeDesk      END
     BEGIN LikelyObject  Id      Chair           END
-    BEGIN LikelyObject  Id      PersonalSink    END
+    BEGIN LikelyObject  Id      ShowerHead      END
     BEGIN LikelyObject  Id      Drain           END
     BEGIN LikelyObject  Id      ShortBookcase   END
-    BEGIN LikelyObject  Id      SchoolDesk      END
-    BEGIN LikelyObject  Id      Tv           END
-    BEGIN LikelyObject  Id      Window          END
-    BEGIN LikelyObject  Id      WindowLarge     END
+    BEGIN LikelyObject	Id		ChestOfDrawers	END
 
-    BEGIN LikelyObject  Id      ChestOfDrawers  END
     BEGIN LikelyObject  Id      Plant           END
-    BEGIN LikelyObject  Id      SinkMirror    END
-    BEGIN LikelyObject  Id      WoodenTable     END
-    BEGIN LikelyObject  Id      WoodenStool     END
-    BEGIN LikelyObject  Id      Painting1       END
-    BEGIN LikelyObject  Id      Painting2       END
-    BEGIN LikelyObject  Id      ChessTable      END
-    BEGIN LikelyObject  Id      BathroomHandDryer END
-    BEGIN LikelyObject  Id      PunchBag        END
-    BEGIN LikelyObject  Id      PetBird         END
-    BEGIN LikelyObject  Id      Canvas          END
-    BEGIN LikelyObject  Id      Fan             END
-    BEGIN LikelyObject  Id      GymMat          END
-    BEGIN LikelyObject  Id      SoftPillow      END
+    BEGIN LikelyObject	Id		BathroomSink	END
+	BEGIN LikelyObject	Id		WoodenTable		END
+	BEGIN LikelyObject	Id		WoodenStool		END
+	BEGIN LikelyObject	Id		MetalStool		END
+	BEGIN LikelyObject	Id		Painting1		END
+	BEGIN LikelyObject	Id		Painting2		END
+	BEGIN LikelyObject	Id		ChessTable		END
+	BEGIN LikelyObject	Id		BathroomHandDryer END
+    BEGIN LikelyObject	Id		PunchBag 		END
+	BEGIN LikelyObject	Id		PetBird			END
+	BEGIN LikelyObject  Id		Canvas			END
+	BEGIN LikelyObject	Id		Fan				END
+	BEGIN LikelyObject	Id		GymMat			END
+	BEGIN LikelyObject	Id		SoftPillow		END
+    BEGIN LikelyObject  Id      WindowClassy    END
+    BEGIN LikelyObject  Id      WindowClassyLarge   END
+    BEGIN LikelyObject  Id      GlassWindow     END
+    BEGIN LikelyObject  Id      GlassWindowLarge    END
+    BEGIN LikelyObject  Id      WoodenWindowSmall   END
+    BEGIN LikelyObject  Id      WoodenWindowLarge   END
+    BEGIN LikelyObject  Id      SofaChairBrown   END
+    BEGIN LikelyObject  Id      SofaChairDouble   END
+    BEGIN LikelyObject  Id      SofaChairDoubleBrown   END
+    BEGIN LikelyObject  Id      SofaChairSingle   END
+    BEGIN LikelyObject  Id      SofaSingle   END
+    BEGIN LikelyObject  Id      SofaDouble   END
+    BEGIN LikelyObject  Id      SwivelChair   END
+    BEGIN LikelyObject  Id      ChairYellow   END
+    BEGIN LikelyObject  Id      OfficeChair   END
+    BEGIN LikelyObject  Id      LeatherChair   END
+    BEGIN LikelyObject  Id      LeatherSofa   END
+    BEGIN LikelyObject  Id      DiningChair   END
+    BEGIN LikelyObject  Id      BedsideCab1   END
+    BEGIN LikelyObject  Id      BedsideCab2   END
+    BEGIN LikelyObject  Id      PaintCabinet   END
+    BEGIN LikelyObject  Id      Mirror   END
 
     BEGIN Grading       Type    RoomSize Size   6               END
     BEGIN Grading       Type    RoomSize Size   9              END
@@ -3492,16 +3515,18 @@ BEGIN Room
     BEGIN Grading       Type    Item    Id      Tv  Alt LargeTv Multi true END
     BEGIN Grading       Type    Item    Id      Radio           END
     BEGIN Grading       Type    Item    Id      Bookshelf  Alt ShortBookcase  END
-    BEGIN Grading       Type    Item    Id      Chair   Alt WoodenStool,LeatherChair,OfficeChair,SofaChairSingle  Multi true  END
+    BEGIN Grading       Type    Item    Id      Chair   Alt WoodenStool,OfficeChair,ChairYellow,SwivelChair,MetalStool,DiningChair,SofaChairSingle,SofaChairDouble  Multi true  END
     BEGIN Grading       Type    Item    Id      PetBird         END
     BEGIN Grading       Type    Item    Id      SoftPillow      END
-    BEGIN Grading       Type    Item    Id      SinkMirror      END
+    BEGIN Grading       Type    Item    Id      SinkMirror  Alt  BathroomSink  Multi true  END
     BEGIN Grading       Type    Item    Id      Canvas          END
     BEGIN Grading       Type    Item    Id      PunchBag        END
-    BEGIN Grading       Type    Item    Id      ComfyBed        END
+    BEGIN Grading       Type    Item    Id      ComfyBed Alt NettedBed Multi true        END
     BEGIN Grading       Type    Item    Id      Mattress   GradeEffect -1    END
     BEGIN Grading       Type    Item    Id      OldBed     GradeEffect -1    END
+
     BEGIN Grading       Type    BadWalls Percent 50 GradeEffect -1      END
+    BEGIN Grading		Type	HasGlassWalls Percent 50	GradeEffect -1		END
     BEGIN Grading       Type    HasWindow   Quantity 0 GradeEffect -1   END
     BEGIN Grading       Type    HasPASystem GradeEffect -1  END
 END
@@ -3510,44 +3535,73 @@ BEGIN Room
     Name                 Dormitory
     Properties           Housing
     Properties           QualityGraded
+    Properties           CanAssignGangSegregation
     BEGIN Requirement Type MinimumSize  x 3  y 3  END
     BEGIN Requirement Type Enclosed END
-    BEGIN Requirement Type Object  Id Bed Alt BunkBed,Mattress,ComfyBed,OldBed END
+    BEGIN Requirement Type Indoor  END
+    BEGIN Requirement Type Object  Id Bed Alt BunkBed,Mattress,ComfyBed,CoffinBed,OldBed,CampBed,NettedBed END
     BEGIN Requirement Type Object  Id Toilet  END
-    BEGIN LikelyObject  Id      PersonalSink    END
-    BEGIN LikelyObject  Id      SmallBench      END
-    BEGIN LikelyObject  Id      OakBench        END
-    BEGIN LikelyObject  Id      JailDoor        END
+    
+    BEGIN LikelyObject  Id      SmallBench		END
+    BEGIN LikelyObject  Id      JungleBench		END
+    BEGIN LikelyObject  Id      OakBench		END
+    BEGIN LikelyObject	Id		JailDoor		END
     BEGIN LikelyObject  Id      Bookshelf       END
     BEGIN LikelyObject  Id      Tv              END
     BEGIN LikelyObject  Id      Window          END
     BEGIN LikelyObject  Id      Radio           END
+    BEGIN LikelyObject	Id		BoomBoxRoundhouse	END
     BEGIN LikelyObject  Id      PoolTable       END
-    BEGIN LikelyObject  Id      WaterCooler     END
-    BEGIN LikelyObject  Id      Fan             END
-    BEGIN LikelyObject  Id      Chair           END
-    BEGIN LikelyObject  Id      WindowLarge     END
-    BEGIN LikelyObject  Id      WindowClassy    END
-    BEGIN LikelyObject  Id      WindowClassyLarge END
-    BEGIN LikelyObject  Id      ShowerHead      END
-    BEGIN LikelyObject  Id      GlassWindow     END
-    BEGIN LikelyObject  Id      GlassWindowLarge END
-    BEGIN LikelyObject  Id      SinkMirror      END
-    BEGIN LikelyObject  Id      TableFootball   END
-    BEGIN LikelyObject  Id      TableTennis     END
-    BEGIN LikelyObject  Id      PoolTable       END
+    BEGIN LikelyObject	Id		WaterCooler		END
+	BEGIN LikelyObject	Id		Fan				END
+	BEGIN LikelyObject	Id		Chair			END
+	BEGIN LikelyObject	Id		WindowLarge 	END
+	BEGIN LikelyObject	Id		WindowClassy	END
+	BEGIN LikelyObject	Id		WindowClassyLarge END
+	BEGIN LikelyObject	Id		ShowerHead		END
+	BEGIN LikelyObject	Id		GlassWindow		END
+	BEGIN LikelyObject	Id		GlassWindowLarge END
+	BEGIN LikelyObject	Id		SinkMirror		END
+	BEGIN LikelyObject	Id		TableFootball	END
+	BEGIN LikelyObject	Id		TableTennis		END
+	BEGIN LikelyObject	Id		PoolTable		END
+	BEGIN LikelyObject	Id		WoodenStool		END
+	BEGIN LikelyObject	Id		MetalStool		END
+    BEGIN LikelyObject  Id      SofaChairBrown   END
+    BEGIN LikelyObject  Id      SofaChairDouble   END
+    BEGIN LikelyObject  Id      SofaChairDoubleBrown   END
+    BEGIN LikelyObject  Id      SofaChairSingle   END
+    BEGIN LikelyObject  Id      SofaSingle    END
+    BEGIN LikelyObject  Id      SofaDouble    END
+    BEGIN LikelyObject  Id      SwivelChair   END
+    BEGIN LikelyObject  Id      ChairYellow   END
+    BEGIN LikelyObject  Id      OfficeChair   END
+    BEGIN LikelyObject  Id      LeatherChair  END
+    BEGIN LikelyObject  Id      Drain         END
+    BEGIN LikelyObject  Id      WoodDrain     END
+    BEGIN LikelyObject  Id      PhoneBooth    END
+    BEGIN LikelyObject  Id      VideoCallBooth  END
+    BEGIN LikelyObject  Id      SoftPillow      END
+    BEGIN LikelyObject  Id      LeatherSofa   END
+    BEGIN LikelyObject  Id      DiningChair   END
+    BEGIN LikelyObject  Id      BedsideCab1   END
+    BEGIN LikelyObject  Id      BedsideCab2   END
+    BEGIN LikelyObject  Id      PaintCabinet   END
+    BEGIN LikelyObject  Id      Mirror   END
 
     BEGIN Grading       Type    OutsideWindow   GradeEffect 2 END
     BEGIN Grading       Type    Item    Id      ShowerHead  Quantity 1 END
     BEGIN Grading       Type    Item    Id      WaterCooler            END
-    BEGIN Grading       Type    Item    Id      TableFootball Alt TableTennis,PoolTable Multi true END
+    
     BEGIN Grading       Type    Item    Id      Tv Alt LargeTv   Multi true END
     BEGIN Grading       Type    Item    Id      Radio           END
     BEGIN Grading       Type    Item    Id      Fan           END
     BEGIN Grading       Type    Item    Id      Bookshelf  Alt ShortBookcase   END
-    BEGIN Grading       Type    Item    Id      Chair   Alt Bench,SmallBench,OakBench,WoodenStool,LeatherChair,OfficeChair,SofaChairSingle,SofaChairDouble  Multi true  END
-    BEGIN Grading       Type    Item    Id      SinkMirror      END
+    BEGIN Grading       Type    Item    Id      Chair   Alt Bench,SmallBench,JungleBench,OakBench,WoodenStool,OfficeChair,ChairYellow,SwivelChair,MetalStool,DiningChair,SofaChairSingle,SofaChairDouble  Multi true  END
+    BEGIN Grading       Type    Item    Id      SinkMirror  Alt  BathroomSink  Multi true  END
+	BEGIN Grading       Type    Item    Id      ComfyBed Alt NettedBed Multi true        END
     BEGIN Grading       Type    BadWalls    Percent 50  GradeEffect -1          END
+    BEGIN Grading		Type	HasGlassWalls Percent 50	GradeEffect -1		END
     BEGIN Grading       Type    HasWindow   Quantity 0 GradeEffect -1   END
     BEGIN Grading       Type    Item    Id      Mattress Quantity 4  GradeEffect -1    END
     BEGIN Grading       Type    HasPASystem GradeEffect -1  END
@@ -3712,14 +3766,14 @@ BEGIN Room
     BEGIN LikelyObject  Id      DumbbellRack    END
     BEGIN LikelyObject  Id      SnackMachine    END
 
-    BEGIN Grading       Type    RoomSize    Size    25  END
-    BEGIN Grading       Type    RoomSize    Size    50 GradingEffect 2  END
-    BEGIN Grading       Type    RoomSizeLess Size   16 GradingEffect -1 END
-    BEGIN Grading       Type    Item    Id      DumbbellRack    END
+    BEGIN Grading       Type    RoomSize    Size    50  END
+    BEGIN Grading       Type    RoomSize    Size    100 GradeEffect 2  END
+     BEGIN Grading       Type    Item    Id      DumbbellRack    END
     BEGIN Grading       Type    Item    Id      Bleachers       END
     BEGIN Grading       Type    Item    Id      PunchBag     END
     BEGIN Grading       Type    Item    Id      TyreApparatus   END
     BEGIN Grading       Type    MultiItems  Quantity 10 GradeEffect 2 END
+    BEGIN Grading       Type    RoomSizeLess Size   16 GradeEffect -1 END
     BEGIN Grading       Type    RoomSizeLess Size   50 GradeEffect -1   END
     BEGIN Grading       Type    Floor   Id      Mud Alt NewMud Percent  50 GradeEffect -1 END
     BEGIN Grading       Type    Item    Id      PASystem    GradeEffect -1 END
@@ -3917,7 +3971,6 @@ BEGIN Room
     BEGIN Requirement Type Object  Id LaundryMachine  END
     BEGIN Requirement Type Object  Id LaundryBasket  END
     BEGIN Requirement Type Object  Id IroningBoard Alt IroningBoardShort END
-    BEGIN Requirement Type Object  Id SinkMirror alt PersonalSink END
     BEGIN LikelyObject  Id    Table     END
     BEGIN Contraband    Id    Rope      END
     Properties           PrisonersCanWork
@@ -3995,7 +4048,6 @@ END
 
 BEGIN Room
     Name                 Staffroom
-    BEGIN Requirement Type Object  Id SofaChairDouble Alt SofaChairSingle,WoodenStool END
     BEGIN Requirement Type Object  Id DrinkMachine  END
 
     BEGIN LikelyObject  Id      Bin   END
@@ -4068,6 +4120,11 @@ BEGIN Room
     BEGIN Contraband  Id   Saw END
     BEGIN Contraband  Id   Axe END
     BEGIN Contraband  Id   Spade END
+
+	Properties			PrisonersCanWork
+	WorkResearch		ForestryLabour
+	WorkExperience		WorkLabourer
+	WorkExperienceRate	0.05
 END
 
 BEGIN Room
@@ -4076,7 +4133,8 @@ BEGIN Room
     Research             Education
     BEGIN Requirement Type MinimumSize  x 3  y 4  END
     BEGIN Requirement Type Object  Id SchoolDesk END
-    BEGIN Requirement Type Object  Id OfficeDesk END
+    BEGIN Requirement Type Object  Id OfficeDesk Alt FancyDesk END
+
     BEGIN LikelyObject  Id      Door         END
     BEGIN LikelyObject  Id      TimedCaller         END
     BEGIN LikelyObject  Id  WaterCooler         END
@@ -4164,13 +4222,15 @@ BEGIN Equipment
     Name                 Tazer
     Sprite               Tazer
     Scale                0.8
-    AttackPower          0.1
-    RechargeTime         20
+    AttackPower          1.0
+    RechargeTime         20.0
     TwoHanded            false
     Ammo                 1
     Properties           Weapons
     Properties           RangedWeapon
     Properties           NoImport
+    Properties           ExtraContraband
+    Properties           Metal
 END
 
 BEGIN Equipment
@@ -4203,3 +4263,46 @@ END
     Properties           NoImport
 END
 
+BEGIN Object
+    Name                 LicensePlateBlank
+    Price                -16
+    MaxStackSize         64
+    RenderDepth          1
+    Sprite               PlateBlank
+    StackSprite          StackPlatesBlank
+    Properties           Material
+    Properties           Sellable
+END
+
+BEGIN Object
+    Name                 LicensePlate
+    MaxStackSize         128
+    RenderDepth          1
+    Price                -20
+    Sprite               Plate
+    StackSprite          StackPlates
+    Properties           Material
+    Properties           Sellable
+END
+
+BEGIN Object
+    Name                Log
+    MaxStackSize        8
+    RenderDepth         1
+    Price               -100
+    Sprite              RawWood
+    StackSprite         StackLogs
+    Properties          Material
+    Properties          Sellable
+END
+
+BEGIN Object
+    Name                Wood
+    MaxStackSize        32
+    RenderDepth         1
+    Price               -60
+    Sprite              Wood
+    StackSprite         StackWood
+    Properties          Material
+    Properties          Sellable
+END
