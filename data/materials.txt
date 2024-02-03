@@ -1278,7 +1278,7 @@ BEGIN Object
 		BEGIN Marker		x 1 y 1.9 orientation.x 0 orientation.y -1 Index 0 END
 		BEGIN Marker		x 3 y 0.3 orientation.x 0 orientation.y 1 Index 0 END
 		BEGIN Marker		x 4.2 y 0.35 orientation.x 1 orientation.y 0 Index 0 END
-	ND
+	END
 	SpriteScale				1.1
 	MadeOf					HollowMetal
 	Properties				StaticObject

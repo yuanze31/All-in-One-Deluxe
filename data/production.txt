@@ -220,11 +220,6 @@ END
 #     Distribution         NonCompeting
 # END
 
-
-
-
-
-
 BEGIN ProductionRule
     Rule                 Storage
     Material             Log
@@ -240,7 +235,6 @@ BEGIN ProductionRule
     Distribution         OutOfStock
     Properties           HighPriority
 END
-
 
 BEGIN Processor
     Processor            WorkshopSaw
@@ -280,17 +274,12 @@ BEGIN ProductionRule
     Distribution         NonCompeting
 END
 
-
 BEGIN ProductionRule
     Rule                 Storage
     Material             LicensePlateBlank
     Room                 Exports
     Condition            NotLoaded
 END
-
-
-
-
 
 BEGIN ProductionRule
     Rule                Storage
@@ -301,7 +290,6 @@ BEGIN ProductionRule
     Properties          HighPriority
 END
 
-
 BEGIN ProductionRule
     Rule                Storage
     Material            AccountingBookUnfinished
@@ -309,7 +297,6 @@ BEGIN ProductionRule
     Room                Accounting
     Distribution        OutOfStock
 END
-
 
 BEGIN ProductionRule
     Rule                 Storage
@@ -329,7 +316,6 @@ BEGIN ProductionRule
     Condition            NotLoaded
 END
 
-
 BEGIN ProductionRule
     Rule                 Storage
     Material             AccountingBookFailed
@@ -337,7 +323,6 @@ BEGIN ProductionRule
     Room                 Office
     Distribution         Nearest
 END
-
 
 BEGIN ProductionRule
     Rule                 Storage
@@ -357,17 +342,12 @@ BEGIN ProductionRule
     Condition            InRoom
 END
 
-
-
 BEGIN ProductionRule
     Rule                 Storage
     Material             AccountingBookFinished
     Room                 Exports
     Distribution         Nearest
 END
-
-
-
 
 BEGIN Processor
     Processor            AccountingTable
@@ -384,7 +364,6 @@ BEGIN Processor
 #    Properties           ShowDuringOperation
 END
 
-
 # BEGIN Processor
 #     Processor            AccountingTable
 #     Input                AccountingBookFailed
@@ -394,8 +373,6 @@ END
 #     Worker               Workman
 #     OperatingTime        5
 # END
-
-
 
 BEGIN ProductionRule
     Rule                 Storage
@@ -416,7 +393,6 @@ BEGIN ProductionRule
     Properties          LoadObject
 END
 
-
 BEGIN ProductionRule
     Rule                 Storage
     Material             NewNeedle
@@ -425,8 +401,6 @@ BEGIN ProductionRule
     Distribution         NonCompeting
     Properties           HighPriority
 END
-
-
 
 BEGIN ProductionRule
     Rule                 Entity
@@ -445,7 +419,6 @@ BEGIN ProductionRule
     Container            Bin
     Distribution         Nearest
 END
-
 
 BEGIN ProductionRule
     Rule                 Storage
@@ -468,7 +441,6 @@ BEGIN ProductionRule
     Distribution         NonCompeting
 END
 
-
 # BEGIN Processor
 #     Processor            Bin
 #     Input                UsedNeedle
@@ -484,8 +456,6 @@ END
 #     Room                 Exports
 #     Distribution         NonCompeting
 # END
-
-
 
 # BEGIN ProductionRule
 #     Rule                 Storage
