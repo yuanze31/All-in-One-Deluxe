@@ -163,6 +163,17 @@ ab__accountant_tt__unconscious 先赶紧救治她吧。
 object_CheatPrisonerMisbehavior [作弊]囚犯闹事
 buildtoolbar_popup_obj_CheatPrisonerMisbehavior 这个特殊物品可以让囚犯们立即闹事。\n\n“安装”它后，点击它，在菜单中操作。
 
+object_MusterGuards 召集警卫
+buildtoolbar_popup_staff_MusterGuards 把较远的警卫也都叫过来。\n半径为20米。\n\n用于及时镇压骚乱。
+
+object_SearchToilets 搜查马桶
+buildtoolbar_popup_staff_SearchToilets 当你怀疑某一范围的马桶藏着地道时，用这个。\n它会让警卫搜查8米内的所有马桶。\n\n需要等1分钟才能生效。\n\n这比“搜查牢房区块”好得多。\n但仍然无法像手动指定搜查马桶那样100%成功发现地道。\n\n
+
+object_SwapOffice 对调办公室
+buildtoolbar_popup_staff_SwapOffice 让两个管理人员对调其办公室。\n\n这个功能不常用。而一旦你需要，它就会帮大忙。\n\n由于我确保所有管理人员都有了作用，所以他们的办公室\n需要被因人而异地、合理地安排位置。\n管理人员是自动“占领”办公室之后，就不会更换了。\n你只能解雇某些人，然后按一定次序重新雇佣他们。\n或者清除某些办公室。但这样折腾也未必总能有效。\n\n现在，你只需要先用本“员工”标记一人，确保其头顶有\n蓝色的标记，然后再用本“员工”选中另一人，即可搞定。\n\n由于技术限制，房间的名字不会随之变化。\n你需要等管理人员到达各自的办公室后，清除其房间，\n然后重新建造类型为办公室。
+object_SwapOfficeMarker 对调者标记
+swapoffice_marker__delete 移除本标记
+
 # 隐藏的对象
 
 equipment_SubmachineGun 冲锋枪
